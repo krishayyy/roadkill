@@ -23,6 +23,16 @@ struct ContentView: View {
     @State private var reportSpecies = "Deer"
     @State private var showReportConfirmation = false
 
+    /// True while driving on real GPS (as opposed to `driveSimulator`'s
+    /// fake position walking the route at a fixed speed). Mutually
+    /// exclusive with `driveSimulator.isDriving` — only one drive mode is
+    /// ever active at a time.
+    @State private var isDrivingLive = false
+
+    private var isDriving: Bool {
+        driveSimulator.isDriving || isDrivingLive
+    }
+
     /// Stable per-install identifier attached to crowdsourced sighting
     /// reports, persisted so repeat reports from this device are attributable
     /// without collecting any personal data.
@@ -69,6 +79,9 @@ struct ContentView: View {
                 }
 
                 if let simulated = driveSimulator.simulatedLocation {
+                    // Simulated position needs its own marker — MapKit's
+                    // built-in UserAnnotation only tracks the device's real
+                    // location, which isn't where the simulated drive is.
                     Annotation("You", coordinate: simulated.coordinate) {
                         Image(systemName: "location.north.circle.fill")
                             .font(.title)
@@ -76,6 +89,8 @@ struct ContentView: View {
                             .rotationEffect(.degrees(driveSimulator.heading))
                     }
                 }
+                // Live drives rely on the map's own UserAnnotation() above
+                // for the real position — no extra marker needed.
             }
             .mapControls {
                 MapUserLocationButton()
@@ -85,7 +100,7 @@ struct ContentView: View {
             .ignoresSafeArea(edges: .bottom)
 
             VStack(spacing: 10) {
-                if !driveSimulator.isDriving {
+                if !isDriving {
                     SearchBar(
                         text: $searchText,
                         isSearching: $isSearching,
@@ -110,7 +125,7 @@ struct ContentView: View {
 
                 Spacer()
 
-                if let route = routeManager.route, !driveSimulator.isDriving {
+                if let route = routeManager.route, !isDriving {
                     VStack(spacing: 10) {
                         if let summary = routeManager.preTripSummary(hotspots: firestoreManager.hotspots) {
                             PreTripSummaryCard(summary: summary)
@@ -118,24 +133,27 @@ struct ContentView: View {
                         RoutePreviewCard(
                             destinationName: routeManager.destinationName ?? "Destination",
                             route: route,
-                            onStart: { startDriving(route: route) },
+                            onStartLive: { startLiveDrive(route: route) },
+                            onStartSimulated: { startSimulatedDrive(route: route) },
                             onCancel: { routeManager.clear() }
                         )
                     }
                 }
 
-                if driveSimulator.isDriving {
+                if isDriving {
                     DriveHUD(
                         risk: currentRisk,
                         weather: weatherManager.current,
-                        progress: driveSimulator.progress,
+                        progress: driveSimulator.isDriving ? driveSimulator.progress : nil,
                         showDetail: $showRiskDetail,
                         simulatedSpeedMetersPerSecond: $driveSimulator.speedMetersPerSecond,
+                        isLive: isDrivingLive,
+                        liveSpeedMetersPerSecond: locationManager.userLocation?.speed,
                         onStop: stopDriving
                     )
                 }
 
-                if !driveSimulator.isDriving {
+                if !isDriving {
                     HStack {
                         Spacer()
                         Button {
@@ -190,10 +208,28 @@ struct ContentView: View {
         .onChange(of: locationManager.userLocation) { _, newLocation in
             guard let newLocation, !driveSimulator.isDriving else { return }
             recalculateRisk(at: newLocation)
-            withAnimation {
-                cameraPosition = .region(
-                    MKCoordinateRegion(center: newLocation.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
-                )
+
+            if isDrivingLive {
+                // Following camera, same driving perspective the simulated
+                // mode uses — course is -1 when CoreLocation has no valid
+                // heading yet (e.g. standing still), in which case keep
+                // north-up rather than snapping to a bogus rotation.
+                let heading = newLocation.course >= 0 ? newLocation.course : 0
+                withAnimation(.linear(duration: 1)) {
+                    cameraPosition = .camera(
+                        MapCamera(centerCoordinate: newLocation.coordinate, distance: 900, heading: heading, pitch: 60)
+                    )
+                }
+                weatherTickCounter += 1
+                if weatherTickCounter % 15 == 0 {
+                    Task { await weatherManager.refresh(for: newLocation) }
+                }
+            } else {
+                withAnimation {
+                    cameraPosition = .region(
+                        MKCoordinateRegion(center: newLocation.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+                    )
+                }
             }
         }
     }
@@ -212,7 +248,7 @@ struct ContentView: View {
         }
     }
 
-    private func startDriving(route: MKRoute) {
+    private func startSimulatedDrive(route: MKRoute) {
         driveSimulator.start(route: route) { location in
             recalculateRisk(at: location)
             withAnimation(.linear(duration: 1)) {
@@ -228,8 +264,23 @@ struct ContentView: View {
         Task { await weatherManager.refresh(for: route.polyline.coordinate.clLocation) }
     }
 
+    /// Real-GPS driving: no fake position to animate — `isDrivingLive`
+    /// just switches the UI into driving mode and hands camera-following /
+    /// risk recalculation over to the existing `.onChange(of:
+    /// locationManager.userLocation)` handler, which now branches on this
+    /// flag to follow with a driving-style camera instead of the default
+    /// "just show me" region.
+    private func startLiveDrive(route: MKRoute) {
+        isDrivingLive = true
+        if let location = locationManager.userLocation {
+            recalculateRisk(at: location)
+        }
+        Task { await weatherManager.refresh(for: route.polyline.coordinate.clLocation) }
+    }
+
     private func stopDriving() {
         driveSimulator.stop()
+        isDrivingLive = false
         routeManager.clear()
         currentRisk = nil
     }

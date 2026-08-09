@@ -6,25 +6,35 @@ import Foundation
 /// `WildlifeRiskModel` Swift class for at build time.
 ///
 /// This model is a GradientBoostingClassifier trained on REAL animal-vehicle
-/// collision records combined from three states' official open crash data
-/// (2,036,714 total crash records, 163,512 coded as animal-vehicle
-/// collisions): Iowa DOT "Crash Data (SOR)" (606,986 rows / 85,398 animal),
-/// Illinois DOT "Crashes - 2023" (299,426 rows / 16,461 animal, single year
-/// only), and VDOT "CrashData Basic" (1,130,302 rows / 61,653 animal,
-/// multi-year, cross-checked against the official FR300 Crash Report code
-/// table). Held-out test accuracy 0.8046, ROC AUC 0.8671 — lower than the
-/// Iowa-only model's 0.8295/0.8971, an expected and honest result of a more
-/// diverse, harder multi-state signal being less separable, not a bug. See
-/// scripts/train_risk_model_multistate.py and
-/// scratchpad_data/training_metrics_multistate.json for full methodology.
+/// collision records combined from five states' official open crash data —
+/// Iowa DOT "Crash Data (SOR)", Illinois DOT "Crashes - 2023" (single year
+/// only), VDOT "CrashData Basic", MassDOT "IMPACT Crashes" (2019-2025), and
+/// TDOT "Tennessee Crashes" (Jan 2021-Jan 2025) — 955,848 total sampled rows,
+/// 318,616 coded as animal-vehicle collisions. Honest metrics come from a
+/// leakage-audited spatial cross-validation (train/test split on spatial
+/// blocks, not random rows, so the model is never tested on locations it
+/// effectively saw during training): ROC AUC 0.8205, accuracy 0.7646,
+/// average precision 0.6802 (crossfit_spatial_cv over all 5 states; see
+/// scratchpad_data/training_evaluations_v3.json for the full breakdown,
+/// including a naive random-split number that reads better — 0.8409 ROC
+/// AUC — but leaks spatial autocorrelation and overstates real performance).
+/// Per-state spatial-CV ROC AUC ranges from 0.767 (MA) to 0.848 (IA).
+///
+/// Feature importance from the final model is worth stating honestly rather
+/// than assumed: hour_of_day (0.556), corridor_base_severity (0.184), and
+/// month (0.140) drive nearly the entire prediction. species_Deer/Elk/Moose
+/// each have ~0.0 importance — essentially no predictive value — because
+/// none of the five source datasets carry a real species field (all
+/// positives are inferred from crash-cause text, not species-coded), so the
+/// model never learned a species signal to exploit. The species inputs are
+/// left in place below for interface stability and future data sources that
+/// might carry real species labels, not because they currently matter.
 ///
 /// Known limitations, stated honestly rather than glossed over: this covers
-/// IA/IL/VA only, not nationwide — hotspots outside those three states still
-/// rely on the rule-based engine alone. Several other state portals were
-/// checked and found not bulk-downloadable without a login or open-records
-/// request (see training_metrics_multistate.json's states_checked_but_excluded
-/// list); several more simply haven't been checked yet. None of the source
-/// data has a species field (all positives are labeled "Deer"), and
+/// IA/IL/VA/MA/TN only, not nationwide — hotspots outside those five states
+/// still rely on the rule-based engine alone. Several other state portals
+/// were checked and found not bulk-downloadable without a login or
+/// open-records request; several more simply haven't been checked yet.
 /// road_type is inferred per-state from different heuristics, not a unified
 /// classification. The model runs entirely on-device; no network/LLM call
 /// happens at inference time.

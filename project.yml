@@ -41,3 +41,28 @@ targets:
         TARGETED_DEVICE_FAMILY: "1"
         DEVELOPMENT_TEAM: "5B59PSQMP4"
         CODE_SIGN_STYLE: Automatic
+  WildlifeAlertTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: WildlifeAlertTests
+    dependencies:
+      - target: WildlifeAlert
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.krishay.WildlifeAlertApp.Tests
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        DEVELOPMENT_TEAM: "5B59PSQMP4"
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  WildlifeAlert:
+    build:
+      targets:
+        WildlifeAlert: all
+        WildlifeAlertTests: [test]
+    test:
+      config: Debug
+      targets:
+        - WildlifeAlertTests

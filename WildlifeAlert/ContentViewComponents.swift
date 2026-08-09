@@ -146,7 +146,8 @@ struct SearchBar: View {
 struct RoutePreviewCard: View {
     let destinationName: String
     let route: MKRoute
-    let onStart: () -> Void
+    let onStartLive: () -> Void
+    let onStartSimulated: () -> Void
     let onCancel: () -> Void
 
     var body: some View {
@@ -165,12 +166,24 @@ struct RoutePreviewCard: View {
                         .font(.title2)
                 }
             }
-            Button(action: onStart) {
+
+            // Real GPS is the primary path — this is the mode that actually
+            // uses the phone's location while you drive. Simulation exists
+            // for testing/demoing alert behavior without a car, and is
+            // visually secondary so nobody picks it by default in real use.
+            Button(action: onStartLive) {
                 Label("Start Driving", systemImage: "location.fill")
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 10)
             }
             .buttonStyle(.borderedProminent)
+
+            Button(action: onStartSimulated) {
+                Label("Simulate This Drive", systemImage: "play.fill")
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 10)
+            }
+            .buttonStyle(.bordered)
         }
         .padding()
         .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 18))
@@ -244,16 +257,33 @@ struct PreTripSummaryCard: View {
 struct DriveHUD: View {
     let risk: RiskScore?
     let weather: WeatherSnapshot?
-    let progress: Double
+    /// nil when driving live on real GPS — there's no route-completion
+    /// percentage to show without a simulated position walking the polyline.
+    let progress: Double?
     @Binding var showDetail: Bool
+    /// Only meaningful in simulation mode — a testing control for demoing
+    /// the "Traffic conditions" factor. In live mode this is ignored and a
+    /// read-only real speed reading is shown instead.
     @Binding var simulatedSpeedMetersPerSecond: Double
+    let isLive: Bool
+    let liveSpeedMetersPerSecond: Double?
     let onStop: () -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                ProgressView(value: progress)
-                    .tint(.blue)
+                if let progress {
+                    ProgressView(value: progress)
+                        .tint(.blue)
+                } else {
+                    // Live GPS drive: no simulated position walking the
+                    // route, so show that this is a real, open-ended drive
+                    // rather than a fake percent-complete bar.
+                    Label("Live GPS", systemImage: "location.fill")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.blue)
+                }
+                Spacer()
                 Button(action: onStop) {
                     Image(systemName: "xmark.circle.fill")
                         .foregroundStyle(.secondary)
@@ -302,18 +332,36 @@ struct DriveHUD: View {
                 }
 
                 Divider()
-                // Testing/verification control for the simulated drive: lets
-                // you drop the simulated speed to demonstrate the "Traffic
-                // conditions" factor above reacting to a real, changing
-                // input rather than a fixed constant.
-                VStack(alignment: .leading, spacing: 4) {
+                if isLive {
+                    // Real GPS drive: show the phone's actual reported
+                    // speed, read-only — there's nothing to simulate here.
+                    // CLLocation reports -1 when speed is invalid (e.g. no
+                    // recent fix), which is shown honestly as "—" rather
+                    // than a fake 0 mph.
                     HStack {
-                        Text("Simulated speed").font(.caption).foregroundStyle(.secondary)
+                        Text("Current speed").font(.caption).foregroundStyle(.secondary)
                         Spacer()
-                        Text("\(Int((simulatedSpeedMetersPerSecond * 2.23694).rounded())) mph")
-                            .font(.caption.weight(.semibold))
+                        if let liveSpeedMetersPerSecond, liveSpeedMetersPerSecond >= 0 {
+                            Text("\(Int((liveSpeedMetersPerSecond * 2.23694).rounded())) mph")
+                                .font(.caption.weight(.semibold))
+                        } else {
+                            Text("—").font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                        }
                     }
-                    Slider(value: $simulatedSpeedMetersPerSecond, in: 0...35)
+                } else {
+                    // Testing/verification control for the simulated drive:
+                    // lets you drop the simulated speed to demonstrate the
+                    // "Traffic conditions" factor above reacting to a real,
+                    // changing input rather than a fixed constant.
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack {
+                            Text("Simulated speed").font(.caption).foregroundStyle(.secondary)
+                            Spacer()
+                            Text("\(Int((simulatedSpeedMetersPerSecond * 2.23694).rounded())) mph")
+                                .font(.caption.weight(.semibold))
+                        }
+                        Slider(value: $simulatedSpeedMetersPerSecond, in: 0...35)
+                    }
                 }
             }
         }

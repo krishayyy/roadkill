@@ -1,0 +1,184 @@
+{
+  "summary": "WildlifeAlert v3 pipeline: fixes label leakage in corridor features, tunes DBSCAN per-state density instead of one fixed eps, derives real per-cluster radii and road-segment polylines instead of a hardcoded 1500m circle, and adds two new real states (Massachusetts, Tennessee). A lower, honest ROC AUC replaces the old leaky number; that drop is the expected and correct result of removing the leak, not a regression to fix.",
+
+  "label_leakage_fix": {
+    "problem": "v2's corridor_base_severity and distance_to_nearest_corridor_m were computed from DBSCAN clusters built on ALL animal-collision points, including the exact rows later scored against those same clusters. A crash helped build the corridor it was then measured against.",
+    "fix": "v3 evaluates five ways side by side. The exported model is fit on out-of-fold corridor features from the spatial CV (see below), so the leak is excluded from the shipped model's learned weights, not just from the reported metric.",
+    "evaluations": {
+      "leaky_random_split_v2_reproduction_same_3_states_IA_IL_VA": {
+        "description": "v2's exact setup reproduced on this pipeline: corridors built from ALL positives (including test rows), fixed eps=800m for every state, plain random 80/20 split.",
+        "roc_auc": 0.8529,
+        "accuracy": 0.7915,
+        "average_precision": 0.7460
+      },
+      "v2_originally_published_roc_auc_for_reference": 0.8671,
+      "nocorridor_random_split_same_3_states": {
+        "description": "Corridor features dropped entirely, random split. Shows what the two features contribute (leak included).",
+        "roc_auc": 0.8055,
+        "accuracy": 0.7524,
+        "average_precision": 0.6543
+      },
+      "crossfit_random_split_same_3_states": {
+        "description": "Corridors rebuilt from train-fold positives only (removes the 'my own crash built my own corridor' leak), but rows are still a random 80/20 split, so a different crash 50m away from a test point can still sit in the training fold. A partial fix.",
+        "roc_auc": 0.8601,
+        "accuracy": 0.7973,
+        "average_precision": 0.7498
+      },
+      "crossfit_spatial_cv_HONEST_HEADLINE_same_3_states": {
+        "description": "The honest number for apples-to-apples comparison with v2's original 3 states (IA/IL/VA). Whole geographic blocks (~0.2 deg ~ 22km) held out per fold; corridor features rebuilt from each fold's training positives only. A scored point's own neighborhood contributed nothing to the corridors it is measured against.",
+        "roc_auc": 0.8301,
+        "accuracy": 0.7751,
+        "average_precision": 0.6959,
+        "fold_roc_auc": [0.8454, 0.8331, 0.8130, 0.8244, 0.8349],
+        "roc_auc_fold_std": 0.0109
+      },
+      "nocorridor_spatial_cv_same_3_states": {
+        "description": "Corridor features dropped entirely under the same honest spatial CV. Shows the two features' TRUE (non-leaky) contribution: 0.8301 - 0.8012 = +0.0289 ROC AUC, versus the leaky pipeline's apparent contribution of 0.8529 - 0.8055 = +0.0474. Roughly 40% of the corridor features' apparent value in v2 was the leak, not signal.",
+        "roc_auc": 0.8012,
+        "accuracy": 0.7485,
+        "average_precision": 0.6421
+      }
+    },
+    "verdict": "YES, the model got worse under honest evaluation, as it should have. v2's published ROC AUC of 0.8671 was inflated by label leakage. Reproducing v2's exact leaky setup on this pipeline (same 3 states, same fixed eps) gives 0.8529 already (a difference from 0.8671 attributable to eps/DBSCAN implementation details, not the leak itself). The honest, spatially-held-out number for those same 3 states is 0.8301 — a drop of 0.037 ROC AUC (about 4.3%) attributable specifically to removing the leak. No hyperparameter was tuned to soften this; the estimator (GradientBoostingClassifier, n_estimators=150, max_depth=3, learning_rate=0.1, random_state=42) is byte-identical to v2's."
+  },
+
+  "v3_full_dataset_5_states": {
+    "states": ["IA", "IL", "VA", "MA", "TN"],
+    "sample_rows": 955848,
+    "positive_rows": 318616,
+    "honest_headline_evaluation": "crossfit_spatial_cv",
+    "honest_roc_auc": 0.8205,
+    "honest_accuracy": 0.7646,
+    "honest_average_precision": 0.6802,
+    "fold_roc_auc": [0.8278, 0.8173, 0.8222, 0.8160, 0.8241],
+    "roc_auc_fold_std": 0.0044,
+    "per_state_roc_auc_within_honest_cv": {
+      "IA": 0.8481,
+      "IL": 0.8242,
+      "VA": 0.8018,
+      "MA": 0.7668,
+      "TN": 0.7895
+    },
+    "nocorridor_spatial_cv_roc_auc_for_reference": 0.7989,
+    "other_evaluations_5_states": {
+      "leaky_random_split_v2_style_reproduction": {"roc_auc": 0.8378, "accuracy": 0.7789},
+      "nocorridor_random_split": {"roc_auc": 0.8018, "accuracy": 0.7479},
+      "crossfit_random_split": {"roc_auc": 0.8409, "accuracy": 0.7827}
+    },
+    "note": "Adding 5 states lowers the 5-state honest headline (0.8205) slightly versus the honest 3-state number (0.8301). This is expected: more geographic and behavioral diversity (2 more states, one of which — MA — has the lowest per-state AUC at 0.7668) makes the classification problem genuinely harder, the same documented effect noted when v2 combined 3 states versus the original Iowa-only single-state model.",
+    "final_model_feature_importances": {
+      "hour_of_day": 0.5563,
+      "corridor_base_severity": 0.1838,
+      "month": 0.1403,
+      "weather_condition_clear": 0.0652,
+      "road_type_highway": 0.0209,
+      "distance_to_nearest_corridor_m": 0.0171,
+      "road_type_residential": 0.0076,
+      "weather_condition_snow": 0.0049,
+      "road_type_rural": 0.0020,
+      "weather_condition_cloudy": 0.0017,
+      "weather_condition_fog": 0.0003,
+      "weather_condition_rain": 0.0001,
+      "species_Deer": 0.0,
+      "species_Elk": 0.0,
+      "species_Moose": 0.0
+    },
+    "feature_importance_note": "species_* features are exactly 0 importance because every training row across all 5 states has species_Deer=1 fixed — none of the 5 sources' records were used with a non-Deer label in training (MA/TN's per-record deer-vs-other flag is tracked as deer_coded but NOT wired into the species_* feature columns in this version; see limitations). This is an existing simplification carried over from v2, not introduced in v3."
+  },
+
+  "per_state_dbscan_tuning": {
+    "method": "Percolation-bounded, density-adaptive eps per state (NOT the textbook k-distance knee — that was tried first, measured, and rejected: it selects eps in the percolation regime and reproduces the mega-cluster failure from the opposite direction, e.g. Iowa's knee-selected eps=2593m produced one cluster holding 64% of all Iowa points spanning 441km). The actual rule: walk a state-specific candidate eps grid (10th-90th percentile k-distance) from largest to smallest, take the largest eps at which no cluster exceeds 5% of that state's points or 12km extent.",
+    "IA": {"eps_m": 899, "n_clusters": 721, "n_clusters_dropped_oversize": 2, "n_noise": 40996, "noise_fraction": 0.48},
+    "IL": {"eps_m": 1076, "n_clusters": 1274, "n_clusters_dropped_oversize": 4, "n_noise": 52931, "noise_fraction": 0.463, "note": "v2 used one fixed eps=800m for every state and got exactly 1 IL cluster of 15 points with 16,446 of 16,461 IL points classified as noise (98.9% -- an almost complete clustering failure), largely because IL then had only 1 year of data (2023) versus multi-year IA/VA. v3 fixes BOTH causes: per-state density-aware eps tuning, AND expanding IL from 1 year to 7 years (2018-2021, 2023-2025; 2022 not found as a separate bulk item), taking IL's animal-collision point count from 16,461 to 114,386. Result: 1274 real clusters, 46.3% noise -- density-comparable to the other states."},
+    "VA": {"eps_m": 981, "n_clusters": 495, "n_clusters_dropped_oversize": 6, "n_noise": 33318, "noise_fraction": 0.540},
+    "MA": {"eps_m": 1133, "n_clusters": 259, "n_clusters_dropped_oversize": 0, "n_noise": 10568, "noise_fraction": 0.422},
+    "TN": {"eps_m": 1408, "n_clusters": 240, "n_clusters_dropped_oversize": 2, "n_noise": 20492, "noise_fraction": 0.637},
+    "before_after_headline": "IL cluster count before v2->v3: 1 mega-cluster (15 pts) / 16,446 noise -> 1274 real clusters / 52,931 noise, with the mega-cluster failure mode eliminated by the percolation guard (max 5% of points or 12km extent per cluster) in addition to more real data."
+  },
+
+  "hotspot_geometry": {
+    "radius_derivation": "Replaced v2's hardcoded radiusMeters=1500 for every hotspot with the cluster's own 85th-percentile member-point distance from centroid (a circle) or, when the cluster is road-shaped, a polyline buffer half-width (see below). Circle radius clipped to [150m, 3000m].",
+    "polyline_derivation": "For each cluster: fit the principal axis via PCA on a local equirectangular projection of member points; if elongation (sqrt(largest/second eigenvalue)) >= 2.5 AND along-axis extent >= 400m, bin points into up to 12 equal-count segments along that axis and take each segment's MEDIAN position (both along- and across-axis) as an ordered vertex, so the path can follow a gently curving road rather than forcing a straight line. The buffer half-width is the 85th-percentile perpendicular distance from member points to the fitted polyline. A candidate polyline is REJECTED (falls back to a plain circle) if buffer > 400m absolute (not a road-width band) or buffer is not meaningfully tighter than the plain circle -- both gates are documented in cluster_hotspots_v3.py. No OSM/road-network snapping was attempted: considered and rejected as needing either a paid routing API or a large offline extract, where a wrong snap would silently misplace a hotspot onto the wrong road.",
+    "selection_fix": "v2 selected top-25-per-state candidates purely by raw crash count, then overwrote every one with a flat 1500m radius, which silently hid that most of those top-count clusters are diffuse metro-area agglomerations (real 85th-percentile extent at or beyond the 3km clip for 87 of 100 sampled top clusters), not focused road corridors. v3 requires a candidate be EITHER road-shaped (has a derived polyline) OR compact (circle radius <= 1500m) to be shipped as an 'actionable' hotspot, and reports how many of each state's raw clusters clear that bar before taking the top 25.",
+    "per_state_actionable_clusters": {
+      "IA": {"total_clusters": 719, "actionable": 646, "radius_m_range_of_shipped_25": [100, 369], "with_polyline": 25},
+      "IL": {"total_clusters": 1270, "actionable": 1036, "radius_m_range_of_shipped_25": [100, 380], "with_polyline": 24},
+      "VA": {"total_clusters": 489, "actionable": 413, "radius_m_range_of_shipped_25": [100, 399], "with_polyline": 25},
+      "MA": {"total_clusters": 259, "actionable": 161, "radius_m_range_of_shipped_25": [100, 1493], "with_polyline": 19},
+      "TN": {"total_clusters": 238, "actionable": 139, "radius_m_range_of_shipped_25": [100, 1471], "with_polyline": 22}
+    },
+    "total_candidates_emitted": 125,
+    "total_with_pathPoints": 115,
+    "output_file": "scratchpad_data/hotspot_candidates_v2.json",
+    "schema_contract_followed_exactly": true
+  },
+
+  "state_coverage_expansion": {
+    "new_states_added_and_verified": {
+      "MA": {
+        "source": "MassDOT IMPACT <YEAR> Crashes, ArcGIS Hub, years 2019-2025 (one item per year)",
+        "url": "https://massdot-impact-crashes-vhb.opendata.arcgis.com/",
+        "total_usable_rows": 864046,
+        "animal_rows": 25047,
+        "coded_deer_rows": 22478,
+        "animal_coding": "FIRST_HRMF_EVENT_DESCR in {\"Collision with animal - deer\", \"Collision with animal - other\"} -- an already human-readable decoded field, not a numeric code guessed from a field name",
+        "verification_performed": "Cross-checked FIRST_HRMF_EVENT_DESCR against the independent VEHC_SEQ_EVENTS_CL (vehicle sequence-of-events) field: 1,132 rows coded 'animal - deer' by the primary field, 1,076 rows mention deer anywhere in the independent sequence field, 1,060 rows agree in both -- ~94% cross-field agreement, consistent with genuine deer collisions rather than miscoding.",
+        "notable": "MA is the first state (of the original 3 + MA) that records species at all; IA/IL/VA have no species field and assume Deer."
+      },
+      "TN": {
+        "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\", ArcGIS Online REST Feature Service (owner TDOT_GIS, public, no login)",
+        "url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Tennessee_Crashes_JAN_2021_JAN_2025/FeatureServer/0",
+        "download_method": "NOT a one-click opendata.arcgis.com Hub bulk-CSV item -- pulled via the ArcGIS REST query API instead, paginated 2000 rows/page (server maxRecordCount), with outSR=4326 so the server reprojects from Tennessee State Plane (EPSG:2274) to WGS84 lon/lat server-side.",
+        "total_usable_rows": 767379,
+        "animal_rows": 32164,
+        "coded_deer_rows": 27720,
+        "animal_coding": "FIRSTHARMF (First Harmful Event) in {\"Deer (Animal)\", \"Other Animal\"} -- verified by enumerating all 60 distinct values of the field (an unambiguous human-readable code list including things like \"Guardrail Face\", \"Ran Off Road-Left\", not inferred or assumed).",
+        "notable": "TN is the second state that records species (deer vs other-animal) explicitly."
+      }
+    },
+    "states_checked_this_pass_and_NOT_usable_as_structured": {
+      "MT": "MDT (Montana DOT) publishes a real, public 'Animal Crashes 2010-2019' Feature Service (30,077 real records) with FIRST_HARMFUL_EVT_DET, but it is an ANIMAL-CRASHES-ONLY table -- no case/ID field links it to MDT's separate 'Public Crash Information' all-crashes layer (which itself has no animal-identifying field at all). Without a join key, no verified non-animal rows can be derived from the same source, so no train-ready positive+negative pair exists for MT without guessing at negatives. Usable for hotspot clustering alone; not integrated this pass given time constraints.",
+      "MI": "SEMCOG (Southeast Michigan Council of Governments) publishes a crash table with an explicit boolean DEER field and a full positive+negative universe in one table -- would clear the same bar as MA/TN for a classifier -- but covers ONLY the 7-county Detroit metro region, not the state of Michigan. Found and verified this pass; not integrated because it is sub-state coverage, flagged honestly rather than mislabeled as statewide.",
+      "NJ": "njogis-newjersey.opendata.arcgis.com portal loads (1255 datasets in its DCAT feed) but contains no dataset with 'crash', 'collision', or 'accident' in its title. Not usable."
+    },
+    "states_checked_and_not_found_at_all_this_pass": "NC, WY, NY, ME were probed via ArcGIS org-wide search for likely portal subdomains and via arcgis.com item search for 'crash'-titled datasets; no state-level (as opposed to municipal StoryMap/dashboard) bulk-downloadable crash dataset with a confirmed animal-collision field was located in the time available. This is 'not yet found', not 'confirmed absent' -- consistent with the honesty standard used for the states v2 already excluded (OH, PA, MN, WI, UT, KY, CO), which are NOT re-checked here per the task's own instruction not to redo unless a new approach is available.",
+    "v2_previously_excluded_states_not_rechecked": ["OH", "PA", "MN", "WI", "UT", "KY", "CO"],
+    "states_now_covered_total": ["IA", "IL", "VA", "MA", "TN"],
+    "states_still_uncovered": 45
+  },
+
+  "environment_notes": {
+    "venv_reused": "scripts/.venv, Python 3.12.13, scikit-learn 1.5.1, coremltools 8.1 (not 9.0 as originally noted -- the actually-installed version was verified directly rather than assumed) -- built by a prior pass, reused as instructed rather than rebuilt.",
+    "scratchpad_wipe_incident": "The /private/tmp session scratchpad that held all downloaded raw CSVs (~2.5GB across IA/IL/VA/MA/TN) was wiped by unrelated environment resets TWICE during this task, discarding already-downloaded data each time and forcing a full re-download. To stop this from recurring, wildlife_data_v3.py's default raw-data and cache location was changed from /private/tmp/... to scratchpad_data/raw_cache/ inside this repo (which this agent owns and which is not subject to /tmp cleanup). Env vars (WILDLIFEALERT_MULTISTATE_RAW_DIR, WILDLIFEALERT_CRASH_CSV) still override it if needed.",
+    "raw_data_location": "scratchpad_data/raw_cache/wildlife_multistate/ (IL, VA, MA, TN CSVs) and scratchpad_data/raw_cache/wildlife_data/ (Iowa CSV), with a parsed-array cache at scratchpad_data/raw_cache/wildlife_multistate/v3_cache/*.npz so the ~2.5GB of raw CSVs are only walked once per state."
+  },
+
+  "output_files": {
+    "hotspot_candidates_v2.json": "scratchpad_data/hotspot_candidates_v2.json -- 125 candidates across 5 states, matching the schema contract exactly (name, lat, lon, radiusMeters, species, riskLevel, source, state, optional pathPoints)",
+    "per_state_cluster_files": ["scratchpad_data/IA_clusters_v3.json", "scratchpad_data/IL_clusters_v3.json", "scratchpad_data/VA_clusters_v3.json", "scratchpad_data/MA_clusters_v3.json", "scratchpad_data/TN_clusters_v3.json"],
+    "cluster_tuning_v3.json": "scratchpad_data/cluster_tuning_v3.json -- full per-state eps-sweep trace and percolation stats",
+    "training_evaluations_v3.json": "scratchpad_data/training_evaluations_v3.json -- full machine-readable 5-way evaluation results for both the 3-state comparison and the full 5-state run",
+    "gbm_model_v3.joblib": "scratchpad_data/gbm_model_v3.joblib -- final exported model, fit on out-of-fold corridor features from the 5-state spatial CV",
+    "feature_names_v3.json": "scratchpad_data/feature_names_v3.json -- identical 15-feature list and order to v2's feature_names_multistate.json",
+    "coreml_model": "WildlifeAlert/WildlifeRiskModel_v3.mlpackage -- NEW file, does NOT overwrite the live WildlifeRiskModel.mlpackage or the Iowa-only WildlifeRiskModel_v2.mlpackage"
+  },
+
+  "swift_wrapper_compatibility": {
+    "input_schema_changed": false,
+    "feature_names_and_order": ["hour_of_day", "month", "distance_to_nearest_corridor_m", "corridor_base_severity", "weather_condition_clear", "weather_condition_cloudy", "weather_condition_fog", "weather_condition_rain", "weather_condition_snow", "species_Deer", "species_Elk", "species_Moose", "road_type_highway", "road_type_residential", "road_type_rural"],
+    "note": "Byte-identical schema to v2 -- RiskMLModel.swift's WildlifeRiskModelInput fields do NOT need to change if WildlifeRiskModel_v3.mlpackage is swapped in as the live model. The leakage fix changed how the training-time corridor features are computed, not the feature schema itself."
+  },
+
+  "known_limitations_full_list": [
+    "IA, IL and VA record NO species field at all; their positive rows are labeled 'Deer' as a documented ASSUMPTION carried over from v2, not a measurement.",
+    "MA and TN both record species (deer vs other-animal) explicitly, but this per-record deer flag (tracked internally as deer_coded) is NOT wired into the model's species_Deer/species_Elk/species_Moose feature columns in this version -- every training row still has species_Deer=1 fixed regardless of source state, so the species_* features carry zero learned signal (feature importance exactly 0.0 for all three). This is an existing simplification inherited from v2's architecture, not newly introduced, but it means the model still cannot distinguish deer from non-deer risk despite two of five source states now measuring it.",
+    "road_type is a DIFFERENT per-state heuristic in every one of the 5 states (different source fields, different vocabularies, including a new MA-specific heuristic combining URBAN_TYPE + SPEED_LIMIT + trafficway description, and a TN heuristic using its own URBANRURAL field). None of these are a single unified ground-truth road classification.",
+    "Temporal coverage is unequal across states: IL is 7 non-contiguous years (2018-2021, 2023-2025 -- 2022 was not found as a separate bulk item); IA and VA are full-history multi-year bulk files; MA is 2019-2025; TN is Jan 2021-Jan 2025.",
+    "The corridor cross-fitting rescales each fold's cluster severity counts by (full-dataset positives / fold-training positives) to correct for a fold seeing only ~4/5 of the positives, but this rescaling is itself an approximation -- it assumes uniform density loss across a state's whole area, which is not strictly true.",
+    "At real inference time, the app measures a driver's position against the FULL shipped hotspot set (denser than any single training fold's corridor set), so real-world corridor distances will run slightly shorter than what the model was fit on. This is a residual, unresolved mismatch between training-time and inference-time corridor density; correcting it would require re-introducing some form of the leak, so it was left as a stated bias (the model is expected to be mildly conservative -- under-, not over-, reactive to corridor proximity) rather than patched.",
+    "Percolation-bounded eps tuning is a heuristic (max 5% of a state's points per cluster, 12km max 95th-percentile extent) chosen after the textbook k-distance knee was tried and failed; the specific thresholds (5%, 12km) are reasonable but not derived from first principles and could be revisited.",
+    "No OSM/road-network snapping for polylines -- they are fit purely from crash-point geometry via PCA + median binning, which can noticeably diverge from the true road shape for sparse or oddly-distributed clusters. Rejection gates (elongation, absolute buffer width, buffer-vs-circle ratio) are meant to catch the worst cases by falling back to a circle, not to guarantee polyline accuracy where one IS emitted.",
+    "MT and MI real data were found and verified this pass but not integrated (MT: no negative-class join key; MI: sub-state SEMCOG-region-only coverage) -- see state_coverage_expansion above.",
+    "45 states remain with no real crash data of any kind in this pipeline; the rule-based (non-ML) engine is the only coverage there, exactly as in v2."
+  ]
+}
