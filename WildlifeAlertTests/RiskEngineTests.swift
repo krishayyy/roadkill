@@ -53,7 +53,7 @@ final class RiskEngineTests: XCTestCase {
 
     // MARK: - Distance decay
 
-    func testDistanceDecay_maximalInsideRadius_zeroBy3xRadius() {
+    func testDistanceDecay_maximalInsideRadius_outOfRangeBy3xRadius() {
         let radius = 1000.0
         let spot = hotspot(radius: radius)
         let location = { [self] (distance: Double) in
@@ -73,12 +73,19 @@ final class RiskEngineTests: XCTestCase {
         // Strictly decaying between radius and 3x radius.
         XCTAssertLessThan(atHalfFalloff.percent, atCenter.percent, "score should decay past the radius")
 
-        // Zero at and beyond 3x radius — falls out of range entirely, so no
-        // hotspot qualifies and the engine reports "no hotspots nearby".
-        XCTAssertEqual(atFalloffEnd.percent, 0, "score should reach zero by 3x radius")
-        XCTAssertNil(atFalloffEnd.nearestHotspot)
-        XCTAssertEqual(wellBeyond.percent, 0)
-        XCTAssertNil(wellBeyond.nearestHotspot)
+        // At and beyond 3x radius the corridor drops out of range entirely:
+        // no hotspot qualifies, so the engine switches to the ambient
+        // (conditions-only) basis. The corridor's *contribution* is what
+        // reaches zero — the reported percent doesn't, because a location
+        // with no corridor data isn't a location with no risk.
+        for (label, result) in [("3x radius", atFalloffEnd), ("4x radius", wellBeyond)] {
+            XCTAssertEqual(result.basis, .ambient, "\(label) should fall out of corridor range")
+            XCTAssertNil(result.nearestHotspot, "\(label) should report no corridor")
+            XCTAssertLessThan(result.percent, atHalfFalloff.percent,
+                              "\(label) should score below a point still inside the falloff")
+        }
+        XCTAssertEqual(atFalloffEnd.percent, wellBeyond.percent,
+                       "once out of range, distance stops mattering — both are pure ambient")
     }
 
     // MARK: - Time of day
@@ -227,26 +234,69 @@ final class RiskEngineTests: XCTestCase {
         XCTAssertGreaterThan(high.percent, moderate.percent, "high corridor should score higher than moderate, all else equal")
     }
 
-    // MARK: - No hotspots nearby
+    // MARK: - No hotspots nearby (ambient fallback)
 
-    func testNoHotspots_returnsZeroWithoutCrashing() {
+    /// Outside every mapped corridor the engine must NOT report a flat 0%.
+    /// It previously did, and the HUD rendered that in green — an
+    /// affirmative "your collision risk is zero" for any state with no crash
+    /// data, which is the exact opposite of what the app knows. It now falls
+    /// back to the location-independent rule-based factors and marks the
+    /// result `.ambient` so the UI can never present it as corridor-backed.
+    func testNoHotspots_returnsAmbientScoreNotFlatZero() {
         let location = CLLocation(latitude: origin.latitude, longitude: origin.longitude)
         let result = RiskEngine.score(at: location, date: neutralDate, hotspots: [], weather: nil)
 
-        XCTAssertEqual(result.percent, 0)
+        XCTAssertEqual(result.basis, .ambient)
+        XCTAssertGreaterThan(result.percent, 0, "absence of corridor data must not render as zero risk")
         XCTAssertNil(result.nearestHotspot)
         XCTAssertNil(result.distanceMeters)
-        XCTAssertFalse(result.factors.isEmpty, "should still explain why the score is zero")
+        XCTAssertTrue(result.factors.contains { $0.label == "No corridor data" },
+                      "must state plainly that there's no corridor data here")
     }
 
-    func testHotspotsAllOutOfRange_returnsZeroLikeNoHotspots() {
+    /// The ambient score has to stay clearly below corridor-backed scores —
+    /// it's a conditions estimate, not a located risk. Same neutral moment,
+    /// so only the presence of a real corridor differs.
+    func testAmbientScore_staysWellBelowAnEquivalentCorridorScore() {
+        let location = CLLocation(latitude: origin.latitude, longitude: origin.longitude)
+        let ambient = RiskEngine.score(at: location, date: neutralDate, hotspots: [], weather: nil)
+        let corridor = RiskEngine.score(at: location, date: neutralDate, hotspots: [hotspot(level: .moderate)], weather: nil)
+
+        XCTAssertEqual(corridor.basis, .corridor)
+        XCTAssertLessThan(ambient.percent, corridor.percent,
+                          "ambient must not rival even the mildest real corridor")
+    }
+
+    /// The ambient path must still respond to conditions — that responsiveness
+    /// is the entire reason it exists rather than a static placeholder.
+    func testAmbientScore_respondsToTimeSeasonAndWeather() {
+        let location = CLLocation(latitude: origin.latitude, longitude: origin.longitude)
+        func ambient(hour: Int, month: Int, weather: SimpleCondition?) -> Int {
+            let snapshot = weather.map {
+                WeatherSnapshot(temperatureF: 40, condition: $0, conditionLabel: "test", visibilityMeters: 1000)
+            }
+            return RiskEngine.score(at: location, date: makeDate(hour: hour, month: month), hotspots: [], weather: snapshot).percent
+        }
+
+        let calmest = ambient(hour: 13, month: 7, weather: .clear)   // midday, summer, clear
+        let duskRut = ambient(hour: 19, month: 11, weather: .clear)  // dusk, fall rut
+        let duskRutFog = ambient(hour: 19, month: 11, weather: .fog) // ... and fog
+
+        XCTAssertGreaterThan(duskRut, calmest, "dusk in the rut must exceed a clear summer midday")
+        XCTAssertGreaterThan(duskRutFog, duskRut, "fog must raise it further")
+        XCTAssertLessThan(duskRutFog, 50, "ambient must stay a modest estimate even at its worst")
+    }
+
+    func testHotspotsAllOutOfRange_behavesLikeNoHotspots() {
         // A hotspot exists but is far outside its own 3x-radius falloff —
         // functionally identical to having no hotspots at all.
         let farHotspot = hotspot(radius: 100, at: coordinate(north: 10_000, of: origin))
         let location = CLLocation(latitude: origin.latitude, longitude: origin.longitude)
         let result = RiskEngine.score(at: location, date: neutralDate, hotspots: [farHotspot], weather: nil)
+        let noHotspots = RiskEngine.score(at: location, date: neutralDate, hotspots: [], weather: nil)
 
-        XCTAssertEqual(result.percent, 0)
+        XCTAssertEqual(result.basis, .ambient)
+        XCTAssertEqual(result.percent, noHotspots.percent)
         XCTAssertNil(result.nearestHotspot)
     }
 

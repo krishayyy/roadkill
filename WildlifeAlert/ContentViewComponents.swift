@@ -297,12 +297,21 @@ struct DriveHUD: View {
                 HStack {
                     riskGauge
                     VStack(alignment: .leading, spacing: 2) {
-                        Text("Collision risk")
+                        Text(isAmbient ? "Area conditions" : "Collision risk")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                         Text("\(risk?.percent ?? 0)%")
                             .font(.title2.bold())
                             .foregroundStyle(riskColor)
+                        // Named right under the number, not buried in the
+                        // expandable detail: the whole point is that this
+                        // percentage must never be mistaken for a
+                        // corridor-backed one.
+                        if isAmbient {
+                            Text("No corridor data here")
+                                .font(.caption2)
+                                .foregroundStyle(.secondary)
+                        }
                     }
                     Spacer()
                     if let weather {
@@ -381,8 +390,12 @@ struct DriveHUD: View {
         .frame(width: 40, height: 40)
     }
 
+    private var isAmbient: Bool {
+        risk?.basis == .ambient
+    }
+
     private var riskColor: Color {
-        AppColors.gaugeColor(percent: risk?.percent ?? 0)
+        isAmbient ? AppColors.ambientGaugeColor : AppColors.gaugeColor(percent: risk?.percent ?? 0)
     }
 }
 

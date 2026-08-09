@@ -86,6 +86,18 @@ enum AppColors {
         return Color(uiColor: dynamic)
     }
 
+    /// Gauge color for an `.ambient` score — an area with no corridor data.
+    /// Deliberately a single neutral slate-blue at every percentage rather
+    /// than the green→red ramp above: the green end of that ramp reads as an
+    /// affirmative "you're safe" claim, and a general-conditions estimate
+    /// with no local crash data behind it has not earned that claim. Neutral
+    /// says "this is information, not reassurance".
+    static var ambientGaugeColor: Color {
+        Color(uiColor: UIColor { $0.userInterfaceStyle == .dark
+            ? UIColor(red: 0.44, green: 0.53, blue: 0.66, alpha: 1.0)
+            : UIColor(red: 0.33, green: 0.42, blue: 0.55, alpha: 1.0) })
+    }
+
     static var gaugeTrack: Color {
         Color(uiColor: UIColor { $0.userInterfaceStyle == .dark
             ? UIColor.white.withAlphaComponent(0.18)
