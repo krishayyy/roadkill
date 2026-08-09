@@ -36,6 +36,12 @@ A `GradientBoostingClassifier` trained on the real crash data above, blended wit
 - Species features (deer/elk/moose) carry ~zero predictive importance, because none of the five source datasets have a real species field — worth knowing if you're deciding what to trust the model on
 - Full methodology and every known limitation: `scratchpad_data/training_evaluations_v3.json`
 
+### Why the model isn't asked about weather
+
+The unit tests caught the model predicting *lower* collision probability in fog, rain, and snow than in clear conditions — the opposite of the app's own safety logic. That's not a bug in the blend arithmetic; it's the training data telling the truth about the wrong thing. Nearly all driving happens in clear weather, so clear weather accumulates the most crash records, and raw event frequency swamped per-mile risk in what the model learned.
+
+Rather than let that quietly cancel out the visibility penalty, `RiskEngine` queries the model at a fixed "clear" reference — the modal training condition, where it's best calibrated — and applies the weather multiplier once to the blended score. The model still contributes the signal it genuinely learned (hour-of-day, corridor severity, and month account for ~88% of its feature importance); weather is left to the rule that actually means visibility and reaction time. `testWeather_worseWeatherNeverLowersFinalScore` pins the invariant so it can't regress.
+
 ## Project structure
 
 ```
@@ -56,6 +62,14 @@ open WildlifeAlert.xcodeproj
 ```
 
 You'll need your own `WildlifeAlert/GoogleService-Info.plist` (gitignored) from a Firebase project with a `wildlifeHotspots` collection seeded via the scripts in `scripts/`.
+
+## Tests
+
+31 XCTest cases covering `RiskEngine` (distance decay, time-of-day, season, weather, traffic pace, sightings, severity ordering, ML blending) and `AlertManager` (approach detection, speed-scaled lead distance, de-duplication).
+
+```bash
+xcodebuild test -project WildlifeAlert.xcodeproj -scheme WildlifeAlert -destination 'platform=iOS Simulator,name=iPhone 17 Pro'
+```
 
 ## Retraining the model
 

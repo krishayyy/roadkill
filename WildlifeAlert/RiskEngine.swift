@@ -187,7 +187,13 @@ enum RiskEngine {
             let proximity = distanceMultiplier(distance: distance, radius: hotspot.radiusMeters)
             guard proximity > 0 else { continue }
 
-            let raw = baseWeight(for: hotspot.riskLevel) * proximity * time.value * season.value * weatherEffect.value * traffic.value
+            // Weather is deliberately NOT applied here. It's a single
+            // scalar applied once to the final blended score below, so the
+            // ML model's own (frequency-driven, not risk-driven) weather
+            // signal can't cancel it out. Leaving it out of this loop does
+            // not change which hotspot wins: the weather multiplier is the
+            // same constant for every candidate.
+            let raw = baseWeight(for: hotspot.riskLevel) * proximity * time.value * season.value * traffic.value
             if best == nil || raw > best!.score {
                 best = (hotspot, distance, raw)
             }
@@ -205,37 +211,58 @@ enum RiskEngine {
         let sightingsEffect = sightingsMultiplier(near: best.hotspot, sightings: sightings, now: date)
         let sightingsAdjustedScore = best.score * (sightingsEffect?.value ?? 1.0)
 
-        let ruleBasedPercent = min(100, max(0, sightingsAdjustedScore * 100))
+        // Everything except weather. Left unclamped here so the weather
+        // multiplier below can't be swallowed by an early clamp to 100.
+        let ruleBasedPercentExcludingWeather = max(0, sightingsAdjustedScore * 100)
 
         // Additional named factor: an on-device CoreML model (trained offline
-        // on a synthetic, structured dataset — see RiskMLModel.swift) predicts
+        // on real multi-state crash records — see RiskMLModel.swift) predicts
         // a collision-risk probability from the same situational inputs.
         // This is blended with, not a replacement for, the rule-based score:
         // the individual rule-based factors above remain fully visible so the
         // "here's exactly how this number is computed" transparency holds.
+        //
+        // The model is queried at a FIXED "clear" weather reference rather
+        // than at the driver's actual weather. This is deliberate. The
+        // trained classifier predicts markedly *lower* collision probability
+        // for fog/rain/snow than for clear conditions — not because bad
+        // weather is safer, but because the overwhelming majority of driving
+        // (and therefore of the crash records it learned from) happens in
+        // clear weather, so raw event frequency swamps per-mile risk in the
+        // training signal. Feeding it real weather made the final score go
+        // *down* in fog, contradicting the app's own safety logic. Weather is
+        // instead handled solely by `weatherMultiplier` above, which encodes
+        // the visibility/reaction-time effect we actually mean. "clear" is
+        // the right reference point because it's the modal training
+        // condition, where the model is best calibrated.
         let mlProbability = RiskMLModel.predictProbability(
             hourOfDay: hour,
             month: month,
             distanceToCorridorMeters: best.distance,
             corridorBaseSeverity: baseWeight(for: best.hotspot.riskLevel),
-            weatherCondition: weather?.condition,
+            weatherCondition: .clear,
             species: best.hotspot.species
         )
 
-        let blendedPercent: Double
+        let blendedExcludingWeather: Double
         let mlFactor: RiskFactor?
         if let mlProbability {
             let mlPercent = mlProbability * 100
-            blendedPercent = ruleBasedPercent * 0.6 + mlPercent * 0.4
+            blendedExcludingWeather = ruleBasedPercentExcludingWeather * 0.6 + mlPercent * 0.4
             mlFactor = RiskFactor(
                 label: "ML model",
-                detail: "\(Int(mlPercent.rounded()))% predicted (CoreML, synthetic-trained, 40% weight)",
+                detail: "\(Int(mlPercent.rounded()))% predicted (CoreML, weather-neutral, 40% weight)",
                 multiplier: mlProbability
             )
         } else {
-            blendedPercent = ruleBasedPercent
+            blendedExcludingWeather = ruleBasedPercentExcludingWeather
             mlFactor = nil
         }
+
+        // Applied last, to the blend as a whole. Because this multiplier is
+        // >= 1.0 for every condition worse than clear and the base is
+        // non-negative, worse weather can never lower the final score.
+        let blendedPercent = blendedExcludingWeather * weatherEffect.value
 
         var factors = [
             RiskFactor(label: "Corridor severity", detail: best.hotspot.riskLevel.rawValue, multiplier: baseWeight(for: best.hotspot.riskLevel)),
