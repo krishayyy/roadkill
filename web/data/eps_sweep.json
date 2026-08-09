@@ -1,0 +1,78 @@
+{
+  "state": "IA",
+  "chosen_eps_m": 899.1777205489365,
+  "rejected_knee_eps_m": 2593.1,
+  "max_cluster_fraction_limit": 0.05,
+  "sweep": [
+    {
+      "eps_m": 3912.5,
+      "max_fraction": 0.8694,
+      "accepted": false
+    },
+    {
+      "eps_m": 3255.6,
+      "max_fraction": 0.7838,
+      "accepted": false
+    },
+    {
+      "eps_m": 2709.0,
+      "max_fraction": 0.6498,
+      "accepted": false
+    },
+    {
+      "eps_m": 2254.1,
+      "max_fraction": 0.3394,
+      "accepted": false
+    },
+    {
+      "eps_m": 1875.6,
+      "max_fraction": 0.1429,
+      "accepted": false
+    },
+    {
+      "eps_m": 1560.7,
+      "max_fraction": 0.0787,
+      "accepted": false
+    },
+    {
+      "eps_m": 1298.7,
+      "max_fraction": 0.0393,
+      "accepted": false
+    },
+    {
+      "eps_m": 1080.6,
+      "max_fraction": 0.0317,
+      "accepted": false
+    },
+    {
+      "eps_m": 899.2,
+      "max_fraction": 0.0267,
+      "accepted": true
+    },
+    {
+      "eps_m": 748.2,
+      "max_fraction": 0.0204,
+      "accepted": true
+    },
+    {
+      "eps_m": 622.6,
+      "max_fraction": 0.0111,
+      "accepted": true
+    },
+    {
+      "eps_m": 518.0,
+      "max_fraction": 0.0076,
+      "accepted": true
+    },
+    {
+      "eps_m": 431.1,
+      "max_fraction": 0.003,
+      "accepted": true
+    },
+    {
+      "eps_m": 358.7,
+      "max_fraction": 0.0029,
+      "accepted": true
+    }
+  ]
+}

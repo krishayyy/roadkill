@@ -138,7 +138,28 @@ def build_model_metrics():
     print("model_metrics.json written")
 
 
+def build_eps_sweep():
+    """Iowa's real percolation-bounded eps tuning trace — the largest real
+    dataset, and the exact example the clustering script's own docstring
+    uses to explain why the textbook k-distance knee was rejected."""
+    tuning = json.loads((SCRATCH / "cluster_tuning_v3.json").read_text())
+    ia = tuning["IA"]
+    out = {
+        "state": "IA",
+        "chosen_eps_m": ia["eps_m"],
+        "rejected_knee_eps_m": ia["rejected_knee_eps_m"],
+        "max_cluster_fraction_limit": 0.05,
+        "sweep": [
+            {"eps_m": p["eps_m"], "max_fraction": p["max_fraction"], "accepted": p["accepted"]}
+            for p in ia["eps_sweep"]
+        ],
+    }
+    (OUT / "eps_sweep.json").write_text(json.dumps(out, indent=2))
+    print("eps_sweep.json written (Iowa, real percolation tuning trace)")
+
+
 if __name__ == "__main__":
     build_hotspots_geojson()
     build_sim_config()
     build_model_metrics()
+    build_eps_sweep()

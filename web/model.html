@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>How the Model Works — WildlifeAlert</title>
+<meta name="description" content="From five states' real crash records to an on-device CoreML model blended with a rule-based risk engine — the full pipeline, the leakage fix, and the runtime fusion logic, explained with diagrams." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦌</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Petrona:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><span class="brand-mark">🦌</span> WildlifeAlert</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="data.html">The Data</a>
+      <a href="model.html">How It Works</a>
+      <a href="simulate.html">Simulation</a>
+      <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section style="padding-bottom:0;">
+    <div class="container">
+      <span class="pill">System architecture</span>
+      <h1>From five state DOT crash files to an on-device risk score.</h1>
+      <p class="hero-lede">Five stages, each with a documented failure mode it was built to avoid: a clustering algorithm tuned against a real DBSCAN percolation, a label leak caught and fixed with spatial cross-validation, and a runtime fusion rule that guarantees bad weather can never make the app <em>less</em> cautious.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="card">
+        <div class="diagram-wrap">
+          <svg viewBox="0 0 1200 220" role="img" aria-labelledby="pipeline-title">
+            <title id="pipeline-title">Five-stage pipeline: data, clustering, training, export, on-device fusion</title>
+            <defs>
+              <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 Z" fill="#3f6b4f" />
+              </marker>
+            </defs>
+
+            <!-- connectors -->
+            <line x1="216" y1="110" x2="252" y2="110" stroke="#3f6b4f" stroke-width="2.5" marker-end="url(#arrow)" />
+            <line x1="452" y1="110" x2="488" y2="110" stroke="#3f6b4f" stroke-width="2.5" marker-end="url(#arrow)" />
+            <line x1="688" y1="110" x2="724" y2="110" stroke="#3f6b4f" stroke-width="2.5" marker-end="url(#arrow)" />
+            <line x1="924" y1="110" x2="960" y2="110" stroke="#3f6b4f" stroke-width="2.5" marker-end="url(#arrow)" />
+
+            <!-- node 1 -->
+            <g>
+              <rect x="20" y="35" width="196" height="150" rx="14" fill="#fffdf8" stroke="#e3d9c0" />
+              <circle cx="40" cy="53" r="15" fill="#3f6b4f" /><text x="40" y="58" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">1</text>
+              <text x="118" y="93" text-anchor="middle" font-size="28">🗂️</text>
+              <text x="118" y="122" text-anchor="middle" class="stage-label" font-size="14" font-weight="700">5 State DOT</text>
+              <text x="118" y="140" text-anchor="middle" class="stage-label" font-size="14" font-weight="700">Crash Datasets</text>
+              <text x="118" y="163" text-anchor="middle" fill="#6b6555" font-size="10.5">955,848 rows sampled</text>
+              <text x="118" y="176" text-anchor="middle" fill="#6b6555" font-size="10.5">318,616 real collisions</text>
+            </g>
+
+            <!-- node 2 -->
+            <g>
+              <rect x="256" y="35" width="196" height="150" rx="14" fill="#fffdf8" stroke="#e3d9c0" />
+              <circle cx="276" cy="53" r="15" fill="#3f6b4f" /><text x="276" y="58" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">2</text>
+              <text x="354" y="93" text-anchor="middle" font-size="28">🕸️</text>
+              <text x="354" y="122" text-anchor="middle" class="stage-label" font-size="13.5" font-weight="700">Percolation-Bounded</text>
+              <text x="354" y="140" text-anchor="middle" class="stage-label" font-size="13.5" font-weight="700">Clustering</text>
+              <text x="354" y="163" text-anchor="middle" fill="#6b6555" font-size="10.5">Density-adaptive DBSCAN</text>
+              <text x="354" y="176" text-anchor="middle" fill="#6b6555" font-size="10.5">2,989 real hotspots</text>
+            </g>
+
+            <!-- node 3 -->
+            <g>
+              <rect x="492" y="35" width="196" height="150" rx="14" fill="#fffdf8" stroke="#e3d9c0" />
+              <circle cx="512" cy="53" r="15" fill="#3f6b4f" /><text x="512" y="58" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">3</text>
+              <text x="590" y="93" text-anchor="middle" font-size="28">🎯</text>
+              <text x="590" y="122" text-anchor="middle" class="stage-label" font-size="14" font-weight="700">Leakage-Fixed</text>
+              <text x="590" y="140" text-anchor="middle" class="stage-label" font-size="14" font-weight="700">Training</text>
+              <text x="590" y="163" text-anchor="middle" fill="#6b6555" font-size="10.5">Spatial block CV</text>
+              <text x="590" y="176" text-anchor="middle" fill="#6b6555" font-size="10.5">out-of-fold features</text>
+            </g>
+
+            <!-- node 4 -->
+            <g>
+              <rect x="728" y="35" width="196" height="150" rx="14" fill="#fffdf8" stroke="#e3d9c0" />
+              <circle cx="748" cy="53" r="15" fill="#3f6b4f" /><text x="748" y="58" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">4</text>
+              <text x="826" y="93" text-anchor="middle" font-size="28">📦</text>
+              <text x="826" y="122" text-anchor="middle" class="stage-label" font-size="14" font-weight="700">CoreML</text>
+              <text x="826" y="140" text-anchor="middle" class="stage-label" font-size="14" font-weight="700">Export</text>
+              <text x="826" y="163" text-anchor="middle" fill="#6b6555" font-size="10.5">sklearn → .mlpackage</text>
+              <text x="826" y="176" text-anchor="middle" fill="#6b6555" font-size="10.5">versioned model card</text>
+            </g>
+
+            <!-- node 5 -->
+            <g>
+              <rect x="964" y="35" width="196" height="150" rx="14" fill="#2f4a3b" stroke="#1f3329" />
+              <circle cx="984" cy="53" r="15" fill="#c8944e" /><text x="984" y="58" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">5</text>
+              <text x="1062" y="93" text-anchor="middle" font-size="28">📱</text>
+              <text x="1062" y="122" text-anchor="middle" fill="#f6f1e7" font-size="14" font-weight="700">On-Device</text>
+              <text x="1062" y="140" text-anchor="middle" fill="#f6f1e7" font-size="14" font-weight="700">Fusion Engine</text>
+              <text x="1062" y="163" text-anchor="middle" fill="#dbe8dd" font-size="10.5">Rules × ML blend</text>
+              <text x="1062" y="176" text-anchor="middle" fill="#dbe8dd" font-size="10.5">weather applied last</text>
+            </g>
+          </svg>
+        </div>
+        <p class="diagram-caption">Every stage below is what the scripts and Swift source in this repo actually do — no step here is aspirational.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAGE 1+2 -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="pill pill-muted">Stage 1 → 2</span>
+        <h2>Clustering that's tuned against its own failure mode, not a textbook default</h2>
+        <p>The standard approach — DBSCAN with an eps chosen from the "k-distance knee" — was implemented first, measured, and rejected. On Iowa's real 85,366-point dataset, the textbook knee picks <strong>eps ≈ 2,593 m</strong>. At that radius, DBSCAN <em>percolates</em>: crash points chain together along the continuous road network into one county-spanning mega-cluster, not a set of actionable corridors.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card chart-card">
+          <h3>The real percolation sweep (Iowa)</h3>
+          <p style="color:var(--ink-muted); font-size:0.9rem;">v3 instead sweeps a density-adaptive grid of candidate eps values and takes the <strong>largest one that does not percolate</strong> — no cluster holding more than 5% of the state's points. This is that actual sweep, from <code>cluster_tuning_v3.json</code>.</p>
+          <canvas id="chart-eps-sweep" height="220"></canvas>
+        </div>
+        <div class="card">
+          <h3>What that means concretely</h3>
+          <table>
+            <tr><th>Rejected: textbook knee</th><td id="eps-knee">—</td></tr>
+            <tr><th>Chosen: percolation-bounded</th><td id="eps-chosen">—</td></tr>
+          </table>
+          <p style="margin-top:14px;">At the knee's ~2,593 m, this same curve sits between 34% and 65% of all Iowa points collapsing into a single cluster — a county, not a corridor. The chosen 899 m keeps every cluster under the 5% ceiling while still capturing real spatial agglomeration.</p>
+          <div class="callout" style="margin-top:10px;">Clusters are shaped further into <strong>road-segment polylines</strong> (PCA principal axis + equal-count binned vertices), not flat circles — but only when points are genuinely road-shaped (elongation ≥ 2.5×, buffer tighter than the plain-circle radius). Otherwise the script ships a circle and says why the polyline was rejected, rather than faking precision.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAGE 3 -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="pill pill-muted">Stage 3</span>
+        <h2>The leak: a crash record helping build the corridor that then predicted it</h2>
+        <p>Two of the model's fifteen features — <code>distance_to_nearest_corridor_m</code> and <code>corridor_base_severity</code> — come from the DBSCAN clusters above. The earlier pipeline built those clusters from <em>every</em> positive row, including the ones later used to test the model. A crash helped create the very corridor whose distance was then fed back in as a predictor of that same crash. Reported ROC AUC: <strong>0.867</strong>.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>The fix: spatial block cross-validation</h3>
+          <div class="diagram-wrap">
+            <svg viewBox="0 0 400 230" role="img" aria-labelledby="cv-title">
+              <title id="cv-title">Geographic blocks held out as whole units, not random rows</title>
+              <g id="grid"></g>
+            </svg>
+          </div>
+          <p class="diagram-caption">One fold of <code>StratifiedGroupKFold</code> over ~22 km geographic blocks. A held-out block's corridor features are rebuilt from training-fold data only — its own neighborhood contributes nothing to the corridors it's scored against.</p>
+        </div>
+        <div class="card">
+          <h3>The honest result</h3>
+          <p>The exported model is fit on <strong>out-of-fold</strong> corridor features specifically — not full-data ones — so the leak can't get baked into the model's learned weights, only into the (now-corrected) metric.</p>
+          <table style="margin-top:12px;">
+            <tr><th>Leaky (v2, reported)</th><td>0.867 ROC AUC</td></tr>
+            <tr><th>Leaky, reproduced exactly on v3 data</th><td>0.853–0.860</td></tr>
+            <tr><th>Honest — spatial block CV</th><td><strong>0.8205 ROC AUC</strong></td></tr>
+          </table>
+          <p class="note">A lower honest number is the correct outcome of fixing a leak, not a regression — confirmed by reproducing the exact leaky setup on the same states and getting back close to the original 0.867. See the <a href="data.html">Data page</a> for the per-state breakdown.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAGE 4 -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="pill pill-muted">Stage 4</span>
+        <h2>Export: the model card travels with the model</h2>
+        <p>The trained <code>GradientBoostingClassifier</code> (150 estimators, depth 3) converts directly to CoreML via <code>coremltools</code>, with the same 15-feature schema and order the Swift side expects — no field mapping to keep in sync by hand. Its honest metrics, the leaky comparison, and every known limitation are written into the <code>.mlpackage</code>'s own <code>short_description</code>, so the model documents itself wherever it's inspected, not just in this repo.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card"><h3>🔒 Staged, not live</h3><p>Exports to <code>WildlifeRiskModel_v3.mlpackage</code>, never overwriting the shipping model — swapping the live model is a deliberate, separate, human-performed step.</p></div>
+        <div class="card"><h3>🧾 Self-documenting</h3><p>Version string: <code>3.0-real-multistate-leakage-fixed-ia-il-va-ma-tn</code>. The honest ROC AUC, the leaky comparison, and the states used are embedded in the model file itself.</p></div>
+        <div class="card"><h3>📴 Fully on-device</h3><p>No network or LLM call happens at inference time — <code>WildlifeRiskModel.prediction(input:)</code> runs locally, so the risk score works with no connectivity.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAGE 5 -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="pill pill-muted">Stage 5</span>
+        <h2>Runtime fusion: why weather is applied last, once, to the whole blend</h2>
+        <p>The model learned something real but dangerous to use directly: it predicts <em>lower</em> collision probability for fog, rain, and snow than for clear weather — not because bad weather is safer, but because the overwhelming majority of driving (and of the crash records it trained on) happens in clear conditions, so raw frequency swamps per-mile risk. Feeding it live weather made the app's own score go <em>down</em> in fog.</p>
+      </div>
+
+      <div class="card">
+        <div class="diagram-wrap">
+          <svg viewBox="0 0 900 670" role="img" aria-labelledby="fusion-title">
+            <title id="fusion-title">Rule engine and ML model blend, then weather multiplies the result last</title>
+            <defs>
+              <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0,0 L10,5 L0,10 Z" fill="#3f6b4f" />
+              </marker>
+            </defs>
+
+            <line x1="230" y1="300" x2="270" y2="340" stroke="#3f6b4f" stroke-width="2.5" marker-end="url(#arrow2)" />
+            <line x1="670" y1="300" x2="610" y2="340" stroke="#3f6b4f" stroke-width="2.5" marker-end="url(#arrow2)" />
+            <line x1="440" y1="410" x2="440" y2="450" stroke="#3f6b4f" stroke-width="2.5" marker-end="url(#arrow2)" />
+            <line x1="785" y1="410" x2="630" y2="450" stroke="#c8944e" stroke-width="2.5" marker-end="url(#arrow2)" />
+            <line x1="440" y1="520" x2="440" y2="560" stroke="#3f6b4f" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+            <!-- Rule-based engine -->
+            <rect x="40" y="40" width="380" height="260" rx="14" fill="#fffdf8" stroke="#e3d9c0" />
+            <rect x="40" y="40" width="380" height="34" rx="14" fill="#3f6b4f" />
+            <text x="230" y="63" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">RULE-BASED ENGINE</text>
+            <text x="60" y="98" font-size="12.5" fill="#2b2a24">• Corridor severity (Moderate/High/Severe)</text>
+            <text x="60" y="120" font-size="12.5" fill="#2b2a24">• Distance decay (in-radius → 3× falloff)</text>
+            <text x="60" y="142" font-size="12.5" fill="#2b2a24">• Time of day — dawn/dusk Gaussian peaks</text>
+            <text x="60" y="164" font-size="12.5" fill="#2b2a24">• Season — fall rut ×1.5 peak</text>
+            <text x="60" y="186" font-size="12.5" fill="#2b2a24">• Traffic pace vs. route's expected speed</text>
+            <text x="60" y="208" font-size="12.5" fill="#2b2a24">• Community sightings (recency-weighted)</text>
+            <rect x="60" y="222" width="340" height="60" rx="8" fill="#dbe8dd" />
+            <text x="230" y="242" text-anchor="middle" font-size="11.5" fill="#1f3329" font-weight="600">Weather intentionally excluded</text>
+            <text x="230" y="258" text-anchor="middle" font-size="11" fill="#2f4a3b">from this product — applied once, later,</text>
+            <text x="230" y="272" text-anchor="middle" font-size="11" fill="#2f4a3b">to the whole blend</text>
+
+            <!-- ML model -->
+            <rect x="480" y="40" width="380" height="260" rx="14" fill="#fffdf8" stroke="#e3d9c0" />
+            <rect x="480" y="40" width="380" height="34" rx="14" fill="#2f4a3b" />
+            <text x="670" y="63" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">COREML MODEL · ON-DEVICE</text>
+            <text x="500" y="98" font-size="12.5" fill="#2b2a24">• hour_of_day, month</text>
+            <text x="500" y="120" font-size="12.5" fill="#2b2a24">• distance_to_nearest_corridor_m</text>
+            <text x="500" y="142" font-size="12.5" fill="#2b2a24">• corridor_base_severity</text>
+            <text x="500" y="164" font-size="12.5" fill="#2b2a24">• species (Deer / Elk / Moose)</text>
+            <text x="500" y="186" font-size="12.5" fill="#2b2a24">• road_type</text>
+            <rect x="500" y="200" width="340" height="82" rx="8" fill="#f3e4c9" />
+            <text x="670" y="220" text-anchor="middle" font-size="11.5" fill="#5a3d17" font-weight="600">weather_condition fixed to "clear"</text>
+            <text x="670" y="236" text-anchor="middle" font-size="11" fill="#6b4f22">the model conflates exposure frequency</text>
+            <text x="670" y="250" text-anchor="middle" font-size="11" fill="#6b4f22">with danger for bad weather, so it's queried</text>
+            <text x="670" y="264" text-anchor="middle" font-size="11" fill="#6b4f22">at its best-calibrated, modal condition</text>
+            <text x="670" y="278" text-anchor="middle" font-size="11" fill="#6b4f22">instead of the driver's real weather</text>
+
+            <!-- Blend -->
+            <rect x="210" y="340" width="460" height="70" rx="12" fill="#2f4a3b" />
+            <text x="440" y="368" text-anchor="middle" fill="#fff" font-size="13.5" font-weight="700">BLEND: 60% rule-based + 40% ML</text>
+            <text x="440" y="388" text-anchor="middle" fill="#dbe8dd" font-size="11">both factors stay individually visible to the driver — this doesn't replace the rules</text>
+
+            <!-- live weather pill -->
+            <rect x="700" y="340" width="170" height="70" rx="12" fill="#fffdf8" stroke="#c8944e" stroke-width="1.5" />
+            <text x="785" y="368" text-anchor="middle" font-size="12" font-weight="700" fill="#5a3d17">Live weather</text>
+            <text x="785" y="384" text-anchor="middle" font-size="10.5" fill="#6b6555">fog / rain / snow / clear</text>
+
+            <!-- Weather multiplier -->
+            <rect x="210" y="450" width="460" height="70" rx="12" fill="#fffdf8" stroke="#c8944e" stroke-width="2" />
+            <text x="440" y="478" text-anchor="middle" font-size="13.5" font-weight="700" fill="#5a3d17">× WEATHER MULTIPLIER — applied LAST</text>
+            <text x="440" y="498" text-anchor="middle" font-size="11" fill="#6b6555">fog ×1.4 · rain/snow ×1.25 · always ≥ 1.0 vs. clear</text>
+
+            <!-- Final -->
+            <rect x="210" y="560" width="460" height="70" rx="12" fill="#3f6b4f" />
+            <text x="440" y="590" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">FINAL RISK SCORE (0–100%)</text>
+            <text x="440" y="610" text-anchor="middle" fill="#dbe8dd" font-size="11">monotonic guarantee: worse weather can never lower the score</text>
+          </svg>
+        </div>
+        <p class="diagram-caption">Applying the weather multiplier once, last, to the combined blend — rather than feeding real weather into the ML model — is what keeps the two systems from contradicting each other.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container card" style="text-align:center; padding:48px 24px;">
+      <h2>Watch it run against real hotspots.</h2>
+      <p class="hero-lede" style="margin:0 auto 24px;">The simulation page runs the same real hotspot data this pipeline produced — with an adoption slider standing in for drivers using this fusion engine.</p>
+      <a class="btn btn-primary" href="simulate.html">Open the simulation →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Every number on this page is read from the repo's own <code>scratchpad_data/cluster_tuning_v3.json</code>, <code>scratchpad_data/training_evaluations_v3.json</code>, <code>scripts/cluster_hotspots_v3.py</code>, <code>scripts/train_risk_model_v3.py</code>, <code>WildlifeAlert/RiskEngine.swift</code>, and <code>WildlifeAlert/RiskMLModel.swift</code> — see the <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">GitHub repo</a> for the source.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="js/common.js"></script>
+<script src="js/model.js"></script>
+<script>
+// Spatial-block grid diagram — drawn in JS since it's a repeated small-multiple pattern.
+(function () {
+  const heldOut = new Set(["0,2", "1,6", "2,1", "2,5", "3,4"]);
+  const cols = 8, rows = 4, size = 40, gap = 4, ox = 16, oy = 16;
+  const g = document.getElementById("grid");
+  let svgns = "http://www.w3.org/2000/svg";
+  for (let r = 0; r < rows; r++) {
+    for (let c = 0; c < cols; c++) {
+      const rect = document.createElementNS(svgns, "rect");
+      rect.setAttribute("x", ox + c * (size + gap));
+      rect.setAttribute("y", oy + r * (size + gap));
+      rect.setAttribute("width", size);
+      rect.setAttribute("height", size);
+      rect.setAttribute("rx", 5);
+      const isTest = heldOut.has(`${r},${c}`);
+      rect.setAttribute("fill", isTest ? "#b1553d" : "#8fb59a");
+      rect.setAttribute("stroke", "#e3d9c0");
+      g.appendChild(rect);
+    }
+  }
+  const legendY = oy + rows * (size + gap) + 16;
+  const items = [["#8fb59a", "Train blocks (this fold)"], ["#b1553d", "Held-out test blocks (this fold)"]];
+  items.forEach(([color, label], i) => {
+    const sw = document.createElementNS(svgns, "rect");
+    sw.setAttribute("x", ox);
+    sw.setAttribute("y", legendY + i * 18);
+    sw.setAttribute("width", 12);
+    sw.setAttribute("height", 12);
+    sw.setAttribute("rx", 3);
+    sw.setAttribute("fill", color);
+    g.appendChild(sw);
+    const txt = document.createElementNS(svgns, "text");
+    txt.setAttribute("x", ox + 18);
+    txt.setAttribute("y", legendY + i * 18 + 10);
+    txt.setAttribute("font-size", "11");
+    txt.setAttribute("fill", "#6b6555");
+    txt.textContent = label;
+    g.appendChild(txt);
+  });
+})();
+</script>
+</body>
+</html>

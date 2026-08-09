@@ -295,6 +295,29 @@ input[type="range"] { width: 100%; accent-color: var(--green-600); }
 .chart-card { margin-top: 20px; }
 canvas { max-width: 100%; }
 
+/* ---- Diagrams ---- */
+.diagram-wrap {
+  overflow-x: auto;
+  padding: 8px 0;
+}
+.diagram-wrap svg { display: block; margin: 0 auto; min-width: 640px; }
+.diagram-caption {
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  text-align: center;
+  margin-top: 10px;
+}
+.callout {
+  background: var(--green-100);
+  border: 1px solid var(--green-300);
+  border-radius: 12px;
+  padding: 16px 18px;
+  font-size: 0.92rem;
+  color: var(--green-950);
+}
+.callout strong { color: var(--green-800); }
+.stage-label { fill: var(--green-950); font-family: Inter, sans-serif; }
+
 @media (max-width: 900px) {
   .hero-grid, .grid-3, .grid-2, .stat-ribbon, .sim-layout { grid-template-columns: 1fr; }
   .sim-layout .control-card { position: static; }
