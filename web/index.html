@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WildlifeAlert — Real data on wildlife-vehicle collisions</title>
+<meta name="description" content="Real crash data from 5 states, an honestly-evaluated ML model, and a live simulation showing what happens when drivers get warned before wildlife collision zones." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦌</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><span class="brand-mark">🦌</span> WildlifeAlert</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="data.html">The Data</a>
+      <a href="simulate.html">Simulation</a>
+      <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Real DOT crash data · 5 states · honestly evaluated model</span>
+        <h1>A vehicle strikes an animal in America roughly every 26 seconds.</h1>
+        <p class="hero-lede">WildlifeAlert warns drivers before they enter a known collision corridor — built on 2,989 real hotspots clustered from 318,648 real animal-collision crash records, not guesses. This demo shows the baseline risk, and simulates what changes when drivers start using the app.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="simulate.html">Run the simulation →</a>
+          <a class="btn btn-outline" href="data.html">Explore the data</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="glow" cx="70%" cy="20%" r="70%">
+              <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+              <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+            </radialGradient>
+          </defs>
+          <rect width="400" height="300" fill="url(#glow)" />
+          <path d="M0 220 C 60 200, 100 240, 160 210 S 260 190, 320 220 S 400 210 400 210 V300 H0 Z" fill="#1f3329" opacity="0.5"/>
+          <path d="M0 250 C 80 230, 140 265, 220 240 S 340 230, 400 250 V300 H0 Z" fill="#1f3329" opacity="0.75"/>
+          <g transform="translate(230,150) scale(1.15)" fill="none" stroke="#f6f1e7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 70 L10 40 Q10 20 30 20 L55 20 Q75 20 75 40 L75 70" />
+            <path d="M18 70 L18 90 M30 70 L30 92 M55 70 L55 92 M67 70 L67 90" />
+            <path d="M30 20 L20 2 M35 20 L28 0 M55 20 L65 2 M50 20 L58 0" />
+            <circle cx="70" cy="30" r="2.5" fill="#f6f1e7" stroke="none"/>
+          </g>
+          <circle cx="80" cy="60" r="3" fill="#c8944e"/>
+          <circle cx="120" cy="40" r="2" fill="#c8944e"/>
+          <circle cx="340" cy="70" r="2.5" fill="#c8944e"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="container stat-ribbon" id="stat-ribbon">
+      <div class="stat-card"><div class="stat-value" id="stat-hotspots">—</div><div class="stat-label">real hotspots mapped across 5 states</div></div>
+      <div class="stat-card"><div class="stat-value" id="stat-records">—</div><div class="stat-label">real animal-collision records analyzed</div></div>
+      <div class="stat-card"><div class="stat-value" id="stat-auc">—</div><div class="stat-label">honest model ROC AUC (spatial cross-validation, no leakage)</div></div>
+      <div class="stat-card"><div class="stat-value">5</div><div class="stat-label">states of public DOT crash data used, sourced and cited</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="pill">How the demo works</span>
+        <h2>Baseline first, then inject the app.</h2>
+        <p>The simulation isn't tuned to produce a nice-looking number. It's calibrated to match real, reported annual collision totals first — then a slider adds "safer drivers" on top, so every improvement shown is relative to something real.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="step-num">1</div>
+          <h3>Real hotspots, real severity</h3>
+          <p>2,989 hotspots from DBSCAN clustering of real DOT animal-collision coordinates in IA, IL, VA, MA, and TN. Each hotspot's weight is its actual historical crash count.</p>
+        </div>
+        <div class="card">
+          <div class="step-num">2</div>
+          <h3>Calibrated baseline</h3>
+          <p>Each state's simulated annual collision rate is set to match its real reported total (annualized from the source's known date range) — not a guess, a fit.</p>
+        </div>
+        <div class="card">
+          <div class="step-num">3</div>
+          <h3>Inject app adoption</h3>
+          <p>Slide adoption from 0% to 100%. Alerted drivers avoid a collision at a rate grounded in published wildlife-warning-system field studies. Watch collisions, cost, injuries, and animals-saved update live on the real map.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="pill pill-muted">Why it matters</span>
+        <h2>Three numbers, tracked live in the simulation.</h2>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>💵 Money saved</h3>
+          <p>Every prevented collision avoids an average ~$7,300 in vehicle damage, medical, towing, and administrative cost (based on commonly cited national wildlife-collision cost estimates).</p>
+        </div>
+        <div class="card">
+          <h3>🩹 Injuries prevented</h3>
+          <p>About 1 in 50 wildlife-vehicle collisions nationally results in a human injury. Fewer collisions means fewer injured drivers and passengers.</p>
+        </div>
+        <div class="card">
+          <h3>🦌 Animals saved</h3>
+          <p>Directly from the real data: every prevented collision is one fewer animal struck, counted at the real hotspot where it would have happened.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container card" style="text-align:center; padding:48px 24px;">
+      <h2>See it move on a real map.</h2>
+      <p class="hero-lede" style="margin:0 auto 24px;">Pick a state, set the adoption slider, and watch collisions get prevented in real time on real crash-cluster locations.</p>
+      <a class="btn btn-primary" href="simulate.html">Open the simulation →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>WildlifeAlert</strong> — data sourced from Iowa DOT, Illinois DOT, VDOT, MassDOT, and TDOT public crash datasets. Model evaluated with spatial cross-validation to avoid leakage; honest ROC AUC reported alongside the leaky baseline. Cost/injury figures are derived from commonly cited national wildlife-vehicle collision statistics, not measured directly. Full methodology in the project <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">README</a>.</p>
+  </div>
+</footer>
+
+<script src="js/common.js"></script>
+<script>
+fetch("data/sim_config.json").then(r => r.json()).then(cfg => {
+  document.getElementById("stat-hotspots").textContent = "2,989";
+  document.getElementById("stat-records").textContent = fmtInt(cfg.all.total_animal_collisions);
+});
+fetch("data/model_metrics.json").then(r => r.json()).then(m => {
+  document.getElementById("stat-auc").textContent = m.headline.honest_roc_auc.toFixed(3);
+});
+</script>
+</body>
+</html>

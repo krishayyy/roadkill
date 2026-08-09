@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simulation — WildlifeAlert</title>
+<meta name="description" content="Interactive simulation: real wildlife-collision hotspots, calibrated to real annual totals, with an adoption slider showing prevented collisions, money saved, injuries prevented, and animals saved." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦌</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><span class="brand-mark">🦌</span> WildlifeAlert</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="data.html">The Data</a>
+      <a href="simulate.html">Simulation</a>
+      <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section style="padding-bottom:0;">
+    <div class="container">
+      <span class="pill">Live simulation</span>
+      <h1>Inject safer drivers, watch the map respond.</h1>
+      <p class="hero-lede">Every marker is a real crash-cluster location. The baseline (0% adoption) is calibrated to match each state's real reported annual collision total. Move the slider to simulate what share of drivers use WildlifeAlert, then run a simulated year.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="tabs" id="state-tabs">
+        <button class="tab-btn" data-state="ALL">All 5 States</button>
+        <button class="tab-btn" data-state="IA">Iowa</button>
+        <button class="tab-btn" data-state="IL">Illinois</button>
+        <button class="tab-btn" data-state="VA">Virginia</button>
+        <button class="tab-btn" data-state="MA">Massachusetts</button>
+        <button class="tab-btn" data-state="TN">Tennessee</button>
+      </div>
+
+      <div class="sim-layout">
+        <div>
+          <div id="map"></div>
+          <p class="note" id="scope-note">Loading…</p>
+          <p class="note">
+            <span class="legend-dot" style="background:#c8944e"></span>Real hotspot (size = real crash count) &nbsp;
+            <span class="legend-dot" style="background:#4c7a5e"></span>Prevented by app &nbsp;
+            <span class="legend-dot" style="background:#b1553d"></span>Occurred
+          </p>
+
+          <div class="card chart-card">
+            <h3>Simulated annual collisions vs. adoption rate</h3>
+            <p style="color:var(--ink-muted); font-size:0.9rem;">Deterministic sweep across every adoption level, holding alert effectiveness fixed at 50%. This is the same math driving the KPIs — the animation on the map is illustrative sampling of where/when.</p>
+            <canvas id="chart-sweep" height="130"></canvas>
+          </div>
+        </div>
+
+        <div class="card control-card">
+          <h3>Controls</h3>
+          <div class="slider-row">
+            <label><span>App adoption rate</span> <span id="adoption-value">40%</span></label>
+            <input type="range" id="adoption-slider" min="0" max="100" value="40" step="5" />
+          </div>
+          <p class="note" style="margin-top:0;">Alert effectiveness is fixed at <strong>50%</strong> — the top of the commonly-cited 30–50% collision-reduction range from published animal-detection warning system field studies.</p>
+
+          <div class="sim-run-controls">
+            <button class="btn btn-primary" id="run-btn" style="flex:1; justify-content:center;">Run 1 simulated year ▶</button>
+            <button class="btn btn-outline" id="reset-btn">Reset</button>
+          </div>
+
+          <div class="kpi-grid">
+            <div class="kpi"><div class="kpi-value" id="kpi-baseline">—</div><div class="kpi-label">Baseline collisions/yr (real, calibrated)</div></div>
+            <div class="kpi"><div class="kpi-value" id="kpi-occurred">—</div><div class="kpi-label">Simulated collisions occurred</div></div>
+            <div class="kpi"><div class="kpi-value" id="kpi-prevented">—</div><div class="kpi-label">Collisions prevented</div></div>
+            <div class="kpi"><div class="kpi-value" id="kpi-animals">—</div><div class="kpi-label">🦌 Animals saved</div></div>
+            <div class="kpi"><div class="kpi-value" id="kpi-cost">—</div><div class="kpi-label">💵 Money saved / yr</div></div>
+            <div class="kpi"><div class="kpi-value" id="kpi-injuries">—</div><div class="kpi-label">🩹 Human injuries prevented</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container card">
+      <h3>Methodology, plainly stated</h3>
+      <p>Baseline annual collisions per state = real reported animal-collision total ÷ years covered by that state's source (see the Data page for which spans are confirmed vs. assumed). Collisions prevented = baseline × adoption rate × 50% alert effectiveness. Money saved uses ~$7,300/collision and injuries prevented uses a 2% injury rate — both derived from commonly cited national wildlife-vehicle collision figures (~1.3M collisions/yr, ~$9.5B/yr cost, ~26,000 injuries/yr), not measured directly in this dataset. The map's per-event animation samples real hotspots weighted by their actual historical crash count, so where events appear is grounded in real geography even though which exact collisions would be prevented is, necessarily, simulated.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Hotspot locations, severities, and per-state totals are real. Effectiveness, cost, and injury multipliers are cited estimates, not measurements — see the project <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">README</a>.</p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="js/common.js"></script>
+<script src="js/sim.js"></script>
+</body>
+</html>

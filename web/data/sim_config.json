@@ -1,0 +1,57 @@
+{
+  "alert_effectiveness": 0.5,
+  "cost_per_collision_usd": 7308,
+  "injury_rate_per_collision": 0.02,
+  "death_rate_per_collision": 0.000154,
+  "sources": {
+    "effectiveness": "Published animal-detection/warning-system field studies typically cite 30-50% collision reduction; 50% used here.",
+    "cost_injury": "National estimate: ~1,300,000 wildlife-vehicle collisions/yr, ~$9.5B/yr in costs, ~26,000 injuries/yr, ~200 deaths/yr (commonly cited insurance/DOT figures)."
+  },
+  "states": {
+    "IA": {
+      "name": "Iowa",
+      "source": "Iowa DOT Crash Data (SOR)",
+      "total_animal_collisions": 85398,
+      "years": 10,
+      "years_confirmed": false,
+      "baseline_annual_collisions": 8539.8
+    },
+    "IL": {
+      "name": "Illinois",
+      "source": "Illinois DOT Crashes (2023 only)",
+      "total_animal_collisions": 114386,
+      "years": 1,
+      "years_confirmed": true,
+      "baseline_annual_collisions": 114386.0
+    },
+    "VA": {
+      "name": "Virginia",
+      "source": "VDOT CrashData Basic",
+      "total_animal_collisions": 61653,
+      "years": 8,
+      "years_confirmed": false,
+      "baseline_annual_collisions": 7706.6
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "source": "MassDOT IMPACT (2019-2025)",
+      "total_animal_collisions": 25047,
+      "years": 6,
+      "years_confirmed": true,
+      "baseline_annual_collisions": 4174.5
+    },
+    "TN": {
+      "name": "Tennessee",
+      "source": "TDOT Crashes (Jan 2021-Jan 2025)",
+      "total_animal_collisions": 32164,
+      "years": 4,
+      "years_confirmed": true,
+      "baseline_annual_collisions": 8041.0
+    }
+  },
+  "all": {
+    "name": "All 5 States",
+    "total_animal_collisions": 318648,
+    "baseline_annual_collisions": 142847.9
+  }
+}

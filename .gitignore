@@ -26,6 +26,7 @@ scratchpad_data/*.joblib
 
 # Tooling metadata, not project source
 .claude-flow/
+.impeccable/
 
 # OS cruft
 .DS_Store

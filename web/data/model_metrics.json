@@ -1,0 +1,53 @@
+{
+  "headline": {
+    "honest_roc_auc": 0.8205,
+    "honest_accuracy": 0.7646,
+    "honest_average_precision": 0.6802,
+    "evaluation": "crossfit_spatial_cv",
+    "v2_published_roc_auc": 0.8671254159213179,
+    "v2_reproduced_roc_auc_same_3_states": 0.8529
+  },
+  "per_state_roc_auc": {
+    "IA": {
+      "roc_auc": 0.8480902452996926,
+      "n": 150203
+    },
+    "IL": {
+      "roc_auc": 0.8242154652283034,
+      "n": 358252
+    },
+    "VA": {
+      "roc_auc": 0.8018087643236336,
+      "n": 194378
+    },
+    "MA": {
+      "roc_auc": 0.7668379438535903,
+      "n": 129485
+    },
+    "TN": {
+      "roc_auc": 0.7894793005307446,
+      "n": 123530
+    }
+  },
+  "feature_importances": {
+    "hour_of_day": 0.55628,
+    "corridor_base_severity": 0.1838,
+    "month": 0.14031,
+    "weather_condition_clear": 0.06515,
+    "road_type_highway": 0.02086,
+    "distance_to_nearest_corridor_m": 0.01709,
+    "road_type_residential": 0.00759,
+    "weather_condition_snow": 0.00488,
+    "road_type_rural": 0.00197,
+    "weather_condition_cloudy": 0.00171,
+    "weather_condition_fog": 0.00027,
+    "weather_condition_rain": 8e-05,
+    "species_Deer": 0.0,
+    "species_Elk": 0.0,
+    "species_Moose": 0.0
+  },
+  "leaky_vs_honest": {
+    "leaky_random_split_roc_auc": 0.8377724641376213,
+    "honest_spatial_cv_roc_auc": 0.820530380919058
+  }
+}
