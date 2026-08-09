@@ -1,6 +1,5 @@
-const GREEN = "#4c7a5e";
-const GREEN_DARK = "#2f4a3b";
-const TERRA = "#b1553d";
+const POSITIVE = "#3f8a5c";
+const NEGATIVE = "#c0392b";
 const GOLD = "#c8944e";
 const MUTED_GRID = "#e3d9c0";
 
@@ -8,7 +7,7 @@ fetch("data/eps_sweep.json").then((r) => r.json()).then((d) => {
   const sweep = [...d.sweep].sort((a, b) => a.eps_m - b.eps_m);
   const labels = sweep.map((p) => Math.round(p.eps_m));
   const values = sweep.map((p) => p.max_fraction * 100);
-  const colors = sweep.map((p) => (p.accepted ? GREEN : TERRA));
+  const colors = sweep.map((p) => (p.accepted ? POSITIVE : NEGATIVE));
 
   new Chart(document.getElementById("chart-eps-sweep"), {
     type: "line",
@@ -18,8 +17,8 @@ fetch("data/eps_sweep.json").then((r) => r.json()).then((d) => {
         {
           label: "Largest cluster's share of all points",
           data: values,
-          borderColor: GREEN_DARK,
-          backgroundColor: "rgba(76,122,94,0.12)",
+          borderColor: POSITIVE,
+          backgroundColor: "rgba(63,138,92,0.12)",
           fill: true,
           tension: 0.25,
           pointBackgroundColor: colors,

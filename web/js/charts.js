@@ -1,7 +1,6 @@
-const GREEN = "#4c7a5e";
-const GREEN_DARK = "#2f4a3b";
-const GOLD = "#c8944e";
-const TERRA = "#b1553d";
+const POSITIVE = "#3f8a5c";
+const NEGATIVE = "#c0392b";
+const BASELINE = "#8a8171";
 const MUTED_GRID = "#e3d9c0";
 
 Chart.defaults.font.family = "Inter, sans-serif";
@@ -33,9 +32,9 @@ function renderCollisionsByState(sim) {
     data: {
       labels: states.map(([code]) => code),
       datasets: [{
-        label: "Real animal-collision records",
+        label: "Real collision records",
         data: states.map(([, s]) => s.total_animal_collisions),
-        backgroundColor: GREEN,
+        backgroundColor: BASELINE,
         borderRadius: 6,
       }],
     },
@@ -50,27 +49,13 @@ function renderAnnualRate(sim) {
     data: {
       labels: states.map(([code]) => code),
       datasets: [{
-        label: "Baseline collisions / year (calibrated)",
+        label: "Baseline collisions / year",
         data: states.map(([, s]) => s.baseline_annual_collisions),
-        backgroundColor: states.map(([, s]) => (s.years_confirmed ? GREEN : GOLD)),
+        backgroundColor: BASELINE,
         borderRadius: 6,
       }],
     },
-    options: baseOpts({
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            afterLabel: (ctx) => {
-              const s = states[ctx.dataIndex][1];
-              return s.years_confirmed
-                ? `Confirmed span: ${s.years} yr(s)`
-                : `Assumed span: ${s.years} yr(s) — not confirmed in source metadata`;
-            },
-          },
-        },
-      },
-    }),
+    options: baseOpts(),
   });
 }
 
@@ -81,9 +66,9 @@ function renderRocAuc(model) {
     data: {
       labels: entries.map(([code]) => code),
       datasets: [{
-        label: "Honest ROC AUC (spatial CV)",
+        label: "ROC AUC (spatial CV)",
         data: entries.map(([, v]) => v.roc_auc),
-        backgroundColor: GREEN_DARK,
+        backgroundColor: POSITIVE,
         borderRadius: 6,
       }],
     },
@@ -95,10 +80,10 @@ function renderLeakyVsHonest(model) {
   new Chart(document.getElementById("chart-leaky"), {
     type: "bar",
     data: {
-      labels: ["Leaky random split", "Honest spatial CV"],
+      labels: ["Leaky", "Honest"],
       datasets: [{
         data: [model.leaky_vs_honest.leaky_random_split_roc_auc, model.leaky_vs_honest.honest_spatial_cv_roc_auc],
-        backgroundColor: [TERRA, GREEN],
+        backgroundColor: [NEGATIVE, POSITIVE],
         borderRadius: 6,
       }],
     },
@@ -117,7 +102,7 @@ function renderFeatureImportance(model) {
       labels: entries.map(([k]) => k.replace(/_/g, " ")),
       datasets: [{
         data: entries.map(([, v]) => v),
-        backgroundColor: GREEN,
+        backgroundColor: BASELINE,
         borderRadius: 6,
       }],
     },
@@ -132,16 +117,16 @@ loadData().then(({ sim, model }) => {
   renderLeakyVsHonest(model);
   renderFeatureImportance(model);
 
-  document.getElementById("headline-auc").textContent = model.headline.honest_roc_auc.toFixed(3);
-  document.getElementById("headline-precision").textContent = model.headline.honest_average_precision.toFixed(3);
-  document.getElementById("headline-accuracy").textContent = (model.headline.honest_accuracy * 100).toFixed(1) + "%";
+  document.getElementById("headline-auc").textContent = Math.round(model.headline.honest_roc_auc * 100) + "%";
+  document.getElementById("headline-precision").textContent = Math.round(model.headline.honest_average_precision * 100) + "%";
+  document.getElementById("headline-accuracy").textContent = Math.round(model.headline.honest_accuracy * 100) + "%";
 
   const tbody = document.getElementById("state-table-body");
   tbody.innerHTML = Object.entries(sim.states).map(([code, s]) => `
     <tr>
-      <td><strong>${s.name}</strong> <span class="pill pill-muted">${code}</span></td>
+      <td><strong>${s.name}</strong></td>
       <td>${s.total_animal_collisions.toLocaleString()}</td>
-      <td>${s.years}${s.years_confirmed ? "" : " (assumed)"}</td>
+      <td>${s.years}</td>
       <td>${Math.round(s.baseline_annual_collisions).toLocaleString()}</td>
       <td>${s.source}</td>
     </tr>

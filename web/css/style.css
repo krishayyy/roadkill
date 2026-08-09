@@ -13,6 +13,12 @@
   --green-100: #dbe8dd;
   --terracotta: #b1553d;
   --gold: #c8944e;
+  --positive: #3f8a5c;
+  --positive-bg: #e3efe4;
+  --negative: #c0392b;
+  --negative-bg: #f5e3e0;
+  --baseline: #8a8171;
+  --baseline-bg: #ece5d4;
   --shadow: 0 1px 2px rgba(31, 51, 41, 0.06), 0 8px 24px rgba(31, 51, 41, 0.07);
   --radius: 16px;
   --font-display: "Petrona", Georgia, serif;
@@ -86,8 +92,17 @@ a { color: var(--green-600); }
   border-radius: 8px;
   background: var(--green-600);
   display: flex; align-items: center; justify-content: center;
-  color: #fff; font-size: 16px;
+  color: #fff;
 }
+.brand-mark .icon { width: 17px; height: 17px; }
+
+.icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.2em;
+  flex-shrink: 0;
+}
+.icon-lg { width: 28px; height: 28px; }
 .nav-links { display: flex; gap: 28px; align-items: center; }
 .nav-links a {
   color: var(--ink);
@@ -125,38 +140,27 @@ a { color: var(--green-600); }
   position: relative;
   overflow: hidden;
 }
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 48px;
-  align-items: center;
-}
-.eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--green-100);
-  color: var(--green-800);
-  font-weight: 600;
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 6px 14px;
-  border-radius: 999px;
-  margin-bottom: 20px;
-}
-.hero-actions { display: flex; gap: 14px; margin-top: 28px; flex-wrap: wrap; }
-.hero-lede { font-size: 1.15rem; color: var(--ink-muted); max-width: 46ch; }
+.hero { text-align: center; }
+.hero-inner { max-width: 760px; margin: 0 auto; }
+.hero-actions { display: flex; gap: 14px; margin-top: 28px; flex-wrap: wrap; justify-content: center; }
+.hero-lede { font-size: 1.15rem; color: var(--ink-muted); max-width: 52ch; margin-left: auto; margin-right: auto; }
 
-.hero-art {
-  aspect-ratio: 4 / 3;
-  border-radius: 24px;
-  background: linear-gradient(160deg, var(--green-800), var(--green-500) 60%, var(--gold));
-  position: relative;
-  box-shadow: var(--shadow);
-  overflow: hidden;
+/* ---- Hero performance metric ---- */
+.hero-metric { margin: 48px auto 0; }
+.hero-metric-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(4.5rem, 13vw, 7.5rem);
+  line-height: 0.95;
+  color: var(--positive);
 }
-.hero-art svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.hero-metric-label {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-top: 4px;
+}
+.hero-metric-sub { font-size: 0.85rem; color: var(--ink-muted); margin-top: 6px; }
 
 /* ---- Stat ribbon ---- */
 .stat-ribbon {
@@ -171,6 +175,7 @@ a { color: var(--green-600); }
   border-radius: var(--radius);
   padding: 22px 20px;
   box-shadow: var(--shadow);
+  text-align: center;
 }
 .stat-value {
   font-family: var(--font-display);
@@ -225,6 +230,9 @@ section { padding: 56px 0; }
 table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
 th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--card-border); }
 th { color: var(--ink-muted); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.text-positive { color: var(--positive); font-weight: 700; }
+.text-negative { color: var(--negative); font-weight: 700; }
+.text-baseline { color: var(--baseline); font-weight: 700; }
 
 .note {
   font-size: 0.85rem;
@@ -281,12 +289,20 @@ input[type="range"] { width: 100%; accent-color: var(--green-600); }
 
 .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; }
 .kpi {
-  background: var(--bg-alt);
+  background: var(--baseline-bg);
   border-radius: 12px;
   padding: 14px;
+  text-align: center;
 }
-.kpi-value { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--green-800); }
+.kpi-value { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--baseline); display: flex; align-items: center; justify-content: center; gap: 6px; }
 .kpi-label { font-size: 0.78rem; color: var(--ink-muted); margin-top: 2px; }
+.kpi-positive { background: var(--positive-bg); }
+.kpi-positive .kpi-value { color: var(--positive); }
+.kpi-negative { background: var(--negative-bg); }
+.kpi-negative .kpi-value { color: var(--negative); }
+.kpi-hero { grid-column: 1 / -1; padding: 22px; }
+.kpi-hero .kpi-value { font-size: 2.75rem; }
+.kpi-hero .kpi-label { font-size: 0.85rem; }
 
 .sim-run-controls { display: flex; gap: 10px; margin-top: 18px; }
 

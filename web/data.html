@@ -3,64 +3,71 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>The Data — WildlifeAlert</title>
-<meta name="description" content="Real per-state crash totals, honest model evaluation, and feature importances behind WildlifeAlert." />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦌</text></svg>" />
+<title>The Data — Roadkill</title>
+<meta name="description" content="Real per-state crash totals, honest model evaluation, and feature importances behind Roadkill." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%233f6b4f'/%3E%3Cg fill='%23f6f1e7'%3E%3Cellipse cx='12' cy='16' rx='5' ry='4'/%3E%3Ccircle cx='6' cy='8' r='2'/%3E%3Ccircle cx='11' cy='4.5' r='2.2'/%3E%3Ccircle cx='16.5' cy='6' r='2'/%3E%3Ccircle cx='19.5' cy='11' r='2'/%3E%3C/g%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Petrona:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-mark" viewBox="0 0 24 24"><ellipse cx="12" cy="16" rx="5" ry="4"/><circle cx="6" cy="8" r="2"/><circle cx="11" cy="4.5" r="2.2"/><circle cx="16.5" cy="6" r="2"/><circle cx="19.5" cy="11" r="2"/></symbol>
+  <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5 11 15.5 16 9.5"/></symbol>
+  <symbol id="icon-warning" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 22 20H2Z"/><path d="M12 9v4"/><circle cx="12" cy="16.2" r="0.6" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="icon-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+</svg>
+
 <header class="site-header">
   <nav class="nav">
-    <a class="brand" href="index.html"><span class="brand-mark">🦌</span> WildlifeAlert</a>
+    <a class="brand" href="index.html"><span class="brand-mark"><svg class="icon"><use href="#icon-mark"/></svg></span> Roadkill</a>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="data.html">The Data</a>
       <a href="model.html">How It Works</a>
       <a href="simulate.html">Simulation</a>
-      <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">GitHub <svg class="icon" style="width:0.85em;height:0.85em;"><use href="#icon-external"/></svg></a>
     </div>
   </nav>
 </header>
 
 <main>
-  <section style="padding-bottom:0;">
-    <div class="container">
-      <span class="pill">The data, honestly</span>
-      <h1>Real crash records. A model that's evaluated to fail leakage on purpose.</h1>
-      <p class="hero-lede">Every chart on this page is built from real state DOT crash data or a real, spatially-cross-validated model evaluation — nothing here is a placeholder or synthetic mockup.</p>
-    </div>
-  </section>
+  <section style="padding-bottom:0;" class="hero">
+    <div class="container hero-inner">
+      <h1>A model evaluated to fail leakage on purpose.</h1>
+      <p class="hero-lede">Every chart here is real state DOT crash data or a real, spatially-cross-validated evaluation.</p>
 
-  <section>
-    <div class="container">
-      <div class="stat-ribbon" style="grid-template-columns: repeat(3, 1fr);">
-        <div class="stat-card"><div class="stat-value" id="headline-auc">—</div><div class="stat-label">honest ROC AUC (spatial cross-validation)</div></div>
-        <div class="stat-card"><div class="stat-value" id="headline-precision">—</div><div class="stat-label">honest average precision</div></div>
-        <div class="stat-card"><div class="stat-value" id="headline-accuracy">—</div><div class="stat-label">honest accuracy</div></div>
+      <div class="hero-metric">
+        <div class="hero-metric-value" id="headline-auc">—</div>
+        <div class="hero-metric-label">honest model accuracy</div>
+        <div class="hero-metric-sub">ROC AUC, spatial cross-validation, no leakage</div>
       </div>
     </div>
   </section>
 
   <section>
     <div class="container">
+      <div class="stat-ribbon" style="grid-template-columns: repeat(2, 1fr); max-width:560px; margin:32px auto 56px;">
+        <div class="stat-card"><div class="stat-value" id="headline-precision">—</div><div class="stat-label">average precision</div></div>
+        <div class="stat-card"><div class="stat-value" id="headline-accuracy">—</div><div class="stat-label">accuracy</div></div>
+      </div>
+
       <div class="section-head">
-        <h2>Real animal-collision records, per state</h2>
-        <p>Raw totals reported by each state's public DOT crash dataset — the source records every hotspot cluster on the simulation map was derived from.</p>
+        <h2>Real collisions, per state</h2>
+        <p>Raw totals from each state's public DOT dataset — the source for every hotspot on the simulation map.</p>
       </div>
       <div class="grid-2">
         <div class="card chart-card"><canvas id="chart-collisions" height="220"></canvas></div>
         <div class="card chart-card">
           <canvas id="chart-annual" height="220"></canvas>
-          <p class="note"><span class="legend-dot" style="background:#4c7a5e"></span>Confirmed date span &nbsp; <span class="legend-dot" style="background:#c8944e"></span>Assumed date span (source didn't record an exact range) — this is the baseline the simulation is calibrated against.</p>
+          <p class="note">Annualized baseline the simulation is calibrated against.</p>
         </div>
       </div>
 
       <div class="card" style="margin-top:20px; overflow-x:auto;">
         <table>
-          <thead><tr><th>State</th><th>Real collision records</th><th>Years covered</th><th>Baseline / year</th><th>Source</th></tr></thead>
+          <thead><tr><th>State</th><th>Real records</th><th>Years</th><th>Per year</th><th>Source</th></tr></thead>
           <tbody id="state-table-body"><tr><td colspan="5">Loading…</td></tr></tbody>
         </table>
       </div>
@@ -70,23 +77,27 @@
   <section>
     <div class="container">
       <div class="section-head">
-        <h2>Model performance — honest, not leaky</h2>
-        <p>An earlier version of this model scored 0.867 ROC AUC using cluster-derived features to predict cluster-derived labels — a leak. After fixing it with proper spatial cross-validation (holding out entire geographic blocks, not random rows), the honest score is lower. That's the correct direction for fixing a leak, not a regression.</p>
+        <h2>Honest, not leaky</h2>
+        <p>An earlier version scored 0.867 ROC AUC using cluster-derived features to predict cluster-derived labels — a leak. Spatial cross-validation, holding out entire geographic blocks, gives the honest number. Lower is correct here, not a regression.</p>
       </div>
       <div class="grid-2">
         <div class="card chart-card">
-          <h3>Leaky vs. honest evaluation</h3>
+          <h3>Leaky vs. honest</h3>
+          <p class="note" style="margin-top:0; border-top:none; padding-top:0;">
+            <svg class="icon text-negative"><use href="#icon-warning"/></svg> Leaky &nbsp;&nbsp;
+            <svg class="icon text-positive"><use href="#icon-check"/></svg> Honest
+          </p>
           <canvas id="chart-leaky" height="160"></canvas>
         </div>
         <div class="card chart-card">
-          <h3>ROC AUC by state (honest, spatial CV)</h3>
+          <h3>Accuracy by state</h3>
           <canvas id="chart-roc" height="160"></canvas>
         </div>
       </div>
 
       <div class="card chart-card" style="margin-top:20px;">
-        <h3>What the model actually relies on</h3>
-        <p style="max-width:60ch;">Hour of day and month dominate — animal activity is strongly time-patterned (dawn/dusk, fall rut). Species features carry ~zero importance because none of the five source datasets have a reliable species field.</p>
+        <h3>What drives the prediction</h3>
+        <p>Hour of day and month dominate — animal activity is strongly time-patterned. Species features carry near-zero importance; none of the five source datasets record a reliable species field.</p>
         <canvas id="chart-features" height="220"></canvas>
       </div>
     </div>
@@ -95,7 +106,7 @@
 
 <footer class="site-footer">
   <div class="container">
-    <p>Full methodology, every known limitation, and the raw evaluation JSON: see <code>scratchpad_data/training_evaluations_v3.json</code> and the project <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">README</a>.</p>
+    <p>Full methodology and the raw evaluation JSON: <code>scratchpad_data/training_evaluations_v3.json</code> in the <a href="https://github.com/krishayyy/roadkill" target="_blank" rel="noopener">GitHub repo</a>.</p>
   </div>
 </footer>
 

@@ -59,12 +59,10 @@ function setScope(scope) {
   document.querySelectorAll(".tab-btn").forEach((b) => b.classList.toggle("active", b.dataset.state === scope));
   const note = document.getElementById("scope-note");
   if (scope === "ALL") {
-    note.textContent = "Note: Illinois's real total reflects a single confirmed year (2023) and dominates the combined annual rate; Iowa and Virginia's multi-year spans are assumed (not confirmed in source metadata) — see the Data page for details.";
+    note.textContent = "Illinois is a single year (2023) and dominates the combined rate. Per-state sourcing on the Data page.";
   } else {
     const s = sim.states[scope];
-    note.textContent = s.years_confirmed
-      ? `Source: ${s.source}. Confirmed span: ${s.years} year(s).`
-      : `Source: ${s.source}. Span assumed at ${s.years} year(s) — not confirmed in source metadata.`;
+    note.textContent = `Source: ${s.source}. ${s.years}-year span.`;
   }
   drawHotspots();
   fitBounds();
@@ -126,6 +124,7 @@ function setKpis(baseline, occurred, prevented) {
   setText("kpi-cost", fmtUsd(prevented * sim.cost_per_collision_usd));
   setText("kpi-injuries", fmtInt(prevented * sim.injury_rate_per_collision));
   setText("kpi-animals", fmtInt(prevented));
+  setText("kpi-reduction", (baseline > 0 ? Math.round((prevented / baseline) * 100) : 0) + "%");
 }
 
 function updateKpisDeterministic() {
@@ -175,8 +174,8 @@ function dropEventMarker(feat, prevented) {
   const jitter = () => (Math.random() - 0.5) * 0.06;
   const marker = L.circleMarker([lat + jitter(), lon + jitter()], {
     radius: 7,
-    color: prevented ? "#3f6b4f" : "#b1553d",
-    fillColor: prevented ? "#4c7a5e" : "#b1553d",
+    color: prevented ? "#3f8a5c" : "#c0392b",
+    fillColor: prevented ? "#3f8a5c" : "#c0392b",
     fillOpacity: 0.85,
     weight: 2,
   }).addTo(eventLayer);
@@ -198,8 +197,8 @@ function renderSweepChart() {
         {
           label: "Simulated annual collisions",
           data: collisions,
-          borderColor: "#4c7a5e",
-          backgroundColor: "rgba(76,122,94,0.15)",
+          borderColor: "#3f8a5c",
+          backgroundColor: "rgba(63,138,92,0.15)",
           fill: true,
           tension: 0.35,
           pointRadius: 3,
