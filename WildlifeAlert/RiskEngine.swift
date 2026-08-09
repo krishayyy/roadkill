@@ -9,13 +9,34 @@ struct RiskFactor: Identifiable {
 }
 
 struct RiskScore {
+    /// What the number is actually anchored to. The UI must present these
+    /// differently: a `.corridor` score is a located, data-backed risk for a
+    /// specific mapped collision corridor, while an `.ambient` score is only
+    /// a general-conditions estimate for an area we have no corridor data
+    /// for. Collapsing the two would let "we don't know" render as "you're
+    /// safe", which is the failure this distinction exists to prevent.
+    enum Basis {
+        case corridor
+        case ambient
+    }
+
     let percent: Int
+    let basis: Basis
     let nearestHotspot: Hotspot?
     let distanceMeters: Double?
     let factors: [RiskFactor]
 }
 
 enum RiskEngine {
+    /// Baseline weight for a location with no mapped collision corridor
+    /// nearby. Deliberately well below `baseWeight(.moderate)` (0.35): it
+    /// stands for "ordinary road, conditions only", never a located risk.
+    /// With the time/season/weather/traffic multipliers this yields roughly
+    /// 4% on a clear summer midday and roughly 38% at dusk during the fall
+    /// rut in fog — responsive to real conditions without ever implying we
+    /// know something about this specific road that we don't.
+    private static let ambientBaseWeight = 0.12
+
     /// Base severity weight per hotspot, before time/season/weather/distance are applied.
     private static func baseWeight(for level: Hotspot.RiskLevel) -> Double {
         switch level {
@@ -199,12 +220,39 @@ enum RiskEngine {
             }
         }
 
+        // No mapped corridor in range. This used to return a hard 0%, which
+        // the HUD rendered in green — telling a driver in a state we have no
+        // crash data for that their collision risk was *zero*, at dusk, in
+        // the rain. Absence of data is not evidence of safety, so instead we
+        // fall back to the factors that are genuinely location-independent:
+        // deer are crepuscular and rut in the fall everywhere, fog reduces
+        // visibility everywhere, and speed governs reaction time everywhere.
+        // None of that needs Iowa crash records to be true.
+        //
+        // Deliberately excluded: the CoreML model (its inputs are corridor
+        // severity and distance-to-corridor — feeding it invented values for
+        // a corridor that doesn't exist would be fabrication, not
+        // inference). This path is the transparent rule-based engine alone,
+        // which is exactly what the README claims happens outside the five
+        // data states.
         guard let best else {
+            let ambientRaw = ambientBaseWeight * time.value * season.value * weatherEffect.value * traffic.value
             return RiskScore(
-                percent: 0,
+                percent: Int(min(100, max(0, ambientRaw * 100))),
+                basis: .ambient,
                 nearestHotspot: nil,
                 distanceMeters: nil,
-                factors: [RiskFactor(label: "No hotspots nearby", detail: "Outside all known corridors", multiplier: 0)]
+                factors: [
+                    RiskFactor(
+                        label: "No corridor data",
+                        detail: "No mapped collision corridor near here — general conditions only",
+                        multiplier: ambientBaseWeight
+                    ),
+                    RiskFactor(label: "Time of day", detail: time.label, multiplier: time.value),
+                    RiskFactor(label: "Season", detail: season.label, multiplier: season.value),
+                    RiskFactor(label: "Weather", detail: weatherEffect.label, multiplier: weatherEffect.value),
+                    RiskFactor(label: "Traffic conditions", detail: traffic.label, multiplier: traffic.value)
+                ]
             )
         }
 
@@ -280,6 +328,6 @@ enum RiskEngine {
         }
 
         let percent = Int(min(100, max(0, blendedPercent)))
-        return RiskScore(percent: percent, nearestHotspot: best.hotspot, distanceMeters: best.distance, factors: factors)
+        return RiskScore(percent: percent, basis: .corridor, nearestHotspot: best.hotspot, distanceMeters: best.distance, factors: factors)
     }
 }

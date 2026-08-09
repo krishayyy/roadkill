@@ -85,6 +85,6 @@ python3 export_coreml_v3.py      # export to WildlifeRiskModel.mlpackage
 
 ## Known limitations
 
-- Real data currently covers 5 states; everywhere else falls back to the rule-based engine alone
+- Real corridor data currently covers 5 states. Everywhere else the app reports **"Area conditions"** — a rule-based-only estimate from the location-independent factors (dawn/dusk, season, weather, speed), explicitly labeled "No corridor data here" and drawn in a neutral color rather than the green→red risk ramp. It is deliberately never green: this build previously showed a flat green **0%** outside those five states, which stated as fact that a driver in California at dusk in the rain had zero collision risk. Absence of data is not evidence of safety, and the UI now says which one it's showing you
 - CarPlay support is scaffolded but non-functional — it requires Apple's manual CarPlay Navigation entitlement approval
 - WeatherKit requires a paid Apple Developer Program team; on a free/personal team the app falls back to deterministic mock weather automatically

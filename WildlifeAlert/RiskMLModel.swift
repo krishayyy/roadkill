@@ -31,8 +31,10 @@ import Foundation
 /// might carry real species labels, not because they currently matter.
 ///
 /// Known limitations, stated honestly rather than glossed over: this covers
-/// IA/IL/VA/MA/TN only, not nationwide — hotspots outside those five states
-/// still rely on the rule-based engine alone. Several other state portals
+/// IA/IL/VA/MA/TN only, not nationwide. Outside those five states there is
+/// no corridor for the model to score against, so RiskEngine doesn't call it
+/// at all — it falls back to the rule-based engine alone and reports the
+/// result as an explicitly-labelled ambient estimate (see RiskScore.Basis). Several other state portals
 /// were checked and found not bulk-downloadable without a login or
 /// open-records request; several more simply haven't been checked yet.
 /// road_type is inferred per-state from different heuristics, not a unified
