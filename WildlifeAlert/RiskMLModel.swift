@@ -39,6 +39,17 @@ import Foundation
 /// classification. The model runs entirely on-device; no network/LLM call
 /// happens at inference time.
 ///
+/// One learned relationship is real but not usable as a risk signal: the
+/// model predicts markedly *lower* collision probability for fog/rain/snow
+/// than for clear weather. That reflects exposure, not danger — almost all
+/// driving happens in clear conditions, so clear weather accumulates the most
+/// crash records and frequency swamps per-mile risk in the training signal.
+/// RiskEngine therefore calls `predictProbability` with a fixed `.clear`
+/// weather reference and applies its own visibility-based weather multiplier
+/// to the blended result. The `weatherCondition` parameter is kept because
+/// the model genuinely accepts those inputs, and a future model trained with
+/// per-mile exposure normalization could use them correctly.
+///
 /// Its prediction is blended into RiskEngine as one additional named
 /// factor — it does not replace the transparent rule-based factors.
 enum RiskMLModel {

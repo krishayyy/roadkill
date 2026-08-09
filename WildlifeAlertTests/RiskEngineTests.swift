@@ -109,14 +109,10 @@ final class RiskEngineTests: XCTestCase {
 
     // MARK: - Weather
 
-    /// NOTE ON SCOPE: this asserts the *rule-based* weather factor
-    /// (`weatherMultiplier`), which is what's directly under test here and is
-    /// exactly the documented fog=1.4/rain,snow=1.25/clear=1.0/cloudy=1.05
-    /// values in RiskEngine.swift. It deliberately does NOT assert on the
-    /// final blended `percent` for fog/rain/snow vs. clear — see
-    /// `testKnownIssue_MLBlendCanInvertTheRuleBasedWeatherSignal` below for
-    /// why asserting that would encode a real, confirmed product bug as
-    /// "expected" behaviour.
+    /// Asserts the *rule-based* weather factor (`weatherMultiplier`) matches
+    /// the documented fog=1.4/rain,snow=1.25/clear=1.0/cloudy=1.05 values in
+    /// RiskEngine.swift. `testWeather_worseWeatherNeverLowersFinalScore`
+    /// below covers the stronger, end-to-end property.
     func testWeather_fogRainSnow_ruleBasedFactorHigherThanClear() {
         let spot = hotspot()
         let location = CLLocation(latitude: origin.latitude, longitude: origin.longitude)
@@ -148,34 +144,22 @@ final class RiskEngineTests: XCTestCase {
         XCTAssertEqual(clear, 1.0, accuracy: 0.001)
     }
 
-    /// KNOWN ISSUE (confirmed while writing this test suite, not a test
-    /// mistake): once the CoreML model's prediction is blended in at 40%
-    /// weight, the *final* `percent` for fog/rain/snow can come out LOWER
-    /// than for clear weather, in direct contradiction of the rule-based
-    /// weather factor's own intent ("Fog — reduced visibility" should mean
-    /// *more* risk, not less).
+    /// REGRESSION GUARD for a real inversion this suite originally caught:
+    /// when the CoreML model was queried with the driver's actual weather and
+    /// blended in at 40% weight, the *final* percent came out LOWER in fog
+    /// than in clear conditions — the model predicts a much higher raw
+    /// probability for "clear" (~0.35) than for fog (~0.05), because the
+    /// overwhelming majority of driving (and of the crash records it learned
+    /// from) happens in clear weather, so event frequency swamps per-mile
+    /// risk in the training signal.
     ///
-    /// Root cause: `RiskMLModel`'s trained classifier predicts a much higher
-    /// raw collision probability for "clear" (~0.35 in this scenario) than
-    /// for fog (~0.05), rain (~0.06), or snow (~0.14) — almost certainly
-    /// because the overwhelming majority of real-world driving (and
-    /// therefore of the crash records the model was trained on) happens in
-    /// clear weather, so raw frequency swamps per-mile/per-encounter risk in
-    /// the training signal. That's a property of the training data, not a
-    /// bug in RiskEngine's blend arithmetic (the 60/40 blend itself is
-    /// correct — see `testMLBlend_...` above).
-    ///
-    /// Practical effect: a driver in fog — where visibility and reaction
-    /// time are objectively worse — can see a *lower* combined risk score
-    /// than the same driver in clear conditions, which undermines the
-    /// safety intent of the weather factor. This is reported as a real
-    /// product-level finding, not fixed here (fixing it would mean changing
-    /// RiskEngine's blend weighting or retraining the model, both business
-    /// logic decisions outside test-writing scope).
-    ///
-    /// This test pins the current, confirmed behaviour so it's visible and
-    /// intentional rather than silently drifting further.
-    func testKnownIssue_MLBlendCanInvertTheRuleBasedWeatherSignal() {
+    /// The fix in RiskEngine: query the model at a fixed "clear" reference
+    /// and apply `weatherMultiplier` once to the blend as a whole, so the
+    /// weather effect is the visibility/reaction-time one the app actually
+    /// means. This test pins the resulting invariant — worse weather must
+    /// never produce a lower score — and holds whether or not a CoreML model
+    /// is available in the test environment.
+    func testWeather_worseWeatherNeverLowersFinalScore() {
         let spot = hotspot()
         let location = CLLocation(latitude: origin.latitude, longitude: origin.longitude)
 
@@ -183,23 +167,51 @@ final class RiskEngineTests: XCTestCase {
             WeatherSnapshot(temperatureF: 40, condition: condition, conditionLabel: "test", visibilityMeters: 1000)
         }
 
-        let clear = RiskEngine.score(at: location, date: neutralDate, hotspots: [spot], weather: weather(.clear))
-        let fog = RiskEngine.score(at: location, date: neutralDate, hotspots: [spot], weather: weather(.fog))
+        func percent(_ condition: SimpleCondition) -> Int {
+            RiskEngine.score(at: location, date: neutralDate, hotspots: [spot], weather: weather(condition)).percent
+        }
 
-        guard clear.factors.contains(where: { $0.label == "ML model" }) else {
-            // No CoreML model available in this environment — the blend
-            // can't invert anything because there's nothing to blend with.
-            // Falling back to rule-based-only, fog must correctly score
-            // higher, exactly like `testWeather_...` above.
-            XCTAssertGreaterThan(fog.percent, clear.percent)
+        // `neutralDate` is midday in summer, so the score sits well below the
+        // 100 clamp and the ordering below is strict, not saturated.
+        let clear = percent(.clear)
+        XCTAssertLessThan(clear, 80, "scenario must stay off the 100 clamp for this ordering to be meaningful")
+
+        XCTAssertGreaterThan(percent(.fog), clear, "fog must score higher than clear")
+        XCTAssertGreaterThan(percent(.rain), clear, "rain must score higher than clear")
+        XCTAssertGreaterThan(percent(.snow), clear, "snow must score higher than clear")
+        XCTAssertGreaterThanOrEqual(percent(.cloudy), clear, "cloudy must not score lower than clear")
+
+        // Fog carries the largest multiplier (1.4) — it must top rain/snow (1.25).
+        XCTAssertGreaterThanOrEqual(percent(.fog), percent(.rain))
+        XCTAssertGreaterThanOrEqual(percent(.fog), percent(.snow))
+    }
+
+    /// The ML factor must be weather-independent now that the model is
+    /// queried at a fixed reference — this is what makes the invariant above
+    /// structural rather than a coincidence of the current multipliers.
+    func testMLFactor_isIndependentOfWeather() {
+        let spot = hotspot()
+        let location = CLLocation(latitude: origin.latitude, longitude: origin.longitude)
+
+        func mlMultiplier(_ condition: SimpleCondition) -> Double? {
+            let snapshot = WeatherSnapshot(temperatureF: 40, condition: condition, conditionLabel: "test", visibilityMeters: 1000)
+            let result = RiskEngine.score(at: location, date: neutralDate, hotspots: [spot], weather: snapshot)
+            return result.factors.first(where: { $0.label == "ML model" })?.multiplier
+        }
+
+        guard let clear = mlMultiplier(.clear) else {
+            // No CoreML model in this environment — nothing to assert.
             return
         }
 
-        // This assertion documents the CURRENT (undesirable) behavior. If it
-        // starts failing because fog now correctly scores higher than clear,
-        // that means the underlying issue has been fixed — treat a failure
-        // here as good news, not a regression, and delete this test.
-        XCTAssertLessThanOrEqual(fog.percent, clear.percent, "documents the current ML-blend weather inversion; see class doc comment above")
+        for condition in [SimpleCondition.cloudy, .rain, .snow, .fog] {
+            guard let value = mlMultiplier(condition) else {
+                XCTFail("ML factor present for clear but missing for \(condition)")
+                continue
+            }
+            XCTAssertEqual(value, clear, accuracy: 0.0001,
+                           "ML prediction must not vary with weather (\(condition))")
+        }
     }
 
     // MARK: - Severity ordering
