@@ -1,0 +1,43 @@
+name: WildlifeAlert
+options:
+  bundleIdPrefix: com.krishay
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    from: 11.5.0
+targets:
+  WildlifeAlert:
+    type: application
+    platform: iOS
+    sources:
+      - path: WildlifeAlert
+    dependencies:
+      - package: Firebase
+        product: FirebaseFirestore
+      - package: Firebase
+        product: FirebaseCore
+    info:
+      path: WildlifeAlert/Info.plist
+      properties:
+        UILaunchScreen: {}
+        NSLocationWhenInUseUsageDescription: "WildlifeAlert uses your location to warn you about nearby animal-crossing hotspots while you drive."
+        NSLocationAlwaysAndWhenInUseUsageDescription: "WildlifeAlert uses your location in the background to warn you about animal-crossing hotspots ahead."
+        UIBackgroundModes:
+          - location
+    # WeatherKit requires a paid Apple Developer Program team. Free/personal
+    # teams cannot provision it and the on-device install fails outright.
+    # WeatherManager falls back to deterministic mock weather if the entitlement
+    # is missing or the request fails, so the risk engine always has an input.
+    entitlements:
+      path: WildlifeAlert/WildlifeAlert.entitlements
+      properties:
+        com.apple.developer.weatherkit: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.krishay.WildlifeAlertApp
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        DEVELOPMENT_TEAM: "5B59PSQMP4"
+        CODE_SIGN_STYLE: Automatic

@@ -1,0 +1,33 @@
+{
+  "source_dataset": "Iowa DOT Crash Data (SOR)",
+  "source_url": "https://public-iowadot.opendata.arcgis.com/datasets/IowaDOT::crash-data-sor",
+  "total_raw_records": 606986,
+  "animal_collision_records": 85398,
+  "training_rows": 204955,
+  "test_rows": 51239,
+  "accuracy": 0.8294853529538048,
+  "roc_auc": 0.8970601894241238,
+  "feature_names": [
+    "hour_of_day",
+    "month",
+    "distance_to_nearest_corridor_m",
+    "corridor_base_severity",
+    "weather_condition_clear",
+    "weather_condition_cloudy",
+    "weather_condition_fog",
+    "weather_condition_rain",
+    "weather_condition_snow",
+    "species_Deer",
+    "species_Elk",
+    "species_Moose",
+    "road_type_highway",
+    "road_type_residential",
+    "road_type_rural"
+  ],
+  "limitations": [
+    "No species field in source data; all positives labeled Deer.",
+    "road_type inferred from route-name string, not authoritative classification.",
+    "Iowa-only; not California-specific despite app's CA framing.",
+    "corridor features derived from clustering this same dataset, not independent ground truth."
+  ]
+}

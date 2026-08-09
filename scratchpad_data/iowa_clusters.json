@@ -1,0 +1,5882 @@
+[
+  {
+    "cluster_id": 43,
+    "lon": -91.33897136721023,
+    "lat": 40.61737284618967,
+    "severity": 1840,
+    "county": "LEE",
+    "point_count": 1840
+  },
+  {
+    "cluster_id": 72,
+    "lon": -92.80817795001938,
+    "lat": 42.00329387338271,
+    "severity": 780,
+    "county": "MARSHALL",
+    "point_count": 780
+  },
+  {
+    "cluster_id": 104,
+    "lon": -91.55663798210682,
+    "lat": 41.96618210975771,
+    "severity": 769,
+    "county": "LINN",
+    "point_count": 769
+  },
+  {
+    "cluster_id": 60,
+    "lon": -92.46395366955163,
+    "lat": 42.63720642278327,
+    "severity": 594,
+    "county": "BREMER",
+    "point_count": 594
+  },
+  {
+    "cluster_id": 47,
+    "lon": -91.77158343554625,
+    "lat": 43.28610133578695,
+    "severity": 522,
+    "county": "WINNESHIEK",
+    "point_count": 522
+  },
+  {
+    "cluster_id": 31,
+    "lon": -91.71422714583395,
+    "lat": 42.10234005788426,
+    "severity": 454,
+    "county": "LINN",
+    "point_count": 454
+  },
+  {
+    "cluster_id": 81,
+    "lon": -93.61218747872107,
+    "lat": 42.008136631368785,
+    "severity": 447,
+    "county": "STORY",
+    "point_count": 447
+  },
+  {
+    "cluster_id": 37,
+    "lon": -93.92588126657894,
+    "lat": 41.55980690197281,
+    "severity": 436,
+    "county": "DALLAS",
+    "point_count": 436
+  },
+  {
+    "cluster_id": 32,
+    "lon": -91.28357432496978,
+    "lat": 42.09279956054682,
+    "severity": 374,
+    "county": "JONES",
+    "point_count": 374
+  },
+  {
+    "cluster_id": 45,
+    "lon": -91.56464388840956,
+    "lat": 41.68940639048635,
+    "severity": 372,
+    "county": "JOHNSON",
+    "point_count": 372
+  },
+  {
+    "cluster_id": 34,
+    "lon": -90.70903433271494,
+    "lat": 42.540036414654374,
+    "severity": 360,
+    "county": "DUBUQUE",
+    "point_count": 360
+  },
+  {
+    "cluster_id": 38,
+    "lon": -90.76952637361082,
+    "lat": 42.46713132322407,
+    "severity": 341,
+    "county": "DUBUQUE",
+    "point_count": 341
+  },
+  {
+    "cluster_id": 165,
+    "lon": -95.78822904120808,
+    "lat": 41.28032976649632,
+    "severity": 323,
+    "county": "POTTAWATTAMIE",
+    "point_count": 323
+  },
+  {
+    "cluster_id": 10,
+    "lon": -90.71881545297697,
+    "lat": 42.40968339245678,
+    "severity": 310,
+    "county": "DUBUQUE",
+    "point_count": 310
+  },
+  {
+    "cluster_id": 115,
+    "lon": -93.56429745923197,
+    "lat": 41.45845427465665,
+    "severity": 293,
+    "county": "WARREN",
+    "point_count": 293
+  },
+  {
+    "cluster_id": 103,
+    "lon": -90.87480704837722,
+    "lat": 41.51238019114298,
+    "severity": 282,
+    "county": "MUSCATINE",
+    "point_count": 282
+  },
+  {
+    "cluster_id": 125,
+    "lon": -93.56606241305181,
+    "lat": 42.127919568665476,
+    "severity": 280,
+    "county": "STORY",
+    "point_count": 280
+  },
+  {
+    "cluster_id": 143,
+    "lon": -93.93243924534922,
+    "lat": 42.0356655636739,
+    "severity": 277,
+    "county": "BOONE",
+    "point_count": 277
+  },
+  {
+    "cluster_id": 102,
+    "lon": -90.55719382002576,
+    "lat": 41.71178276724156,
+    "severity": 261,
+    "county": "SCOTT",
+    "point_count": 261
+  },
+  {
+    "cluster_id": 100,
+    "lon": -92.33887530505754,
+    "lat": 42.68092380360132,
+    "severity": 252,
+    "county": "BREMER",
+    "point_count": 252
+  },
+  {
+    "cluster_id": 19,
+    "lon": -90.64833775990121,
+    "lat": 42.4501493947866,
+    "severity": 251,
+    "county": "DUBUQUE",
+    "point_count": 251
+  },
+  {
+    "cluster_id": 27,
+    "lon": -92.9498233223019,
+    "lat": 41.40663889650504,
+    "severity": 250,
+    "county": "MARION",
+    "point_count": 250
+  },
+  {
+    "cluster_id": 184,
+    "lon": -92.61928563111252,
+    "lat": 43.00772635587282,
+    "severity": 245,
+    "county": "FLOYD",
+    "point_count": 245
+  },
+  {
+    "cluster_id": 110,
+    "lon": -92.24242923207748,
+    "lat": 42.45181572018452,
+    "severity": 240,
+    "county": "BLACK HAWK",
+    "point_count": 240
+  },
+  {
+    "cluster_id": 70,
+    "lon": -90.54982548744582,
+    "lat": 41.597702521044326,
+    "severity": 233,
+    "county": "SCOTT",
+    "point_count": 233
+  },
+  {
+    "cluster_id": 88,
+    "lon": -92.54502753081512,
+    "lat": 42.89453610931992,
+    "severity": 225,
+    "county": "BREMER",
+    "point_count": 225
+  },
+  {
+    "cluster_id": 107,
+    "lon": -91.15714689805013,
+    "lat": 40.862159362183235,
+    "severity": 220,
+    "county": "DES MOINES",
+    "point_count": 220
+  },
+  {
+    "cluster_id": 285,
+    "lon": -91.84315670677042,
+    "lat": 42.2126282070202,
+    "severity": 205,
+    "county": "BENTON",
+    "point_count": 205
+  },
+  {
+    "cluster_id": 3,
+    "lon": -90.56685708887427,
+    "lat": 41.83469666563597,
+    "severity": 200,
+    "county": "CLINTON",
+    "point_count": 200
+  },
+  {
+    "cluster_id": 4,
+    "lon": -93.68266310102543,
+    "lat": 41.73956446213957,
+    "severity": 200,
+    "county": "POLK",
+    "point_count": 200
+  },
+  {
+    "cluster_id": 96,
+    "lon": -93.22361655384834,
+    "lat": 43.19795699857829,
+    "severity": 196,
+    "county": "CERRO GORDO",
+    "point_count": 196
+  },
+  {
+    "cluster_id": 7,
+    "lon": -92.40612024710796,
+    "lat": 41.96369754144332,
+    "severity": 195,
+    "county": "TAMA",
+    "point_count": 195
+  },
+  {
+    "cluster_id": 146,
+    "lon": -91.40978364468869,
+    "lat": 40.91642477426047,
+    "severity": 193,
+    "county": "HENRY",
+    "point_count": 193
+  },
+  {
+    "cluster_id": 36,
+    "lon": -91.581655867497,
+    "lat": 41.645223644232146,
+    "severity": 190,
+    "county": "JOHNSON",
+    "point_count": 190
+  },
+  {
+    "cluster_id": 169,
+    "lon": -93.35298508215845,
+    "lat": 43.145463574898706,
+    "severity": 175,
+    "county": "CERRO GORDO",
+    "point_count": 175
+  },
+  {
+    "cluster_id": 55,
+    "lon": -93.21532480392965,
+    "lat": 41.87519326911462,
+    "severity": 172,
+    "county": "MARSHALL",
+    "point_count": 172
+  },
+  {
+    "cluster_id": 136,
+    "lon": -93.75949965664975,
+    "lat": 41.53194257163199,
+    "severity": 168,
+    "county": "POLK",
+    "point_count": 168
+  },
+  {
+    "cluster_id": 299,
+    "lon": -91.88322974192549,
+    "lat": 42.451018633074305,
+    "severity": 167,
+    "county": "BUCHANAN",
+    "point_count": 167
+  },
+  {
+    "cluster_id": 254,
+    "lon": -93.47865274947976,
+    "lat": 41.591437901116194,
+    "severity": 166,
+    "county": "POLK",
+    "point_count": 166
+  },
+  {
+    "cluster_id": 98,
+    "lon": -91.0984030454719,
+    "lat": 42.46705353365835,
+    "severity": 165,
+    "county": "DUBUQUE",
+    "point_count": 165
+  },
+  {
+    "cluster_id": 14,
+    "lon": -91.87350832659544,
+    "lat": 41.763281201675625,
+    "severity": 161,
+    "county": "IOWA",
+    "point_count": 161
+  },
+  {
+    "cluster_id": 1,
+    "lon": -91.46406065273983,
+    "lat": 42.050143521525015,
+    "severity": 158,
+    "county": "LINN",
+    "point_count": 158
+  },
+  {
+    "cluster_id": 66,
+    "lon": -91.43221706680102,
+    "lat": 42.469540501855846,
+    "severity": 156,
+    "county": "DELAWARE",
+    "point_count": 156
+  },
+  {
+    "cluster_id": 79,
+    "lon": -92.71885500781983,
+    "lat": 43.09645242184977,
+    "severity": 153,
+    "county": "FLOYD",
+    "point_count": 153
+  },
+  {
+    "cluster_id": 272,
+    "lon": -91.1968068968802,
+    "lat": 41.22793214390549,
+    "severity": 153,
+    "county": "LOUISA",
+    "point_count": 153
+  },
+  {
+    "cluster_id": 54,
+    "lon": -93.57145302445645,
+    "lat": 41.88679115205241,
+    "severity": 152,
+    "county": "STORY",
+    "point_count": 152
+  },
+  {
+    "cluster_id": 220,
+    "lon": -93.30192229673551,
+    "lat": 41.41127572784696,
+    "severity": 151,
+    "county": "MARION",
+    "point_count": 151
+  },
+  {
+    "cluster_id": 50,
+    "lon": -92.42202733339445,
+    "lat": 42.7167013109476,
+    "severity": 150,
+    "county": "BREMER",
+    "point_count": 150
+  },
+  {
+    "cluster_id": 64,
+    "lon": -93.99625876148345,
+    "lat": 41.60689710675518,
+    "severity": 150,
+    "county": "DALLAS",
+    "point_count": 150
+  },
+  {
+    "cluster_id": 152,
+    "lon": -91.38665355396608,
+    "lat": 42.864063239576,
+    "severity": 149,
+    "county": "CLAYTON",
+    "point_count": 149
+  },
+  {
+    "cluster_id": 82,
+    "lon": -91.8092142918762,
+    "lat": 42.85655800209476,
+    "severity": 147,
+    "county": "FAYETTE",
+    "point_count": 147
+  },
+  {
+    "cluster_id": 83,
+    "lon": -93.15466730419148,
+    "lat": 41.319569969888924,
+    "severity": 147,
+    "county": "MARION",
+    "point_count": 147
+  },
+  {
+    "cluster_id": 238,
+    "lon": -93.56386850732027,
+    "lat": 41.6615108568818,
+    "severity": 144,
+    "county": "POLK",
+    "point_count": 144
+  },
+  {
+    "cluster_id": 185,
+    "lon": -92.36627171051023,
+    "lat": 41.02101961266033,
+    "severity": 143,
+    "county": "WAPELLO",
+    "point_count": 143
+  },
+  {
+    "cluster_id": 188,
+    "lon": -90.39797432682674,
+    "lat": 41.58184426754594,
+    "severity": 143,
+    "county": "SCOTT",
+    "point_count": 143
+  },
+  {
+    "cluster_id": 240,
+    "lon": -91.55105017166518,
+    "lat": 40.90515251483294,
+    "severity": 142,
+    "county": "HENRY",
+    "point_count": 142
+  },
+  {
+    "cluster_id": 65,
+    "lon": -91.19432030452474,
+    "lat": 41.332372147415754,
+    "severity": 139,
+    "county": "MUSCATINE",
+    "point_count": 139
+  },
+  {
+    "cluster_id": 156,
+    "lon": -91.13291868550023,
+    "lat": 41.65229715457834,
+    "severity": 138,
+    "county": "CEDAR",
+    "point_count": 138
+  },
+  {
+    "cluster_id": 243,
+    "lon": -90.68251191867844,
+    "lat": 41.52250821015652,
+    "severity": 138,
+    "county": "SCOTT",
+    "point_count": 138
+  },
+  {
+    "cluster_id": 68,
+    "lon": -93.37059259938557,
+    "lat": 42.00795444349447,
+    "severity": 137,
+    "county": "STORY",
+    "point_count": 137
+  },
+  {
+    "cluster_id": 78,
+    "lon": -93.77929426983935,
+    "lat": 41.6098077591391,
+    "severity": 135,
+    "county": "POLK",
+    "point_count": 135
+  },
+  {
+    "cluster_id": 105,
+    "lon": -94.22123664449468,
+    "lat": 42.51294496845487,
+    "severity": 128,
+    "county": "WEBSTER",
+    "point_count": 128
+  },
+  {
+    "cluster_id": 202,
+    "lon": -93.69602332432677,
+    "lat": 41.65202839159701,
+    "severity": 127,
+    "county": "POLK",
+    "point_count": 127
+  },
+  {
+    "cluster_id": 221,
+    "lon": -94.81036074910139,
+    "lat": 43.36294417147256,
+    "severity": 125,
+    "county": "EMMET",
+    "point_count": 125
+  },
+  {
+    "cluster_id": 61,
+    "lon": -93.23673247831587,
+    "lat": 43.14979162315223,
+    "severity": 121,
+    "county": "CERRO GORDO",
+    "point_count": 121
+  },
+  {
+    "cluster_id": 291,
+    "lon": -91.15654110359759,
+    "lat": 42.255579367204135,
+    "severity": 121,
+    "county": "JONES",
+    "point_count": 121
+  },
+  {
+    "cluster_id": 84,
+    "lon": -91.23787337643645,
+    "lat": 41.723952840824865,
+    "severity": 116,
+    "county": "CEDAR",
+    "point_count": 116
+  },
+  {
+    "cluster_id": 128,
+    "lon": -91.22009203803299,
+    "lat": 43.01743441827567,
+    "severity": 113,
+    "county": "CLAYTON",
+    "point_count": 113
+  },
+  {
+    "cluster_id": 131,
+    "lon": -93.6162265235004,
+    "lat": 42.071215342857286,
+    "severity": 112,
+    "county": "STORY",
+    "point_count": 112
+  },
+  {
+    "cluster_id": 277,
+    "lon": -92.80196682058136,
+    "lat": 41.69537210800989,
+    "severity": 112,
+    "county": "JASPER",
+    "point_count": 112
+  },
+  {
+    "cluster_id": 18,
+    "lon": -96.32551266517737,
+    "lat": 42.479237057213965,
+    "severity": 110,
+    "county": "WOODBURY",
+    "point_count": 110
+  },
+  {
+    "cluster_id": 94,
+    "lon": -94.22662838506045,
+    "lat": 42.687529228648216,
+    "severity": 109,
+    "county": "HUMBOLDT",
+    "point_count": 109
+  },
+  {
+    "cluster_id": 11,
+    "lon": -94.12279684598143,
+    "lat": 42.449113616714634,
+    "severity": 107,
+    "county": "WEBSTER",
+    "point_count": 107
+  },
+  {
+    "cluster_id": 108,
+    "lon": -93.96921934242185,
+    "lat": 41.8349205170331,
+    "severity": 105,
+    "county": "DALLAS",
+    "point_count": 105
+  },
+  {
+    "cluster_id": 318,
+    "lon": -96.3693548597159,
+    "lat": 42.45063521993436,
+    "severity": 105,
+    "county": "WOODBURY",
+    "point_count": 105
+  },
+  {
+    "cluster_id": 2,
+    "lon": -91.09198650913962,
+    "lat": 41.42690425552144,
+    "severity": 104,
+    "county": "MUSCATINE",
+    "point_count": 104
+  },
+  {
+    "cluster_id": 250,
+    "lon": -93.57546648786865,
+    "lat": 41.727824733026495,
+    "severity": 104,
+    "county": "POLK",
+    "point_count": 104
+  },
+  {
+    "cluster_id": 333,
+    "lon": -92.04369095248201,
+    "lat": 41.01134967055005,
+    "severity": 103,
+    "county": "JEFFERSON",
+    "point_count": 103
+  },
+  {
+    "cluster_id": 153,
+    "lon": -93.80660375348482,
+    "lat": 42.4496697343884,
+    "severity": 102,
+    "county": "HAMILTON",
+    "point_count": 102
+  },
+  {
+    "cluster_id": 278,
+    "lon": -91.66031325315262,
+    "lat": 41.830166945750925,
+    "severity": 102,
+    "county": "JOHNSON",
+    "point_count": 102
+  },
+  {
+    "cluster_id": 112,
+    "lon": -92.64233450502213,
+    "lat": 42.46054955131964,
+    "severity": 101,
+    "county": "GRUNDY",
+    "point_count": 101
+  },
+  {
+    "cluster_id": 242,
+    "lon": -91.54350467660686,
+    "lat": 40.99876073688722,
+    "severity": 101,
+    "county": "HENRY",
+    "point_count": 101
+  },
+  {
+    "cluster_id": 348,
+    "lon": -93.45390566479384,
+    "lat": 43.13339972160613,
+    "severity": 100,
+    "county": "CERRO GORDO",
+    "point_count": 100
+  },
+  {
+    "cluster_id": 289,
+    "lon": -91.12648596482211,
+    "lat": 40.8167286840242,
+    "severity": 98,
+    "county": "DES MOINES",
+    "point_count": 98
+  },
+  {
+    "cluster_id": 301,
+    "lon": -96.46976444731675,
+    "lat": 42.51251749074462,
+    "severity": 98,
+    "county": "WOODBURY",
+    "point_count": 98
+  },
+  {
+    "cluster_id": 17,
+    "lon": -91.04653288686715,
+    "lat": 41.45944689022514,
+    "severity": 96,
+    "county": "MUSCATINE",
+    "point_count": 96
+  },
+  {
+    "cluster_id": 295,
+    "lon": -91.25329016600341,
+    "lat": 40.831391078767645,
+    "severity": 96,
+    "county": "DES MOINES",
+    "point_count": 96
+  },
+  {
+    "cluster_id": 159,
+    "lon": -92.4552623170203,
+    "lat": 42.46496324506721,
+    "severity": 95,
+    "county": "BLACK HAWK",
+    "point_count": 95
+  },
+  {
+    "cluster_id": 182,
+    "lon": -91.62918097088918,
+    "lat": 40.97531386078559,
+    "severity": 94,
+    "county": "HENRY",
+    "point_count": 94
+  },
+  {
+    "cluster_id": 302,
+    "lon": -93.36964038453418,
+    "lat": 42.449834818372324,
+    "severity": 93,
+    "county": "HARDIN",
+    "point_count": 93
+  },
+  {
+    "cluster_id": 444,
+    "lon": -93.30262835381977,
+    "lat": 41.814002195997496,
+    "severity": 93,
+    "county": "JASPER",
+    "point_count": 93
+  },
+  {
+    "cluster_id": 215,
+    "lon": -93.07558397279485,
+    "lat": 41.6816487619482,
+    "severity": 92,
+    "county": "JASPER",
+    "point_count": 92
+  },
+  {
+    "cluster_id": 114,
+    "lon": -95.48966760113876,
+    "lat": 42.351867661204835,
+    "severity": 91,
+    "county": "IDA",
+    "point_count": 91
+  },
+  {
+    "cluster_id": 382,
+    "lon": -92.07119855058691,
+    "lat": 42.44895188451938,
+    "severity": 90,
+    "county": "BLACK HAWK",
+    "point_count": 90
+  },
+  {
+    "cluster_id": 8,
+    "lon": -95.51942346717316,
+    "lat": 42.75456486454909,
+    "severity": 89,
+    "county": "CHEROKEE",
+    "point_count": 89
+  },
+  {
+    "cluster_id": 218,
+    "lon": -94.00620943165201,
+    "lat": 41.510989407090854,
+    "severity": 89,
+    "county": "DALLAS",
+    "point_count": 89
+  },
+  {
+    "cluster_id": 265,
+    "lon": -91.05243994752291,
+    "lat": 41.639277786490105,
+    "severity": 89,
+    "county": "CEDAR",
+    "point_count": 89
+  },
+  {
+    "cluster_id": 194,
+    "lon": -93.18140497982996,
+    "lat": 43.11102618403092,
+    "severity": 88,
+    "county": "CERRO GORDO",
+    "point_count": 88
+  },
+  {
+    "cluster_id": 371,
+    "lon": -93.0097229795705,
+    "lat": 41.3049578181482,
+    "severity": 87,
+    "county": "MARION",
+    "point_count": 87
+  },
+  {
+    "cluster_id": 22,
+    "lon": -92.91577581265827,
+    "lat": 41.97612196074109,
+    "severity": 84,
+    "county": "MARSHALL",
+    "point_count": 84
+  },
+  {
+    "cluster_id": 211,
+    "lon": -93.68086428701696,
+    "lat": 41.51461374557207,
+    "severity": 84,
+    "county": "POLK",
+    "point_count": 84
+  },
+  {
+    "cluster_id": 273,
+    "lon": -91.41283323355353,
+    "lat": 41.283917734681104,
+    "severity": 84,
+    "county": "LOUISA",
+    "point_count": 84
+  },
+  {
+    "cluster_id": 173,
+    "lon": -91.19364088681563,
+    "lat": 42.20680564528237,
+    "severity": 82,
+    "county": "JONES",
+    "point_count": 82
+  },
+  {
+    "cluster_id": 196,
+    "lon": -96.40141549417686,
+    "lat": 42.5343794033624,
+    "severity": 81,
+    "county": "WOODBURY",
+    "point_count": 81
+  },
+  {
+    "cluster_id": 303,
+    "lon": -93.57006395571521,
+    "lat": 41.95671977968239,
+    "severity": 81,
+    "county": "STORY",
+    "point_count": 81
+  },
+  {
+    "cluster_id": 134,
+    "lon": -92.50189978593119,
+    "lat": 41.09729365070205,
+    "severity": 80,
+    "county": "WAPELLO",
+    "point_count": 80
+  },
+  {
+    "cluster_id": 6,
+    "lon": -95.76765995143235,
+    "lat": 41.04165741551438,
+    "severity": 78,
+    "county": "MILLS",
+    "point_count": 78
+  },
+  {
+    "cluster_id": 224,
+    "lon": -93.80106479359253,
+    "lat": 42.42280318156289,
+    "severity": 78,
+    "county": "HAMILTON",
+    "point_count": 78
+  },
+  {
+    "cluster_id": 20,
+    "lon": -96.28744540641058,
+    "lat": 42.64206966244976,
+    "severity": 77,
+    "county": "PLYMOUTH",
+    "point_count": 77
+  },
+  {
+    "cluster_id": 28,
+    "lon": -93.8553220260757,
+    "lat": 42.03556254206657,
+    "severity": 77,
+    "county": "BOONE",
+    "point_count": 77
+  },
+  {
+    "cluster_id": 261,
+    "lon": -91.3699220380283,
+    "lat": 41.91138577670936,
+    "severity": 77,
+    "county": "LINN",
+    "point_count": 77
+  },
+  {
+    "cluster_id": 137,
+    "lon": -90.65214106537928,
+    "lat": 41.49832938414387,
+    "severity": 76,
+    "county": "SCOTT",
+    "point_count": 76
+  },
+  {
+    "cluster_id": 183,
+    "lon": -91.91017295789499,
+    "lat": 42.64541678938222,
+    "severity": 76,
+    "county": "FAYETTE",
+    "point_count": 76
+  },
+  {
+    "cluster_id": 428,
+    "lon": -93.65173609642734,
+    "lat": 42.032379997062996,
+    "severity": 76,
+    "county": "STORY",
+    "point_count": 76
+  },
+  {
+    "cluster_id": 145,
+    "lon": -93.90519020713468,
+    "lat": 40.60704497125629,
+    "severity": 75,
+    "county": "DECATUR",
+    "point_count": 75
+  },
+  {
+    "cluster_id": 180,
+    "lon": -92.0698051358966,
+    "lat": 42.356555381287336,
+    "severity": 75,
+    "county": "BLACK HAWK",
+    "point_count": 75
+  },
+  {
+    "cluster_id": 204,
+    "lon": -92.65262378691656,
+    "lat": 41.01481389614237,
+    "severity": 75,
+    "county": "MONROE",
+    "point_count": 75
+  },
+  {
+    "cluster_id": 245,
+    "lon": -91.00234876940664,
+    "lat": 41.470270171003456,
+    "severity": 75,
+    "county": "MUSCATINE",
+    "point_count": 75
+  },
+  {
+    "cluster_id": 305,
+    "lon": -93.78001668595282,
+    "lat": 41.46032507202329,
+    "severity": 74,
+    "county": "WARREN",
+    "point_count": 74
+  },
+  {
+    "cluster_id": 42,
+    "lon": -92.57946080121074,
+    "lat": 41.92438106396251,
+    "severity": 73,
+    "county": "TAMA",
+    "point_count": 73
+  },
+  {
+    "cluster_id": 63,
+    "lon": -92.85589953232972,
+    "lat": 40.79224949988231,
+    "severity": 72,
+    "county": "APPANOOSE",
+    "point_count": 72
+  },
+  {
+    "cluster_id": 109,
+    "lon": -95.11014929295419,
+    "lat": 43.127219731885894,
+    "severity": 72,
+    "county": "CLAY",
+    "point_count": 72
+  },
+  {
+    "cluster_id": 342,
+    "lon": -93.04960691591904,
+    "lat": 41.31980347590743,
+    "severity": 72,
+    "county": "MARION",
+    "point_count": 72
+  },
+  {
+    "cluster_id": 71,
+    "lon": -93.66930286483289,
+    "lat": 42.06889006360562,
+    "severity": 71,
+    "county": "STORY",
+    "point_count": 71
+  },
+  {
+    "cluster_id": 192,
+    "lon": -93.34912435951922,
+    "lat": 43.254973525951435,
+    "severity": 71,
+    "county": "CERRO GORDO",
+    "point_count": 71
+  },
+  {
+    "cluster_id": 286,
+    "lon": -95.67151937196182,
+    "lat": 41.38501469666543,
+    "severity": 71,
+    "county": "POTTAWATTAMIE",
+    "point_count": 71
+  },
+  {
+    "cluster_id": 290,
+    "lon": -91.17976017045623,
+    "lat": 41.110649332412486,
+    "severity": 71,
+    "county": "LOUISA",
+    "point_count": 71
+  },
+  {
+    "cluster_id": 123,
+    "lon": -91.99576475984071,
+    "lat": 41.77344350476666,
+    "severity": 70,
+    "county": "IOWA",
+    "point_count": 70
+  },
+  {
+    "cluster_id": 207,
+    "lon": -94.07547656301392,
+    "lat": 41.527153442546926,
+    "severity": 70,
+    "county": "DALLAS",
+    "point_count": 70
+  },
+  {
+    "cluster_id": 312,
+    "lon": -95.72398632993017,
+    "lat": 41.34134173495089,
+    "severity": 70,
+    "county": "POTTAWATTAMIE",
+    "point_count": 70
+  },
+  {
+    "cluster_id": 21,
+    "lon": -92.90698727033721,
+    "lat": 42.07551354489544,
+    "severity": 69,
+    "county": "MARSHALL",
+    "point_count": 69
+  },
+  {
+    "cluster_id": 237,
+    "lon": -95.88376361823727,
+    "lat": 43.131995500242226,
+    "severity": 69,
+    "county": "SIOUX",
+    "point_count": 69
+  },
+  {
+    "cluster_id": 92,
+    "lon": -90.19242246029457,
+    "lat": 41.91432250251599,
+    "severity": 68,
+    "county": "CLINTON",
+    "point_count": 68
+  },
+  {
+    "cluster_id": 235,
+    "lon": -91.90354862660317,
+    "lat": 42.59100595301089,
+    "severity": 67,
+    "county": "BUCHANAN",
+    "point_count": 67
+  },
+  {
+    "cluster_id": 122,
+    "lon": -90.29160646931471,
+    "lat": 41.780801274980085,
+    "severity": 66,
+    "county": "CLINTON",
+    "point_count": 66
+  },
+  {
+    "cluster_id": 171,
+    "lon": -92.84081450474743,
+    "lat": 42.05300146863841,
+    "severity": 66,
+    "county": "MARSHALL",
+    "point_count": 66
+  },
+  {
+    "cluster_id": 39,
+    "lon": -96.10455646141939,
+    "lat": 42.876855027761025,
+    "severity": 65,
+    "county": "PLYMOUTH",
+    "point_count": 65
+  },
+  {
+    "cluster_id": 353,
+    "lon": -92.92748568167212,
+    "lat": 41.30703182291911,
+    "severity": 65,
+    "county": "MARION",
+    "point_count": 65
+  },
+  {
+    "cluster_id": 400,
+    "lon": -94.22363806703667,
+    "lat": 42.602229418161286,
+    "severity": 65,
+    "county": "WEBSTER",
+    "point_count": 65
+  },
+  {
+    "cluster_id": 226,
+    "lon": -91.7327037684837,
+    "lat": 42.04666922182447,
+    "severity": 64,
+    "county": "LINN",
+    "point_count": 64
+  },
+  {
+    "cluster_id": 246,
+    "lon": -93.22431691595477,
+    "lat": 41.69539085296893,
+    "severity": 64,
+    "county": "JASPER",
+    "point_count": 64
+  },
+  {
+    "cluster_id": 274,
+    "lon": -93.78105728194288,
+    "lat": 41.24700685772831,
+    "severity": 64,
+    "county": "WARREN",
+    "point_count": 64
+  },
+  {
+    "cluster_id": 241,
+    "lon": -92.98868804783329,
+    "lat": 41.681249614365285,
+    "severity": 63,
+    "county": "JASPER",
+    "point_count": 63
+  },
+  {
+    "cluster_id": 294,
+    "lon": -93.16400175993675,
+    "lat": 41.68582810420827,
+    "severity": 63,
+    "county": "JASPER",
+    "point_count": 63
+  },
+  {
+    "cluster_id": 453,
+    "lon": -92.55140618304192,
+    "lat": 41.9715784942168,
+    "severity": 63,
+    "county": "TAMA",
+    "point_count": 63
+  },
+  {
+    "cluster_id": 255,
+    "lon": -92.53514127005728,
+    "lat": 42.8212724645942,
+    "severity": 62,
+    "county": "BREMER",
+    "point_count": 62
+  },
+  {
+    "cluster_id": 292,
+    "lon": -91.56492032421632,
+    "lat": 40.84451318161216,
+    "severity": 62,
+    "county": "HENRY",
+    "point_count": 62
+  },
+  {
+    "cluster_id": 368,
+    "lon": -91.54302957063447,
+    "lat": 42.186383653454406,
+    "severity": 62,
+    "county": "LINN",
+    "point_count": 62
+  },
+  {
+    "cluster_id": 46,
+    "lon": -93.11593111426498,
+    "lat": 43.115807634760614,
+    "severity": 61,
+    "county": "CERRO GORDO",
+    "point_count": 61
+  },
+  {
+    "cluster_id": 187,
+    "lon": -92.31742906281796,
+    "lat": 42.936423048321124,
+    "severity": 61,
+    "county": "CHICKASAW",
+    "point_count": 61
+  },
+  {
+    "cluster_id": 361,
+    "lon": -91.10846772916335,
+    "lat": 40.84932337219059,
+    "severity": 61,
+    "county": "DES MOINES",
+    "point_count": 61
+  },
+  {
+    "cluster_id": 445,
+    "lon": -91.76502747920283,
+    "lat": 42.0115485960321,
+    "severity": 61,
+    "county": "LINN",
+    "point_count": 61
+  },
+  {
+    "cluster_id": 416,
+    "lon": -94.93575972993563,
+    "lat": 41.49608145643117,
+    "severity": 60,
+    "county": "CASS",
+    "point_count": 60
+  },
+  {
+    "cluster_id": 40,
+    "lon": -91.1940485757928,
+    "lat": 43.042254798356666,
+    "severity": 58,
+    "county": "CLAYTON",
+    "point_count": 58
+  },
+  {
+    "cluster_id": 76,
+    "lon": -91.72422072413713,
+    "lat": 40.98629576134205,
+    "severity": 58,
+    "county": "JEFFERSON",
+    "point_count": 58
+  },
+  {
+    "cluster_id": 151,
+    "lon": -94.70366432749873,
+    "lat": 43.12321228388253,
+    "severity": 58,
+    "county": "PALO ALTO",
+    "point_count": 58
+  },
+  {
+    "cluster_id": 157,
+    "lon": -91.78733003117287,
+    "lat": 40.99167860558898,
+    "severity": 58,
+    "county": "JEFFERSON",
+    "point_count": 58
+  },
+  {
+    "cluster_id": 317,
+    "lon": -96.3181338330081,
+    "lat": 42.57563493364869,
+    "severity": 58,
+    "county": "PLYMOUTH",
+    "point_count": 58
+  },
+  {
+    "cluster_id": 422,
+    "lon": -94.19493684662504,
+    "lat": 42.54246186825155,
+    "severity": 58,
+    "county": "WEBSTER",
+    "point_count": 58
+  },
+  {
+    "cluster_id": 283,
+    "lon": -93.15166884661765,
+    "lat": 43.148030979816134,
+    "severity": 57,
+    "county": "CERRO GORDO",
+    "point_count": 57
+  },
+  {
+    "cluster_id": 408,
+    "lon": -91.32153445118826,
+    "lat": 42.47051739364853,
+    "severity": 57,
+    "county": "DELAWARE",
+    "point_count": 57
+  },
+  {
+    "cluster_id": 44,
+    "lon": -91.79480175633645,
+    "lat": 42.4628729632713,
+    "severity": 56,
+    "county": "BUCHANAN",
+    "point_count": 56
+  },
+  {
+    "cluster_id": 177,
+    "lon": -91.52941902293807,
+    "lat": 42.21816222647807,
+    "severity": 56,
+    "county": "LINN",
+    "point_count": 56
+  },
+  {
+    "cluster_id": 181,
+    "lon": -93.79713790490307,
+    "lat": 41.00883421082005,
+    "severity": 56,
+    "county": "CLARKE",
+    "point_count": 56
+  },
+  {
+    "cluster_id": 199,
+    "lon": -91.00170952411419,
+    "lat": 41.442321672761025,
+    "severity": 56,
+    "county": "MUSCATINE",
+    "point_count": 56
+  },
+  {
+    "cluster_id": 262,
+    "lon": -90.50144197509005,
+    "lat": 41.80749103005638,
+    "severity": 56,
+    "county": "CLINTON",
+    "point_count": 56
+  },
+  {
+    "cluster_id": 15,
+    "lon": -91.25592536852585,
+    "lat": 42.471093423813734,
+    "severity": 55,
+    "county": "DELAWARE",
+    "point_count": 55
+  },
+  {
+    "cluster_id": 147,
+    "lon": -93.06334215241392,
+    "lat": 41.72037935097399,
+    "severity": 55,
+    "county": "JASPER",
+    "point_count": 55
+  },
+  {
+    "cluster_id": 266,
+    "lon": -96.33749815883228,
+    "lat": 43.19977905815929,
+    "severity": 55,
+    "county": "SIOUX",
+    "point_count": 55
+  },
+  {
+    "cluster_id": 160,
+    "lon": -91.21140608274712,
+    "lat": 41.08820630581307,
+    "severity": 54,
+    "county": "LOUISA",
+    "point_count": 54
+  },
+  {
+    "cluster_id": 231,
+    "lon": -92.83044737314579,
+    "lat": 40.83423311551083,
+    "severity": 54,
+    "county": "APPANOOSE",
+    "point_count": 54
+  },
+  {
+    "cluster_id": 345,
+    "lon": -90.6193007085314,
+    "lat": 41.93962283506545,
+    "severity": 54,
+    "county": "CLINTON",
+    "point_count": 54
+  },
+  {
+    "cluster_id": 443,
+    "lon": -91.97427766700909,
+    "lat": 40.98322008153797,
+    "severity": 54,
+    "county": "JEFFERSON",
+    "point_count": 54
+  },
+  {
+    "cluster_id": 51,
+    "lon": -91.48063841984953,
+    "lat": 41.869485563532045,
+    "severity": 53,
+    "county": "LINN",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 276,
+    "lon": -91.82389251595806,
+    "lat": 41.96410199005588,
+    "severity": 53,
+    "county": "LINN",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 297,
+    "lon": -92.11933500892567,
+    "lat": 41.007430166500484,
+    "severity": 53,
+    "county": "JEFFERSON",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 308,
+    "lon": -92.35572598530675,
+    "lat": 41.6965425098975,
+    "severity": 53,
+    "county": "POWESHIEK",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 402,
+    "lon": -94.34947797630703,
+    "lat": 42.03450458289697,
+    "severity": 53,
+    "county": "GREENE",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 407,
+    "lon": -90.56785604630912,
+    "lat": 41.77164510837266,
+    "severity": 53,
+    "county": "CLINTON",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 569,
+    "lon": -93.45980994673276,
+    "lat": 42.6679631913672,
+    "severity": 53,
+    "county": "FRANKLIN",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 459,
+    "lon": -93.79988642882296,
+    "lat": 40.88983339829803,
+    "severity": 52,
+    "county": "DECATUR",
+    "point_count": 52
+  },
+  {
+    "cluster_id": 539,
+    "lon": -91.92356042865943,
+    "lat": 40.995848567680774,
+    "severity": 52,
+    "county": "JEFFERSON",
+    "point_count": 52
+  },
+  {
+    "cluster_id": 163,
+    "lon": -93.0838766421972,
+    "lat": 41.300453328378424,
+    "severity": 51,
+    "county": "MARION",
+    "point_count": 51
+  },
+  {
+    "cluster_id": 258,
+    "lon": -91.56210033207061,
+    "lat": 40.7302021251258,
+    "severity": 51,
+    "county": "LEE",
+    "point_count": 51
+  },
+  {
+    "cluster_id": 419,
+    "lon": -91.1327152872518,
+    "lat": 41.705542671367354,
+    "severity": 51,
+    "county": "CEDAR",
+    "point_count": 51
+  },
+  {
+    "cluster_id": 438,
+    "lon": -91.4882574530928,
+    "lat": 40.549349931243704,
+    "severity": 51,
+    "county": "LEE",
+    "point_count": 51
+  },
+  {
+    "cluster_id": 23,
+    "lon": -92.73748418876339,
+    "lat": 42.3576138889545,
+    "severity": 50,
+    "county": "GRUNDY",
+    "point_count": 50
+  },
+  {
+    "cluster_id": 56,
+    "lon": -92.78728193036866,
+    "lat": 41.01675003802747,
+    "severity": 50,
+    "county": "MONROE",
+    "point_count": 50
+  },
+  {
+    "cluster_id": 95,
+    "lon": -93.85156461316105,
+    "lat": 41.771785161921436,
+    "severity": 50,
+    "county": "DALLAS",
+    "point_count": 50
+  },
+  {
+    "cluster_id": 365,
+    "lon": -93.61057216691576,
+    "lat": 41.9485889961718,
+    "severity": 50,
+    "county": "STORY",
+    "point_count": 50
+  },
+  {
+    "cluster_id": 506,
+    "lon": -95.98290321072975,
+    "lat": 43.007850369656715,
+    "severity": 50,
+    "county": "SIOUX",
+    "point_count": 50
+  },
+  {
+    "cluster_id": 127,
+    "lon": -95.4369087290488,
+    "lat": 42.334570570928285,
+    "severity": 49,
+    "county": "IDA",
+    "point_count": 49
+  },
+  {
+    "cluster_id": 366,
+    "lon": -93.45122705997457,
+    "lat": 42.00508121815643,
+    "severity": 49,
+    "county": "STORY",
+    "point_count": 49
+  },
+  {
+    "cluster_id": 41,
+    "lon": -93.10933290465704,
+    "lat": 41.350606709895935,
+    "severity": 48,
+    "county": "MARION",
+    "point_count": 48
+  },
+  {
+    "cluster_id": 161,
+    "lon": -91.70453305587375,
+    "lat": 42.461360616146976,
+    "severity": 48,
+    "county": "BUCHANAN",
+    "point_count": 48
+  },
+  {
+    "cluster_id": 263,
+    "lon": -90.74291602726692,
+    "lat": 41.50337428683337,
+    "severity": 48,
+    "county": "SCOTT",
+    "point_count": 48
+  },
+  {
+    "cluster_id": 349,
+    "lon": -91.58396531356789,
+    "lat": 40.94137943019419,
+    "severity": 48,
+    "county": "HENRY",
+    "point_count": 48
+  },
+  {
+    "cluster_id": 388,
+    "lon": -91.58563438638733,
+    "lat": 41.97660780310003,
+    "severity": 48,
+    "county": "LINN",
+    "point_count": 48
+  },
+  {
+    "cluster_id": 449,
+    "lon": -91.8580902567288,
+    "lat": 43.23901537447754,
+    "severity": 48,
+    "county": "WINNESHIEK",
+    "point_count": 48
+  },
+  {
+    "cluster_id": 25,
+    "lon": -93.69838424985156,
+    "lat": 42.099885593313886,
+    "severity": 47,
+    "county": "BOONE",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 67,
+    "lon": -91.63707478217415,
+    "lat": 43.01704360776083,
+    "severity": 47,
+    "county": "FAYETTE",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 248,
+    "lon": -93.63519443483982,
+    "lat": 41.50324847426259,
+    "severity": 47,
+    "county": "WARREN",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 314,
+    "lon": -93.05602979719745,
+    "lat": 41.98357362299772,
+    "severity": 47,
+    "county": "MARSHALL",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 319,
+    "lon": -95.58464539191658,
+    "lat": 41.49103806291673,
+    "severity": 47,
+    "county": "POTTAWATTAMIE",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 442,
+    "lon": -91.49304037815781,
+    "lat": 40.630917566641685,
+    "severity": 47,
+    "county": "LEE",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 251,
+    "lon": -95.8963039632725,
+    "lat": 41.593105371115385,
+    "severity": 46,
+    "county": "HARRISON",
+    "point_count": 46
+  },
+  {
+    "cluster_id": 275,
+    "lon": -91.90857228652725,
+    "lat": 41.6858992573391,
+    "severity": 46,
+    "county": "IOWA",
+    "point_count": 46
+  },
+  {
+    "cluster_id": 307,
+    "lon": -93.51713632384423,
+    "lat": 41.50795134318263,
+    "severity": 46,
+    "county": "WARREN",
+    "point_count": 46
+  },
+  {
+    "cluster_id": 412,
+    "lon": -90.26717360588862,
+    "lat": 41.814302309700885,
+    "severity": 46,
+    "county": "CLINTON",
+    "point_count": 46
+  },
+  {
+    "cluster_id": 430,
+    "lon": -92.71479894682997,
+    "lat": 43.05808975253124,
+    "severity": 46,
+    "county": "FLOYD",
+    "point_count": 46
+  },
+  {
+    "cluster_id": 487,
+    "lon": -91.13556900632015,
+    "lat": 42.0258858736022,
+    "severity": 46,
+    "county": "JONES",
+    "point_count": 46
+  },
+  {
+    "cluster_id": 121,
+    "lon": -93.41908905091695,
+    "lat": 41.46900491225671,
+    "severity": 45,
+    "county": "WARREN",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 166,
+    "lon": -93.11051531166288,
+    "lat": 41.39144727660014,
+    "severity": 45,
+    "county": "MARION",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 189,
+    "lon": -91.56393579480682,
+    "lat": 40.51613761795443,
+    "severity": 45,
+    "county": "LEE",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 213,
+    "lon": -93.13960609587805,
+    "lat": 42.36087724442674,
+    "severity": 45,
+    "county": "HARDIN",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 214,
+    "lon": -94.45851307085583,
+    "lat": 42.03479323724147,
+    "severity": 45,
+    "county": "GREENE",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 316,
+    "lon": -93.84399428254045,
+    "lat": 40.715442650643084,
+    "severity": 45,
+    "county": "DECATUR",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 351,
+    "lon": -92.40562490655753,
+    "lat": 40.95569890052384,
+    "severity": 45,
+    "county": "WAPELLO",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 24,
+    "lon": -94.19583065211114,
+    "lat": 42.73064753989809,
+    "severity": 44,
+    "county": "HUMBOLDT",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 164,
+    "lon": -90.46136709468315,
+    "lat": 41.54193876998276,
+    "severity": 44,
+    "county": "SCOTT",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 296,
+    "lon": -92.45389208013837,
+    "lat": 42.49712795172679,
+    "severity": 44,
+    "county": "BLACK HAWK",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 321,
+    "lon": -90.78303620942349,
+    "lat": 42.562772060857874,
+    "severity": 44,
+    "county": "DUBUQUE",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 391,
+    "lon": -93.05410225256288,
+    "lat": 41.282819536690155,
+    "severity": 44,
+    "county": "MARION",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 138,
+    "lon": -96.12737499743834,
+    "lat": 42.80589792311068,
+    "severity": 43,
+    "county": "PLYMOUTH",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 141,
+    "lon": -94.13413857757787,
+    "lat": 41.83494828166656,
+    "severity": 43,
+    "county": "DALLAS",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 170,
+    "lon": -91.30153331959315,
+    "lat": 42.095740476902606,
+    "severity": 43,
+    "county": "JONES",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 190,
+    "lon": -92.41348114407806,
+    "lat": 41.04042278849227,
+    "severity": 43,
+    "county": "WAPELLO",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 205,
+    "lon": -91.4914904581071,
+    "lat": 40.58938301844671,
+    "severity": 43,
+    "county": "LEE",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 249,
+    "lon": -91.17800088050019,
+    "lat": 41.06397750454962,
+    "severity": 43,
+    "county": "DES MOINES",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 356,
+    "lon": -93.72521828822383,
+    "lat": 42.02250061821057,
+    "severity": 43,
+    "county": "BOONE",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 357,
+    "lon": -95.56536473795035,
+    "lat": 42.78475708771248,
+    "severity": 43,
+    "county": "CHEROKEE",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 383,
+    "lon": -93.02736725620709,
+    "lat": 43.117524397224656,
+    "severity": 43,
+    "county": "CERRO GORDO",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 465,
+    "lon": -93.34210884918484,
+    "lat": 42.515877208778896,
+    "severity": 43,
+    "county": "HARDIN",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 13,
+    "lon": -92.82110163979615,
+    "lat": 40.97430590350042,
+    "severity": 42,
+    "county": "MONROE",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 350,
+    "lon": -91.54661401377865,
+    "lat": 41.037694493786304,
+    "severity": 42,
+    "county": "HENRY",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 377,
+    "lon": -91.98158677553677,
+    "lat": 42.31527227264497,
+    "severity": 42,
+    "county": "BUCHANAN",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 398,
+    "lon": -93.34562358729026,
+    "lat": 42.98088548265885,
+    "severity": 42,
+    "county": "CERRO GORDO",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 439,
+    "lon": -91.34422543606453,
+    "lat": 41.279297748707144,
+    "severity": 42,
+    "county": "LOUISA",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 456,
+    "lon": -92.98888139546723,
+    "lat": 41.351293076168126,
+    "severity": 42,
+    "county": "MARION",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 476,
+    "lon": -93.93288384561862,
+    "lat": 41.51806349793897,
+    "severity": 42,
+    "county": "DALLAS",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 499,
+    "lon": -93.7897390109318,
+    "lat": 41.74333979112522,
+    "severity": 42,
+    "county": "POLK",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 74,
+    "lon": -92.3142790776236,
+    "lat": 41.96404481921353,
+    "severity": 41,
+    "county": "TAMA",
+    "point_count": 41
+  },
+  {
+    "cluster_id": 179,
+    "lon": -90.60816866021862,
+    "lat": 41.599666432510084,
+    "severity": 41,
+    "county": "SCOTT",
+    "point_count": 41
+  },
+  {
+    "cluster_id": 195,
+    "lon": -93.69862580844419,
+    "lat": 42.044721569268276,
+    "severity": 41,
+    "county": "BOONE",
+    "point_count": 41
+  },
+  {
+    "cluster_id": 380,
+    "lon": -92.01890985196206,
+    "lat": 42.19052648427577,
+    "severity": 41,
+    "county": "BENTON",
+    "point_count": 41
+  },
+  {
+    "cluster_id": 432,
+    "lon": -93.91567424550126,
+    "lat": 41.830314948923174,
+    "severity": 41,
+    "county": "DALLAS",
+    "point_count": 41
+  },
+  {
+    "cluster_id": 613,
+    "lon": -91.31187425324018,
+    "lat": 40.83151789991836,
+    "severity": 41,
+    "county": "DES MOINES",
+    "point_count": 41
+  },
+  {
+    "cluster_id": 62,
+    "lon": -92.37836972207309,
+    "lat": 42.65690393536384,
+    "severity": 40,
+    "county": "BREMER",
+    "point_count": 40
+  },
+  {
+    "cluster_id": 519,
+    "lon": -91.21241628221259,
+    "lat": 41.45931249583471,
+    "severity": 40,
+    "county": "MUSCATINE",
+    "point_count": 40
+  },
+  {
+    "cluster_id": 535,
+    "lon": -93.77494873370725,
+    "lat": 41.71654337118322,
+    "severity": 40,
+    "county": "POLK",
+    "point_count": 40
+  },
+  {
+    "cluster_id": 90,
+    "lon": -92.91755943041758,
+    "lat": 41.93502899639303,
+    "severity": 39,
+    "county": "MARSHALL",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 149,
+    "lon": -94.55513996664693,
+    "lat": 43.10932339402128,
+    "severity": 39,
+    "county": "PALO ALTO",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 168,
+    "lon": -93.68567613195829,
+    "lat": 41.450127939264135,
+    "severity": 39,
+    "county": "WARREN",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 260,
+    "lon": -93.56966297216256,
+    "lat": 42.44891980873279,
+    "severity": 39,
+    "county": "HAMILTON",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 330,
+    "lon": -92.75084528969393,
+    "lat": 42.46298622627224,
+    "severity": 39,
+    "county": "GRUNDY",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 363,
+    "lon": -91.60330607911533,
+    "lat": 40.96530465798557,
+    "severity": 39,
+    "county": "HENRY",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 367,
+    "lon": -92.85898654207764,
+    "lat": 41.70869032612701,
+    "severity": 39,
+    "county": "JASPER",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 469,
+    "lon": -90.43605175122393,
+    "lat": 41.596947367532266,
+    "severity": 39,
+    "county": "SCOTT",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 486,
+    "lon": -95.55451408433558,
+    "lat": 42.66358197339163,
+    "severity": 39,
+    "county": "CHEROKEE",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 504,
+    "lon": -93.30036647344241,
+    "lat": 41.60134781280207,
+    "severity": 39,
+    "county": "JASPER",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 514,
+    "lon": -90.97261009606558,
+    "lat": 42.44057178648168,
+    "severity": 39,
+    "county": "DUBUQUE",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 111,
+    "lon": -95.87014660756653,
+    "lat": 41.56664955767097,
+    "severity": 38,
+    "county": "HARRISON",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 113,
+    "lon": -92.98824308100792,
+    "lat": 40.739493418716,
+    "severity": 38,
+    "county": "APPANOOSE",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 212,
+    "lon": -92.23137596787407,
+    "lat": 42.3561923176138,
+    "severity": 38,
+    "county": "BLACK HAWK",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 293,
+    "lon": -92.32979744871142,
+    "lat": 42.892351716318764,
+    "severity": 38,
+    "county": "BREMER",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 300,
+    "lon": -96.28124007729326,
+    "lat": 42.47523626219654,
+    "severity": 38,
+    "county": "WOODBURY",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 410,
+    "lon": -92.53989959864519,
+    "lat": 41.00826113335412,
+    "severity": 38,
+    "county": "WAPELLO",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 418,
+    "lon": -93.25544118828219,
+    "lat": 42.36236704190597,
+    "severity": 38,
+    "county": "HARDIN",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 491,
+    "lon": -92.98766666675563,
+    "lat": 42.02887936334477,
+    "severity": 38,
+    "county": "MARSHALL",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 517,
+    "lon": -96.34352568011857,
+    "lat": 42.413029384397554,
+    "severity": 38,
+    "county": "WOODBURY",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 540,
+    "lon": -90.67688610943034,
+    "lat": 41.60111583284945,
+    "severity": 38,
+    "county": "SCOTT",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 99,
+    "lon": -96.12412483539835,
+    "lat": 42.474874265309275,
+    "severity": 37,
+    "county": "WOODBURY",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 106,
+    "lon": -94.08973859522716,
+    "lat": 41.59955996257754,
+    "severity": 37,
+    "county": "DALLAS",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 206,
+    "lon": -95.15440613421256,
+    "lat": 42.88125034602324,
+    "severity": 37,
+    "county": "BUENA VISTA",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 337,
+    "lon": -93.34266917415772,
+    "lat": 43.05868821126171,
+    "severity": 37,
+    "county": "CERRO GORDO",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 384,
+    "lon": -91.43416254411544,
+    "lat": 40.71504650132482,
+    "severity": 37,
+    "county": "LEE",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 385,
+    "lon": -92.46546702411723,
+    "lat": 42.41725874041749,
+    "severity": 37,
+    "county": "BLACK HAWK",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 424,
+    "lon": -90.64874345090587,
+    "lat": 41.972141194042095,
+    "severity": 37,
+    "county": "CLINTON",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 474,
+    "lon": -95.1775127055598,
+    "lat": 43.18421902701062,
+    "severity": 37,
+    "county": "CLAY",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 496,
+    "lon": -94.18120165813588,
+    "lat": 42.521406268858144,
+    "severity": 37,
+    "county": "WEBSTER",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 526,
+    "lon": -91.77643169003642,
+    "lat": 41.98204168486046,
+    "severity": 37,
+    "county": "LINN",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 546,
+    "lon": -93.46288055263511,
+    "lat": 41.487308905984854,
+    "severity": 37,
+    "county": "WARREN",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 581,
+    "lon": -94.37622240527219,
+    "lat": 41.99139368828035,
+    "severity": 37,
+    "county": "GREENE",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 29,
+    "lon": -93.79597323693706,
+    "lat": 42.387120104966385,
+    "severity": 36,
+    "county": "HAMILTON",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 49,
+    "lon": -92.48717844755959,
+    "lat": 42.54262587714893,
+    "severity": 36,
+    "county": "BLACK HAWK",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 172,
+    "lon": -92.47996573640981,
+    "lat": 42.773802419620324,
+    "severity": 36,
+    "county": "BREMER",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 228,
+    "lon": -95.57825639907615,
+    "lat": 42.68411453571835,
+    "severity": 36,
+    "county": "CHEROKEE",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 234,
+    "lon": -94.46237624506257,
+    "lat": 41.68080164400063,
+    "severity": 36,
+    "county": "GUTHRIE",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 324,
+    "lon": -92.8528366562659,
+    "lat": 40.731853771701026,
+    "severity": 36,
+    "county": "APPANOOSE",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 328,
+    "lon": -93.35104924193614,
+    "lat": 42.93113578180242,
+    "severity": 36,
+    "county": "CERRO GORDO",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 359,
+    "lon": -92.39631500810627,
+    "lat": 41.07090746274319,
+    "severity": 36,
+    "county": "WAPELLO",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 374,
+    "lon": -93.50807711445704,
+    "lat": 42.606788953106395,
+    "severity": 36,
+    "county": "WRIGHT",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 379,
+    "lon": -95.18216994677064,
+    "lat": 43.12690020732751,
+    "severity": 36,
+    "county": "CLAY",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 399,
+    "lon": -93.57072046777229,
+    "lat": 42.205296290562366,
+    "severity": 36,
+    "county": "STORY",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 450,
+    "lon": -93.61011879708711,
+    "lat": 41.91615212438936,
+    "severity": 36,
+    "county": "STORY",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 521,
+    "lon": -91.03730458268022,
+    "lat": 40.97999888321405,
+    "severity": 36,
+    "county": "DES MOINES",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 534,
+    "lon": -94.0125369041157,
+    "lat": 41.42148206341827,
+    "severity": 36,
+    "county": "MADISON",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 593,
+    "lon": -94.12869078395676,
+    "lat": 42.47734354203546,
+    "severity": 36,
+    "county": "WEBSTER",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 26,
+    "lon": -95.0473081105049,
+    "lat": 42.66150650690677,
+    "severity": 35,
+    "county": "BUENA VISTA",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 52,
+    "lon": -92.029151504055,
+    "lat": 41.78801922178436,
+    "severity": 35,
+    "county": "IOWA",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 58,
+    "lon": -93.69980650186804,
+    "lat": 41.777232146010256,
+    "severity": 35,
+    "county": "POLK",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 69,
+    "lon": -95.32523237488601,
+    "lat": 42.015256279820235,
+    "severity": 35,
+    "county": "CRAWFORD",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 75,
+    "lon": -95.77859605008342,
+    "lat": 43.32499507010383,
+    "severity": 35,
+    "county": "OSCEOLA",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 259,
+    "lon": -92.1669113471209,
+    "lat": 42.714987144497336,
+    "severity": 35,
+    "county": "BREMER",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 354,
+    "lon": -92.3819684933009,
+    "lat": 42.535182940075806,
+    "severity": 35,
+    "county": "BLACK HAWK",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 515,
+    "lon": -96.48234898478273,
+    "lat": 42.566842925471576,
+    "severity": 35,
+    "county": "PLYMOUTH",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 520,
+    "lon": -96.39242083217424,
+    "lat": 42.56926967925643,
+    "severity": 35,
+    "county": "PLYMOUTH",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 541,
+    "lon": -93.78083192241347,
+    "lat": 41.29665622498545,
+    "severity": 35,
+    "county": "WARREN",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 219,
+    "lon": -91.76125407009275,
+    "lat": 42.066191279660124,
+    "severity": 34,
+    "county": "LINN",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 225,
+    "lon": -91.46195641124652,
+    "lat": 42.511525229336854,
+    "severity": 34,
+    "county": "DELAWARE",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 239,
+    "lon": -96.21203807800877,
+    "lat": 42.13993055033557,
+    "severity": 34,
+    "county": "MONONA",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 244,
+    "lon": -94.19752531230819,
+    "lat": 42.464999865098555,
+    "severity": 34,
+    "county": "WEBSTER",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 326,
+    "lon": -93.3608451653214,
+    "lat": 41.68057186994555,
+    "severity": 34,
+    "county": "POLK",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 360,
+    "lon": -93.62032766440802,
+    "lat": 41.67404580210797,
+    "severity": 34,
+    "county": "POLK",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 397,
+    "lon": -92.29828173693038,
+    "lat": 41.9213201711872,
+    "severity": 34,
+    "county": "TAMA",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 404,
+    "lon": -93.78185005024433,
+    "lat": 41.071962796144284,
+    "severity": 34,
+    "county": "CLARKE",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 441,
+    "lon": -91.32665398297867,
+    "lat": 40.69527824623395,
+    "severity": 34,
+    "county": "LEE",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 462,
+    "lon": -93.4542067560784,
+    "lat": 41.66989647956941,
+    "severity": 34,
+    "county": "POLK",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 116,
+    "lon": -94.85944494142471,
+    "lat": 43.40446650047046,
+    "severity": 33,
+    "county": "EMMET",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 193,
+    "lon": -93.2755614656673,
+    "lat": 43.148352481461515,
+    "severity": 33,
+    "county": "CERRO GORDO",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 197,
+    "lon": -91.85245343974995,
+    "lat": 41.00222420284525,
+    "severity": 33,
+    "county": "JEFFERSON",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 209,
+    "lon": -91.03828050154706,
+    "lat": 41.53675665031011,
+    "severity": 33,
+    "county": "MUSCATINE",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 288,
+    "lon": -93.57080021211809,
+    "lat": 42.40207179433688,
+    "severity": 33,
+    "county": "HAMILTON",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 378,
+    "lon": -93.52078026810909,
+    "lat": 41.53064003160056,
+    "severity": 33,
+    "county": "POLK",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 414,
+    "lon": -90.9235703464852,
+    "lat": 42.318707461144754,
+    "severity": 33,
+    "county": "DUBUQUE",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 447,
+    "lon": -94.0228630483399,
+    "lat": 41.6478743108765,
+    "severity": 33,
+    "county": "DALLAS",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 460,
+    "lon": -91.43415826845288,
+    "lat": 42.79816533437463,
+    "severity": 33,
+    "county": "CLAYTON",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 478,
+    "lon": -93.574214032541,
+    "lat": 42.23806137308885,
+    "severity": 33,
+    "county": "HAMILTON",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 530,
+    "lon": -90.18380381877502,
+    "lat": 42.0183748209745,
+    "severity": 33,
+    "county": "CLINTON",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 0,
+    "lon": -96.64370015080115,
+    "lat": 40.23309125108787,
+    "severity": 32,
+    "county": "WINNESHIEK",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 77,
+    "lon": -94.95560282095138,
+    "lat": 42.31706528826131,
+    "severity": 32,
+    "county": "SAC",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 154,
+    "lon": -91.28387465191443,
+    "lat": 41.27736026543118,
+    "severity": 32,
+    "county": "LOUISA",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 232,
+    "lon": -92.99787775650763,
+    "lat": 42.09495017961085,
+    "severity": 32,
+    "county": "MARSHALL",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 304,
+    "lon": -92.8098780236497,
+    "lat": 42.99589378857662,
+    "severity": 32,
+    "county": "FLOYD",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 431,
+    "lon": -91.35629424688048,
+    "lat": 41.30716102461706,
+    "severity": 32,
+    "county": "LOUISA",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 433,
+    "lon": -91.52755375600967,
+    "lat": 42.70650707736668,
+    "severity": 32,
+    "county": "CLAYTON",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 527,
+    "lon": -96.01713128023692,
+    "lat": 42.99667834224379,
+    "severity": 32,
+    "county": "SIOUX",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 550,
+    "lon": -92.2098579831111,
+    "lat": 42.33137954154961,
+    "severity": 32,
+    "county": "BLACK HAWK",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 560,
+    "lon": -94.84826218857772,
+    "lat": 43.43122722538034,
+    "severity": 32,
+    "county": "EMMET",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 582,
+    "lon": -92.44429954118553,
+    "lat": 41.01846757037629,
+    "severity": 32,
+    "county": "WAPELLO",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 30,
+    "lon": -92.33754938250271,
+    "lat": 43.47732759478635,
+    "severity": 31,
+    "county": "HOWARD",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 89,
+    "lon": -91.88947421000603,
+    "lat": 42.492538351214996,
+    "severity": 31,
+    "county": "BUCHANAN",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 126,
+    "lon": -90.95827898858262,
+    "lat": 42.31547837512513,
+    "severity": 31,
+    "county": "DUBUQUE",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 133,
+    "lon": -95.06275329553809,
+    "lat": 41.496797726182386,
+    "severity": 31,
+    "county": "CASS",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 175,
+    "lon": -90.36057600455784,
+    "lat": 41.69832209547934,
+    "severity": 31,
+    "county": "SCOTT",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 461,
+    "lon": -91.81431760161313,
+    "lat": 42.92612707797524,
+    "severity": 31,
+    "county": "FAYETTE",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 493,
+    "lon": -93.06111618403608,
+    "lat": 41.48412170055778,
+    "severity": 31,
+    "county": "MARION",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 583,
+    "lon": -95.12712779968055,
+    "lat": 43.39909054818804,
+    "severity": 31,
+    "county": "DICKINSON",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 57,
+    "lon": -91.91028684995621,
+    "lat": 42.13805612782913,
+    "severity": 30,
+    "county": "BENTON",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 124,
+    "lon": -92.02427687520839,
+    "lat": 41.813670327961155,
+    "severity": 30,
+    "county": "IOWA",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 144,
+    "lon": -96.56938320556876,
+    "lat": 42.686653572646385,
+    "severity": 30,
+    "county": "PLYMOUTH",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 150,
+    "lon": -94.6806117367591,
+    "lat": 43.08543404538454,
+    "severity": 30,
+    "county": "PALO ALTO",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 233,
+    "lon": -94.04378482485234,
+    "lat": 41.688460474634354,
+    "severity": 30,
+    "county": "DALLAS",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 247,
+    "lon": -93.78789531757685,
+    "lat": 41.04252370422907,
+    "severity": 30,
+    "county": "CLARKE",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 373,
+    "lon": -92.98022518248598,
+    "lat": 43.11643805148852,
+    "severity": 30,
+    "county": "FLOYD",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 448,
+    "lon": -93.59350791397948,
+    "lat": 42.034430773001176,
+    "severity": 30,
+    "county": "STORY",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 466,
+    "lon": -92.54243582351975,
+    "lat": 41.59997680866227,
+    "severity": 30,
+    "county": "POWESHIEK",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 33,
+    "lon": -93.6101232656588,
+    "lat": 41.97901791597184,
+    "severity": 29,
+    "county": "STORY",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 53,
+    "lon": -95.00909224670069,
+    "lat": 42.454703443818076,
+    "severity": 29,
+    "county": "SAC",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 59,
+    "lon": -92.40960529518054,
+    "lat": 40.90596849837953,
+    "severity": 29,
+    "county": "WAPELLO",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 101,
+    "lon": -91.16182684921765,
+    "lat": 42.821687933379835,
+    "severity": 29,
+    "county": "CLAYTON",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 129,
+    "lon": -91.11723702858323,
+    "lat": 40.76246628509158,
+    "severity": 29,
+    "county": "DES MOINES",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 130,
+    "lon": -93.06697992182166,
+    "lat": 42.26565026908369,
+    "severity": 29,
+    "county": "HARDIN",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 135,
+    "lon": -92.96518147773389,
+    "lat": 41.381135244368046,
+    "severity": 29,
+    "county": "MARION",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 340,
+    "lon": -91.67307775627717,
+    "lat": 41.69455610779049,
+    "severity": 29,
+    "county": "JOHNSON",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 358,
+    "lon": -95.83737065878415,
+    "lat": 41.23124759114674,
+    "severity": 29,
+    "county": "POTTAWATTAMIE",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 512,
+    "lon": -93.77718025492928,
+    "lat": 41.361534922814045,
+    "severity": 29,
+    "county": "WARREN",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 529,
+    "lon": -91.0748985224267,
+    "lat": 42.70727939162231,
+    "severity": 29,
+    "county": "CLAYTON",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 574,
+    "lon": -93.20859242823563,
+    "lat": 42.360782569892706,
+    "severity": 29,
+    "county": "HARDIN",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 80,
+    "lon": -92.07182865434189,
+    "lat": 42.8474828373726,
+    "severity": 28,
+    "county": "FAYETTE",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 86,
+    "lon": -95.84299783784829,
+    "lat": 41.314394810226496,
+    "severity": 28,
+    "county": "POTTAWATTAMIE",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 174,
+    "lon": -91.36371325784516,
+    "lat": 42.08685413695929,
+    "severity": 28,
+    "county": "JONES",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 216,
+    "lon": -91.55405203389138,
+    "lat": 41.6647036273497,
+    "severity": 28,
+    "county": "JOHNSON",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 256,
+    "lon": -93.89827352531697,
+    "lat": 41.802689510193304,
+    "severity": 28,
+    "county": "DALLAS",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 264,
+    "lon": -93.34944772485687,
+    "lat": 43.39192684560043,
+    "severity": 28,
+    "county": "WORTH",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 284,
+    "lon": -91.49375371913177,
+    "lat": 41.96963066526918,
+    "severity": 28,
+    "county": "LINN",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 322,
+    "lon": -94.29069344698266,
+    "lat": 42.034670107924356,
+    "severity": 28,
+    "county": "GREENE",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 334,
+    "lon": -94.6582954612848,
+    "lat": 41.49334651013711,
+    "severity": 28,
+    "county": "ADAIR",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 344,
+    "lon": -96.1385381825204,
+    "lat": 42.85093054554617,
+    "severity": 28,
+    "county": "PLYMOUTH",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 370,
+    "lon": -94.19450806682596,
+    "lat": 41.513427737032885,
+    "severity": 28,
+    "county": "DALLAS",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 394,
+    "lon": -95.55445954836736,
+    "lat": 42.69874912901933,
+    "severity": 28,
+    "county": "CHEROKEE",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 435,
+    "lon": -91.2119794017212,
+    "lat": 41.11754638457261,
+    "severity": 28,
+    "county": "LOUISA",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 545,
+    "lon": -93.61689879178046,
+    "lat": 42.83248796119003,
+    "severity": 28,
+    "county": "WRIGHT",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 584,
+    "lon": -93.05155610379236,
+    "lat": 42.429917327080844,
+    "severity": 28,
+    "county": "HARDIN",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 73,
+    "lon": -91.2007636961181,
+    "lat": 42.8312455972391,
+    "severity": 27,
+    "county": "CLAYTON",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 97,
+    "lon": -93.24708082958071,
+    "lat": 41.2743225376372,
+    "severity": 27,
+    "county": "MARION",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 139,
+    "lon": -91.48689493968563,
+    "lat": 40.719161228405476,
+    "severity": 27,
+    "county": "LEE",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 140,
+    "lon": -92.99614489909402,
+    "lat": 41.22599762267206,
+    "severity": 27,
+    "county": "MARION",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 201,
+    "lon": -92.8678365695444,
+    "lat": 40.663504267581345,
+    "severity": 27,
+    "county": "APPANOOSE",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 210,
+    "lon": -90.25400526369918,
+    "lat": 41.881242995879965,
+    "severity": 27,
+    "county": "CLINTON",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 298,
+    "lon": -92.78530800332031,
+    "lat": 42.04197457357743,
+    "severity": 27,
+    "county": "MARSHALL",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 331,
+    "lon": -92.2258385969648,
+    "lat": 42.84807960876574,
+    "severity": 27,
+    "county": "BREMER",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 393,
+    "lon": -95.05445825223231,
+    "lat": 43.127195019920286,
+    "severity": 27,
+    "county": "CLAY",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 395,
+    "lon": -91.17899329374966,
+    "lat": 40.82479337741437,
+    "severity": 27,
+    "county": "DES MOINES",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 411,
+    "lon": -93.07390041627107,
+    "lat": 41.4256085718527,
+    "severity": 27,
+    "county": "MARION",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 426,
+    "lon": -91.87177681733228,
+    "lat": 41.825077703159195,
+    "severity": 27,
+    "county": "IOWA",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 600,
+    "lon": -90.35026968234271,
+    "lat": 41.61685743297656,
+    "severity": 27,
+    "county": "SCOTT",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 614,
+    "lon": -91.45815008291186,
+    "lat": 42.77388948404409,
+    "severity": 27,
+    "county": "CLAYTON",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 621,
+    "lon": -90.75768507136675,
+    "lat": 41.45875645680535,
+    "severity": 27,
+    "county": "SCOTT",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 9,
+    "lon": -93.12613909048835,
+    "lat": 41.516454246737105,
+    "severity": 26,
+    "county": "JASPER",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 117,
+    "lon": -92.00740888968434,
+    "lat": 41.643519885518266,
+    "severity": 26,
+    "county": "IOWA",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 148,
+    "lon": -93.81020239800979,
+    "lat": 41.352313800132045,
+    "severity": 26,
+    "county": "MADISON",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 186,
+    "lon": -96.14787355834882,
+    "lat": 43.432814409563534,
+    "severity": 26,
+    "county": "LYON",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 222,
+    "lon": -91.0845644039367,
+    "lat": 40.87803169750937,
+    "severity": 26,
+    "county": "DES MOINES",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 257,
+    "lon": -95.24862400224427,
+    "lat": 42.65752466727052,
+    "severity": 26,
+    "county": "BUENA VISTA",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 279,
+    "lon": -93.61417872686829,
+    "lat": 42.861156053458444,
+    "severity": 26,
+    "county": "WRIGHT",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 458,
+    "lon": -92.27011211941242,
+    "lat": 43.05964132582404,
+    "severity": 26,
+    "county": "CHICKASAW",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 484,
+    "lon": -95.02783595501445,
+    "lat": 41.49708742798688,
+    "severity": 26,
+    "county": "CASS",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 497,
+    "lon": -91.51917961084148,
+    "lat": 42.493789516590965,
+    "severity": 26,
+    "county": "DELAWARE",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 524,
+    "lon": -93.61635957039303,
+    "lat": 42.75018041436918,
+    "severity": 26,
+    "county": "WRIGHT",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 595,
+    "lon": -91.60734079981731,
+    "lat": 41.71464262336872,
+    "severity": 26,
+    "county": "JOHNSON",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 610,
+    "lon": -91.81041456276844,
+    "lat": 43.37348639288913,
+    "severity": 26,
+    "county": "WINNESHIEK",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 653,
+    "lon": -93.81306503777652,
+    "lat": 42.49638255800884,
+    "severity": 26,
+    "county": "HAMILTON",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 657,
+    "lon": -91.48106337101393,
+    "lat": 41.66813052229374,
+    "severity": 26,
+    "county": "JOHNSON",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 675,
+    "lon": -90.23749764432584,
+    "lat": 41.844103985273584,
+    "severity": 26,
+    "county": "CLINTON",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 200,
+    "lon": -92.46633419292974,
+    "lat": 42.74737798789019,
+    "severity": 25,
+    "county": "BREMER",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 309,
+    "lon": -92.99445506539381,
+    "lat": 42.46226317002177,
+    "severity": 25,
+    "county": "GRUNDY",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 323,
+    "lon": -94.18651636422271,
+    "lat": 42.49705577974465,
+    "severity": 25,
+    "county": "WEBSTER",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 375,
+    "lon": -92.05671044587291,
+    "lat": 41.821751651063025,
+    "severity": 25,
+    "county": "IOWA",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 405,
+    "lon": -90.58736367783249,
+    "lat": 41.89239808407947,
+    "severity": 25,
+    "county": "CLINTON",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 423,
+    "lon": -92.64063973290058,
+    "lat": 43.06830505387158,
+    "severity": 25,
+    "county": "FLOYD",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 454,
+    "lon": -93.60423160556644,
+    "lat": 41.35713081377003,
+    "severity": 25,
+    "county": "WARREN",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 455,
+    "lon": -93.68150441026307,
+    "lat": 42.0247546500756,
+    "severity": 25,
+    "county": "STORY",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 470,
+    "lon": -96.51629413949235,
+    "lat": 43.30744110767576,
+    "severity": 25,
+    "county": "LYON",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 471,
+    "lon": -90.48574871731847,
+    "lat": 41.74240361198244,
+    "severity": 25,
+    "county": "SCOTT",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 479,
+    "lon": -93.07137317635788,
+    "lat": 42.36085878683438,
+    "severity": 25,
+    "county": "HARDIN",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 488,
+    "lon": -91.95698631147478,
+    "lat": 42.29517625883871,
+    "severity": 25,
+    "county": "BENTON",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 552,
+    "lon": -93.26048952817624,
+    "lat": 43.184497207039584,
+    "severity": 25,
+    "county": "CERRO GORDO",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 591,
+    "lon": -94.39683650564592,
+    "lat": 41.68738529923135,
+    "severity": 25,
+    "county": "GUTHRIE",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 596,
+    "lon": -93.38824039240906,
+    "lat": 41.746148096411105,
+    "severity": 25,
+    "county": "POLK",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 615,
+    "lon": -91.15916639317916,
+    "lat": 41.52183816144566,
+    "severity": 25,
+    "county": "MUSCATINE",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 620,
+    "lon": -94.02849429977968,
+    "lat": 41.84439886232741,
+    "severity": 25,
+    "county": "DALLAS",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 630,
+    "lon": -92.30655683032369,
+    "lat": 41.00242688488282,
+    "severity": 25,
+    "county": "WAPELLO",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 652,
+    "lon": -93.61688064458525,
+    "lat": 42.89069020566711,
+    "severity": 25,
+    "county": "WRIGHT",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 658,
+    "lon": -92.40589733797327,
+    "lat": 42.45522419317994,
+    "severity": 25,
+    "county": "BLACK HAWK",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 118,
+    "lon": -91.7550521471223,
+    "lat": 41.993415279759944,
+    "severity": 24,
+    "county": "LINN",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 120,
+    "lon": -91.50377802262146,
+    "lat": 42.737949147945436,
+    "severity": 24,
+    "county": "CLAYTON",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 167,
+    "lon": -91.4946162896603,
+    "lat": 40.45662771099972,
+    "severity": 24,
+    "county": "LEE",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 223,
+    "lon": -91.39466746232853,
+    "lat": 41.91729124547757,
+    "severity": 24,
+    "county": "LINN",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 281,
+    "lon": -90.53877037236721,
+    "lat": 41.782304532372535,
+    "severity": 24,
+    "county": "CLINTON",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 336,
+    "lon": -92.34341096168014,
+    "lat": 42.453051490895994,
+    "severity": 24,
+    "county": "BLACK HAWK",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 338,
+    "lon": -93.38780070638171,
+    "lat": 41.459856563935205,
+    "severity": 24,
+    "county": "WARREN",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 369,
+    "lon": -91.70455966967398,
+    "lat": 42.986038380347914,
+    "severity": 24,
+    "county": "FAYETTE",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 376,
+    "lon": -95.77574373112441,
+    "lat": 41.2326125656443,
+    "severity": 24,
+    "county": "POTTAWATTAMIE",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 403,
+    "lon": -93.34771324557528,
+    "lat": 41.78428060725958,
+    "severity": 24,
+    "county": "POLK",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 437,
+    "lon": -92.91415372218951,
+    "lat": 41.356999380186956,
+    "severity": 24,
+    "county": "MARION",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 452,
+    "lon": -95.86173001244835,
+    "lat": 41.49430832861176,
+    "severity": 24,
+    "county": "POTTAWATTAMIE",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 480,
+    "lon": -92.04062515255958,
+    "lat": 42.71619725050814,
+    "severity": 24,
+    "county": "FAYETTE",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 481,
+    "lon": -90.6696491195868,
+    "lat": 41.467047430028636,
+    "severity": 24,
+    "county": "SCOTT",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 492,
+    "lon": -94.12566453508607,
+    "lat": 41.516622921165364,
+    "severity": 24,
+    "county": "DALLAS",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 567,
+    "lon": -92.00739489273872,
+    "lat": 41.68618856213084,
+    "severity": 24,
+    "county": "IOWA",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 607,
+    "lon": -93.78018271147226,
+    "lat": 41.41228766402875,
+    "severity": 24,
+    "county": "WARREN",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 640,
+    "lon": -92.29851244751,
+    "lat": 43.2062784475419,
+    "severity": 24,
+    "county": "CHICKASAW",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 727,
+    "lon": -92.34780179139408,
+    "lat": 42.26452905153232,
+    "severity": 24,
+    "county": "TAMA",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 12,
+    "lon": -95.76603887878139,
+    "lat": 41.64518914173118,
+    "severity": 23,
+    "county": "HARRISON",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 162,
+    "lon": -92.28336272238585,
+    "lat": 42.479597239740954,
+    "severity": 23,
+    "county": "BLACK HAWK",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 176,
+    "lon": -92.26969893294824,
+    "lat": 42.715506402530835,
+    "severity": 23,
+    "county": "BREMER",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 191,
+    "lon": -95.18006066548594,
+    "lat": 43.14209212065988,
+    "severity": 23,
+    "county": "CLAY",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 198,
+    "lon": -91.18423775113295,
+    "lat": 41.74092456776013,
+    "severity": 23,
+    "county": "CEDAR",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 268,
+    "lon": -96.35566179285068,
+    "lat": 42.37757528873227,
+    "severity": 23,
+    "county": "WOODBURY",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 282,
+    "lon": -93.35053781314568,
+    "lat": 42.87973148537973,
+    "severity": 23,
+    "county": "FRANKLIN",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 320,
+    "lon": -92.54890999242869,
+    "lat": 41.69608574227145,
+    "severity": 23,
+    "county": "POWESHIEK",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 362,
+    "lon": -91.08716776851729,
+    "lat": 42.74233667586734,
+    "severity": 23,
+    "county": "CLAYTON",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 396,
+    "lon": -93.41151191315848,
+    "lat": 41.727645981090006,
+    "severity": 23,
+    "county": "POLK",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 542,
+    "lon": -92.33018036784851,
+    "lat": 43.07994294231414,
+    "severity": 23,
+    "county": "CHICKASAW",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 554,
+    "lon": -95.04963103468408,
+    "lat": 40.981264600572175,
+    "severity": 23,
+    "county": "MONTGOMERY",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 562,
+    "lon": -90.86866592441139,
+    "lat": 41.4526140228423,
+    "severity": 23,
+    "county": "MUSCATINE",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 603,
+    "lon": -94.67899287644727,
+    "lat": 43.064782626776974,
+    "severity": 23,
+    "county": "PALO ALTO",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 606,
+    "lon": -92.67251184068915,
+    "lat": 43.10742962211273,
+    "severity": 23,
+    "county": "FLOYD",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 616,
+    "lon": -94.42246606713469,
+    "lat": 42.0114658320506,
+    "severity": 23,
+    "county": "GREENE",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 733,
+    "lon": -93.84773402794266,
+    "lat": 41.876214956453076,
+    "severity": 23,
+    "county": "BOONE",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 178,
+    "lon": -92.33730828567279,
+    "lat": 42.77754752682803,
+    "severity": 22,
+    "county": "BREMER",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 253,
+    "lon": -92.78957794961053,
+    "lat": 41.731409199834665,
+    "severity": 22,
+    "county": "JASPER",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 270,
+    "lon": -95.59856587551293,
+    "lat": 41.45866532622154,
+    "severity": 22,
+    "county": "POTTAWATTAMIE",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 347,
+    "lon": -91.51885642098343,
+    "lat": 42.46680942225644,
+    "severity": 22,
+    "county": "DELAWARE",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 406,
+    "lon": -91.27388336553419,
+    "lat": 41.4817863037089,
+    "severity": 22,
+    "county": "MUSCATINE",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 415,
+    "lon": -92.40378448759999,
+    "lat": 41.6961552177506,
+    "severity": 22,
+    "county": "POWESHIEK",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 457,
+    "lon": -95.9408180030398,
+    "lat": 43.026317097406945,
+    "severity": 22,
+    "county": "SIOUX",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 483,
+    "lon": -91.07816749421464,
+    "lat": 42.28784261366135,
+    "severity": 22,
+    "county": "JONES",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 511,
+    "lon": -95.8044592682109,
+    "lat": 42.482352033605636,
+    "severity": 22,
+    "county": "WOODBURY",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 528,
+    "lon": -91.05590785461924,
+    "lat": 40.907084959221386,
+    "severity": 22,
+    "county": "DES MOINES",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 537,
+    "lon": -91.88927611629441,
+    "lat": 42.35518624706044,
+    "severity": 22,
+    "county": "BUCHANAN",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 547,
+    "lon": -91.8894237684067,
+    "lat": 42.378891696718625,
+    "severity": 22,
+    "county": "BUCHANAN",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 548,
+    "lon": -90.50161204817046,
+    "lat": 41.59611325678643,
+    "severity": 22,
+    "county": "SCOTT",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 557,
+    "lon": -93.06520396053567,
+    "lat": 42.44659888182494,
+    "severity": 22,
+    "county": "HARDIN",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 561,
+    "lon": -93.41584487396672,
+    "lat": 41.677495707298995,
+    "severity": 22,
+    "county": "POLK",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 564,
+    "lon": -91.55045211974186,
+    "lat": 42.07328618684895,
+    "severity": 22,
+    "county": "LINN",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 571,
+    "lon": -91.78765142887386,
+    "lat": 42.037680622991424,
+    "severity": 22,
+    "county": "LINN",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 575,
+    "lon": -91.03816757412716,
+    "lat": 41.57956257252182,
+    "severity": 22,
+    "county": "MUSCATINE",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 619,
+    "lon": -92.70376369698367,
+    "lat": 43.13428722284706,
+    "severity": 22,
+    "county": "FLOYD",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 631,
+    "lon": -92.72740996397032,
+    "lat": 41.8052999993678,
+    "severity": 22,
+    "county": "POWESHIEK",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 85,
+    "lon": -91.2908195467472,
+    "lat": 40.739777642582446,
+    "severity": 21,
+    "county": "LEE",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 217,
+    "lon": -92.89789089044204,
+    "lat": 40.738583554632456,
+    "severity": 21,
+    "county": "APPANOOSE",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 280,
+    "lon": -91.07550965386561,
+    "lat": 42.66217088920523,
+    "severity": 21,
+    "county": "CLAYTON",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 315,
+    "lon": -91.8856805364173,
+    "lat": 42.679588826374825,
+    "severity": 21,
+    "county": "FAYETTE",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 332,
+    "lon": -92.61461320317304,
+    "lat": 41.14416366479123,
+    "severity": 21,
+    "county": "WAPELLO",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 417,
+    "lon": -96.5087896859289,
+    "lat": 43.390260772623314,
+    "severity": 21,
+    "county": "LYON",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 463,
+    "lon": -95.00271118324837,
+    "lat": 42.391687842184126,
+    "severity": 21,
+    "county": "SAC",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 473,
+    "lon": -95.9066189844626,
+    "lat": 41.25204546865685,
+    "severity": 21,
+    "county": "POTTAWATTAMIE",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 485,
+    "lon": -91.12607507511186,
+    "lat": 42.85244268999419,
+    "severity": 21,
+    "county": "CLAYTON",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 489,
+    "lon": -91.18209699820106,
+    "lat": 41.669592844969124,
+    "severity": 21,
+    "county": "CEDAR",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 502,
+    "lon": -93.18584530985493,
+    "lat": 42.42656077135239,
+    "severity": 21,
+    "county": "HARDIN",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 532,
+    "lon": -93.20185803535328,
+    "lat": 42.98491696712062,
+    "severity": 21,
+    "county": "CERRO GORDO",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 549,
+    "lon": -90.19894568263395,
+    "lat": 41.94794422314798,
+    "severity": 21,
+    "county": "CLINTON",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 566,
+    "lon": -93.02112245224463,
+    "lat": 41.68582914356769,
+    "severity": 21,
+    "county": "JASPER",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 594,
+    "lon": -92.4867194719119,
+    "lat": 42.96542213540728,
+    "severity": 21,
+    "county": "CHICKASAW",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 599,
+    "lon": -91.45556757695266,
+    "lat": 40.631178091356865,
+    "severity": 21,
+    "county": "LEE",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 625,
+    "lon": -95.87978111729014,
+    "lat": 41.22602379280005,
+    "severity": 21,
+    "county": "POTTAWATTAMIE",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 642,
+    "lon": -92.29851585071879,
+    "lat": 43.27522324588468,
+    "severity": 21,
+    "county": "HOWARD",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 672,
+    "lon": -93.84420328031608,
+    "lat": 41.61509352028141,
+    "severity": 21,
+    "county": "DALLAS",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 155,
+    "lon": -91.44822761842434,
+    "lat": 41.24913205487627,
+    "severity": 20,
+    "county": "LOUISA",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 252,
+    "lon": -91.48072503186668,
+    "lat": 42.44845921938967,
+    "severity": 20,
+    "county": "DELAWARE",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 329,
+    "lon": -91.41078745560739,
+    "lat": 42.81656278964428,
+    "severity": 20,
+    "county": "CLAYTON",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 335,
+    "lon": -92.4021976013592,
+    "lat": 42.469565846213314,
+    "severity": 20,
+    "county": "BLACK HAWK",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 339,
+    "lon": -91.8779451470563,
+    "lat": 43.209312815455185,
+    "severity": 20,
+    "county": "WINNESHIEK",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 434,
+    "lon": -91.56356635482963,
+    "lat": 40.76649583297367,
+    "severity": 20,
+    "county": "LEE",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 446,
+    "lon": -91.35042068323234,
+    "lat": 41.664466699908154,
+    "severity": 20,
+    "county": "CEDAR",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 475,
+    "lon": -93.22168137950352,
+    "lat": 42.44548309029095,
+    "severity": 20,
+    "county": "HARDIN",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 510,
+    "lon": -93.26115438193946,
+    "lat": 42.38274398665148,
+    "severity": 20,
+    "county": "HARDIN",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 522,
+    "lon": -92.09234501582407,
+    "lat": 41.79706311278517,
+    "severity": 20,
+    "county": "IOWA",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 523,
+    "lon": -91.22983846949919,
+    "lat": 42.08494378464839,
+    "severity": 20,
+    "county": "JONES",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 553,
+    "lon": -91.35004833941855,
+    "lat": 41.37185537415437,
+    "severity": 20,
+    "county": "MUSCATINE",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 555,
+    "lon": -92.4960526989508,
+    "lat": 41.01150064756859,
+    "severity": 20,
+    "county": "WAPELLO",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 572,
+    "lon": -92.90929688541073,
+    "lat": 43.11924412491031,
+    "severity": 20,
+    "county": "FLOYD",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 587,
+    "lon": -93.04707001978804,
+    "lat": 43.14763620679467,
+    "severity": 20,
+    "county": "CERRO GORDO",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 608,
+    "lon": -93.20258351187968,
+    "lat": 42.78034589172135,
+    "severity": 20,
+    "county": "FRANKLIN",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 611,
+    "lon": -94.15527479801366,
+    "lat": 41.51778855126477,
+    "severity": 20,
+    "county": "DALLAS",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 617,
+    "lon": -90.19096894231089,
+    "lat": 41.99391331334937,
+    "severity": 20,
+    "county": "CLINTON",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 661,
+    "lon": -90.52491194824896,
+    "lat": 41.69873323523961,
+    "severity": 20,
+    "county": "SCOTT",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 685,
+    "lon": -94.45221071045877,
+    "lat": 41.49409474969155,
+    "severity": 20,
+    "county": "ADAIR",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 712,
+    "lon": -91.60490152260064,
+    "lat": 42.68767787984682,
+    "severity": 20,
+    "county": "CLAYTON",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 132,
+    "lon": -93.81693729266502,
+    "lat": 41.612587619982435,
+    "severity": 19,
+    "county": "DALLAS",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 142,
+    "lon": -93.08439166634662,
+    "lat": 42.2881938196108,
+    "severity": 19,
+    "county": "HARDIN",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 203,
+    "lon": -93.49473839579183,
+    "lat": 41.66394867970073,
+    "severity": 19,
+    "county": "POLK",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 269,
+    "lon": -94.76098868913778,
+    "lat": 41.49549128584361,
+    "severity": 19,
+    "county": "CASS",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 287,
+    "lon": -93.27080244273724,
+    "lat": 41.60049416328812,
+    "severity": 19,
+    "county": "JASPER",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 325,
+    "lon": -93.31348215065637,
+    "lat": 43.14802349786149,
+    "severity": 19,
+    "county": "CERRO GORDO",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 346,
+    "lon": -93.26702704096321,
+    "lat": 42.00782828026704,
+    "severity": 19,
+    "county": "STORY",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 364,
+    "lon": -90.51627826974732,
+    "lat": 41.537130229050995,
+    "severity": 19,
+    "county": "SCOTT",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 389,
+    "lon": -93.81160607836739,
+    "lat": 41.78746812139174,
+    "severity": 19,
+    "county": "POLK",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 392,
+    "lon": -95.14543358996028,
+    "lat": 43.425297319155334,
+    "severity": 19,
+    "county": "DICKINSON",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 413,
+    "lon": -93.03922775043912,
+    "lat": 41.66284992137057,
+    "severity": 19,
+    "county": "JASPER",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 420,
+    "lon": -91.67716362313324,
+    "lat": 42.095006600908675,
+    "severity": 19,
+    "county": "LINN",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 472,
+    "lon": -92.34379939225329,
+    "lat": 42.542421460978524,
+    "severity": 19,
+    "county": "BLACK HAWK",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 507,
+    "lon": -92.62326028242833,
+    "lat": 41.16195793975521,
+    "severity": 19,
+    "county": "MAHASKA",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 531,
+    "lon": -96.00071394196738,
+    "lat": 43.249079083283576,
+    "severity": 19,
+    "county": "SIOUX",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 533,
+    "lon": -91.3472194348963,
+    "lat": 40.82731630514089,
+    "severity": 19,
+    "county": "DES MOINES",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 538,
+    "lon": -92.58158790380921,
+    "lat": 42.013152585803205,
+    "severity": 19,
+    "county": "TAMA",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 544,
+    "lon": -93.56392196078275,
+    "lat": 41.29138942948347,
+    "severity": 19,
+    "county": "WARREN",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 565,
+    "lon": -93.68671762447829,
+    "lat": 41.36671262207139,
+    "severity": 19,
+    "county": "WARREN",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 573,
+    "lon": -92.04255131211995,
+    "lat": 42.1798203442551,
+    "severity": 19,
+    "county": "BENTON",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 577,
+    "lon": -90.67587216049348,
+    "lat": 42.140426636866394,
+    "severity": 19,
+    "county": "JACKSON",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 588,
+    "lon": -91.48433729209219,
+    "lat": 41.70664309204974,
+    "severity": 19,
+    "county": "JOHNSON",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 605,
+    "lon": -92.93632885085758,
+    "lat": 42.462491634488984,
+    "severity": 19,
+    "county": "GRUNDY",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 633,
+    "lon": -95.82076763159846,
+    "lat": 41.146830679634526,
+    "severity": 19,
+    "county": "MILLS",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 638,
+    "lon": -93.47800241175011,
+    "lat": 43.109272543582996,
+    "severity": 19,
+    "county": "CERRO GORDO",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 645,
+    "lon": -91.99175865006445,
+    "lat": 41.810079949130795,
+    "severity": 19,
+    "county": "IOWA",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 650,
+    "lon": -91.8901043048454,
+    "lat": 42.40454681244031,
+    "severity": 19,
+    "county": "BUCHANAN",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 660,
+    "lon": -91.24632612100604,
+    "lat": 41.47775938170569,
+    "severity": 19,
+    "county": "MUSCATINE",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 701,
+    "lon": -92.83550284530608,
+    "lat": 41.05265722647163,
+    "severity": 19,
+    "county": "MONROE",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 5,
+    "lon": -91.56201094800075,
+    "lat": 40.6162690397651,
+    "severity": 18,
+    "county": "LEE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 35,
+    "lon": -92.8123424098759,
+    "lat": 41.00257665658116,
+    "severity": 18,
+    "county": "MONROE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 48,
+    "lon": -91.93275904599584,
+    "lat": 43.200103857599274,
+    "severity": 18,
+    "county": "WINNESHIEK",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 91,
+    "lon": -93.64099485960776,
+    "lat": 41.03043668213182,
+    "severity": 18,
+    "county": "CLARKE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 208,
+    "lon": -93.15719840689593,
+    "lat": 41.69557448042888,
+    "severity": 18,
+    "county": "JASPER",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 227,
+    "lon": -93.1088029873103,
+    "lat": 41.28673615435973,
+    "severity": 18,
+    "county": "MARION",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 271,
+    "lon": -93.2933658131796,
+    "lat": 41.683829903505746,
+    "severity": 18,
+    "county": "JASPER",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 310,
+    "lon": -90.3496206636173,
+    "lat": 41.64457418783742,
+    "severity": 18,
+    "county": "SCOTT",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 352,
+    "lon": -91.48723829977679,
+    "lat": 41.63025776601202,
+    "severity": 18,
+    "county": "JOHNSON",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 372,
+    "lon": -95.86800293820119,
+    "lat": 41.28816791232086,
+    "severity": 18,
+    "county": "POTTAWATTAMIE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 386,
+    "lon": -93.0201177602227,
+    "lat": 40.74019810951725,
+    "severity": 18,
+    "county": "APPANOOSE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 425,
+    "lon": -92.27607689015038,
+    "lat": 41.00223026700458,
+    "severity": 18,
+    "county": "WAPELLO",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 464,
+    "lon": -91.96449076010909,
+    "lat": 42.714971270335845,
+    "severity": 18,
+    "county": "FAYETTE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 468,
+    "lon": -92.32224269379225,
+    "lat": 43.021371177055386,
+    "severity": 18,
+    "county": "CHICKASAW",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 482,
+    "lon": -96.3211660713044,
+    "lat": 42.63262936430718,
+    "severity": 18,
+    "county": "PLYMOUTH",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 494,
+    "lon": -91.19032834928183,
+    "lat": 41.654950022338994,
+    "severity": 18,
+    "county": "CEDAR",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 495,
+    "lon": -91.91680547359147,
+    "lat": 41.79679272702163,
+    "severity": 18,
+    "county": "IOWA",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 500,
+    "lon": -93.10847355231209,
+    "lat": 41.6990900451769,
+    "severity": 18,
+    "county": "JASPER",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 518,
+    "lon": -91.27839336507058,
+    "lat": 41.089853662217834,
+    "severity": 18,
+    "county": "LOUISA",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 536,
+    "lon": -92.91092600543736,
+    "lat": 41.16355723841596,
+    "severity": 18,
+    "county": "MARION",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 570,
+    "lon": -92.72719392601692,
+    "lat": 41.67636673530952,
+    "severity": 18,
+    "county": "POWESHIEK",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 589,
+    "lon": -91.56244502706518,
+    "lat": 40.66314900638913,
+    "severity": 18,
+    "county": "LEE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 602,
+    "lon": -93.55560567617216,
+    "lat": 41.703051258563654,
+    "severity": 18,
+    "county": "POLK",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 626,
+    "lon": -93.39936913202611,
+    "lat": 42.74535172713351,
+    "severity": 18,
+    "county": "FRANKLIN",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 639,
+    "lon": -92.04027355769661,
+    "lat": 41.582882946387045,
+    "severity": 18,
+    "county": "IOWA",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 646,
+    "lon": -91.64714361352695,
+    "lat": 42.614867605517894,
+    "severity": 18,
+    "county": "BUCHANAN",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 655,
+    "lon": -96.06151752835709,
+    "lat": 42.92387664809719,
+    "severity": 18,
+    "county": "SIOUX",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 659,
+    "lon": -93.26509681681614,
+    "lat": 43.1336372444971,
+    "severity": 18,
+    "county": "CERRO GORDO",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 663,
+    "lon": -91.53764989831214,
+    "lat": 41.26759283426388,
+    "severity": 18,
+    "county": "WASHINGTON",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 664,
+    "lon": -91.42651588035294,
+    "lat": 40.8919070673388,
+    "severity": 18,
+    "county": "HENRY",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 679,
+    "lon": -93.2025979453035,
+    "lat": 42.93807681618889,
+    "severity": 18,
+    "county": "CERRO GORDO",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 681,
+    "lon": -91.83871385218171,
+    "lat": 43.06360375342768,
+    "severity": 18,
+    "county": "FAYETTE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 684,
+    "lon": -92.29711111924412,
+    "lat": 42.50809133096803,
+    "severity": 18,
+    "county": "BLACK HAWK",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 689,
+    "lon": -92.84997536995878,
+    "lat": 41.069820709069525,
+    "severity": 18,
+    "county": "MONROE",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 87,
+    "lon": -91.622069302797,
+    "lat": 40.92049995426031,
+    "severity": 17,
+    "county": "HENRY",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 93,
+    "lon": -91.41318763219995,
+    "lat": 42.453854538381705,
+    "severity": 17,
+    "county": "DELAWARE",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 230,
+    "lon": -91.92973177874056,
+    "lat": 41.048515925212314,
+    "severity": 17,
+    "county": "JEFFERSON",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 236,
+    "lon": -92.58146336822496,
+    "lat": 42.031867025206516,
+    "severity": 17,
+    "county": "TAMA",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 267,
+    "lon": -93.35087464626007,
+    "lat": 42.90388384523983,
+    "severity": 17,
+    "county": "FRANKLIN",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 387,
+    "lon": -92.16870613359059,
+    "lat": 41.69760019509755,
+    "severity": 17,
+    "county": "IOWA",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 409,
+    "lon": -92.46567079847767,
+    "lat": 42.205216003900205,
+    "severity": 17,
+    "county": "TAMA",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 427,
+    "lon": -96.22822161253393,
+    "lat": 42.47520743653787,
+    "severity": 17,
+    "county": "WOODBURY",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 429,
+    "lon": -93.27485680433402,
+    "lat": 41.003025843437335,
+    "severity": 17,
+    "county": "LUCAS",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 451,
+    "lon": -95.60478453738517,
+    "lat": 43.43261772055602,
+    "severity": 17,
+    "county": "OSCEOLA",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 467,
+    "lon": -93.29691843383048,
+    "lat": 43.1336392656296,
+    "severity": 17,
+    "county": "CERRO GORDO",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 498,
+    "lon": -95.88749804497249,
+    "lat": 41.495281970637215,
+    "severity": 17,
+    "county": "POTTAWATTAMIE",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 503,
+    "lon": -96.53912093104172,
+    "lat": 42.85325648266846,
+    "severity": 17,
+    "county": "PLYMOUTH",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 509,
+    "lon": -91.56473004705013,
+    "lat": 40.69628666145198,
+    "severity": 17,
+    "county": "LEE",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 551,
+    "lon": -94.83459143567647,
+    "lat": 41.49709186935674,
+    "severity": 17,
+    "county": "CASS",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 556,
+    "lon": -95.27805332832787,
+    "lat": 41.498357647532444,
+    "severity": 17,
+    "county": "POTTAWATTAMIE",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 559,
+    "lon": -94.26306164213699,
+    "lat": 42.73185502686143,
+    "severity": 17,
+    "county": "HUMBOLDT",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 563,
+    "lon": -93.34079008648955,
+    "lat": 43.006692198599865,
+    "severity": 17,
+    "county": "CERRO GORDO",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 592,
+    "lon": -95.92008404452132,
+    "lat": 43.03967676136982,
+    "severity": 17,
+    "county": "SIOUX",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 604,
+    "lon": -92.47522894584706,
+    "lat": 40.740261959408514,
+    "severity": 17,
+    "county": "DAVIS",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 622,
+    "lon": -93.3482094278653,
+    "lat": 43.199737340738295,
+    "severity": 17,
+    "county": "CERRO GORDO",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 627,
+    "lon": -91.68466017774617,
+    "lat": 40.97547582476221,
+    "severity": 17,
+    "county": "HENRY",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 643,
+    "lon": -92.57969489857399,
+    "lat": 41.01001692510145,
+    "severity": 17,
+    "county": "WAPELLO",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 651,
+    "lon": -91.74723321021978,
+    "lat": 42.46238877983112,
+    "severity": 17,
+    "county": "BUCHANAN",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 656,
+    "lon": -93.83056799876393,
+    "lat": 40.80426755433251,
+    "severity": 17,
+    "county": "DECATUR",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 662,
+    "lon": -92.18509571415942,
+    "lat": 41.8086344328997,
+    "severity": 17,
+    "county": "IOWA",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 668,
+    "lon": -93.23378763874312,
+    "lat": 41.000474928709245,
+    "severity": 17,
+    "county": "LUCAS",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 674,
+    "lon": -90.73200356718883,
+    "lat": 42.465460891776544,
+    "severity": 17,
+    "county": "DUBUQUE",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 688,
+    "lon": -91.38068330145012,
+    "lat": 42.80821349950385,
+    "severity": 17,
+    "county": "CLAYTON",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 702,
+    "lon": -93.77964493431207,
+    "lat": 41.337429327899905,
+    "severity": 17,
+    "county": "WARREN",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 707,
+    "lon": -93.92109933874212,
+    "lat": 41.354103405486526,
+    "severity": 17,
+    "county": "MADISON",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 717,
+    "lon": -91.5567165698745,
+    "lat": 40.589729518533886,
+    "severity": 17,
+    "county": "LEE",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 306,
+    "lon": -91.44601871381931,
+    "lat": 41.91675037577554,
+    "severity": 16,
+    "county": "LINN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 311,
+    "lon": -91.81411945247389,
+    "lat": 43.20124159719935,
+    "severity": 16,
+    "county": "WINNESHIEK",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 355,
+    "lon": -91.21034760587739,
+    "lat": 40.835531855088185,
+    "severity": 16,
+    "county": "DES MOINES",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 436,
+    "lon": -91.86899266392732,
+    "lat": 42.468786773196015,
+    "severity": 16,
+    "county": "BUCHANAN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 440,
+    "lon": -90.52932643545289,
+    "lat": 41.55530912774855,
+    "severity": 16,
+    "county": "SCOTT",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 477,
+    "lon": -91.87722269435346,
+    "lat": 42.13713814021595,
+    "severity": 16,
+    "county": "BENTON",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 490,
+    "lon": -92.63355163228411,
+    "lat": 43.14160195495073,
+    "severity": 16,
+    "county": "FLOYD",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 516,
+    "lon": -94.06258136939326,
+    "lat": 41.834954280525224,
+    "severity": 16,
+    "county": "DALLAS",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 558,
+    "lon": -93.86428212067759,
+    "lat": 41.349322796941706,
+    "severity": 16,
+    "county": "MADISON",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 568,
+    "lon": -92.59442485898957,
+    "lat": 42.4644467476173,
+    "severity": 16,
+    "county": "GRUNDY",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 580,
+    "lon": -93.5581893012789,
+    "lat": 41.34592209392337,
+    "severity": 16,
+    "county": "WARREN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 586,
+    "lon": -92.9913120705894,
+    "lat": 43.14262109848163,
+    "severity": 16,
+    "county": "FLOYD",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 601,
+    "lon": -93.84608494566524,
+    "lat": 41.557762139827986,
+    "severity": 16,
+    "county": "DALLAS",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 623,
+    "lon": -94.75818022359192,
+    "lat": 43.20257764245872,
+    "severity": 16,
+    "county": "PALO ALTO",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 624,
+    "lon": -93.50031248962236,
+    "lat": 41.27518724809443,
+    "severity": 16,
+    "county": "WARREN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 635,
+    "lon": -90.82685455115009,
+    "lat": 42.63297003391013,
+    "severity": 16,
+    "county": "DUBUQUE",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 636,
+    "lon": -92.25414471643207,
+    "lat": 42.84312750421523,
+    "severity": 16,
+    "county": "BREMER",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 637,
+    "lon": -90.81630101663227,
+    "lat": 41.83057252129824,
+    "severity": 16,
+    "county": "CLINTON",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 644,
+    "lon": -91.25085220251091,
+    "lat": 42.097961581450505,
+    "severity": 16,
+    "county": "JONES",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 670,
+    "lon": -91.11495228544136,
+    "lat": 42.808671910782046,
+    "severity": 16,
+    "county": "CLAYTON",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 673,
+    "lon": -90.68276095588709,
+    "lat": 42.07859274805331,
+    "severity": 16,
+    "county": "JACKSON",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 682,
+    "lon": -90.49064982696765,
+    "lat": 41.68403881447054,
+    "severity": 16,
+    "county": "SCOTT",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 692,
+    "lon": -95.91483776529311,
+    "lat": 41.51713518253149,
+    "severity": 16,
+    "county": "HARRISON",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 699,
+    "lon": -91.46067295007799,
+    "lat": 42.01395379035332,
+    "severity": 16,
+    "county": "LINN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 711,
+    "lon": -93.41715905782856,
+    "lat": 41.37201172933081,
+    "severity": 16,
+    "county": "WARREN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 716,
+    "lon": -92.88404848433359,
+    "lat": 42.4635971321014,
+    "severity": 16,
+    "county": "GRUNDY",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 718,
+    "lon": -92.06256010836876,
+    "lat": 42.542592121540096,
+    "severity": 16,
+    "county": "BUCHANAN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 721,
+    "lon": -93.0453295733712,
+    "lat": 42.24316830693935,
+    "severity": 16,
+    "county": "HARDIN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 722,
+    "lon": -93.0706470394609,
+    "lat": 42.38480296956335,
+    "severity": 16,
+    "county": "HARDIN",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 731,
+    "lon": -93.85362647370413,
+    "lat": 41.75552866238247,
+    "severity": 16,
+    "county": "DALLAS",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 16,
+    "lon": -91.42559692029062,
+    "lat": 40.65477386192763,
+    "severity": 15,
+    "county": "LEE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 119,
+    "lon": -90.68874282862642,
+    "lat": 42.51423273339457,
+    "severity": 15,
+    "county": "DUBUQUE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 158,
+    "lon": -91.26688031400336,
+    "lat": 41.408346433190864,
+    "severity": 15,
+    "county": "MUSCATINE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 229,
+    "lon": -94.02504566501412,
+    "lat": 41.706211211255926,
+    "severity": 15,
+    "county": "DALLAS",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 313,
+    "lon": -93.36577145214554,
+    "lat": 41.60066856871469,
+    "severity": 15,
+    "county": "POLK",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 327,
+    "lon": -93.22175760048526,
+    "lat": 42.76305099872975,
+    "severity": 15,
+    "county": "FRANKLIN",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 381,
+    "lon": -93.32852829993153,
+    "lat": 41.681352969225145,
+    "severity": 15,
+    "county": "JASPER",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 390,
+    "lon": -95.14764505840849,
+    "lat": 43.17014909987059,
+    "severity": 15,
+    "county": "CLAY",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 401,
+    "lon": -93.50958713271127,
+    "lat": 41.877654262515186,
+    "severity": 15,
+    "county": "STORY",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 501,
+    "lon": -93.70273941496912,
+    "lat": 41.543155633702206,
+    "severity": 15,
+    "county": "POLK",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 505,
+    "lon": -93.77861662148352,
+    "lat": 41.094616534905434,
+    "severity": 15,
+    "county": "CLARKE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 513,
+    "lon": -92.25297887065405,
+    "lat": 42.96500164806623,
+    "severity": 15,
+    "county": "CHICKASAW",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 525,
+    "lon": -90.9444234869341,
+    "lat": 41.60138976007183,
+    "severity": 15,
+    "county": "CEDAR",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 576,
+    "lon": -93.57071321563122,
+    "lat": 41.78541021686753,
+    "severity": 15,
+    "county": "POLK",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 578,
+    "lon": -91.56521270624373,
+    "lat": 40.56084840309253,
+    "severity": 15,
+    "county": "LEE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 579,
+    "lon": -92.0895765598139,
+    "lat": 41.856354482114156,
+    "severity": 15,
+    "county": "IOWA",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 585,
+    "lon": -93.78306709196688,
+    "lat": 42.47142620698559,
+    "severity": 15,
+    "county": "HAMILTON",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 598,
+    "lon": -93.09479302969493,
+    "lat": 41.00088098728479,
+    "severity": 15,
+    "county": "MONROE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 609,
+    "lon": -92.6597382731794,
+    "lat": 42.34086732800605,
+    "severity": 15,
+    "county": "GRUNDY",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 612,
+    "lon": -92.44580925128369,
+    "lat": 42.41683227300194,
+    "severity": 15,
+    "county": "BLACK HAWK",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 618,
+    "lon": -91.19537779713255,
+    "lat": 42.26580171557142,
+    "severity": 15,
+    "county": "JONES",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 628,
+    "lon": -93.43255687956432,
+    "lat": 42.70671020847417,
+    "severity": 15,
+    "county": "FRANKLIN",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 629,
+    "lon": -96.36373030159886,
+    "lat": 42.41378320976561,
+    "severity": 15,
+    "county": "WOODBURY",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 632,
+    "lon": -93.02852156549825,
+    "lat": 41.416527079776415,
+    "severity": 15,
+    "county": "MARION",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 641,
+    "lon": -92.0773206393013,
+    "lat": 42.61268114862346,
+    "severity": 15,
+    "county": "BUCHANAN",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 647,
+    "lon": -91.8709608226304,
+    "lat": 41.68723272247313,
+    "severity": 15,
+    "county": "IOWA",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 648,
+    "lon": -91.52587447142254,
+    "lat": 42.27316401580513,
+    "severity": 15,
+    "county": "LINN",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 654,
+    "lon": -93.60468250922828,
+    "lat": 41.49896745602688,
+    "severity": 15,
+    "county": "WARREN",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 669,
+    "lon": -93.55905218396236,
+    "lat": 41.31736308417885,
+    "severity": 15,
+    "county": "WARREN",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 671,
+    "lon": -95.13049639954328,
+    "lat": 41.498246831335926,
+    "severity": 15,
+    "county": "CASS",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 677,
+    "lon": -96.07041068998834,
+    "lat": 41.8185032790625,
+    "severity": 15,
+    "county": "HARRISON",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 680,
+    "lon": -92.72561236634952,
+    "lat": 41.69593992440397,
+    "severity": 15,
+    "county": "POWESHIEK",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 686,
+    "lon": -94.20168253117485,
+    "lat": 41.322782857575994,
+    "severity": 15,
+    "county": "MADISON",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 687,
+    "lon": -92.29878682717327,
+    "lat": 43.24250316331264,
+    "severity": 15,
+    "county": "HOWARD",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 691,
+    "lon": -92.90438213467,
+    "lat": 41.7048397779575,
+    "severity": 15,
+    "county": "JASPER",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 693,
+    "lon": -92.1763209212612,
+    "lat": 42.41605917508443,
+    "severity": 15,
+    "county": "BLACK HAWK",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 694,
+    "lon": -91.39145853449746,
+    "lat": 40.46338262188628,
+    "severity": 15,
+    "county": "LEE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 695,
+    "lon": -92.47544009403782,
+    "lat": 41.06253121802194,
+    "severity": 15,
+    "county": "WAPELLO",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 696,
+    "lon": -93.10078576318433,
+    "lat": 41.44221217303969,
+    "severity": 15,
+    "county": "MARION",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 697,
+    "lon": -93.76502129464201,
+    "lat": 41.052891816232446,
+    "severity": 15,
+    "county": "CLARKE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 700,
+    "lon": -90.6905491969533,
+    "lat": 42.315404959017364,
+    "severity": 15,
+    "county": "DUBUQUE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 704,
+    "lon": -91.94371476182185,
+    "lat": 41.77140348280891,
+    "severity": 15,
+    "county": "IOWA",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 706,
+    "lon": -92.01365617236927,
+    "lat": 42.33479295101272,
+    "severity": 15,
+    "county": "BUCHANAN",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 709,
+    "lon": -92.1198839822664,
+    "lat": 43.337007973492746,
+    "severity": 15,
+    "county": "HOWARD",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 710,
+    "lon": -96.16140563799175,
+    "lat": 42.823752673561586,
+    "severity": 15,
+    "county": "PLYMOUTH",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 719,
+    "lon": -93.3497745347551,
+    "lat": 42.84019113606567,
+    "severity": 15,
+    "county": "FRANKLIN",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 723,
+    "lon": -91.16071630723975,
+    "lat": 41.311975190692856,
+    "severity": 15,
+    "county": "LOUISA",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 724,
+    "lon": -91.79201128264384,
+    "lat": 43.31578428692638,
+    "severity": 15,
+    "county": "WINNESHIEK",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 725,
+    "lon": -91.02187187240457,
+    "lat": 42.30594758382588,
+    "severity": 15,
+    "county": "DUBUQUE",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 726,
+    "lon": -93.81121058503065,
+    "lat": 41.628319251350796,
+    "severity": 15,
+    "county": "POLK",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 728,
+    "lon": -92.00726766299026,
+    "lat": 41.61584085196975,
+    "severity": 15,
+    "county": "IOWA",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 732,
+    "lon": -95.01327552610192,
+    "lat": 42.3304620803754,
+    "severity": 15,
+    "county": "SAC",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 543,
+    "lon": -94.4300103728315,
+    "lat": 41.68062264069165,
+    "severity": 14,
+    "county": "GUTHRIE",
+    "point_count": 14
+  },
+  {
+    "cluster_id": 730,
+    "lon": -90.69774609919338,
+    "lat": 42.45168238417279,
+    "severity": 14,
+    "county": "DUBUQUE",
+    "point_count": 14
+  },
+  {
+    "cluster_id": 343,
+    "lon": -92.7074334221461,
+    "lat": 42.35117528237677,
+    "severity": 13,
+    "county": "GRUNDY",
+    "point_count": 13
+  },
+  {
+    "cluster_id": 508,
+    "lon": -96.37156701164491,
+    "lat": 43.199642261627,
+    "severity": 13,
+    "county": "SIOUX",
+    "point_count": 13
+  },
+  {
+    "cluster_id": 678,
+    "lon": -93.70782232696095,
+    "lat": 41.3666010741343,
+    "severity": 13,
+    "county": "WARREN",
+    "point_count": 13
+  },
+  {
+    "cluster_id": 729,
+    "lon": -93.69972919720061,
+    "lat": 41.429907699901676,
+    "severity": 13,
+    "county": "WARREN",
+    "point_count": 13
+  },
+  {
+    "cluster_id": 734,
+    "lon": -93.41134746232026,
+    "lat": 43.14122993803106,
+    "severity": 13,
+    "county": "CERRO GORDO",
+    "point_count": 13
+  },
+  {
+    "cluster_id": 714,
+    "lon": -92.9575081701111,
+    "lat": 40.73939153980151,
+    "severity": 12,
+    "county": "APPANOOSE",
+    "point_count": 12
+  },
+  {
+    "cluster_id": 341,
+    "lon": -96.33563056745857,
+    "lat": 42.4490729802732,
+    "severity": 11,
+    "county": "WOODBURY",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 421,
+    "lon": -93.37121639394691,
+    "lat": 41.448945613155686,
+    "severity": 11,
+    "county": "WARREN",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 597,
+    "lon": -93.21113892719444,
+    "lat": 43.24324867443712,
+    "severity": 11,
+    "county": "CERRO GORDO",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 634,
+    "lon": -90.1930495486477,
+    "lat": 42.03542892607902,
+    "severity": 11,
+    "county": "JACKSON",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 715,
+    "lon": -93.56971223903712,
+    "lat": 41.76404975028516,
+    "severity": 10,
+    "county": "POLK",
+    "point_count": 10
+  },
+  {
+    "cluster_id": 590,
+    "lon": -91.17015154927556,
+    "lat": 40.92290589801465,
+    "severity": 8,
+    "county": "DES MOINES",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 649,
+    "lon": -90.96728997144214,
+    "lat": 41.44195468065501,
+    "severity": 8,
+    "county": "MUSCATINE",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 666,
+    "lon": -91.38587561904086,
+    "lat": 42.09327060891036,
+    "severity": 8,
+    "county": "LINN",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 667,
+    "lon": -93.360275512037,
+    "lat": 41.4434623529119,
+    "severity": 8,
+    "county": "WARREN",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 683,
+    "lon": -91.51781710568571,
+    "lat": 42.281593777701175,
+    "severity": 8,
+    "county": "LINN",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 703,
+    "lon": -92.75603734917925,
+    "lat": 41.01657871208459,
+    "severity": 8,
+    "county": "MONROE",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 705,
+    "lon": -91.35468194590854,
+    "lat": 41.3269221546112,
+    "severity": 8,
+    "county": "LOUISA",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 708,
+    "lon": -93.77992523462751,
+    "lat": 41.322285168664095,
+    "severity": 8,
+    "county": "WARREN",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 720,
+    "lon": -91.94028088640368,
+    "lat": 41.00294268046835,
+    "severity": 8,
+    "county": "JEFFERSON",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 665,
+    "lon": -90.2363399732579,
+    "lat": 41.87371594271034,
+    "severity": 7,
+    "county": "CLINTON",
+    "point_count": 7
+  },
+  {
+    "cluster_id": 676,
+    "lon": -91.12680877434262,
+    "lat": 40.80203089085892,
+    "severity": 6,
+    "county": "DES MOINES",
+    "point_count": 6
+  },
+  {
+    "cluster_id": 698,
+    "lon": -91.3667274490405,
+    "lat": 41.277594175542106,
+    "severity": 4,
+    "county": "LOUISA",
+    "point_count": 4
+  },
+  {
+    "cluster_id": 690,
+    "lon": -90.68474074047762,
+    "lat": 42.556839949369234,
+    "severity": 2,
+    "county": "DUBUQUE",
+    "point_count": 2
+  },
+  {
+    "cluster_id": 713,
+    "lon": -93.26054669464325,
+    "lat": 43.17172232451219,
+    "severity": 2,
+    "county": "CERRO GORDO",
+    "point_count": 2
+  }
+]

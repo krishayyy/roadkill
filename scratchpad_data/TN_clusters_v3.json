@@ -1,0 +1,5788 @@
+[
+  {
+    "cluster_id": 213,
+    "lon": -82.4460634608345,
+    "lat": 36.4961275967603,
+    "severity": 1606,
+    "point_count": 1606,
+    "deer_coded_count": 1518,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.3703800520689353,
+    "extent_m": 34068.91486309681,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.37 < 2.5)"
+  },
+  {
+    "cluster_id": 27,
+    "lon": -87.25566447543234,
+    "lat": 36.522581713410574,
+    "severity": 1461,
+    "point_count": 1461,
+    "deer_coded_count": 1393,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.7040666255519183,
+    "extent_m": 50992.73456247869,
+    "path": null,
+    "path_rejected_reason": "points spread 1500 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 141,
+    "lon": -85.18407074106675,
+    "lat": 35.21650445973108,
+    "severity": 455,
+    "point_count": 455,
+    "deer_coded_count": 428,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.4137035649245058,
+    "extent_m": 21118.740885870873,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.41 < 2.5)"
+  },
+  {
+    "cluster_id": 212,
+    "lon": -82.51372396191464,
+    "lat": 36.279163999169846,
+    "severity": 265,
+    "point_count": 265,
+    "deer_coded_count": 239,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 4.791316232654855,
+    "extent_m": 21640.74629087883,
+    "path": null,
+    "path_rejected_reason": "points spread 1500 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 62,
+    "lon": -86.4390173002192,
+    "lat": 35.85983629322239,
+    "severity": 221,
+    "point_count": 221,
+    "deer_coded_count": 192,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.2097796870585347,
+    "extent_m": 14180.959912386934,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.21 < 2.5)"
+  },
+  {
+    "cluster_id": 103,
+    "lon": -86.5191615314394,
+    "lat": 36.205829300657584,
+    "severity": 178,
+    "point_count": 178,
+    "deer_coded_count": 156,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.3170403145374592,
+    "extent_m": 8893.582839578654,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.32 < 2.5)"
+  },
+  {
+    "cluster_id": 204,
+    "lon": -82.26055619845678,
+    "lat": 36.3331420100129,
+    "severity": 177,
+    "point_count": 177,
+    "deer_coded_count": 154,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.6103107707558986,
+    "extent_m": 8940.46782676692,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.61 < 2.5)"
+  },
+  {
+    "cluster_id": 230,
+    "lon": -82.18687844480444,
+    "lat": 36.55691619883011,
+    "severity": 158,
+    "point_count": 158,
+    "deer_coded_count": 151,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.5308383867983384,
+    "extent_m": 9619.026233436907,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.53 < 2.5)"
+  },
+  {
+    "cluster_id": 145,
+    "lon": -85.08547747500137,
+    "lat": 35.16282639651895,
+    "severity": 157,
+    "point_count": 157,
+    "deer_coded_count": 145,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 4.863781930457033,
+    "extent_m": 13045.108532576538,
+    "path": null,
+    "path_rejected_reason": "points spread 934 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 106,
+    "lon": -86.41210674952859,
+    "lat": 36.2224043790706,
+    "severity": 148,
+    "point_count": 148,
+    "deer_coded_count": 139,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.2764839314857404,
+    "extent_m": 8982.973451667965,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.28 < 2.5)"
+  },
+  {
+    "cluster_id": 15,
+    "lon": -89.70769127332373,
+    "lat": 35.03541767980313,
+    "severity": 137,
+    "point_count": 137,
+    "deer_coded_count": 123,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.7008591652034644,
+    "extent_m": 8812.26669272783,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.70 < 2.5)"
+  },
+  {
+    "cluster_id": 55,
+    "lon": -86.6812202061897,
+    "lat": 36.46051394563828,
+    "severity": 120,
+    "point_count": 120,
+    "deer_coded_count": 117,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.386630618146498,
+    "extent_m": 8097.404759437506,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.39 < 2.5)"
+  },
+  {
+    "cluster_id": 82,
+    "lon": -86.58661630717748,
+    "lat": 36.32976699676634,
+    "severity": 113,
+    "point_count": 113,
+    "deer_coded_count": 101,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.3832542097671916,
+    "extent_m": 10276.554424516868,
+    "path": null,
+    "path_rejected_reason": "points spread 825 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 95,
+    "lon": -86.66502103766845,
+    "lat": 35.85223054363662,
+    "severity": 110,
+    "point_count": 110,
+    "deer_coded_count": 103,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.6478975118636967,
+    "extent_m": 9646.995650160421,
+    "path": null,
+    "path_rejected_reason": "points spread 926 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 205,
+    "lon": -82.20372712631374,
+    "lat": 36.37584460416046,
+    "severity": 103,
+    "point_count": 103,
+    "deer_coded_count": 88,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.9748608343271314,
+    "extent_m": 9466.839111515477,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.97 < 2.5)"
+  },
+  {
+    "cluster_id": 65,
+    "lon": -86.47209878720665,
+    "lat": 35.80064845380192,
+    "severity": 95,
+    "point_count": 95,
+    "deer_coded_count": 90,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.9557311986499037,
+    "extent_m": 8488.959668271831,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.96 < 2.5)"
+  },
+  {
+    "cluster_id": 66,
+    "lon": -86.35968550563248,
+    "lat": 35.77849316992868,
+    "severity": 93,
+    "point_count": 93,
+    "deer_coded_count": 84,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.6827600370564224,
+    "extent_m": 8229.371880620005,
+    "path": null,
+    "path_rejected_reason": "points spread 664 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 43,
+    "lon": -87.08424309225398,
+    "lat": 35.606769901251155,
+    "severity": 90,
+    "point_count": 90,
+    "deer_coded_count": 78,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.1994032850170226,
+    "extent_m": 7677.235508580262,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.20 < 2.5)"
+  },
+  {
+    "cluster_id": 148,
+    "lon": -85.08453242921513,
+    "lat": 35.067025275958436,
+    "severity": 78,
+    "point_count": 78,
+    "deer_coded_count": 65,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.4790625443370438,
+    "extent_m": 8480.079011835747,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.48 < 2.5)"
+  },
+  {
+    "cluster_id": 63,
+    "lon": -86.51866434185534,
+    "lat": 35.939672819405466,
+    "severity": 76,
+    "point_count": 76,
+    "deer_coded_count": 71,
+    "county": "Unknown",
+    "radius_m": 2724.119859266057,
+    "circle_radius_m": 2724.119859266057,
+    "elongation": 1.4379213773356898,
+    "extent_m": 5207.054753082888,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.44 < 2.5)"
+  },
+  {
+    "cluster_id": 146,
+    "lon": -85.23830060226648,
+    "lat": 35.112523522897064,
+    "severity": 74,
+    "point_count": 74,
+    "deer_coded_count": 72,
+    "county": "Unknown",
+    "radius_m": 2406.8842219056487,
+    "circle_radius_m": 2406.8842219056487,
+    "elongation": 1.4351488991344017,
+    "extent_m": 5568.4872923263765,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.44 < 2.5)"
+  },
+  {
+    "cluster_id": 11,
+    "lon": -89.82234877609974,
+    "lat": 35.13721470578439,
+    "severity": 69,
+    "point_count": 69,
+    "deer_coded_count": 65,
+    "county": "Unknown",
+    "radius_m": 2939.313992346128,
+    "circle_radius_m": 2939.313992346128,
+    "elongation": 1.9984062703942393,
+    "extent_m": 6918.776933157624,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.00 < 2.5)"
+  },
+  {
+    "cluster_id": 218,
+    "lon": -84.28021609869788,
+    "lat": 35.824126092730495,
+    "severity": 68,
+    "point_count": 68,
+    "deer_coded_count": 62,
+    "county": "Unknown",
+    "radius_m": 2943.101504109588,
+    "circle_radius_m": 2943.101504109588,
+    "elongation": 2.1485207045912786,
+    "extent_m": 6715.191611092549,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.15 < 2.5)"
+  },
+  {
+    "cluster_id": 94,
+    "lon": -86.74716548416255,
+    "lat": 35.825462799960604,
+    "severity": 66,
+    "point_count": 66,
+    "deer_coded_count": 57,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.859765445527778,
+    "extent_m": 8307.417166617299,
+    "path": null,
+    "path_rejected_reason": "points spread 541 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 226,
+    "lon": -84.63920201520564,
+    "lat": 35.883908908129285,
+    "severity": 66,
+    "point_count": 66,
+    "deer_coded_count": 53,
+    "county": "Unknown",
+    "radius_m": 2364.8883415325445,
+    "circle_radius_m": 2364.8883415325445,
+    "elongation": 1.4010458934220822,
+    "extent_m": 5003.0574906240545,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.40 < 2.5)"
+  },
+  {
+    "cluster_id": 31,
+    "lon": -86.71211782403962,
+    "lat": 35.98721565751246,
+    "severity": 61,
+    "point_count": 61,
+    "deer_coded_count": 53,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.1975860660289386,
+    "extent_m": 6313.249791986476,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.20 < 2.5)"
+  },
+  {
+    "cluster_id": 91,
+    "lon": -86.18847383375186,
+    "lat": 36.39356028026685,
+    "severity": 60,
+    "point_count": 60,
+    "deer_coded_count": 56,
+    "county": "Unknown",
+    "radius_m": 2608.7860123795585,
+    "circle_radius_m": 2608.7860123795585,
+    "elongation": 1.7875065581347287,
+    "extent_m": 5327.297390662137,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.79 < 2.5)"
+  },
+  {
+    "cluster_id": 163,
+    "lon": -85.34852859590387,
+    "lat": 36.35014319513597,
+    "severity": 59,
+    "point_count": 59,
+    "deer_coded_count": 49,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.4556621078372394,
+    "extent_m": 7934.918470201459,
+    "path": null,
+    "path_rejected_reason": "points spread 525 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 42,
+    "lon": -86.82628731967978,
+    "lat": 35.460069954100554,
+    "severity": 58,
+    "point_count": 58,
+    "deer_coded_count": 51,
+    "county": "Unknown",
+    "radius_m": 242.8507291594739,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.5627403226049505,
+    "extent_m": 6790.5399084086,
+    "path": [
+      {
+        "lat": 35.47271,
+        "lon": -86.79962
+      },
+      {
+        "lat": 35.4753,
+        "lon": -86.8024
+      },
+      {
+        "lat": 35.48139,
+        "lon": -86.81361
+      },
+      {
+        "lat": 35.46872,
+        "lon": -86.81012
+      },
+      {
+        "lat": 35.4515,
+        "lon": -86.80867
+      },
+      {
+        "lat": 35.45794,
+        "lon": -86.82122
+      },
+      {
+        "lat": 35.45464,
+        "lon": -86.82726
+      },
+      {
+        "lat": 35.45331,
+        "lon": -86.83439
+      },
+      {
+        "lat": 35.45275,
+        "lon": -86.84076
+      },
+      {
+        "lat": 35.45059,
+        "lon": -86.8514
+      },
+      {
+        "lat": 35.4495,
+        "lon": -86.86047
+      },
+      {
+        "lat": 35.44913,
+        "lon": -86.86664
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 100,
+    "lon": -86.66395710750096,
+    "lat": 35.9187129328057,
+    "severity": 57,
+    "point_count": 57,
+    "deer_coded_count": 56,
+    "county": "Unknown",
+    "radius_m": 213.26186068359974,
+    "circle_radius_m": 3000.0,
+    "elongation": 4.534769084770946,
+    "extent_m": 7265.1306264910945,
+    "path": [
+      {
+        "lat": 35.8876,
+        "lon": -86.66395
+      },
+      {
+        "lat": 35.89126,
+        "lon": -86.66514
+      },
+      {
+        "lat": 35.89395,
+        "lon": -86.66601
+      },
+      {
+        "lat": 35.9022,
+        "lon": -86.66579
+      },
+      {
+        "lat": 35.90618,
+        "lon": -86.66416
+      },
+      {
+        "lat": 35.91639,
+        "lon": -86.65914
+      },
+      {
+        "lat": 35.92953,
+        "lon": -86.65839
+      },
+      {
+        "lat": 35.93505,
+        "lon": -86.66002
+      },
+      {
+        "lat": 35.93875,
+        "lon": -86.67251
+      },
+      {
+        "lat": 35.94052,
+        "lon": -86.67541
+      },
+      {
+        "lat": 35.94599,
+        "lon": -86.66476
+      },
+      {
+        "lat": 35.95271,
+        "lon": -86.66003
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 108,
+    "lon": -86.27917685077901,
+    "lat": 36.18410071562448,
+    "severity": 57,
+    "point_count": 57,
+    "deer_coded_count": 50,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.399272110655369,
+    "extent_m": 7623.1037067055495,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.40 < 2.5)"
+  },
+  {
+    "cluster_id": 201,
+    "lon": -84.30622318277203,
+    "lat": 35.995363899585314,
+    "severity": 55,
+    "point_count": 55,
+    "deer_coded_count": 48,
+    "county": "Unknown",
+    "radius_m": 297.1823769679264,
+    "circle_radius_m": 3000.0,
+    "elongation": 5.988791593457663,
+    "extent_m": 7721.3311611417985,
+    "path": [
+      {
+        "lat": 36.0083,
+        "lon": -84.26424
+      },
+      {
+        "lat": 36.00922,
+        "lon": -84.27449
+      },
+      {
+        "lat": 36.00608,
+        "lon": -84.28062
+      },
+      {
+        "lat": 36.00082,
+        "lon": -84.29264
+      },
+      {
+        "lat": 35.99969,
+        "lon": -84.3019
+      },
+      {
+        "lat": 35.99758,
+        "lon": -84.31207
+      },
+      {
+        "lat": 35.99179,
+        "lon": -84.32002
+      },
+      {
+        "lat": 35.98802,
+        "lon": -84.32347
+      },
+      {
+        "lat": 35.9851,
+        "lon": -84.32688
+      },
+      {
+        "lat": 35.98309,
+        "lon": -84.32981
+      },
+      {
+        "lat": 35.98046,
+        "lon": -84.33367
+      },
+      {
+        "lat": 35.97635,
+        "lon": -84.33776
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 127,
+    "lon": -84.84663318348996,
+    "lat": 35.24232757238445,
+    "severity": 54,
+    "point_count": 54,
+    "deer_coded_count": 50,
+    "county": "Unknown",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 4.092120368064268,
+    "extent_m": 7655.658428200824,
+    "path": null,
+    "path_rejected_reason": "points spread 642 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 147,
+    "lon": -85.16006335434331,
+    "lat": 35.09481872063272,
+    "severity": 54,
+    "point_count": 54,
+    "deer_coded_count": 52,
+    "county": "Unknown",
+    "radius_m": 2343.524781855677,
+    "circle_radius_m": 2343.524781855677,
+    "elongation": 1.5707630503414476,
+    "extent_m": 4985.583211758247,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.57 < 2.5)"
+  },
+  {
+    "cluster_id": 13,
+    "lon": -89.8818098227088,
+    "lat": 35.24465770976116,
+    "severity": 53,
+    "point_count": 53,
+    "deer_coded_count": 47,
+    "county": "Unknown",
+    "radius_m": 2360.0248952899187,
+    "circle_radius_m": 2360.0248952899187,
+    "elongation": 2.4688144298718253,
+    "extent_m": 5506.011693856828,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.47 < 2.5)"
+  },
+  {
+    "cluster_id": 223,
+    "lon": -84.5296633545758,
+    "lat": 35.89225272400697,
+    "severity": 52,
+    "point_count": 52,
+    "deer_coded_count": 47,
+    "county": "Unknown",
+    "radius_m": 2328.8280265389503,
+    "circle_radius_m": 2328.8280265389503,
+    "elongation": 1.8284677592406378,
+    "extent_m": 5373.281611735144,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.83 < 2.5)"
+  },
+  {
+    "cluster_id": 73,
+    "lon": -86.31330777671313,
+    "lat": 35.82957146173849,
+    "severity": 50,
+    "point_count": 50,
+    "deer_coded_count": 45,
+    "county": "Unknown",
+    "radius_m": 140.2368376626949,
+    "circle_radius_m": 3000.0,
+    "elongation": 12.704315877783664,
+    "extent_m": 6966.224112682663,
+    "path": [
+      {
+        "lat": 35.82502,
+        "lon": -86.2762
+      },
+      {
+        "lat": 35.82584,
+        "lon": -86.28246
+      },
+      {
+        "lat": 35.82735,
+        "lon": -86.29344
+      },
+      {
+        "lat": 35.82797,
+        "lon": -86.29799
+      },
+      {
+        "lat": 35.8289,
+        "lon": -86.30481
+      },
+      {
+        "lat": 35.82934,
+        "lon": -86.30806
+      },
+      {
+        "lat": 35.83048,
+        "lon": -86.31704
+      },
+      {
+        "lat": 35.83253,
+        "lon": -86.32526
+      },
+      {
+        "lat": 35.83129,
+        "lon": -86.3344
+      },
+      {
+        "lat": 35.83282,
+        "lon": -86.34328
+      },
+      {
+        "lat": 35.8334,
+        "lon": -86.34559
+      },
+      {
+        "lat": 35.83381,
+        "lon": -86.34857
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 178,
+    "lon": -85.5613396700399,
+    "lat": 35.80703496697821,
+    "severity": 50,
+    "point_count": 50,
+    "deer_coded_count": 49,
+    "county": "Unknown",
+    "radius_m": 139.1303405816635,
+    "circle_radius_m": 2847.439546167955,
+    "elongation": 5.179403505956761,
+    "extent_m": 7051.754492772232,
+    "path": [
+      {
+        "lat": 35.82331,
+        "lon": -85.52786
+      },
+      {
+        "lat": 35.81595,
+        "lon": -85.53747
+      },
+      {
+        "lat": 35.81367,
+        "lon": -85.54123
+      },
+      {
+        "lat": 35.81416,
+        "lon": -85.55903
+      },
+      {
+        "lat": 35.80932,
+        "lon": -85.5588
+      },
+      {
+        "lat": 35.80695,
+        "lon": -85.56391
+      },
+      {
+        "lat": 35.80569,
+        "lon": -85.56583
+      },
+      {
+        "lat": 35.80445,
+        "lon": -85.56775
+      },
+      {
+        "lat": 35.8008,
+        "lon": -85.5735
+      },
+      {
+        "lat": 35.80419,
+        "lon": -85.58239
+      },
+      {
+        "lat": 35.79347,
+        "lon": -85.58438
+      },
+      {
+        "lat": 35.78705,
+        "lon": -85.59037
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 14,
+    "lon": -89.66943658405302,
+    "lat": 35.27219333985219,
+    "severity": 49,
+    "point_count": 49,
+    "deer_coded_count": 46,
+    "county": "Unknown",
+    "radius_m": 2132.1954142524482,
+    "circle_radius_m": 2132.1954142524482,
+    "elongation": 1.3869275887169892,
+    "extent_m": 4855.017238800632,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.39 < 2.5)"
+  },
+  {
+    "cluster_id": 57,
+    "lon": -86.63631366260266,
+    "lat": 36.53513221846614,
+    "severity": 48,
+    "point_count": 48,
+    "deer_coded_count": 45,
+    "county": "Unknown",
+    "radius_m": 2486.5838224643694,
+    "circle_radius_m": 2486.5838224643694,
+    "elongation": 2.3665742025616776,
+    "extent_m": 5722.761691360759,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.37 < 2.5)"
+  },
+  {
+    "cluster_id": 6,
+    "lon": -89.53369888253056,
+    "lat": 35.73090197950237,
+    "severity": 47,
+    "point_count": 47,
+    "deer_coded_count": 38,
+    "county": "Unknown",
+    "radius_m": 2674.4239095950375,
+    "circle_radius_m": 2674.4239095950375,
+    "elongation": 1.6576621243330258,
+    "extent_m": 5310.560214645011,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.66 < 2.5)"
+  },
+  {
+    "cluster_id": 158,
+    "lon": -84.63829427375855,
+    "lat": 35.459620382100766,
+    "severity": 47,
+    "point_count": 47,
+    "deer_coded_count": 41,
+    "county": "Unknown",
+    "radius_m": 2437.348862680501,
+    "circle_radius_m": 2437.348862680501,
+    "elongation": 1.4835833838178747,
+    "extent_m": 4818.329672760863,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.48 < 2.5)"
+  },
+  {
+    "cluster_id": 171,
+    "lon": -85.02626178193505,
+    "lat": 35.46898406132405,
+    "severity": 46,
+    "point_count": 46,
+    "deer_coded_count": 40,
+    "county": "Unknown",
+    "radius_m": 2232.371010486826,
+    "circle_radius_m": 2232.371010486826,
+    "elongation": 1.8419883625495408,
+    "extent_m": 4775.500748816989,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.84 < 2.5)"
+  },
+  {
+    "cluster_id": 235,
+    "lon": -82.3914720085158,
+    "lat": 36.28862765569994,
+    "severity": 46,
+    "point_count": 46,
+    "deer_coded_count": 44,
+    "county": "Unknown",
+    "radius_m": 2451.2047376089445,
+    "circle_radius_m": 2451.2047376089445,
+    "elongation": 2.0155576539344273,
+    "extent_m": 4412.147023089608,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.02 < 2.5)"
+  },
+  {
+    "cluster_id": 5,
+    "lon": -89.48653976954363,
+    "lat": 35.80484755062167,
+    "severity": 45,
+    "point_count": 45,
+    "deer_coded_count": 42,
+    "county": "Unknown",
+    "radius_m": 2168.0611769301086,
+    "circle_radius_m": 2168.0611769301086,
+    "elongation": 2.2783892023514536,
+    "extent_m": 5752.243450609146,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.28 < 2.5)"
+  },
+  {
+    "cluster_id": 125,
+    "lon": -84.91106631925359,
+    "lat": 35.184554331689085,
+    "severity": 45,
+    "point_count": 45,
+    "deer_coded_count": 39,
+    "county": "Unknown",
+    "radius_m": 326.9736693869854,
+    "circle_radius_m": 2572.7843345718675,
+    "elongation": 2.717373071850747,
+    "extent_m": 6119.09759079009,
+    "path": [
+      {
+        "lat": 35.19972,
+        "lon": -84.8895
+      },
+      {
+        "lat": 35.19404,
+        "lon": -84.88859
+      },
+      {
+        "lat": 35.19863,
+        "lon": -84.90223
+      },
+      {
+        "lat": 35.19671,
+        "lon": -84.90811
+      },
+      {
+        "lat": 35.18766,
+        "lon": -84.90156
+      },
+      {
+        "lat": 35.1834,
+        "lon": -84.90875
+      },
+      {
+        "lat": 35.17978,
+        "lon": -84.91258
+      },
+      {
+        "lat": 35.17682,
+        "lon": -84.91896
+      },
+      {
+        "lat": 35.18346,
+        "lon": -84.93182
+      },
+      {
+        "lat": 35.16899,
+        "lon": -84.9254
+      },
+      {
+        "lat": 35.16827,
+        "lon": -84.92847
+      },
+      {
+        "lat": 35.16017,
+        "lon": -84.93589
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 166,
+    "lon": -85.52746738018371,
+    "lat": 36.177430595355936,
+    "severity": 45,
+    "point_count": 45,
+    "deer_coded_count": 38,
+    "county": "Unknown",
+    "radius_m": 2101.4730180835227,
+    "circle_radius_m": 2101.4730180835227,
+    "elongation": 1.6097668620044134,
+    "extent_m": 4456.459263613843,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.61 < 2.5)"
+  },
+  {
+    "cluster_id": 97,
+    "lon": -86.7872714699331,
+    "lat": 35.992822471923645,
+    "severity": 44,
+    "point_count": 44,
+    "deer_coded_count": 42,
+    "county": "Unknown",
+    "radius_m": 2759.0961222553565,
+    "circle_radius_m": 2759.0961222553565,
+    "elongation": 2.320033140002661,
+    "extent_m": 5543.071367885925,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.32 < 2.5)"
+  },
+  {
+    "cluster_id": 156,
+    "lon": -84.58884992482753,
+    "lat": 35.4665537005703,
+    "severity": 44,
+    "point_count": 44,
+    "deer_coded_count": 36,
+    "county": "Unknown",
+    "radius_m": 2212.805416109787,
+    "circle_radius_m": 2212.805416109787,
+    "elongation": 1.7672031697211144,
+    "extent_m": 4582.436881664542,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.77 < 2.5)"
+  },
+  {
+    "cluster_id": 67,
+    "lon": -86.55396676858001,
+    "lat": 35.97411518803486,
+    "severity": 43,
+    "point_count": 43,
+    "deer_coded_count": 41,
+    "county": "Unknown",
+    "radius_m": 2201.091618243502,
+    "circle_radius_m": 2201.091618243502,
+    "elongation": 2.257172452428048,
+    "extent_m": 4719.880398424022,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.26 < 2.5)"
+  },
+  {
+    "cluster_id": 81,
+    "lon": -86.61470116203726,
+    "lat": 36.37000548992085,
+    "severity": 43,
+    "point_count": 43,
+    "deer_coded_count": 41,
+    "county": "Unknown",
+    "radius_m": 2280.9432816130243,
+    "circle_radius_m": 2280.9432816130243,
+    "elongation": 1.8833799089028604,
+    "extent_m": 5169.868908625906,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.88 < 2.5)"
+  },
+  {
+    "cluster_id": 233,
+    "lon": -82.3948836931989,
+    "lat": 36.166642044993054,
+    "severity": 42,
+    "point_count": 42,
+    "deer_coded_count": 36,
+    "county": "Unknown",
+    "radius_m": 2150.108996864678,
+    "circle_radius_m": 2150.108996864678,
+    "elongation": 3.203207313139108,
+    "extent_m": 5120.3522094504315,
+    "path": null,
+    "path_rejected_reason": "points spread 448 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 107,
+    "lon": -86.30246039052788,
+    "lat": 36.233134504512805,
+    "severity": 41,
+    "point_count": 41,
+    "deer_coded_count": 41,
+    "county": "Unknown",
+    "radius_m": 2066.5298696059326,
+    "circle_radius_m": 2066.5298696059326,
+    "elongation": 2.0651046915714066,
+    "extent_m": 5040.52759231726,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.07 < 2.5)"
+  },
+  {
+    "cluster_id": 237,
+    "lon": -82.540224234931,
+    "lat": 36.16702221719794,
+    "severity": 40,
+    "point_count": 40,
+    "deer_coded_count": 26,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 2876.5528359444556,
+    "elongation": 11.4253028703724,
+    "extent_m": 6321.2481373799965,
+    "path": [
+      {
+        "lat": 36.18025,
+        "lon": -82.51129
+      },
+      {
+        "lat": 36.17687,
+        "lon": -82.51685
+      },
+      {
+        "lat": 36.17499,
+        "lon": -82.5248
+      },
+      {
+        "lat": 36.17522,
+        "lon": -82.53006
+      },
+      {
+        "lat": 36.17163,
+        "lon": -82.53426
+      },
+      {
+        "lat": 36.1656,
+        "lon": -82.54503
+      },
+      {
+        "lat": 36.16506,
+        "lon": -82.54622
+      },
+      {
+        "lat": 36.16417,
+        "lon": -82.54796
+      },
+      {
+        "lat": 36.15923,
+        "lon": -82.55683
+      },
+      {
+        "lat": 36.15789,
+        "lon": -82.55847
+      },
+      {
+        "lat": 36.15183,
+        "lon": -82.56584
+      },
+      {
+        "lat": 36.1499,
+        "lon": -82.56839
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 128,
+    "lon": -84.82157098113767,
+    "lat": 35.148300948236766,
+    "severity": 39,
+    "point_count": 39,
+    "deer_coded_count": 34,
+    "county": "Unknown",
+    "radius_m": 2153.012212067708,
+    "circle_radius_m": 2153.012212067708,
+    "elongation": 2.0720641169739986,
+    "extent_m": 4722.13293766762,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.07 < 2.5)"
+  },
+  {
+    "cluster_id": 214,
+    "lon": -81.78703427692567,
+    "lat": 36.43067312169984,
+    "severity": 39,
+    "point_count": 39,
+    "deer_coded_count": 34,
+    "county": "Unknown",
+    "radius_m": 179.7997049830479,
+    "circle_radius_m": 2241.11587164098,
+    "elongation": 2.500677155486698,
+    "extent_m": 4904.56143336925,
+    "path": [
+      {
+        "lat": 36.41511,
+        "lon": -81.76817
+      },
+      {
+        "lat": 36.42119,
+        "lon": -81.77028
+      },
+      {
+        "lat": 36.42617,
+        "lon": -81.77688
+      },
+      {
+        "lat": 36.42737,
+        "lon": -81.77884
+      },
+      {
+        "lat": 36.43177,
+        "lon": -81.78337
+      },
+      {
+        "lat": 36.43464,
+        "lon": -81.7867
+      },
+      {
+        "lat": 36.43764,
+        "lon": -81.79055
+      },
+      {
+        "lat": 36.4376,
+        "lon": -81.80326
+      },
+      {
+        "lat": 36.43333,
+        "lon": -81.80985
+      },
+      {
+        "lat": 36.43172,
+        "lon": -81.81278
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 64,
+    "lon": -86.50805958235847,
+    "lat": 35.99425519713141,
+    "severity": 38,
+    "point_count": 38,
+    "deer_coded_count": 36,
+    "county": "Unknown",
+    "radius_m": 2167.98102175933,
+    "circle_radius_m": 2167.98102175933,
+    "elongation": 2.4419624699942855,
+    "extent_m": 4938.075535342243,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.44 < 2.5)"
+  },
+  {
+    "cluster_id": 217,
+    "lon": -81.80610810651231,
+    "lat": 36.48064483900305,
+    "severity": 37,
+    "point_count": 37,
+    "deer_coded_count": 35,
+    "county": "Unknown",
+    "radius_m": 2255.13194954181,
+    "circle_radius_m": 2255.13194954181,
+    "elongation": 1.417083945739304,
+    "extent_m": 4313.743403396661,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.42 < 2.5)"
+  },
+  {
+    "cluster_id": 151,
+    "lon": -85.3412087946938,
+    "lat": 35.125688515308724,
+    "severity": 36,
+    "point_count": 36,
+    "deer_coded_count": 27,
+    "county": "Unknown",
+    "radius_m": 1760.318456869169,
+    "circle_radius_m": 1760.318456869169,
+    "elongation": 1.961852657291425,
+    "extent_m": 4101.0005341286915,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.96 < 2.5)"
+  },
+  {
+    "cluster_id": 179,
+    "lon": -85.62104077627765,
+    "lat": 35.768646431305505,
+    "severity": 36,
+    "point_count": 36,
+    "deer_coded_count": 33,
+    "county": "Unknown",
+    "radius_m": 334.44408998532697,
+    "circle_radius_m": 2276.330298040808,
+    "elongation": 3.7069507935163486,
+    "extent_m": 4894.064185175886,
+    "path": [
+      {
+        "lat": 35.75291,
+        "lon": -85.63729
+      },
+      {
+        "lat": 35.75392,
+        "lon": -85.63293
+      },
+      {
+        "lat": 35.75658,
+        "lon": -85.63242
+      },
+      {
+        "lat": 35.7621,
+        "lon": -85.62827
+      },
+      {
+        "lat": 35.77369,
+        "lon": -85.61892
+      },
+      {
+        "lat": 35.77584,
+        "lon": -85.6148
+      },
+      {
+        "lat": 35.77835,
+        "lon": -85.61348
+      },
+      {
+        "lat": 35.77694,
+        "lon": -85.60504
+      },
+      {
+        "lat": 35.77822,
+        "lon": -85.60201
+      },
+      {
+        "lat": 35.78857,
+        "lon": -85.61336
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 219,
+    "lon": -84.34104784140685,
+    "lat": 35.781021934937115,
+    "severity": 36,
+    "point_count": 36,
+    "deer_coded_count": 34,
+    "county": "Unknown",
+    "radius_m": 2192.824457718379,
+    "circle_radius_m": 2192.824457718379,
+    "elongation": 2.2446489615233127,
+    "extent_m": 4775.754548451741,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.24 < 2.5)"
+  },
+  {
+    "cluster_id": 2,
+    "lon": -88.39325020240973,
+    "lat": 35.65129229971224,
+    "severity": 35,
+    "point_count": 35,
+    "deer_coded_count": 30,
+    "county": "Unknown",
+    "radius_m": 1751.9829706024589,
+    "circle_radius_m": 1751.9829706024589,
+    "elongation": 1.5089607116321107,
+    "extent_m": 3834.4727996887436,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.51 < 2.5)"
+  },
+  {
+    "cluster_id": 7,
+    "lon": -88.79389373786222,
+    "lat": 35.676539534787636,
+    "severity": 35,
+    "point_count": 35,
+    "deer_coded_count": 32,
+    "county": "Unknown",
+    "radius_m": 2129.0438894407775,
+    "circle_radius_m": 2129.0438894407775,
+    "elongation": 2.4649323231340494,
+    "extent_m": 5262.596573907808,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.46 < 2.5)"
+  },
+  {
+    "cluster_id": 76,
+    "lon": -86.32446245514814,
+    "lat": 35.90586048745258,
+    "severity": 35,
+    "point_count": 35,
+    "deer_coded_count": 35,
+    "county": "Unknown",
+    "radius_m": 1829.36464948518,
+    "circle_radius_m": 1829.36464948518,
+    "elongation": 1.6266526778716712,
+    "extent_m": 4052.747233764862,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.63 < 2.5)"
+  },
+  {
+    "cluster_id": 85,
+    "lon": -86.36272138804209,
+    "lat": 36.570992413624595,
+    "severity": 35,
+    "point_count": 35,
+    "deer_coded_count": 31,
+    "county": "Unknown",
+    "radius_m": 330.1062164330694,
+    "circle_radius_m": 2297.550591470154,
+    "elongation": 2.5091758550292678,
+    "extent_m": 4792.51797250345,
+    "path": [
+      {
+        "lat": 36.56569,
+        "lon": -86.33552
+      },
+      {
+        "lat": 36.56691,
+        "lon": -86.34165
+      },
+      {
+        "lat": 36.56832,
+        "lon": -86.3547
+      },
+      {
+        "lat": 36.56899,
+        "lon": -86.35939
+      },
+      {
+        "lat": 36.57859,
+        "lon": -86.36281
+      },
+      {
+        "lat": 36.56994,
+        "lon": -86.3701
+      },
+      {
+        "lat": 36.57918,
+        "lon": -86.37057
+      },
+      {
+        "lat": 36.57147,
+        "lon": -86.37777
+      },
+      {
+        "lat": 36.5726,
+        "lon": -86.3817
+      },
+      {
+        "lat": 36.57463,
+        "lon": -86.38754
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 89,
+    "lon": -86.50641289084736,
+    "lat": 36.52316215698686,
+    "severity": 35,
+    "point_count": 35,
+    "deer_coded_count": 32,
+    "county": "Unknown",
+    "radius_m": 192.28234295456988,
+    "circle_radius_m": 2475.4932493005026,
+    "elongation": 5.998718713622542,
+    "extent_m": 5505.179873679168,
+    "path": [
+      {
+        "lat": 36.49992,
+        "lon": -86.50048
+      },
+      {
+        "lat": 36.50906,
+        "lon": -86.50496
+      },
+      {
+        "lat": 36.51329,
+        "lon": -86.5058
+      },
+      {
+        "lat": 36.51749,
+        "lon": -86.50771
+      },
+      {
+        "lat": 36.52024,
+        "lon": -86.50834
+      },
+      {
+        "lat": 36.52103,
+        "lon": -86.50924
+      },
+      {
+        "lat": 36.52828,
+        "lon": -86.51009
+      },
+      {
+        "lat": 36.531,
+        "lon": -86.50951
+      },
+      {
+        "lat": 36.53501,
+        "lon": -86.50767
+      },
+      {
+        "lat": 36.54153,
+        "lon": -86.50608
+      },
+      {
+        "lat": 36.54737,
+        "lon": -86.50587
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 30,
+    "lon": -86.67640417166456,
+    "lat": 36.31119557263383,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 29,
+    "county": "Unknown",
+    "radius_m": 2005.7452781606657,
+    "circle_radius_m": 2005.7452781606657,
+    "elongation": 2.97107699891995,
+    "extent_m": 4055.5921315465,
+    "path": null,
+    "path_rejected_reason": "points spread 544 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 48,
+    "lon": -87.59477308463018,
+    "lat": 36.538540004202964,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 30,
+    "county": "Unknown",
+    "radius_m": 129.42419586598575,
+    "circle_radius_m": 2878.675687746688,
+    "elongation": 11.438555843622758,
+    "extent_m": 6268.035367890425,
+    "path": [
+      {
+        "lat": 36.53553,
+        "lon": -87.56283
+      },
+      {
+        "lat": 36.53644,
+        "lon": -87.56554
+      },
+      {
+        "lat": 36.53784,
+        "lon": -87.57673
+      },
+      {
+        "lat": 36.53408,
+        "lon": -87.58413
+      },
+      {
+        "lat": 36.53781,
+        "lon": -87.5904
+      },
+      {
+        "lat": 36.53812,
+        "lon": -87.59528
+      },
+      {
+        "lat": 36.53951,
+        "lon": -87.60738
+      },
+      {
+        "lat": 36.54054,
+        "lon": -87.6072
+      },
+      {
+        "lat": 36.54088,
+        "lon": -87.6093
+      },
+      {
+        "lat": 36.54224,
+        "lon": -87.61973
+      },
+      {
+        "lat": 36.54343,
+        "lon": -87.63144
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 224,
+    "lon": -84.45678728033431,
+    "lat": 35.869439084703636,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 30,
+    "county": "Unknown",
+    "radius_m": 1718.8720456008273,
+    "circle_radius_m": 1718.8720456008273,
+    "elongation": 1.7847836876974346,
+    "extent_m": 4030.217532041522,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.78 < 2.5)"
+  },
+  {
+    "cluster_id": 104,
+    "lon": -86.44535735428718,
+    "lat": 36.18173322701853,
+    "severity": 33,
+    "point_count": 33,
+    "deer_coded_count": 30,
+    "county": "Unknown",
+    "radius_m": 2167.5869282332937,
+    "circle_radius_m": 2167.5869282332937,
+    "elongation": 1.6652922415877847,
+    "extent_m": 4362.938775993873,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.67 < 2.5)"
+  },
+  {
+    "cluster_id": 1,
+    "lon": -88.49799252261153,
+    "lat": 35.68341058960095,
+    "severity": 32,
+    "point_count": 32,
+    "deer_coded_count": 30,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 2501.626987524219,
+    "elongation": 10.345541629532962,
+    "extent_m": 5594.090916937031,
+    "path": [
+      {
+        "lat": 35.67581,
+        "lon": -88.4681
+      },
+      {
+        "lat": 35.67905,
+        "lon": -88.48099
+      },
+      {
+        "lat": 35.67966,
+        "lon": -88.48259
+      },
+      {
+        "lat": 35.68164,
+        "lon": -88.4899
+      },
+      {
+        "lat": 35.68489,
+        "lon": -88.50189
+      },
+      {
+        "lat": 35.68523,
+        "lon": -88.50317
+      },
+      {
+        "lat": 35.68742,
+        "lon": -88.51126
+      },
+      {
+        "lat": 35.68849,
+        "lon": -88.5152
+      },
+      {
+        "lat": 35.68946,
+        "lon": -88.51925
+      },
+      {
+        "lat": 35.69068,
+        "lon": -88.524
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 70,
+    "lon": -86.51837523679932,
+    "lat": 35.86482538011185,
+    "severity": 32,
+    "point_count": 32,
+    "deer_coded_count": 29,
+    "county": "Unknown",
+    "radius_m": 2022.2221098522366,
+    "circle_radius_m": 2022.2221098522366,
+    "elongation": 1.7944384324274723,
+    "extent_m": 4317.804528250914,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.79 < 2.5)"
+  },
+  {
+    "cluster_id": 135,
+    "lon": -84.93154561094032,
+    "lat": 35.99581487642479,
+    "severity": 32,
+    "point_count": 32,
+    "deer_coded_count": 30,
+    "county": "Unknown",
+    "radius_m": 200.0700148374191,
+    "circle_radius_m": 2463.4359918728173,
+    "elongation": 5.81984927835995,
+    "extent_m": 5757.174178605697,
+    "path": [
+      {
+        "lat": 36.00776,
+        "lon": -84.90766
+      },
+      {
+        "lat": 36.00555,
+        "lon": -84.91187
+      },
+      {
+        "lat": 35.99969,
+        "lon": -84.91847
+      },
+      {
+        "lat": 35.99504,
+        "lon": -84.92311
+      },
+      {
+        "lat": 35.99487,
+        "lon": -84.93178
+      },
+      {
+        "lat": 35.99353,
+        "lon": -84.93882
+      },
+      {
+        "lat": 35.99207,
+        "lon": -84.94179
+      },
+      {
+        "lat": 35.99149,
+        "lon": -84.94654
+      },
+      {
+        "lat": 35.98858,
+        "lon": -84.95092
+      },
+      {
+        "lat": 35.98353,
+        "lon": -84.96154
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 227,
+    "lon": -84.39321449303313,
+    "lat": 35.91596741534863,
+    "severity": 32,
+    "point_count": 32,
+    "deer_coded_count": 32,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 2481.568154357929,
+    "elongation": 4.7134495914971035,
+    "extent_m": 5118.0232756766945,
+    "path": [
+      {
+        "lat": 35.89718,
+        "lon": -84.40767
+      },
+      {
+        "lat": 35.9002,
+        "lon": -84.40291
+      },
+      {
+        "lat": 35.90444,
+        "lon": -84.39908
+      },
+      {
+        "lat": 35.91546,
+        "lon": -84.3974
+      },
+      {
+        "lat": 35.91864,
+        "lon": -84.39592
+      },
+      {
+        "lat": 35.92109,
+        "lon": -84.39391
+      },
+      {
+        "lat": 35.92514,
+        "lon": -84.38928
+      },
+      {
+        "lat": 35.92571,
+        "lon": -84.3874
+      },
+      {
+        "lat": 35.92706,
+        "lon": -84.3823
+      },
+      {
+        "lat": 35.93355,
+        "lon": -84.37404
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 130,
+    "lon": -84.88211862135361,
+    "lat": 35.24784390793982,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 24,
+    "county": "Unknown",
+    "radius_m": 1661.8806863254758,
+    "circle_radius_m": 1661.8806863254758,
+    "elongation": 2.3885953489975726,
+    "extent_m": 3355.3021506448863,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.39 < 2.5)"
+  },
+  {
+    "cluster_id": 189,
+    "lon": -84.99410385227443,
+    "lat": 35.895138003613155,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 31,
+    "county": "Unknown",
+    "radius_m": 128.81063658072767,
+    "circle_radius_m": 2053.603891296405,
+    "elongation": 2.6862151996894355,
+    "extent_m": 4405.857738610682,
+    "path": [
+      {
+        "lat": 35.87821,
+        "lon": -85.00316
+      },
+      {
+        "lat": 35.88225,
+        "lon": -85.00273
+      },
+      {
+        "lat": 35.88763,
+        "lon": -85.00134
+      },
+      {
+        "lat": 35.89228,
+        "lon": -84.99456
+      },
+      {
+        "lat": 35.89826,
+        "lon": -84.99224
+      },
+      {
+        "lat": 35.9028,
+        "lon": -84.98828
+      },
+      {
+        "lat": 35.90856,
+        "lon": -84.98872
+      },
+      {
+        "lat": 35.9055,
+        "lon": -84.97688
+      },
+      {
+        "lat": 35.91673,
+        "lon": -84.99542
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 207,
+    "lon": -82.3242409268359,
+    "lat": 36.25192701956065,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 156.5135755268293,
+    "circle_radius_m": 1749.240063583762,
+    "elongation": 6.647982839891242,
+    "extent_m": 4121.609852798712,
+    "path": [
+      {
+        "lat": 36.23752,
+        "lon": -82.3286
+      },
+      {
+        "lat": 36.24072,
+        "lon": -82.32739
+      },
+      {
+        "lat": 36.24437,
+        "lon": -82.32635
+      },
+      {
+        "lat": 36.24716,
+        "lon": -82.3236
+      },
+      {
+        "lat": 36.25507,
+        "lon": -82.3224
+      },
+      {
+        "lat": 36.26261,
+        "lon": -82.32225
+      },
+      {
+        "lat": 36.2655,
+        "lon": -82.31975
+      },
+      {
+        "lat": 36.26961,
+        "lon": -82.32115
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 71,
+    "lon": -86.43811344553168,
+    "lat": 35.93554674322319,
+    "severity": 30,
+    "point_count": 30,
+    "deer_coded_count": 28,
+    "county": "Unknown",
+    "radius_m": 1376.4737071727666,
+    "circle_radius_m": 1376.4737071727666,
+    "elongation": 1.3713892262329486,
+    "extent_m": 3755.9303513705963,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.37 < 2.5)"
+  },
+  {
+    "cluster_id": 47,
+    "lon": -87.37758754456338,
+    "lat": 36.472383257308444,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 26,
+    "county": "Unknown",
+    "radius_m": 1983.0339595039015,
+    "circle_radius_m": 1983.0339595039015,
+    "elongation": 1.6528824567852185,
+    "extent_m": 4377.923787773494,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.65 < 2.5)"
+  },
+  {
+    "cluster_id": 50,
+    "lon": -87.38432452661826,
+    "lat": 36.392296409157645,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 1672.6014860398295,
+    "circle_radius_m": 1672.6014860398295,
+    "elongation": 2.3099377463897572,
+    "extent_m": 3495.7572938064595,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.31 < 2.5)"
+  },
+  {
+    "cluster_id": 59,
+    "lon": -86.97876446451131,
+    "lat": 36.43327745061244,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 2159.335405293526,
+    "elongation": 10.27158057545789,
+    "extent_m": 4750.999830786739,
+    "path": [
+      {
+        "lat": 36.44957,
+        "lon": -86.96075
+      },
+      {
+        "lat": 36.44079,
+        "lon": -86.96754
+      },
+      {
+        "lat": 36.43618,
+        "lon": -86.97264
+      },
+      {
+        "lat": 36.43505,
+        "lon": -86.97495
+      },
+      {
+        "lat": 36.43042,
+        "lon": -86.982
+      },
+      {
+        "lat": 36.4278,
+        "lon": -86.986
+      },
+      {
+        "lat": 36.42588,
+        "lon": -86.98893
+      },
+      {
+        "lat": 36.42459,
+        "lon": -86.99089
+      },
+      {
+        "lat": 36.42056,
+        "lon": -86.99702
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 152,
+    "lon": -85.2958737058869,
+    "lat": 35.12493458614322,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 27,
+    "county": "Unknown",
+    "radius_m": 1851.1014268632664,
+    "circle_radius_m": 1851.1014268632664,
+    "elongation": 2.2957213318960137,
+    "extent_m": 3906.3579177132797,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.30 < 2.5)"
+  },
+  {
+    "cluster_id": 0,
+    "lon": -89.07242614277102,
+    "lat": 35.29326863132776,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 398.74372798561205,
+    "circle_radius_m": 1743.4646528396236,
+    "elongation": 3.1095688701262088,
+    "extent_m": 3589.456276094748,
+    "path": [
+      {
+        "lat": 35.27801,
+        "lon": -89.0617
+      },
+      {
+        "lat": 35.28934,
+        "lon": -89.06211
+      },
+      {
+        "lat": 35.29083,
+        "lon": -89.06585
+      },
+      {
+        "lat": 35.29425,
+        "lon": -89.07359
+      },
+      {
+        "lat": 35.29574,
+        "lon": -89.07654
+      },
+      {
+        "lat": 35.29907,
+        "lon": -89.08264
+      },
+      {
+        "lat": 35.30048,
+        "lon": -89.08721
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 46,
+    "lon": -86.95788069227935,
+    "lat": 35.634977231677304,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 27,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 2021.9930834463455,
+    "elongation": 11.973928035648946,
+    "extent_m": 4429.632399023671,
+    "path": [
+      {
+        "lat": 35.6348,
+        "lon": -86.93313
+      },
+      {
+        "lat": 35.63272,
+        "lon": -86.94493
+      },
+      {
+        "lat": 35.63371,
+        "lon": -86.95344
+      },
+      {
+        "lat": 35.63445,
+        "lon": -86.95682
+      },
+      {
+        "lat": 35.63511,
+        "lon": -86.95907
+      },
+      {
+        "lat": 35.63563,
+        "lon": -86.9609
+      },
+      {
+        "lat": 35.63621,
+        "lon": -86.96669
+      },
+      {
+        "lat": 35.63623,
+        "lon": -86.97606
+      },
+      {
+        "lat": 35.63607,
+        "lon": -86.98024
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 140,
+    "lon": -86.14926007391844,
+    "lat": 35.294452791179324,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 229.13792551919423,
+    "circle_radius_m": 1808.9658164691614,
+    "elongation": 4.215494736857098,
+    "extent_m": 4702.659699200835,
+    "path": [
+      {
+        "lat": 35.27975,
+        "lon": -86.13578
+      },
+      {
+        "lat": 35.28408,
+        "lon": -86.14028
+      },
+      {
+        "lat": 35.29071,
+        "lon": -86.14487
+      },
+      {
+        "lat": 35.29366,
+        "lon": -86.14816
+      },
+      {
+        "lat": 35.29421,
+        "lon": -86.14866
+      },
+      {
+        "lat": 35.29562,
+        "lon": -86.15294
+      },
+      {
+        "lat": 35.30166,
+        "lon": -86.15535
+      },
+      {
+        "lat": 35.30381,
+        "lon": -86.15728
+      },
+      {
+        "lat": 35.30978,
+        "lon": -86.16264
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 149,
+    "lon": -85.12273437280405,
+    "lat": 35.35603308047956,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1750.5848707022606,
+    "elongation": 5.414044238500087,
+    "extent_m": 3931.0129358910153,
+    "path": [
+      {
+        "lat": 35.34102,
+        "lon": -85.1291
+      },
+      {
+        "lat": 35.3466,
+        "lon": -85.12655
+      },
+      {
+        "lat": 35.34964,
+        "lon": -85.12482
+      },
+      {
+        "lat": 35.35541,
+        "lon": -85.12212
+      },
+      {
+        "lat": 35.36083,
+        "lon": -85.12009
+      },
+      {
+        "lat": 35.36417,
+        "lon": -85.11906
+      },
+      {
+        "lat": 35.36673,
+        "lon": -85.11813
+      },
+      {
+        "lat": 35.37007,
+        "lon": -85.11616
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 165,
+    "lon": -85.46266633720731,
+    "lat": 36.17115637669779,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 1904.122566578804,
+    "circle_radius_m": 1904.122566578804,
+    "elongation": 1.4268103799515537,
+    "extent_m": 3520.044837417604,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.43 < 2.5)"
+  },
+  {
+    "cluster_id": 206,
+    "lon": -82.32980494227431,
+    "lat": 36.30569571356739,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 1824.7492078815085,
+    "circle_radius_m": 1824.7492078815085,
+    "elongation": 1.3638667695525644,
+    "extent_m": 3575.212972975084,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.36 < 2.5)"
+  },
+  {
+    "cluster_id": 231,
+    "lon": -82.22708715116092,
+    "lat": 36.58814639541741,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 28,
+    "county": "Unknown",
+    "radius_m": 1223.1568010764686,
+    "circle_radius_m": 1223.1568010764686,
+    "elongation": 2.2363426328379856,
+    "extent_m": 3019.8601982307437,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.24 < 2.5)"
+  },
+  {
+    "cluster_id": 8,
+    "lon": -89.73394384824799,
+    "lat": 35.098965005167685,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 1766.3772352932801,
+    "circle_radius_m": 1766.3772352932801,
+    "elongation": 1.515540983264502,
+    "extent_m": 3388.8474400730793,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.52 < 2.5)"
+  },
+  {
+    "cluster_id": 32,
+    "lon": -86.72143354490169,
+    "lat": 36.36055231871506,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 26,
+    "county": "Unknown",
+    "radius_m": 1607.2076096361754,
+    "circle_radius_m": 1607.2076096361754,
+    "elongation": 1.283510200233265,
+    "extent_m": 3448.054137417668,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.28 < 2.5)"
+  },
+  {
+    "cluster_id": 36,
+    "lon": -87.05439110834614,
+    "lat": 35.20827052960502,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 1471.285083845107,
+    "circle_radius_m": 1471.285083845107,
+    "elongation": 1.4560565981223654,
+    "extent_m": 3374.2891176618477,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.46 < 2.5)"
+  },
+  {
+    "cluster_id": 38,
+    "lon": -86.55816566080314,
+    "lat": 35.15214218951215,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 1599.847896316329,
+    "circle_radius_m": 1599.847896316329,
+    "elongation": 1.896880995370715,
+    "extent_m": 3363.254616730373,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.90 < 2.5)"
+  },
+  {
+    "cluster_id": 54,
+    "lon": -86.84357591049313,
+    "lat": 36.5051654272386,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 1972.9438598433096,
+    "circle_radius_m": 1972.9438598433096,
+    "elongation": 3.6996539609940604,
+    "extent_m": 3962.2428324735965,
+    "path": null,
+    "path_rejected_reason": "points spread 455 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 60,
+    "lon": -86.74985512739633,
+    "lat": 36.4762999874117,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 159.05847542557854,
+    "circle_radius_m": 1940.0442467642267,
+    "elongation": 4.983630219868115,
+    "extent_m": 4404.3674189892145,
+    "path": [
+      {
+        "lat": 36.47667,
+        "lon": -86.72831
+      },
+      {
+        "lat": 36.47577,
+        "lon": -86.7336
+      },
+      {
+        "lat": 36.47465,
+        "lon": -86.7361
+      },
+      {
+        "lat": 36.474,
+        "lon": -86.73886
+      },
+      {
+        "lat": 36.47367,
+        "lon": -86.75015
+      },
+      {
+        "lat": 36.47391,
+        "lon": -86.75368
+      },
+      {
+        "lat": 36.47758,
+        "lon": -86.76645
+      },
+      {
+        "lat": 36.4789,
+        "lon": -86.76818
+      },
+      {
+        "lat": 36.48042,
+        "lon": -86.77516
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 159,
+    "lon": -84.61721362603534,
+    "lat": 35.497161570246405,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 354.21344354382467,
+    "circle_radius_m": 1961.956236983357,
+    "elongation": 3.4417037894990936,
+    "extent_m": 4675.641817805469,
+    "path": [
+      {
+        "lat": 35.482,
+        "lon": -84.63221
+      },
+      {
+        "lat": 35.48429,
+        "lon": -84.63037
+      },
+      {
+        "lat": 35.48815,
+        "lon": -84.62604
+      },
+      {
+        "lat": 35.49265,
+        "lon": -84.62153
+      },
+      {
+        "lat": 35.49664,
+        "lon": -84.6035
+      },
+      {
+        "lat": 35.50542,
+        "lon": -84.6131
+      },
+      {
+        "lat": 35.50681,
+        "lon": -84.61325
+      },
+      {
+        "lat": 35.50588,
+        "lon": -84.60899
+      },
+      {
+        "lat": 35.51375,
+        "lon": -84.60036
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 164,
+    "lon": -85.41229142363096,
+    "lat": 36.22339197132212,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 2130.76507513895,
+    "elongation": 8.016168139280825,
+    "extent_m": 4518.5908346679425,
+    "path": [
+      {
+        "lat": 36.20951,
+        "lon": -85.42924
+      },
+      {
+        "lat": 36.21094,
+        "lon": -85.42661
+      },
+      {
+        "lat": 36.21654,
+        "lon": -85.41704
+      },
+      {
+        "lat": 36.219,
+        "lon": -85.41117
+      },
+      {
+        "lat": 36.22204,
+        "lon": -85.41208
+      },
+      {
+        "lat": 36.22562,
+        "lon": -85.40845
+      },
+      {
+        "lat": 36.23242,
+        "lon": -85.40422
+      },
+      {
+        "lat": 36.23658,
+        "lon": -85.40109
+      },
+      {
+        "lat": 36.23929,
+        "lon": -85.39854
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 216,
+    "lon": -81.84692346327904,
+    "lat": 36.46638160633981,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 1740.389998213316,
+    "circle_radius_m": 1740.389998213316,
+    "elongation": 3.6761202359215517,
+    "extent_m": 4191.663825662693,
+    "path": null,
+    "path_rejected_reason": "points spread 525 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 143,
+    "lon": -85.05242201380067,
+    "lat": 35.10541892826505,
+    "severity": 26,
+    "point_count": 26,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 1638.6041906104363,
+    "circle_radius_m": 1638.6041906104363,
+    "elongation": 2.8820605571539843,
+    "extent_m": 3307.2814033055847,
+    "path": null,
+    "path_rejected_reason": "points spread 495 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 182,
+    "lon": -85.29046211682203,
+    "lat": 35.95749243339226,
+    "severity": 26,
+    "point_count": 26,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1986.9773858574647,
+    "elongation": 16.266893556940474,
+    "extent_m": 4262.809171447978,
+    "path": [
+      {
+        "lat": 35.96519,
+        "lon": -85.27036
+      },
+      {
+        "lat": 35.96253,
+        "lon": -85.2795
+      },
+      {
+        "lat": 35.9602,
+        "lon": -85.2854
+      },
+      {
+        "lat": 35.95749,
+        "lon": -85.28906
+      },
+      {
+        "lat": 35.956,
+        "lon": -85.29084
+      },
+      {
+        "lat": 35.95386,
+        "lon": -85.29977
+      },
+      {
+        "lat": 35.95111,
+        "lon": -85.30795
+      },
+      {
+        "lat": 35.94931,
+        "lon": -85.31033
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 211,
+    "lon": -82.68845813707308,
+    "lat": 36.22558732675414,
+    "severity": 26,
+    "point_count": 26,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 324.5479034502992,
+    "circle_radius_m": 1665.212991344075,
+    "elongation": 3.036011688323404,
+    "extent_m": 3771.0495926665008,
+    "path": [
+      {
+        "lat": 36.22922,
+        "lon": -82.6698
+      },
+      {
+        "lat": 36.22933,
+        "lon": -82.68019
+      },
+      {
+        "lat": 36.22873,
+        "lon": -82.68391
+      },
+      {
+        "lat": 36.22815,
+        "lon": -82.68562
+      },
+      {
+        "lat": 36.22755,
+        "lon": -82.68949
+      },
+      {
+        "lat": 36.22409,
+        "lon": -82.6969
+      },
+      {
+        "lat": 36.2206,
+        "lon": -82.70217
+      },
+      {
+        "lat": 36.2187,
+        "lon": -82.70643
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 234,
+    "lon": -82.4349285061114,
+    "lat": 36.13289971211611,
+    "severity": 26,
+    "point_count": 26,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 1880.1003493082742,
+    "circle_radius_m": 1880.1003493082742,
+    "elongation": 1.8934599523004774,
+    "extent_m": 3743.1140189109783,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.89 < 2.5)"
+  },
+  {
+    "cluster_id": 4,
+    "lon": -89.43535298501592,
+    "lat": 35.87083047965226,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 1442.0771022279569,
+    "circle_radius_m": 1442.0771022279569,
+    "elongation": 1.3774568478636824,
+    "extent_m": 3466.1330369938087,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.38 < 2.5)"
+  },
+  {
+    "cluster_id": 39,
+    "lon": -86.5699228603189,
+    "lat": 35.11323278542683,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 1380.7529480754988,
+    "circle_radius_m": 1380.7529480754988,
+    "elongation": 1.394551607669179,
+    "extent_m": 2996.1494300547156,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.39 < 2.5)"
+  },
+  {
+    "cluster_id": 40,
+    "lon": -86.50074237484648,
+    "lat": 35.154513523496576,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 21,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1066.2707859913548,
+    "elongation": 4.435343193718897,
+    "extent_m": 3029.1212003694814,
+    "path": [
+      {
+        "lat": 35.14902,
+        "lon": -86.49124
+      },
+      {
+        "lat": 35.15234,
+        "lon": -86.49686
+      },
+      {
+        "lat": 35.15491,
+        "lon": -86.50165
+      },
+      {
+        "lat": 35.15597,
+        "lon": -86.5039
+      },
+      {
+        "lat": 35.15691,
+        "lon": -86.50592
+      },
+      {
+        "lat": 35.15902,
+        "lon": -86.50978
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 74,
+    "lon": -86.4162919810731,
+    "lat": 35.71427607926105,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 196.03657933985502,
+    "circle_radius_m": 1672.2975203803296,
+    "elongation": 4.822790576828076,
+    "extent_m": 3773.1366481315144,
+    "path": [
+      {
+        "lat": 35.701,
+        "lon": -86.41945
+      },
+      {
+        "lat": 35.70616,
+        "lon": -86.41834
+      },
+      {
+        "lat": 35.70849,
+        "lon": -86.41772
+      },
+      {
+        "lat": 35.71399,
+        "lon": -86.41613
+      },
+      {
+        "lat": 35.71717,
+        "lon": -86.4156
+      },
+      {
+        "lat": 35.72079,
+        "lon": -86.41435
+      },
+      {
+        "lat": 35.7258,
+        "lon": -86.413
+      },
+      {
+        "lat": 35.72896,
+        "lon": -86.41215
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 93,
+    "lon": -86.78111989206863,
+    "lat": 35.896382091483986,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 24,
+    "county": "Unknown",
+    "radius_m": 1965.810619708682,
+    "circle_radius_m": 1965.810619708682,
+    "elongation": 1.4991228031278052,
+    "extent_m": 3577.333832512363,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.50 < 2.5)"
+  },
+  {
+    "cluster_id": 111,
+    "lon": -86.17983814958706,
+    "lat": 36.319118818495475,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1819.7753516008427,
+    "elongation": 4.350210462875307,
+    "extent_m": 4078.3880141611344,
+    "path": [
+      {
+        "lat": 36.30525,
+        "lon": -86.19153
+      },
+      {
+        "lat": 36.3088,
+        "lon": -86.18532
+      },
+      {
+        "lat": 36.31516,
+        "lon": -86.17963
+      },
+      {
+        "lat": 36.31711,
+        "lon": -86.17826
+      },
+      {
+        "lat": 36.3196,
+        "lon": -86.17669
+      },
+      {
+        "lat": 36.32535,
+        "lon": -86.17532
+      },
+      {
+        "lat": 36.3307,
+        "lon": -86.17386
+      },
+      {
+        "lat": 36.33414,
+        "lon": -86.17113
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 129,
+    "lon": -84.8077701347134,
+    "lat": 35.30087034268391,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 24,
+    "county": "Unknown",
+    "radius_m": 1628.2664179088151,
+    "circle_radius_m": 1628.2664179088151,
+    "elongation": 2.6867895613408,
+    "extent_m": 3384.9371674799586,
+    "path": null,
+    "path_rejected_reason": "points spread 574 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 167,
+    "lon": -85.58046256243804,
+    "lat": 36.13956574321329,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 1530.9100559755668,
+    "circle_radius_m": 1530.9100559755668,
+    "elongation": 1.0793141352963516,
+    "extent_m": 2630.1413167322207,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.08 < 2.5)"
+  },
+  {
+    "cluster_id": 181,
+    "lon": -85.49879621124353,
+    "lat": 35.84701618991149,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 1741.039161391879,
+    "circle_radius_m": 1741.039161391879,
+    "elongation": 1.6280785965976239,
+    "extent_m": 3398.7788103349494,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.63 < 2.5)"
+  },
+  {
+    "cluster_id": 185,
+    "lon": -86.0834801329362,
+    "lat": 35.49595771607461,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 1702.7532355091764,
+    "circle_radius_m": 1702.7532355091764,
+    "elongation": 1.326629293970601,
+    "extent_m": 2957.3674728630294,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.33 < 2.5)"
+  },
+  {
+    "cluster_id": 186,
+    "lon": -86.08254993708196,
+    "lat": 35.4641124518438,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 21,
+    "county": "Unknown",
+    "radius_m": 1534.9556647983059,
+    "circle_radius_m": 1534.9556647983059,
+    "elongation": 1.5972894722380202,
+    "extent_m": 3618.8803912199555,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.60 < 2.5)"
+  },
+  {
+    "cluster_id": 222,
+    "lon": -84.26079846746114,
+    "lat": 35.69982106739567,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 25,
+    "county": "Unknown",
+    "radius_m": 249.12904504474088,
+    "circle_radius_m": 1399.5772886199134,
+    "elongation": 3.7131826935234797,
+    "extent_m": 3341.1872741172383,
+    "path": [
+      {
+        "lat": 35.68719,
+        "lon": -84.26039
+      },
+      {
+        "lat": 35.69341,
+        "lon": -84.25986
+      },
+      {
+        "lat": 35.69563,
+        "lon": -84.25698
+      },
+      {
+        "lat": 35.70042,
+        "lon": -84.25665
+      },
+      {
+        "lat": 35.70689,
+        "lon": -84.26318
+      },
+      {
+        "lat": 35.70914,
+        "lon": -84.26505
+      },
+      {
+        "lat": 35.71223,
+        "lon": -84.26699
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 37,
+    "lon": -87.05782062192384,
+    "lat": 35.17261568213556,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 1734.0283052337168,
+    "circle_radius_m": 1734.0283052337168,
+    "elongation": 1.4866131198091046,
+    "extent_m": 3425.30246384023,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.49 < 2.5)"
+  },
+  {
+    "cluster_id": 49,
+    "lon": -87.23689700813769,
+    "lat": 36.61843625221658,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 1655.2669695757354,
+    "circle_radius_m": 1655.2669695757354,
+    "elongation": 2.26884257898642,
+    "extent_m": 3038.954713816429,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.27 < 2.5)"
+  },
+  {
+    "cluster_id": 84,
+    "lon": -86.27452622417832,
+    "lat": 36.50099799183574,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 24,
+    "county": "Unknown",
+    "radius_m": 1478.0948412166415,
+    "circle_radius_m": 1478.0948412166415,
+    "elongation": 1.877709947796182,
+    "extent_m": 2939.8588843474154,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.88 < 2.5)"
+  },
+  {
+    "cluster_id": 105,
+    "lon": -86.3358642550071,
+    "lat": 36.19957344361289,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 24,
+    "county": "Unknown",
+    "radius_m": 1767.6464104465379,
+    "circle_radius_m": 1767.6464104465379,
+    "elongation": 1.2260826355823649,
+    "extent_m": 3199.8952064841924,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.23 < 2.5)"
+  },
+  {
+    "cluster_id": 133,
+    "lon": -84.9846424020805,
+    "lat": 35.95983801338526,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 1689.901760228339,
+    "circle_radius_m": 1689.901760228339,
+    "elongation": 1.0713554531832525,
+    "extent_m": 3405.4799440534675,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.07 < 2.5)"
+  },
+  {
+    "cluster_id": 202,
+    "lon": -84.22112716631919,
+    "lat": 36.035115482550395,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 21,
+    "county": "Unknown",
+    "radius_m": 1750.181896923005,
+    "circle_radius_m": 1750.181896923005,
+    "elongation": 2.442264157542381,
+    "extent_m": 3504.597890842973,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.44 < 2.5)"
+  },
+  {
+    "cluster_id": 203,
+    "lon": -83.99746699975869,
+    "lat": 35.84548494216597,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 1489.0684186311335,
+    "circle_radius_m": 1489.0684186311335,
+    "elongation": 1.6300051171111263,
+    "extent_m": 2906.4352517095595,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.63 < 2.5)"
+  },
+  {
+    "cluster_id": 209,
+    "lon": -82.79726775592273,
+    "lat": 36.17687494039872,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 1772.4139982521046,
+    "circle_radius_m": 1772.4139982521046,
+    "elongation": 1.868273196917242,
+    "extent_m": 3436.673845605418,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.87 < 2.5)"
+  },
+  {
+    "cluster_id": 10,
+    "lon": -89.73343735737666,
+    "lat": 35.21635258390461,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 1489.375279231211,
+    "circle_radius_m": 1489.375279231211,
+    "elongation": 2.0425575790503325,
+    "extent_m": 2829.5731362847714,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.04 < 2.5)"
+  },
+  {
+    "cluster_id": 18,
+    "lon": -89.76451415036873,
+    "lat": 35.45977835585689,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 1417.999198224055,
+    "circle_radius_m": 1417.999198224055,
+    "elongation": 2.2428144853750407,
+    "extent_m": 3134.4741365966975,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.24 < 2.5)"
+  },
+  {
+    "cluster_id": 52,
+    "lon": -87.47319632177403,
+    "lat": 36.43772567692665,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 166.2816990545028,
+    "circle_radius_m": 1809.7768037604478,
+    "elongation": 3.653119581641681,
+    "extent_m": 3816.7263834689516,
+    "path": [
+      {
+        "lat": 36.44561,
+        "lon": -87.45483
+      },
+      {
+        "lat": 36.44048,
+        "lon": -87.46324
+      },
+      {
+        "lat": 36.43888,
+        "lon": -87.46902
+      },
+      {
+        "lat": 36.43733,
+        "lon": -87.47401
+      },
+      {
+        "lat": 36.43595,
+        "lon": -87.48122
+      },
+      {
+        "lat": 36.43569,
+        "lon": -87.48699
+      },
+      {
+        "lat": 36.43269,
+        "lon": -87.4926
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 69,
+    "lon": -86.57504175217913,
+    "lat": 35.85665021591708,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 21,
+    "county": "Unknown",
+    "radius_m": 1686.5310408364194,
+    "circle_radius_m": 1686.5310408364194,
+    "elongation": 2.0169899582532413,
+    "extent_m": 3667.278280636956,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.02 < 2.5)"
+  },
+  {
+    "cluster_id": 96,
+    "lon": -86.75006477480436,
+    "lat": 35.78489797729487,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 230.35829665261176,
+    "circle_radius_m": 1771.9128197365515,
+    "elongation": 3.5891199408754964,
+    "extent_m": 3873.41834167243,
+    "path": [
+      {
+        "lat": 35.76939,
+        "lon": -86.74935
+      },
+      {
+        "lat": 35.77682,
+        "lon": -86.75341
+      },
+      {
+        "lat": 35.78158,
+        "lon": -86.75207
+      },
+      {
+        "lat": 35.78432,
+        "lon": -86.75036
+      },
+      {
+        "lat": 35.79032,
+        "lon": -86.74798
+      },
+      {
+        "lat": 35.7928,
+        "lon": -86.7521
+      },
+      {
+        "lat": 35.80316,
+        "lon": -86.74224
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 137,
+    "lon": -86.02534702088197,
+    "lat": 36.07465388801274,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 166.44748412192024,
+    "circle_radius_m": 1837.7965085844346,
+    "elongation": 3.4772372431136853,
+    "extent_m": 3730.9976655580836,
+    "path": [
+      {
+        "lat": 36.05869,
+        "lon": -86.02416
+      },
+      {
+        "lat": 36.06938,
+        "lon": -86.03001
+      },
+      {
+        "lat": 36.07029,
+        "lon": -86.02629
+      },
+      {
+        "lat": 36.07203,
+        "lon": -86.02544
+      },
+      {
+        "lat": 36.07761,
+        "lon": -86.02303
+      },
+      {
+        "lat": 36.08982,
+        "lon": -86.02258
+      },
+      {
+        "lat": 36.09111,
+        "lon": -86.02054
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 169,
+    "lon": -85.25346704792715,
+    "lat": 36.131743855989264,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 1585.5369234030006,
+    "circle_radius_m": 1585.5369234030006,
+    "elongation": 1.5046699497702674,
+    "extent_m": 2872.4354796355574,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.50 < 2.5)"
+  },
+  {
+    "cluster_id": 184,
+    "lon": -86.06048179027138,
+    "lat": 35.82337001541889,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 23,
+    "county": "Unknown",
+    "radius_m": 1785.4421915259284,
+    "circle_radius_m": 1785.4421915259284,
+    "elongation": 2.318335739056137,
+    "extent_m": 3759.248424559259,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.32 < 2.5)"
+  },
+  {
+    "cluster_id": 188,
+    "lon": -85.06548019446176,
+    "lat": 35.90068912490469,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 21,
+    "county": "Unknown",
+    "radius_m": 1739.126028317384,
+    "circle_radius_m": 1739.126028317384,
+    "elongation": 1.8568920244583287,
+    "extent_m": 3645.709722941111,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.86 < 2.5)"
+  },
+  {
+    "cluster_id": 215,
+    "lon": -82.02242644063905,
+    "lat": 36.356127737311915,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 355.3340491317619,
+    "circle_radius_m": 1584.4957456424263,
+    "elongation": 3.1189501670655426,
+    "extent_m": 3750.7396659744327,
+    "path": [
+      {
+        "lat": 36.34326,
+        "lon": -82.03069
+      },
+      {
+        "lat": 36.35366,
+        "lon": -82.02958
+      },
+      {
+        "lat": 36.35736,
+        "lon": -82.02551
+      },
+      {
+        "lat": 36.35788,
+        "lon": -82.02392
+      },
+      {
+        "lat": 36.35852,
+        "lon": -82.02213
+      },
+      {
+        "lat": 36.36234,
+        "lon": -82.01694
+      },
+      {
+        "lat": 36.36548,
+        "lon": -82.00893
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 221,
+    "lon": -84.39075971497297,
+    "lat": 35.73297211581519,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 1885.293976504642,
+    "circle_radius_m": 1885.293976504642,
+    "elongation": 1.0681015397585183,
+    "extent_m": 3379.654062991529,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.07 < 2.5)"
+  },
+  {
+    "cluster_id": 68,
+    "lon": -86.3180494614386,
+    "lat": 35.722988643908415,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 21,
+    "county": "Unknown",
+    "radius_m": 1401.6008636693957,
+    "circle_radius_m": 1401.6008636693957,
+    "elongation": 2.2067013870761154,
+    "extent_m": 3391.3059800592587,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.21 < 2.5)"
+  },
+  {
+    "cluster_id": 87,
+    "lon": -86.23658558022127,
+    "lat": 36.55406233993596,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 22,
+    "county": "Unknown",
+    "radius_m": 1506.085529694216,
+    "circle_radius_m": 1506.085529694216,
+    "elongation": 1.7299915024505572,
+    "extent_m": 2956.2914709091483,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.73 < 2.5)"
+  },
+  {
+    "cluster_id": 126,
+    "lon": -84.98912639736308,
+    "lat": 35.13825465215811,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 21,
+    "county": "Unknown",
+    "radius_m": 1738.5131222065606,
+    "circle_radius_m": 1738.5131222065606,
+    "elongation": 1.7936141158488612,
+    "extent_m": 3137.7562245593426,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.79 < 2.5)"
+  },
+  {
+    "cluster_id": 162,
+    "lon": -85.3768495130762,
+    "lat": 36.28171705538643,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1717.4002476291816,
+    "circle_radius_m": 1717.4002476291816,
+    "elongation": 1.9623049364540293,
+    "extent_m": 3560.4968315720243,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.96 < 2.5)"
+  },
+  {
+    "cluster_id": 172,
+    "lon": -85.07672662181992,
+    "lat": 35.43621705421242,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 1622.2577220665044,
+    "circle_radius_m": 1622.2577220665044,
+    "elongation": 2.4812683754735168,
+    "extent_m": 3581.7703574232382,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.48 < 2.5)"
+  },
+  {
+    "cluster_id": 3,
+    "lon": -88.44982174181088,
+    "lat": 35.66325176138083,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 1580.8572390610404,
+    "circle_radius_m": 1580.8572390610404,
+    "elongation": 1.391062333919763,
+    "extent_m": 2945.8779517754747,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.39 < 2.5)"
+  },
+  {
+    "cluster_id": 25,
+    "lon": -86.49636821826948,
+    "lat": 35.51339031804323,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1233.0983940613708,
+    "elongation": 3.6074007089625773,
+    "extent_m": 2760.6250925659533,
+    "path": [
+      {
+        "lat": 35.51081,
+        "lon": -86.4862
+      },
+      {
+        "lat": 35.50879,
+        "lon": -86.49057
+      },
+      {
+        "lat": 35.51084,
+        "lon": -86.49434
+      },
+      {
+        "lat": 35.51149,
+        "lon": -86.49554
+      },
+      {
+        "lat": 35.51887,
+        "lon": -86.50741
+      },
+      {
+        "lat": 35.5234,
+        "lon": -86.51071
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 51,
+    "lon": -87.5359021736799,
+    "lat": 36.532474305461285,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 21,
+    "county": "Unknown",
+    "radius_m": 1401.4587564148894,
+    "circle_radius_m": 1401.4587564148894,
+    "elongation": 1.632841190443118,
+    "extent_m": 2773.503799268528,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.63 < 2.5)"
+  },
+  {
+    "cluster_id": 86,
+    "lon": -86.27564444157835,
+    "lat": 36.56498129281244,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 263.1110247466795,
+    "circle_radius_m": 1686.0559587628081,
+    "elongation": 2.955442187414913,
+    "extent_m": 3377.3268927724835,
+    "path": [
+      {
+        "lat": 36.56135,
+        "lon": -86.25852
+      },
+      {
+        "lat": 36.56308,
+        "lon": -86.26654
+      },
+      {
+        "lat": 36.56376,
+        "lon": -86.26924
+      },
+      {
+        "lat": 36.5641,
+        "lon": -86.27059
+      },
+      {
+        "lat": 36.56751,
+        "lon": -86.28187
+      },
+      {
+        "lat": 36.56753,
+        "lon": -86.28429
+      },
+      {
+        "lat": 36.56673,
+        "lon": -86.29541
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 92,
+    "lon": -86.07464061411267,
+    "lat": 36.36493136806786,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1430.8164293042967,
+    "elongation": 76.18769498470498,
+    "extent_m": 3247.880230403816,
+    "path": [
+      {
+        "lat": 36.36186,
+        "lon": -86.05904
+      },
+      {
+        "lat": 36.36415,
+        "lon": -86.07111
+      },
+      {
+        "lat": 36.36464,
+        "lon": -86.0738
+      },
+      {
+        "lat": 36.36512,
+        "lon": -86.0762
+      },
+      {
+        "lat": 36.36671,
+        "lon": -86.08366
+      },
+      {
+        "lat": 36.36824,
+        "lon": -86.09008
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 99,
+    "lon": -86.8909337825385,
+    "lat": 35.81625643951426,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 1712.6471395774665,
+    "circle_radius_m": 1712.6471395774665,
+    "elongation": 1.3491270236074648,
+    "extent_m": 3159.409593067664,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.35 < 2.5)"
+  },
+  {
+    "cluster_id": 121,
+    "lon": -86.25834049103003,
+    "lat": 36.38592278584111,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 1403.0795646002682,
+    "circle_radius_m": 1403.0795646002682,
+    "elongation": 1.0913491872485122,
+    "extent_m": 2707.141144411379,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.09 < 2.5)"
+  },
+  {
+    "cluster_id": 180,
+    "lon": -85.6744750549961,
+    "lat": 35.72710854024007,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1447.846250648155,
+    "circle_radius_m": 1447.846250648155,
+    "elongation": 1.5886866989935657,
+    "extent_m": 2765.96714896879,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.59 < 2.5)"
+  },
+  {
+    "cluster_id": 196,
+    "lon": -84.38851193959246,
+    "lat": 35.028761668071745,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1733.6765066617272,
+    "circle_radius_m": 1733.6765066617272,
+    "elongation": 1.5121820994018156,
+    "extent_m": 3043.8555765225274,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.51 < 2.5)"
+  },
+  {
+    "cluster_id": 208,
+    "lon": -83.18317893127899,
+    "lat": 35.893624163591305,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1300.2177929378126,
+    "circle_radius_m": 1300.2177929378126,
+    "elongation": 2.0885147830079918,
+    "extent_m": 3578.5114237890384,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.09 < 2.5)"
+  },
+  {
+    "cluster_id": 229,
+    "lon": -84.36028983507572,
+    "lat": 35.956705649467374,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 1259.9803397515539,
+    "circle_radius_m": 1259.9803397515539,
+    "elongation": 2.4763059272123553,
+    "extent_m": 2707.695339534583,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.48 < 2.5)"
+  },
+  {
+    "cluster_id": 41,
+    "lon": -86.00993500727206,
+    "lat": 36.51092911599248,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 276.4889468120004,
+    "circle_radius_m": 1984.5816960983775,
+    "elongation": 3.538668834447559,
+    "extent_m": 3932.326483931518,
+    "path": [
+      {
+        "lat": 36.49868,
+        "lon": -85.99683
+      },
+      {
+        "lat": 36.50635,
+        "lon": -86.00672
+      },
+      {
+        "lat": 36.50832,
+        "lon": -86.00906
+      },
+      {
+        "lat": 36.51627,
+        "lon": -86.013
+      },
+      {
+        "lat": 36.51755,
+        "lon": -86.01835
+      },
+      {
+        "lat": 36.52764,
+        "lon": -86.01764
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 134,
+    "lon": -84.94507363430728,
+    "lat": 35.94639908473762,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 381.5792743601119,
+    "circle_radius_m": 1225.260635199534,
+    "elongation": 2.646566997953388,
+    "extent_m": 2704.5502674507534,
+    "path": [
+      {
+        "lat": 35.94344,
+        "lon": -84.93382
+      },
+      {
+        "lat": 35.94227,
+        "lon": -84.93893
+      },
+      {
+        "lat": 35.94411,
+        "lon": -84.94582
+      },
+      {
+        "lat": 35.95091,
+        "lon": -84.949
+      },
+      {
+        "lat": 35.95155,
+        "lon": -84.9579
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 153,
+    "lon": -85.10414708273522,
+    "lat": 35.39402513580312,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 1275.868185361631,
+    "circle_radius_m": 1275.868185361631,
+    "elongation": 2.2657286355084216,
+    "extent_m": 2706.721383305653,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.27 < 2.5)"
+  },
+  {
+    "cluster_id": 154,
+    "lon": -85.00025054026158,
+    "lat": 35.25316967488923,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 20,
+    "county": "Unknown",
+    "radius_m": 176.7416271313498,
+    "circle_radius_m": 1384.3058314618738,
+    "elongation": 4.407095333905887,
+    "extent_m": 3300.9154478215614,
+    "path": [
+      {
+        "lat": 35.24328,
+        "lon": -85.00899
+      },
+      {
+        "lat": 35.24905,
+        "lon": -85.00404
+      },
+      {
+        "lat": 35.25265,
+        "lon": -85.00095
+      },
+      {
+        "lat": 35.25559,
+        "lon": -84.99841
+      },
+      {
+        "lat": 35.25963,
+        "lon": -84.99494
+      },
+      {
+        "lat": 35.26264,
+        "lon": -84.99234
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 155,
+    "lon": -85.06014199397539,
+    "lat": 35.21587082918745,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 1764.3199996445671,
+    "circle_radius_m": 1764.3199996445671,
+    "elongation": 1.277921123822683,
+    "extent_m": 3047.9285526186723,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.28 < 2.5)"
+  },
+  {
+    "cluster_id": 157,
+    "lon": -84.71207475649058,
+    "lat": 35.39375647717848,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1281.327316899864,
+    "circle_radius_m": 1281.327316899864,
+    "elongation": 1.4964901942013202,
+    "extent_m": 2698.1954963571743,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.50 < 2.5)"
+  },
+  {
+    "cluster_id": 174,
+    "lon": -84.75740955439153,
+    "lat": 35.7877863279772,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1622.9862013108782,
+    "elongation": 25.481759003883894,
+    "extent_m": 3424.3188144622036,
+    "path": [
+      {
+        "lat": 35.77565,
+        "lon": -84.76707
+      },
+      {
+        "lat": 35.7845,
+        "lon": -84.76087
+      },
+      {
+        "lat": 35.78863,
+        "lon": -84.75705
+      },
+      {
+        "lat": 35.79114,
+        "lon": -84.75472
+      },
+      {
+        "lat": 35.79276,
+        "lon": -84.7532
+      },
+      {
+        "lat": 35.79942,
+        "lon": -84.74684
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 177,
+    "lon": -84.84689849059178,
+    "lat": 35.63752160055035,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1512.7725270239766,
+    "circle_radius_m": 1512.7725270239766,
+    "elongation": 2.2209811306895966,
+    "extent_m": 3017.321222587443,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.22 < 2.5)"
+  },
+  {
+    "cluster_id": 33,
+    "lon": -86.90778875896784,
+    "lat": 36.06032345332927,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 1461.309288173492,
+    "circle_radius_m": 1461.309288173492,
+    "elongation": 1.4459419893871976,
+    "extent_m": 2663.704550517232,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.45 < 2.5)"
+  },
+  {
+    "cluster_id": 35,
+    "lon": -87.35205820967572,
+    "lat": 36.03658261171482,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1292.6748022243783,
+    "circle_radius_m": 1292.6748022243783,
+    "elongation": 2.4374749760821834,
+    "extent_m": 2602.338893310048,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.44 < 2.5)"
+  },
+  {
+    "cluster_id": 44,
+    "lon": -87.01667800387006,
+    "lat": 35.592207047982626,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 1215.6765413271617,
+    "circle_radius_m": 1215.6765413271617,
+    "elongation": 1.4801471936463004,
+    "extent_m": 2864.1080952628167,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.48 < 2.5)"
+  },
+  {
+    "cluster_id": 45,
+    "lon": -87.00416899181944,
+    "lat": 35.63507649848401,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1561.7540546179453,
+    "circle_radius_m": 1561.7540546179453,
+    "elongation": 2.207249418394263,
+    "extent_m": 3294.1007742522825,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.21 < 2.5)"
+  },
+  {
+    "cluster_id": 56,
+    "lon": -86.89676145878705,
+    "lat": 36.43635369875633,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 1423.5304006990725,
+    "circle_radius_m": 1423.5304006990725,
+    "elongation": 2.3546214084539128,
+    "extent_m": 3322.731064635868,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.35 < 2.5)"
+  },
+  {
+    "cluster_id": 75,
+    "lon": -86.40677289615905,
+    "lat": 35.75178682223043,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 230.79776932663114,
+    "circle_radius_m": 1172.93455758085,
+    "elongation": 3.9497630049151358,
+    "extent_m": 2611.576109987347,
+    "path": [
+      {
+        "lat": 35.74223,
+        "lon": -86.41119
+      },
+      {
+        "lat": 35.74959,
+        "lon": -86.40642
+      },
+      {
+        "lat": 35.75352,
+        "lon": -86.4055
+      },
+      {
+        "lat": 35.75503,
+        "lon": -86.40513
+      },
+      {
+        "lat": 35.75612,
+        "lon": -86.40478
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 77,
+    "lon": -85.90944137245656,
+    "lat": 36.1690305270065,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 194.47678756288752,
+    "circle_radius_m": 1397.9255317598581,
+    "elongation": 4.509168938075142,
+    "extent_m": 3097.4225718906073,
+    "path": [
+      {
+        "lat": 36.16417,
+        "lon": -85.89496
+      },
+      {
+        "lat": 36.16536,
+        "lon": -85.89953
+      },
+      {
+        "lat": 36.16804,
+        "lon": -85.9125
+      },
+      {
+        "lat": 36.17176,
+        "lon": -85.91498
+      },
+      {
+        "lat": 36.17263,
+        "lon": -85.917
+      },
+      {
+        "lat": 36.17466,
+        "lon": -85.9226
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 78,
+    "lon": -85.94086804489017,
+    "lat": 36.25619999020966,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 10,
+    "county": "Unknown",
+    "radius_m": 950.6220564790435,
+    "circle_radius_m": 950.6220564790435,
+    "elongation": 1.2366798955900433,
+    "extent_m": 1784.6973702593698,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.24 < 2.5)"
+  },
+  {
+    "cluster_id": 80,
+    "lon": -86.23609509696875,
+    "lat": 36.58916246976608,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 19,
+    "county": "Unknown",
+    "radius_m": 178.41833114995205,
+    "circle_radius_m": 1175.611727941246,
+    "elongation": 3.9512251632903155,
+    "extent_m": 2893.253556191452,
+    "path": [
+      {
+        "lat": 36.57919,
+        "lon": -86.23918
+      },
+      {
+        "lat": 36.58654,
+        "lon": -86.23862
+      },
+      {
+        "lat": 36.58962,
+        "lon": -86.23745
+      },
+      {
+        "lat": 36.59314,
+        "lon": -86.23588
+      },
+      {
+        "lat": 36.59392,
+        "lon": -86.23554
+      },
+      {
+        "lat": 36.5971,
+        "lon": -86.22824
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 102,
+    "lon": -86.88965286481766,
+    "lat": 36.02121854669811,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 1777.3838688116816,
+    "circle_radius_m": 1777.3838688116816,
+    "elongation": 1.4392511838070436,
+    "extent_m": 3186.855116874747,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.44 < 2.5)"
+  },
+  {
+    "cluster_id": 176,
+    "lon": -84.8768336856147,
+    "lat": 35.65609931990698,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 1440.5209761190013,
+    "circle_radius_m": 1440.5209761190013,
+    "elongation": 1.5970368104877142,
+    "extent_m": 2920.981019286346,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.60 < 2.5)"
+  },
+  {
+    "cluster_id": 183,
+    "lon": -84.88363918051998,
+    "lat": 35.087619900326914,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 100.88583197604746,
+    "circle_radius_m": 1361.7622110390462,
+    "elongation": 4.846955342852346,
+    "extent_m": 2982.352936737474,
+    "path": [
+      {
+        "lat": 35.07651,
+        "lon": -84.89159
+      },
+      {
+        "lat": 35.08332,
+        "lon": -84.88789
+      },
+      {
+        "lat": 35.0849,
+        "lon": -84.88691
+      },
+      {
+        "lat": 35.09287,
+        "lon": -84.88055
+      },
+      {
+        "lat": 35.09568,
+        "lon": -84.87804
+      },
+      {
+        "lat": 35.09715,
+        "lon": -84.87672
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 232,
+    "lon": -82.27968321407566,
+    "lat": 36.58706503729997,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1211.7743372526238,
+    "circle_radius_m": 1211.7743372526238,
+    "elongation": 1.5557838050959303,
+    "extent_m": 2620.5810675662888,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.56 < 2.5)"
+  },
+  {
+    "cluster_id": 239,
+    "lon": -82.71256635331217,
+    "lat": 36.52078114290155,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 1197.2425584260682,
+    "circle_radius_m": 1197.2425584260682,
+    "elongation": 3.206474262362513,
+    "extent_m": 2723.181365188501,
+    "path": null,
+    "path_rejected_reason": "points spread 446 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 29,
+    "lon": -86.60127224373188,
+    "lat": 36.16829501527371,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1303.3060872389995,
+    "circle_radius_m": 1303.3060872389995,
+    "elongation": 1.9979181518682543,
+    "extent_m": 2457.1699145112257,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.00 < 2.5)"
+  },
+  {
+    "cluster_id": 142,
+    "lon": -85.05960518041061,
+    "lat": 34.99527357729591,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 196.9850697783882,
+    "circle_radius_m": 1289.4902971047807,
+    "elongation": 2.9204997434141045,
+    "extent_m": 2753.239829624349,
+    "path": [
+      {
+        "lat": 34.9883,
+        "lon": -85.06732
+      },
+      {
+        "lat": 34.98806,
+        "lon": -85.06332
+      },
+      {
+        "lat": 34.99237,
+        "lon": -85.0603
+      },
+      {
+        "lat": 34.99671,
+        "lon": -85.05784
+      },
+      {
+        "lat": 35.00144,
+        "lon": -85.05713
+      },
+      {
+        "lat": 35.00487,
+        "lon": -85.04881
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 150,
+    "lon": -85.38387859719762,
+    "lat": 35.01959242929366,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1396.019929515528,
+    "circle_radius_m": 1396.019929515528,
+    "elongation": 1.6867927560638676,
+    "extent_m": 2652.899010477935,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.69 < 2.5)"
+  },
+  {
+    "cluster_id": 187,
+    "lon": -85.02030954125372,
+    "lat": 35.83950357203004,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1297.3172687880299,
+    "circle_radius_m": 1297.3172687880299,
+    "elongation": 1.381101084502122,
+    "extent_m": 2678.876508709022,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.38 < 2.5)"
+  },
+  {
+    "cluster_id": 191,
+    "lon": -85.03171698160247,
+    "lat": 35.166513261667895,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 277.17501931806845,
+    "circle_radius_m": 1472.5761627238014,
+    "elongation": 3.52042753352421,
+    "extent_m": 2793.944082707526,
+    "path": [
+      {
+        "lat": 35.15374,
+        "lon": -85.03948
+      },
+      {
+        "lat": 35.16181,
+        "lon": -85.03509
+      },
+      {
+        "lat": 35.16463,
+        "lon": -85.03354
+      },
+      {
+        "lat": 35.17081,
+        "lon": -85.0293
+      },
+      {
+        "lat": 35.17424,
+        "lon": -85.02793
+      },
+      {
+        "lat": 35.17516,
+        "lon": -85.0267
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 193,
+    "lon": -85.65755367757289,
+    "lat": 36.34479492915206,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1574.1943647532353,
+    "elongation": 3.8174087979989726,
+    "extent_m": 3263.612426307979,
+    "path": [
+      {
+        "lat": 36.3308,
+        "lon": -85.65834
+      },
+      {
+        "lat": 36.33656,
+        "lon": -85.65738
+      },
+      {
+        "lat": 36.34294,
+        "lon": -85.65733
+      },
+      {
+        "lat": 36.34785,
+        "lon": -85.65808
+      },
+      {
+        "lat": 36.35301,
+        "lon": -85.65576
+      },
+      {
+        "lat": 36.35977,
+        "lon": -85.65394
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 197,
+    "lon": -85.62785957730449,
+    "lat": 36.1367789881775,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1488.2023511998577,
+    "circle_radius_m": 1488.2023511998577,
+    "elongation": 1.133065390761977,
+    "extent_m": 2769.9997589475634,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.13 < 2.5)"
+  },
+  {
+    "cluster_id": 220,
+    "lon": -84.25347093932261,
+    "lat": 35.86964797353309,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 143.97855603597972,
+    "circle_radius_m": 1650.297820263082,
+    "elongation": 2.6783757283334526,
+    "extent_m": 3022.800783397821,
+    "path": [
+      {
+        "lat": 35.87391,
+        "lon": -84.23629
+      },
+      {
+        "lat": 35.87205,
+        "lon": -84.24963
+      },
+      {
+        "lat": 35.8688,
+        "lon": -84.25521
+      },
+      {
+        "lat": 35.86619,
+        "lon": -84.25719
+      },
+      {
+        "lat": 35.86958,
+        "lon": -84.25962
+      },
+      {
+        "lat": 35.86289,
+        "lon": -84.25837
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 236,
+    "lon": -82.62337252213244,
+    "lat": 36.157615023482876,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 18,
+    "county": "Unknown",
+    "radius_m": 1576.9272673256605,
+    "circle_radius_m": 1576.9272673256605,
+    "elongation": 2.3044771106765887,
+    "extent_m": 3005.8494558383127,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.30 < 2.5)"
+  },
+  {
+    "cluster_id": 20,
+    "lon": -88.89475995588725,
+    "lat": 35.669727711818076,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 1357.1932188003866,
+    "circle_radius_m": 1357.1932188003866,
+    "elongation": 2.1073527173674447,
+    "extent_m": 2644.582983321725,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.11 < 2.5)"
+  },
+  {
+    "cluster_id": 23,
+    "lon": -89.78510732954112,
+    "lat": 35.07611390685179,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1219.2759407495205,
+    "circle_radius_m": 1219.2759407495205,
+    "elongation": 1.4418619971257898,
+    "extent_m": 2307.5449483611765,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.44 < 2.5)"
+  },
+  {
+    "cluster_id": 61,
+    "lon": -86.72094415358667,
+    "lat": 36.41576260371307,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 1375.3321160090816,
+    "circle_radius_m": 1375.3321160090816,
+    "elongation": 1.2593391435647139,
+    "extent_m": 2696.412889362197,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.26 < 2.5)"
+  },
+  {
+    "cluster_id": 90,
+    "lon": -86.42481622186818,
+    "lat": 36.505938455726806,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 112.11676004587873,
+    "circle_radius_m": 1318.2263877940318,
+    "elongation": 3.0608219009372157,
+    "extent_m": 2518.268432498048,
+    "path": [
+      {
+        "lat": 36.49531,
+        "lon": -86.43074
+      },
+      {
+        "lat": 36.50333,
+        "lon": -86.4252
+      },
+      {
+        "lat": 36.50838,
+        "lon": -86.4234
+      },
+      {
+        "lat": 36.51321,
+        "lon": -86.42397
+      },
+      {
+        "lat": 36.51381,
+        "lon": -86.42411
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 98,
+    "lon": -87.15269660262217,
+    "lat": 35.905957979138,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1201.5342548684498,
+    "elongation": 21.81826667523201,
+    "extent_m": 2659.946265966052,
+    "path": [
+      {
+        "lat": 35.90075,
+        "lon": -87.14283
+      },
+      {
+        "lat": 35.90261,
+        "lon": -87.14651
+      },
+      {
+        "lat": 35.90683,
+        "lon": -87.15487
+      },
+      {
+        "lat": 35.90817,
+        "lon": -87.15753
+      },
+      {
+        "lat": 35.91311,
+        "lon": -87.16461
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 109,
+    "lon": -86.43065362309147,
+    "lat": 36.052589126524175,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1229.1688108686033,
+    "elongation": 25.37169903839394,
+    "extent_m": 2509.171143687138,
+    "path": [
+      {
+        "lat": 36.04163,
+        "lon": -86.42924
+      },
+      {
+        "lat": 36.04885,
+        "lon": -86.4303
+      },
+      {
+        "lat": 36.05596,
+        "lon": -86.43135
+      },
+      {
+        "lat": 36.05887,
+        "lon": -86.43162
+      },
+      {
+        "lat": 36.06228,
+        "lon": -86.43123
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 112,
+    "lon": -86.22893214242885,
+    "lat": 36.27382689209779,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 201.91528524778698,
+    "circle_radius_m": 1298.3334057093177,
+    "elongation": 7.98005484458567,
+    "extent_m": 2818.6755644790983,
+    "path": [
+      {
+        "lat": 36.26537,
+        "lon": -86.23878
+      },
+      {
+        "lat": 36.2716,
+        "lon": -86.23144
+      },
+      {
+        "lat": 36.27456,
+        "lon": -86.22731
+      },
+      {
+        "lat": 36.27892,
+        "lon": -86.225
+      },
+      {
+        "lat": 36.2812,
+        "lon": -86.21989
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 122,
+    "lon": -86.8237899915046,
+    "lat": 35.97979907623442,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1254.4407781109012,
+    "circle_radius_m": 1254.4407781109012,
+    "elongation": 1.449568064767908,
+    "extent_m": 2177.2812310291038,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.45 < 2.5)"
+  },
+  {
+    "cluster_id": 175,
+    "lon": -85.02358432862411,
+    "lat": 35.43930264966982,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 17,
+    "county": "Unknown",
+    "radius_m": 1240.6728803912144,
+    "circle_radius_m": 1240.6728803912144,
+    "elongation": 1.694918045757425,
+    "extent_m": 2333.6643091050905,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.69 < 2.5)"
+  },
+  {
+    "cluster_id": 190,
+    "lon": -86.11895311176278,
+    "lat": 35.169773542506185,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 1307.50675593649,
+    "circle_radius_m": 1307.50675593649,
+    "elongation": 1.5662763422719808,
+    "extent_m": 2429.7005706784194,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.57 < 2.5)"
+  },
+  {
+    "cluster_id": 194,
+    "lon": -84.58309795975791,
+    "lat": 35.429920200182316,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 1146.0572156533335,
+    "circle_radius_m": 1146.0572156533335,
+    "elongation": 1.9240064754650243,
+    "extent_m": 2418.0429377294226,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.92 < 2.5)"
+  },
+  {
+    "cluster_id": 12,
+    "lon": -89.7359325462258,
+    "lat": 35.162355699543426,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1326.6905624811664,
+    "circle_radius_m": 1326.6905624811664,
+    "elongation": 2.164874995496593,
+    "extent_m": 2476.015128856611,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.16 < 2.5)"
+  },
+  {
+    "cluster_id": 21,
+    "lon": -88.82036825607555,
+    "lat": 35.64513734557134,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 277.94862942421094,
+    "circle_radius_m": 1445.873646903626,
+    "elongation": 2.5763129310050727,
+    "extent_m": 2374.9575394679105,
+    "path": [
+      {
+        "lat": 35.64459,
+        "lon": -88.80293
+      },
+      {
+        "lat": 35.64969,
+        "lon": -88.81623
+      },
+      {
+        "lat": 35.64659,
+        "lon": -88.82875
+      },
+      {
+        "lat": 35.64143,
+        "lon": -88.82826
+      },
+      {
+        "lat": 35.64325,
+        "lon": -88.82853
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 24,
+    "lon": -88.84347972568096,
+    "lat": 35.698252307011344,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 13,
+    "county": "Unknown",
+    "radius_m": 1280.3002157805656,
+    "circle_radius_m": 1280.3002157805656,
+    "elongation": 1.3721058018925036,
+    "extent_m": 2413.2122590938734,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.37 < 2.5)"
+  },
+  {
+    "cluster_id": 26,
+    "lon": -87.20447781331126,
+    "lat": 36.40558690192487,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 1274.0625185031029,
+    "circle_radius_m": 1274.0625185031029,
+    "elongation": 2.050250914910851,
+    "extent_m": 2451.7585322573123,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.05 < 2.5)"
+  },
+  {
+    "cluster_id": 28,
+    "lon": -87.05485649832931,
+    "lat": 36.28728972972799,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1165.4833998412857,
+    "elongation": 38.188234488994446,
+    "extent_m": 2218.9470976543175,
+    "path": [
+      {
+        "lat": 36.2775,
+        "lon": -87.05993
+      },
+      {
+        "lat": 36.28635,
+        "lon": -87.05569
+      },
+      {
+        "lat": 36.29206,
+        "lon": -87.0524
+      },
+      {
+        "lat": 36.29421,
+        "lon": -87.05141
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 34,
+    "lon": -86.82476318820818,
+    "lat": 36.235810967302754,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 940.6770266601832,
+    "circle_radius_m": 940.6770266601832,
+    "elongation": 1.0376309977034355,
+    "extent_m": 1902.7658327208194,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.04 < 2.5)"
+  },
+  {
+    "cluster_id": 58,
+    "lon": -86.81293664826583,
+    "lat": 36.44552941729263,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 13,
+    "county": "Unknown",
+    "radius_m": 369.0533316838187,
+    "circle_radius_m": 1194.617780564353,
+    "elongation": 2.7179662206242634,
+    "extent_m": 2268.8834981923264,
+    "path": [
+      {
+        "lat": 36.44058,
+        "lon": -86.80561
+      },
+      {
+        "lat": 36.44019,
+        "lon": -86.80986
+      },
+      {
+        "lat": 36.44251,
+        "lon": -86.81121
+      },
+      {
+        "lat": 36.45085,
+        "lon": -86.8213
+      },
+      {
+        "lat": 36.45362,
+        "lon": -86.82361
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 79,
+    "lon": -87.66839941543518,
+    "lat": 36.54749556027119,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 11,
+    "county": "Unknown",
+    "radius_m": 141.72338220958363,
+    "circle_radius_m": 1156.0653957590462,
+    "elongation": 2.7362300770697354,
+    "extent_m": 2402.5707509214826,
+    "path": [
+      {
+        "lat": 36.54684,
+        "lon": -87.65887
+      },
+      {
+        "lat": 36.54172,
+        "lon": -87.66671
+      },
+      {
+        "lat": 36.54811,
+        "lon": -87.6666
+      },
+      {
+        "lat": 36.55007,
+        "lon": -87.67539
+      },
+      {
+        "lat": 36.55117,
+        "lon": -87.68108
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 131,
+    "lon": -86.18517409372325,
+    "lat": 35.36860494674869,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1196.1710272978316,
+    "circle_radius_m": 1196.1710272978316,
+    "elongation": 1.2753709636053292,
+    "extent_m": 1931.1449235577993,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.28 < 2.5)"
+  },
+  {
+    "cluster_id": 132,
+    "lon": -85.06270482412367,
+    "lat": 36.01060641337476,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 13,
+    "county": "Unknown",
+    "radius_m": 258.89180017010165,
+    "circle_radius_m": 904.5800992132694,
+    "elongation": 6.911393085624949,
+    "extent_m": 2184.5210218426755,
+    "path": [
+      {
+        "lat": 36.00586,
+        "lon": -85.05546
+      },
+      {
+        "lat": 36.00736,
+        "lon": -85.05827
+      },
+      {
+        "lat": 36.01402,
+        "lon": -85.06769
+      },
+      {
+        "lat": 36.01545,
+        "lon": -85.07066
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 168,
+    "lon": -85.54196242158767,
+    "lat": 36.134914547134635,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1168.576543237862,
+    "circle_radius_m": 1168.576543237862,
+    "elongation": 1.7359456003210196,
+    "extent_m": 2255.853033462053,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.74 < 2.5)"
+  },
+  {
+    "cluster_id": 192,
+    "lon": -85.32515890470263,
+    "lat": 35.1701342938877,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 154.02559474107701,
+    "circle_radius_m": 1166.536409479656,
+    "elongation": 4.735507298087906,
+    "extent_m": 2632.932647159179,
+    "path": [
+      {
+        "lat": 35.16018,
+        "lon": -85.31633
+      },
+      {
+        "lat": 35.17015,
+        "lon": -85.32291
+      },
+      {
+        "lat": 35.172,
+        "lon": -85.32454
+      },
+      {
+        "lat": 35.17484,
+        "lon": -85.33156
+      },
+      {
+        "lat": 35.17731,
+        "lon": -85.3328
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 200,
+    "lon": -85.46875529305531,
+    "lat": 35.85870361884041,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 16,
+    "county": "Unknown",
+    "radius_m": 162.5527322497451,
+    "circle_radius_m": 1203.6702380647562,
+    "elongation": 7.164708649213212,
+    "extent_m": 2598.4264557482356,
+    "path": [
+      {
+        "lat": 35.84767,
+        "lon": -85.4664
+      },
+      {
+        "lat": 35.85567,
+        "lon": -85.4675
+      },
+      {
+        "lat": 35.85741,
+        "lon": -85.46741
+      },
+      {
+        "lat": 35.86739,
+        "lon": -85.47412
+      },
+      {
+        "lat": 35.86906,
+        "lon": -85.47024
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 16,
+    "lon": -89.82729269224357,
+    "lat": 35.30572266819295,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 12,
+    "county": "Unknown",
+    "radius_m": 1117.9449377852677,
+    "circle_radius_m": 1117.9449377852677,
+    "elongation": 2.0008119300718348,
+    "extent_m": 2246.1371690381316,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.00 < 2.5)"
+  },
+  {
+    "cluster_id": 17,
+    "lon": -89.64905117852577,
+    "lat": 35.211399063890084,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1142.4632529933572,
+    "circle_radius_m": 1142.4632529933572,
+    "elongation": 1.2287345027064214,
+    "extent_m": 1843.1443092582717,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.23 < 2.5)"
+  },
+  {
+    "cluster_id": 19,
+    "lon": -88.936044609164,
+    "lat": 36.00215549127706,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 967.9953374594686,
+    "circle_radius_m": 967.9953374594686,
+    "elongation": 1.4280771988167642,
+    "extent_m": 1856.4923872613977,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.43 < 2.5)"
+  },
+  {
+    "cluster_id": 22,
+    "lon": -88.82169294989866,
+    "lat": 35.77516882437023,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1304.8069242877393,
+    "elongation": 1357.4545891533844,
+    "extent_m": 2602.365904282692,
+    "path": [
+      {
+        "lat": 35.78344,
+        "lon": -88.80763
+      },
+      {
+        "lat": 35.7781,
+        "lon": -88.81674
+      },
+      {
+        "lat": 35.77399,
+        "lon": -88.82371
+      },
+      {
+        "lat": 35.77095,
+        "lon": -88.82885
+      },
+      {
+        "lat": 35.76989,
+        "lon": -88.83064
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 53,
+    "lon": -87.43153848504704,
+    "lat": 36.45580770205566,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1291.7153364100461,
+    "circle_radius_m": 1291.7153364100461,
+    "elongation": 1.671922830995779,
+    "extent_m": 2477.1345791652866,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.67 < 2.5)"
+  },
+  {
+    "cluster_id": 72,
+    "lon": -86.47818936703875,
+    "lat": 35.93528374654789,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1169.3701376114132,
+    "circle_radius_m": 1169.3701376114132,
+    "elongation": 1.4553655578281854,
+    "extent_m": 2242.3394384806024,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.46 < 2.5)"
+  },
+  {
+    "cluster_id": 83,
+    "lon": -86.30706240042429,
+    "lat": 36.48960759069934,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 13,
+    "county": "Unknown",
+    "radius_m": 104.37932901629075,
+    "circle_radius_m": 1028.8237729948592,
+    "elongation": 3.2382358060986594,
+    "extent_m": 2253.583331506079,
+    "path": [
+      {
+        "lat": 36.4952,
+        "lon": -86.29467
+      },
+      {
+        "lat": 36.49012,
+        "lon": -86.30606
+      },
+      {
+        "lat": 36.48782,
+        "lon": -86.30934
+      },
+      {
+        "lat": 36.48658,
+        "lon": -86.31109
+      },
+      {
+        "lat": 36.48407,
+        "lon": -86.3148
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 88,
+    "lon": -86.46354232393482,
+    "lat": 36.441623905588386,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1335.2848164992797,
+    "elongation": 4.746657987632344,
+    "extent_m": 2629.618498552947,
+    "path": [
+      {
+        "lat": 36.43109,
+        "lon": -86.46074
+      },
+      {
+        "lat": 36.43519,
+        "lon": -86.46052
+      },
+      {
+        "lat": 36.44227,
+        "lon": -86.46207
+      },
+      {
+        "lat": 36.4473,
+        "lon": -86.46449
+      },
+      {
+        "lat": 36.45351,
+        "lon": -86.46609
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 101,
+    "lon": -86.81722528271196,
+    "lat": 35.91240485984898,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 999.4078701355978,
+    "circle_radius_m": 999.4078701355978,
+    "elongation": 1.184355182093323,
+    "extent_m": 1960.5395750100658,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.18 < 2.5)"
+  },
+  {
+    "cluster_id": 113,
+    "lon": -86.41223784941073,
+    "lat": 35.47755182567075,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 13,
+    "county": "Unknown",
+    "radius_m": 1109.9035198476956,
+    "circle_radius_m": 1109.9035198476956,
+    "elongation": 1.7593217766660798,
+    "extent_m": 2430.7895974552102,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.76 < 2.5)"
+  },
+  {
+    "cluster_id": 114,
+    "lon": -86.78432059974854,
+    "lat": 35.43327566964297,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 12,
+    "county": "Unknown",
+    "radius_m": 1177.4604142987678,
+    "circle_radius_m": 1177.4604142987678,
+    "elongation": 1.9971984184094163,
+    "extent_m": 2336.5803153193747,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.00 < 2.5)"
+  },
+  {
+    "cluster_id": 116,
+    "lon": -87.21703249698197,
+    "lat": 36.43482627082776,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1158.7015467701262,
+    "elongation": 14.025654096077332,
+    "extent_m": 2414.6883437702027,
+    "path": [
+      {
+        "lat": 36.4246,
+        "lon": -87.2156
+      },
+      {
+        "lat": 36.43002,
+        "lon": -87.21504
+      },
+      {
+        "lat": 36.43444,
+        "lon": -87.21686
+      },
+      {
+        "lat": 36.44006,
+        "lon": -87.21808
+      },
+      {
+        "lat": 36.44501,
+        "lon": -87.21984
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 117,
+    "lon": -86.77682899589574,
+    "lat": 36.39845186290666,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1111.4876508828313,
+    "circle_radius_m": 1111.4876508828313,
+    "elongation": 1.319501053909369,
+    "extent_m": 2160.964905189291,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.32 < 2.5)"
+  },
+  {
+    "cluster_id": 119,
+    "lon": -86.63458737923331,
+    "lat": 36.30191793463454,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 1087.062593590586,
+    "circle_radius_m": 1087.062593590586,
+    "elongation": 1.674068496337188,
+    "extent_m": 2299.8209142356186,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.67 < 2.5)"
+  },
+  {
+    "cluster_id": 120,
+    "lon": -86.23631847160468,
+    "lat": 36.622182313110564,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 276.9406380108888,
+    "circle_radius_m": 1095.9984855798125,
+    "elongation": 2.6822943068496414,
+    "extent_m": 2388.1969023832503,
+    "path": [
+      {
+        "lat": 36.61529,
+        "lon": -86.23506
+      },
+      {
+        "lat": 36.61591,
+        "lon": -86.23531
+      },
+      {
+        "lat": 36.62161,
+        "lon": -86.23701
+      },
+      {
+        "lat": 36.62522,
+        "lon": -86.23766
+      },
+      {
+        "lat": 36.63213,
+        "lon": -86.24068
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 123,
+    "lon": -86.6797305289783,
+    "lat": 35.96754018540101,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 13,
+    "county": "Unknown",
+    "radius_m": 1195.9432464081233,
+    "circle_radius_m": 1195.9432464081233,
+    "elongation": 1.4879377401284972,
+    "extent_m": 2411.1298750738215,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.49 < 2.5)"
+  },
+  {
+    "cluster_id": 138,
+    "lon": -85.00884465143609,
+    "lat": 36.230215677483514,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 11,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1165.7565556918842,
+    "elongation": 26.110131216276134,
+    "extent_m": 2408.501955093484,
+    "path": [
+      {
+        "lat": 36.22131,
+        "lon": -85.01232
+      },
+      {
+        "lat": 36.22573,
+        "lon": -85.00995
+      },
+      {
+        "lat": 36.23081,
+        "lon": -85.00856
+      },
+      {
+        "lat": 36.23401,
+        "lon": -85.00806
+      },
+      {
+        "lat": 36.24127,
+        "lon": -85.00541
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 139,
+    "lon": -85.89322754910522,
+    "lat": 35.211467362792845,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1213.4302111633826,
+    "circle_radius_m": 1213.4302111633826,
+    "elongation": 2.246650395485036,
+    "extent_m": 2540.2639590779986,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.25 < 2.5)"
+  },
+  {
+    "cluster_id": 144,
+    "lon": -85.32949169591242,
+    "lat": 35.09796995031086,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 194.56359288215046,
+    "circle_radius_m": 1230.4365187157207,
+    "elongation": 2.82584314812885,
+    "extent_m": 2635.9969230609718,
+    "path": [
+      {
+        "lat": 35.08704,
+        "lon": -85.3277
+      },
+      {
+        "lat": 35.08856,
+        "lon": -85.32935
+      },
+      {
+        "lat": 35.09964,
+        "lon": -85.32878
+      },
+      {
+        "lat": 35.10538,
+        "lon": -85.33674
+      },
+      {
+        "lat": 35.10943,
+        "lon": -85.32611
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 160,
+    "lon": -85.83462732577026,
+    "lat": 35.2336961942617,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 12,
+    "county": "Unknown",
+    "radius_m": 156.37351670269774,
+    "circle_radius_m": 1414.6376861927984,
+    "elongation": 5.240688748406608,
+    "extent_m": 2556.4847345911494,
+    "path": [
+      {
+        "lat": 35.22507,
+        "lon": -85.82214
+      },
+      {
+        "lat": 35.23274,
+        "lon": -85.83148
+      },
+      {
+        "lat": 35.23547,
+        "lon": -85.83747
+      },
+      {
+        "lat": 35.23661,
+        "lon": -85.84042
+      },
+      {
+        "lat": 35.23775,
+        "lon": -85.84282
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 161,
+    "lon": -85.62668489230781,
+    "lat": 35.05509470681086,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 1318.6972276961226,
+    "circle_radius_m": 1318.6972276961226,
+    "elongation": 2.325945536936074,
+    "extent_m": 2444.255876668469,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.33 < 2.5)"
+  },
+  {
+    "cluster_id": 173,
+    "lon": -84.9402165053263,
+    "lat": 35.57710465523313,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 10,
+    "county": "Unknown",
+    "radius_m": 337.12326066646835,
+    "circle_radius_m": 1268.2353263460618,
+    "elongation": 2.7243814839900766,
+    "extent_m": 2317.800642685126,
+    "path": [
+      {
+        "lat": 35.57036,
+        "lon": -84.9478
+      },
+      {
+        "lat": 35.57165,
+        "lon": -84.94717
+      },
+      {
+        "lat": 35.57767,
+        "lon": -84.94172
+      },
+      {
+        "lat": 35.57974,
+        "lon": -84.9333
+      },
+      {
+        "lat": 35.58755,
+        "lon": -84.93387
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 195,
+    "lon": -84.69694639990577,
+    "lat": 35.11580131369842,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 10,
+    "county": "Unknown",
+    "radius_m": 1242.1075322464437,
+    "circle_radius_m": 1242.1075322464437,
+    "elongation": 2.111858093836681,
+    "extent_m": 2661.7617753402856,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.11 < 2.5)"
+  },
+  {
+    "cluster_id": 198,
+    "lon": -84.99261213803284,
+    "lat": 35.50707185305377,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 1176.8115476695752,
+    "circle_radius_m": 1176.8115476695752,
+    "elongation": 1.7853874752142131,
+    "extent_m": 2435.1805521858623,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.79 < 2.5)"
+  },
+  {
+    "cluster_id": 199,
+    "lon": -84.8032028457434,
+    "lat": 35.73532382032283,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 13,
+    "county": "Unknown",
+    "radius_m": 733.9853444292143,
+    "circle_radius_m": 733.9853444292143,
+    "elongation": 1.7705483876567158,
+    "extent_m": 2244.638277523287,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.77 < 2.5)"
+  },
+  {
+    "cluster_id": 210,
+    "lon": -82.64638060189132,
+    "lat": 36.398421919183406,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "Unknown",
+    "radius_m": 379.017135472206,
+    "circle_radius_m": 858.9627310181032,
+    "elongation": 2.7562910408195536,
+    "extent_m": 2063.273308275342,
+    "path": [
+      {
+        "lat": 36.40401,
+        "lon": -82.63792
+      },
+      {
+        "lat": 36.39792,
+        "lon": -82.64317
+      },
+      {
+        "lat": 36.39513,
+        "lon": -82.65297
+      },
+      {
+        "lat": 36.39445,
+        "lon": -82.6536
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 225,
+    "lon": -84.5801099632779,
+    "lat": 35.86847013873179,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 1226.3877141631483,
+    "elongation": 2.9665989578809833,
+    "extent_m": 2453.549177578997,
+    "path": [
+      {
+        "lat": 35.87468,
+        "lon": -84.5695
+      },
+      {
+        "lat": 35.86929,
+        "lon": -84.57833
+      },
+      {
+        "lat": 35.86743,
+        "lon": -84.58093
+      },
+      {
+        "lat": 35.86615,
+        "lon": -84.58311
+      },
+      {
+        "lat": 35.86556,
+        "lon": -84.59153
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 238,
+    "lon": -83.20682752557416,
+    "lat": 35.93685200199579,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 7,
+    "county": "Unknown",
+    "radius_m": 1031.1023546466993,
+    "circle_radius_m": 1031.1023546466993,
+    "elongation": 1.7400808041928908,
+    "extent_m": 1808.7779319347142,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.74 < 2.5)"
+  },
+  {
+    "cluster_id": 136,
+    "lon": -85.00271505441596,
+    "lat": 35.93728581180628,
+    "severity": 13,
+    "point_count": 13,
+    "deer_coded_count": 12,
+    "county": "Unknown",
+    "radius_m": 206.1246358946421,
+    "circle_radius_m": 1080.5372054256377,
+    "elongation": 3.227764395298492,
+    "extent_m": 2189.1467420119907,
+    "path": [
+      {
+        "lat": 35.943,
+        "lon": -84.99502
+      },
+      {
+        "lat": 35.93777,
+        "lon": -85.00097
+      },
+      {
+        "lat": 35.93558,
+        "lon": -85.00411
+      },
+      {
+        "lat": 35.93286,
+        "lon": -85.01181
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 228,
+    "lon": -84.60240976810995,
+    "lat": 35.906230632623135,
+    "severity": 13,
+    "point_count": 13,
+    "deer_coded_count": 12,
+    "county": "Unknown",
+    "radius_m": 975.0561963764266,
+    "circle_radius_m": 975.0561963764266,
+    "elongation": 1.2564797690854956,
+    "extent_m": 1783.4846914500831,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.26 < 2.5)"
+  },
+  {
+    "cluster_id": 170,
+    "lon": -85.44732861976136,
+    "lat": 36.20687888112126,
+    "severity": 12,
+    "point_count": 12,
+    "deer_coded_count": 10,
+    "county": "Unknown",
+    "radius_m": 942.1112669451101,
+    "circle_radius_m": 942.1112669451101,
+    "elongation": 1.8572324308050248,
+    "extent_m": 1811.5641130407932,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.86 < 2.5)"
+  },
+  {
+    "cluster_id": 9,
+    "lon": -89.73245448209782,
+    "lat": 35.12900897026601,
+    "severity": 11,
+    "point_count": 11,
+    "deer_coded_count": 11,
+    "county": "Unknown",
+    "radius_m": 862.8385562960432,
+    "circle_radius_m": 862.8385562960432,
+    "elongation": 1.2543283761604025,
+    "extent_m": 1690.1751921729208,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.25 < 2.5)"
+  },
+  {
+    "cluster_id": 124,
+    "lon": -86.5181030968369,
+    "lat": 36.13839457343055,
+    "severity": 11,
+    "point_count": 11,
+    "deer_coded_count": 11,
+    "county": "Unknown",
+    "radius_m": 100.0,
+    "circle_radius_m": 778.8401735099301,
+    "elongation": 31.669077795197033,
+    "extent_m": 1929.636618415659,
+    "path": [
+      {
+        "lat": 36.13234,
+        "lon": -86.51943
+      },
+      {
+        "lat": 36.1399,
+        "lon": -86.51806
+      },
+      {
+        "lat": 36.14547,
+        "lon": -86.51628
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 110,
+    "lon": -86.34513236535153,
+    "lat": 36.22274270079381,
+    "severity": 10,
+    "point_count": 10,
+    "deer_coded_count": 10,
+    "county": "Unknown",
+    "radius_m": 599.192199067313,
+    "circle_radius_m": 599.192199067313,
+    "elongation": 1.693557403136279,
+    "extent_m": 1295.617294559238,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.69 < 2.5)"
+  },
+  {
+    "cluster_id": 115,
+    "lon": -86.8819091114136,
+    "lat": 35.44943395234117,
+    "severity": 9,
+    "point_count": 9,
+    "deer_coded_count": 8,
+    "county": "Unknown",
+    "radius_m": 982.4245268734314,
+    "circle_radius_m": 982.4245268734314,
+    "elongation": 1.9850572046627712,
+    "extent_m": 1977.743856011937,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.99 < 2.5)"
+  },
+  {
+    "cluster_id": 118,
+    "lon": -86.60474894495181,
+    "lat": 35.85386336795223,
+    "severity": 4,
+    "point_count": 4,
+    "deer_coded_count": 4,
+    "county": "Unknown",
+    "radius_m": 349.78315290669616,
+    "circle_radius_m": 349.78315290669616,
+    "elongation": null,
+    "extent_m": null,
+    "path": null,
+    "path_rejected_reason": "too few points"
+  }
+]

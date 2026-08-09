@@ -1,0 +1,66 @@
+{
+  "states_included": [
+    "IA",
+    "IL",
+    "VA"
+  ],
+  "per_state": {
+    "IA": {
+      "total_usable_rows": 606986,
+      "animal_rows": 85398,
+      "source": "Iowa DOT Crash Data (SOR)",
+      "source_url": "https://public-iowadot.opendata.arcgis.com/datasets/IowaDOT::crash-data-sor"
+    },
+    "IL": {
+      "total_usable_rows": 299426,
+      "animal_rows": 16461,
+      "source": "Illinois DOT Crashes - 2023 (single year)",
+      "source_url": "https://gis-idot.opendata.arcgis.com/datasets/IDOT::crashes-2023"
+    },
+    "VA": {
+      "total_usable_rows": 1130302,
+      "animal_rows": 61653,
+      "source": "VDOT CrashData Basic (multi-year, statewide)",
+      "source_url": "https://virginiaroads-vdot.opendata.arcgis.com/datasets/VDOT::crashdata-basic-1"
+    }
+  },
+  "total_raw_records_combined": 2036714,
+  "total_animal_collision_records_combined": 163512,
+  "training_rows": 392428,
+  "test_rows": 98108,
+  "accuracy": 0.8045623190769357,
+  "roc_auc": 0.8671254159213179,
+  "feature_names": [
+    "hour_of_day",
+    "month",
+    "distance_to_nearest_corridor_m",
+    "corridor_base_severity",
+    "weather_condition_clear",
+    "weather_condition_cloudy",
+    "weather_condition_fog",
+    "weather_condition_rain",
+    "weather_condition_snow",
+    "species_Deer",
+    "species_Elk",
+    "species_Moose",
+    "road_type_highway",
+    "road_type_residential",
+    "road_type_rural"
+  ],
+  "states_checked_but_excluded": [
+    "OH (no working bulk CSV endpoint found)",
+    "PA (portal has no crash-titled dataset in its DCAT feed)",
+    "MN (no ArcGIS Hub portal found; query-tool only)",
+    "WI (WisTransPortal is request-form based, not bulk API)",
+    "UT (crash layer is a REST FeatureServer, not an Hub bulk CSV item)",
+    "KY (portal has no crash dataset in its DCAT feed)",
+    "CO (portal DCAT feed had no crash datasets; CDOT states granular data requires open-records request)",
+    "NC, TN, WY, MI, NY, ME, MT (no working ArcGIS Hub bulk CSV endpoint found in time available - not yet obtained, not confirmed absent)"
+  ],
+  "limitations": [
+    "No species field in any of the 3 states' source data; all positives labeled Deer.",
+    "road_type inferred per-state from different heuristics (not a unified classification).",
+    "Illinois is a single year (2023); Iowa and Virginia are multi-year.",
+    "corridor features are computed per-state (state-relative), not a single nationwide clustering pass."
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "headline": {
+    "honest_roc_auc": 0.8205,
+    "honest_accuracy": 0.7646,
+    "honest_average_precision": 0.6802,
+    "evaluation": "crossfit_spatial_cv",
+    "v2_published_roc_auc": 0.8671254159213179,
+    "v2_reproduced_roc_auc_same_3_states": 0.8529
+  },
+  "comparison_same_3_states_IA_IL_VA": {
+    "states": [
+      "IA",
+      "IL",
+      "VA"
+    ],
+    "sample_rows": 784215,
+    "positive_rows": 261405,
+    "tuned_eps_m_by_state": {
+      "IA": 899.1777205489365,
+      "IL": 1076.2779380916327,
+      "VA": 980.9432100505604
+    },
+    "spatial_block_degrees": 0.2,
+    "n_spatial_blocks": 1225,
+    "evaluations": {
+      "leaky_random_split": {
+        "accuracy": 0.7915048806768552,
+        "roc_auc": 0.8528533809684773,
+        "average_precision": 0.7460361533640048,
+        "n_train": 627372,
+        "n_test": 156843
+      },
+      "nocorridor_random_split": {
+        "accuracy": 0.7523510771918416,
+        "roc_auc": 0.8055488914571151,
+        "average_precision": 0.6542524306134232,
+        "n_train": 627372,
+        "n_test": 156843
+      },
+      "crossfit_random_split": {
+        "accuracy": 0.7972749819883578,
+        "roc_auc": 0.8601025374954767,
+        "average_precision": 0.7497538151688802,
+        "n_train": 627372,
+        "n_test": 156843
+      },
+      "crossfit_spatial_cv": {
+        "accuracy": 0.7751101419891229,
+        "roc_auc": 0.8301211553621114,
+        "average_precision": 0.6959088007333476,
+        "fold_roc_auc": [
+          0.8454,
+          0.8331,
+          0.813,
+          0.8244,
+          0.8349
+        ],
+        "roc_auc_fold_std": 0.010885795466052292,
+        "n_evaluated": 784215,
+        "per_state_roc_auc": {
+          "IA": {
+            "roc_auc": 0.8608052694698015,
+            "n": 162448
+          },
+          "IL": {
+            "roc_auc": 0.8133177515419957,
+            "n": 402855
+          },
+          "VA": {
+            "roc_auc": 0.8066517359315482,
+            "n": 218912
+          }
+        }
+      },
+      "nocorridor_spatial_cv": {
+        "accuracy": 0.748515394375267,
+        "roc_auc": 0.8012220280216497,
+        "average_precision": 0.6421143048703422,
+        "fold_roc_auc": [
+          0.8039,
+          0.8026,
+          0.8162,
+          0.7927,
+          0.8134
+        ],
+        "roc_auc_fold_std": 0.008384355932183472,
+        "n_evaluated": 784215,
+        "per_state_roc_auc": {
+          "IA": {
+            "roc_auc": 0.8624281903830108,
+            "n": 162448
+          },
+          "IL": {
+            "roc_auc": 0.7690002922510548,
+            "n": 402855
+          },
+          "VA": {
+            "roc_auc": 0.7945847537538061,
+            "n": 218912
+          }
+        }
+      }
+    }
+  },
+  "v3_full_dataset": {
+    "states": [
+      "IA",
+      "IL",
+      "VA",
+      "MA",
+      "TN"
+    ],
+    "sample_rows": 955848,
+    "positive_rows": 318616,
+    "tuned_eps_m_by_state": {
+      "IA": 899.1777205489365,
+      "IL": 1076.2779380916327,
+      "VA": 980.9432100505604,
+      "MA": 1132.861769619741,
+      "TN": 1408.2764007690175
+    },
+    "spatial_block_degrees": 0.2,
+    "n_spatial_blocks": 1629,
+    "evaluations": {
+      "leaky_random_split": {
+        "accuracy": 0.7789088246063713,
+        "roc_auc": 0.8377724641376213,
+        "average_precision": 0.723856596796213,
+        "n_train": 764678,
+        "n_test": 191170
+      },
+      "nocorridor_random_split": {
+        "accuracy": 0.7478683893916409,
+        "roc_auc": 0.8018264865522728,
+        "average_precision": 0.648690738471426,
+        "n_train": 764678,
+        "n_test": 191170
+      },
+      "crossfit_random_split": {
+        "accuracy": 0.7827378772820003,
+        "roc_auc": 0.84087841976148,
+        "average_precision": 0.7210460536998099,
+        "n_train": 764678,
+        "n_test": 191170
+      },
+      "crossfit_spatial_cv": {
+        "accuracy": 0.7645629849097346,
+        "roc_auc": 0.820530380919058,
+        "average_precision": 0.6802499853013872,
+        "fold_roc_auc": [
+          0.8278,
+          0.8173,
+          0.8222,
+          0.816,
+          0.8241
+        ],
+        "roc_auc_fold_std": 0.004365361032548717,
+        "n_evaluated": 955848,
+        "per_state_roc_auc": {
+          "IA": {
+            "roc_auc": 0.8480902452996926,
+            "n": 150203
+          },
+          "IL": {
+            "roc_auc": 0.8242154652283034,
+            "n": 358252
+          },
+          "VA": {
+            "roc_auc": 0.8018087643236336,
+            "n": 194378
+          },
+          "MA": {
+            "roc_auc": 0.7668379438535903,
+            "n": 129485
+          },
+          "TN": {
+            "roc_auc": 0.7894793005307446,
+            "n": 123530
+          }
+        }
+      },
+      "nocorridor_spatial_cv": {
+        "accuracy": 0.7451226554849725,
+        "roc_auc": 0.7988586108705602,
+        "average_precision": 0.642445973113136,
+        "fold_roc_auc": [
+          0.8082,
+          0.7965,
+          0.8084,
+          0.8049,
+          0.7926
+        ],
+        "roc_auc_fold_std": 0.006406566277844005,
+        "n_evaluated": 955848,
+        "per_state_roc_auc": {
+          "IA": {
+            "roc_auc": 0.8507346680907416,
+            "n": 150203
+          },
+          "IL": {
+            "roc_auc": 0.7782559374639311,
+            "n": 358252
+          },
+          "VA": {
+            "roc_auc": 0.7897986990709587,
+            "n": 194378
+          },
+          "MA": {
+            "roc_auc": 0.7785217279708101,
+            "n": 129485
+          },
+          "TN": {
+            "roc_auc": 0.7709831677030914,
+            "n": 123530
+          }
+        }
+      }
+    },
+    "final_model_feature_importances": {
+      "hour_of_day": 0.55628,
+      "corridor_base_severity": 0.1838,
+      "month": 0.14031,
+      "weather_condition_clear": 0.06515,
+      "road_type_highway": 0.02086,
+      "distance_to_nearest_corridor_m": 0.01709,
+      "road_type_residential": 0.00759,
+      "weather_condition_snow": 0.00488,
+      "road_type_rural": 0.00197,
+      "weather_condition_cloudy": 0.00171,
+      "weather_condition_fog": 0.00027,
+      "weather_condition_rain": 8e-05,
+      "species_Deer": 0.0,
+      "species_Elk": 0.0,
+      "species_Moose": 0.0
+    }
+  },
+  "per_state_provenance": {
+    "IA": {
+      "source": "Iowa DOT Crash Data (SOR)",
+      "source_url": "https://public-iowadot.opendata.arcgis.com/datasets/IowaDOT::crash-data-sor",
+      "temporal_coverage": "multi-year statewide",
+      "animal_coding": "MAJCSE == \"1\" or FRSTHARM == \"31\"",
+      "has_species_field": false
+    },
+    "IL": {
+      "source": "Illinois DOT Crashes - 2023",
+      "source_url": "https://gis-idot.opendata.arcgis.com/datasets/IDOT::crashes-2023",
+      "temporal_coverage": "single calendar year (2023) ONLY",
+      "animal_coding": "Cause1 == \"Animal\" or TypeOfFirstCrash == \"Animal\"",
+      "has_species_field": false
+    },
+    "VA": {
+      "source": "VDOT CrashData Basic",
+      "source_url": "https://virginiaroads-vdot.opendata.arcgis.com/datasets/VDOT::crashdata-basic-1",
+      "temporal_coverage": "multi-year statewide",
+      "animal_coding": "FIRST_HARMFUL_EVENT == \"23\" (FR300 manual code table)",
+      "has_species_field": false
+    },
+    "MA": {
+      "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025)",
+      "source_url": "https://massdot-impact-crashes-vhb.opendata.arcgis.com/",
+      "temporal_coverage": "2019-2025, one Hub item per year",
+      "animal_coding": "FIRST_HRMF_EVENT_DESCR in {\"Collision with animal - deer\", \"Collision with animal - other\"} (decoded text, cross-checked against VEHC_SEQ_EVENTS_CL)",
+      "has_species_field": true
+    },
+    "TN": {
+      "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service)",
+      "source_url": "https://services2.arcgis.com/nf3p7v7Zy4fTOh6M/arcgis/rest/services/Tennessee_Crashes_JAN_2021_JAN_2025/FeatureServer/0",
+      "temporal_coverage": "Jan 2021 - Jan 2025",
+      "animal_coding": "FIRSTHARMF in {\"Deer (Animal)\", \"Other Animal\"} (decoded text, 60 distinct values enumerated and inspected)",
+      "has_species_field": true
+    }
+  },
+  "feature_names": [
+    "hour_of_day",
+    "month",
+    "distance_to_nearest_corridor_m",
+    "corridor_base_severity",
+    "weather_condition_clear",
+    "weather_condition_cloudy",
+    "weather_condition_fog",
+    "weather_condition_rain",
+    "weather_condition_snow",
+    "species_Deer",
+    "species_Elk",
+    "species_Moose",
+    "road_type_highway",
+    "road_type_residential",
+    "road_type_rural"
+  ]
+}

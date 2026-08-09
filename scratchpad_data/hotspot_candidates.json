@@ -1,0 +1,252 @@
+[
+  {
+    "name": "LEE County Deer Corridor (IA)",
+    "lat": 40.61737,
+    "lon": -91.33897,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 1840 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "MARSHALL County Deer Corridor (IA)",
+    "lat": 42.00329,
+    "lon": -92.80818,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 780 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "LINN County Deer Corridor (IA)",
+    "lat": 41.96618,
+    "lon": -91.55664,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 769 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "BREMER County Deer Corridor (IA)",
+    "lat": 42.63721,
+    "lon": -92.46395,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 594 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "WINNESHIEK County Deer Corridor (IA)",
+    "lat": 43.2861,
+    "lon": -91.77158,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 522 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "LINN County Deer Corridor (IA)",
+    "lat": 42.10234,
+    "lon": -91.71423,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 454 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "STORY County Deer Corridor (IA)",
+    "lat": 42.00814,
+    "lon": -93.61219,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 447 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "DALLAS County Deer Corridor (IA)",
+    "lat": 41.55981,
+    "lon": -93.92588,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 436 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "JONES County Deer Corridor (IA)",
+    "lat": 42.0928,
+    "lon": -91.28357,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 374 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "JOHNSON County Deer Corridor (IA)",
+    "lat": 41.68941,
+    "lon": -91.56464,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 372 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "DUBUQUE County Deer Corridor (IA)",
+    "lat": 42.54004,
+    "lon": -90.70903,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 360 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "DUBUQUE County Deer Corridor (IA)",
+    "lat": 42.46713,
+    "lon": -90.76953,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 341 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "POTTAWATTAMIE County Deer Corridor (IA)",
+    "lat": 41.28033,
+    "lon": -95.78823,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 323 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "DUBUQUE County Deer Corridor (IA)",
+    "lat": 42.40968,
+    "lon": -90.71882,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 310 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "WARREN County Deer Corridor (IA)",
+    "lat": 41.45845,
+    "lon": -93.5643,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 293 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "MUSCATINE County Deer Corridor (IA)",
+    "lat": 41.51238,
+    "lon": -90.87481,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 282 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "STORY County Deer Corridor (IA)",
+    "lat": 42.12792,
+    "lon": -93.56606,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 280 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "BOONE County Deer Corridor (IA)",
+    "lat": 42.03567,
+    "lon": -93.93244,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 277 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "SCOTT County Deer Corridor (IA)",
+    "lat": 41.71178,
+    "lon": -90.55719,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 261 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "BREMER County Deer Corridor (IA)",
+    "lat": 42.68092,
+    "lon": -92.33888,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 252 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "DUBUQUE County Deer Corridor (IA)",
+    "lat": 42.45015,
+    "lon": -90.64834,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 251 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "MARION County Deer Corridor (IA)",
+    "lat": 41.40664,
+    "lon": -92.94982,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 250 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "FLOYD County Deer Corridor (IA)",
+    "lat": 43.00773,
+    "lon": -92.61929,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 245 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "BLACK HAWK County Deer Corridor (IA)",
+    "lat": 42.45182,
+    "lon": -92.24243,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 240 real animal-vehicle crash reports",
+    "state": "IA"
+  },
+  {
+    "name": "SCOTT County Deer Corridor (IA)",
+    "lat": 41.5977,
+    "lon": -90.54983,
+    "radiusMeters": 1500,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR), public-iowadot.opendata.arcgis.com, DBSCAN cluster of 233 real animal-vehicle crash reports",
+    "state": "IA"
+  }
+]

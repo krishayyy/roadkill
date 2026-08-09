@@ -1,0 +1,43 @@
+{
+  "feature_columns": [
+    "hour_of_day",
+    "month",
+    "distance_to_nearest_corridor_m",
+    "corridor_base_severity",
+    "weather_condition_clear",
+    "weather_condition_cloudy",
+    "weather_condition_fog",
+    "weather_condition_rain",
+    "weather_condition_snow",
+    "species_Deer",
+    "species_Elk",
+    "species_Moose",
+    "road_type_highway",
+    "road_type_residential",
+    "road_type_rural"
+  ],
+  "categorical_columns": [
+    "weather_condition",
+    "species",
+    "road_type"
+  ],
+  "categories": {
+    "weather_condition": [
+      "clear",
+      "cloudy",
+      "rain",
+      "snow",
+      "fog"
+    ],
+    "species": [
+      "Deer",
+      "Elk",
+      "Moose"
+    ],
+    "road_type": [
+      "highway",
+      "rural",
+      "residential"
+    ]
+  }
+}

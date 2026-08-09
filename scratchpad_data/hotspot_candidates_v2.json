@@ -1,0 +1,6590 @@
+[
+  {
+    "name": "Jones County Deer Corridor (IA)",
+    "lat": 42.09237,
+    "lon": -91.28392,
+    "radiusMeters": 275,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 384 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 275 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.07074,
+        "lon": -91.32644
+      },
+      {
+        "lat": 42.0707,
+        "lon": -91.31833
+      },
+      {
+        "lat": 42.07074,
+        "lon": -91.31132
+      },
+      {
+        "lat": 42.07085,
+        "lon": -91.30074
+      },
+      {
+        "lat": 42.07547,
+        "lon": -91.28419
+      },
+      {
+        "lat": 42.07897,
+        "lon": -91.27305
+      },
+      {
+        "lat": 42.08795,
+        "lon": -91.26822
+      },
+      {
+        "lat": 42.09642,
+        "lon": -91.26733
+      },
+      {
+        "lat": 42.10301,
+        "lon": -91.26719
+      },
+      {
+        "lat": 42.11729,
+        "lon": -91.26683
+      },
+      {
+        "lat": 42.12597,
+        "lon": -91.26079
+      },
+      {
+        "lat": 42.13669,
+        "lon": -91.24911
+      }
+    ]
+  },
+  {
+    "name": "Muscatine County Deer Corridor (IA)",
+    "lat": 41.51218,
+    "lon": -90.87589,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 285 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.51285,
+        "lon": -90.78466
+      },
+      {
+        "lat": 41.51299,
+        "lon": -90.80363
+      },
+      {
+        "lat": 41.51521,
+        "lon": -90.82404
+      },
+      {
+        "lat": 41.51622,
+        "lon": -90.83266
+      },
+      {
+        "lat": 41.51861,
+        "lon": -90.85088
+      },
+      {
+        "lat": 41.51954,
+        "lon": -90.872
+      },
+      {
+        "lat": 41.51892,
+        "lon": -90.88648
+      },
+      {
+        "lat": 41.51732,
+        "lon": -90.90062
+      },
+      {
+        "lat": 41.51035,
+        "lon": -90.91971
+      },
+      {
+        "lat": 41.50399,
+        "lon": -90.93512
+      },
+      {
+        "lat": 41.50084,
+        "lon": -90.94512
+      },
+      {
+        "lat": 41.49925,
+        "lon": -90.96378
+      }
+    ]
+  },
+  {
+    "name": "Floyd County Deer Corridor (IA)",
+    "lat": 43.00855,
+    "lon": -92.62026,
+    "radiusMeters": 266,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 255 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 266 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.9737,
+        "lon": -92.56216
+      },
+      {
+        "lat": 42.97944,
+        "lon": -92.57637
+      },
+      {
+        "lat": 42.98472,
+        "lon": -92.58455
+      },
+      {
+        "lat": 42.99164,
+        "lon": -92.59407
+      },
+      {
+        "lat": 42.99922,
+        "lon": -92.60607
+      },
+      {
+        "lat": 43.00593,
+        "lon": -92.61964
+      },
+      {
+        "lat": 43.01137,
+        "lon": -92.62954
+      },
+      {
+        "lat": 43.01963,
+        "lon": -92.64406
+      },
+      {
+        "lat": 43.02337,
+        "lon": -92.64944
+      },
+      {
+        "lat": 43.02989,
+        "lon": -92.64999
+      },
+      {
+        "lat": 43.03882,
+        "lon": -92.65688
+      },
+      {
+        "lat": 43.04605,
+        "lon": -92.67259
+      }
+    ]
+  },
+  {
+    "name": "Bremer County Deer Corridor (IA)",
+    "lat": 42.68072,
+    "lon": -92.33887,
+    "radiusMeters": 195,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 253 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 195 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.64042,
+        "lon": -92.33751
+      },
+      {
+        "lat": 42.65253,
+        "lon": -92.33731
+      },
+      {
+        "lat": 42.65903,
+        "lon": -92.33767
+      },
+      {
+        "lat": 42.66825,
+        "lon": -92.34435
+      },
+      {
+        "lat": 42.67586,
+        "lon": -92.34255
+      },
+      {
+        "lat": 42.67861,
+        "lon": -92.34095
+      },
+      {
+        "lat": 42.68158,
+        "lon": -92.33903
+      },
+      {
+        "lat": 42.68543,
+        "lon": -92.33748
+      },
+      {
+        "lat": 42.6917,
+        "lon": -92.33738
+      },
+      {
+        "lat": 42.70224,
+        "lon": -92.33736
+      },
+      {
+        "lat": 42.71469,
+        "lon": -92.33458
+      },
+      {
+        "lat": 42.72117,
+        "lon": -92.33731
+      }
+    ]
+  },
+  {
+    "name": "Marion County Deer Corridor (IA)",
+    "lat": 41.42991,
+    "lon": -93.3379,
+    "radiusMeters": 106,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 241 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 106 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.37307,
+        "lon": -93.27318
+      },
+      {
+        "lat": 41.38338,
+        "lon": -93.28057
+      },
+      {
+        "lat": 41.39787,
+        "lon": -93.2837
+      },
+      {
+        "lat": 41.41536,
+        "lon": -93.2954
+      },
+      {
+        "lat": 41.42638,
+        "lon": -93.30662
+      },
+      {
+        "lat": 41.43238,
+        "lon": -93.32162
+      },
+      {
+        "lat": 41.43823,
+        "lon": -93.33358
+      },
+      {
+        "lat": 41.4406,
+        "lon": -93.35366
+      },
+      {
+        "lat": 41.45154,
+        "lon": -93.3753
+      },
+      {
+        "lat": 41.46261,
+        "lon": -93.39182
+      },
+      {
+        "lat": 41.46568,
+        "lon": -93.41466
+      },
+      {
+        "lat": 41.47313,
+        "lon": -93.4276
+      }
+    ]
+  },
+  {
+    "name": "Tama County Deer Corridor (IA)",
+    "lat": 41.9637,
+    "lon": -92.39029,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 237 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.9642,
+        "lon": -92.30695
+      },
+      {
+        "lat": 41.96405,
+        "lon": -92.3206
+      },
+      {
+        "lat": 41.96405,
+        "lon": -92.34602
+      },
+      {
+        "lat": 41.96408,
+        "lon": -92.35687
+      },
+      {
+        "lat": 41.96415,
+        "lon": -92.37677
+      },
+      {
+        "lat": 41.96403,
+        "lon": -92.38897
+      },
+      {
+        "lat": 41.96398,
+        "lon": -92.39779
+      },
+      {
+        "lat": 41.96403,
+        "lon": -92.41578
+      },
+      {
+        "lat": 41.96399,
+        "lon": -92.42595
+      },
+      {
+        "lat": 41.96394,
+        "lon": -92.4351
+      },
+      {
+        "lat": 41.96389,
+        "lon": -92.45279
+      },
+      {
+        "lat": 41.96387,
+        "lon": -92.46584
+      }
+    ]
+  },
+  {
+    "name": "Bremer County Deer Corridor (IA)",
+    "lat": 42.8941,
+    "lon": -92.54493,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 231 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.85133,
+        "lon": -92.54466
+      },
+      {
+        "lat": 42.86251,
+        "lon": -92.54462
+      },
+      {
+        "lat": 42.86903,
+        "lon": -92.54464
+      },
+      {
+        "lat": 42.88053,
+        "lon": -92.54471
+      },
+      {
+        "lat": 42.88618,
+        "lon": -92.54594
+      },
+      {
+        "lat": 42.89244,
+        "lon": -92.5469
+      },
+      {
+        "lat": 42.89768,
+        "lon": -92.54601
+      },
+      {
+        "lat": 42.90245,
+        "lon": -92.5452
+      },
+      {
+        "lat": 42.90801,
+        "lon": -92.54456
+      },
+      {
+        "lat": 42.92031,
+        "lon": -92.54471
+      },
+      {
+        "lat": 42.92796,
+        "lon": -92.54458
+      },
+      {
+        "lat": 42.93735,
+        "lon": -92.54441
+      }
+    ]
+  },
+  {
+    "name": "Clinton County Deer Corridor (IA)",
+    "lat": 41.84111,
+    "lon": -90.56914,
+    "radiusMeters": 297,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 225 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 297 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.80201,
+        "lon": -90.56742
+      },
+      {
+        "lat": 41.80808,
+        "lon": -90.55535
+      },
+      {
+        "lat": 41.81585,
+        "lon": -90.56814
+      },
+      {
+        "lat": 41.82567,
+        "lon": -90.56576
+      },
+      {
+        "lat": 41.82875,
+        "lon": -90.5696
+      },
+      {
+        "lat": 41.83506,
+        "lon": -90.56929
+      },
+      {
+        "lat": 41.84202,
+        "lon": -90.56866
+      },
+      {
+        "lat": 41.84577,
+        "lon": -90.56834
+      },
+      {
+        "lat": 41.85569,
+        "lon": -90.56797
+      },
+      {
+        "lat": 41.86725,
+        "lon": -90.56842
+      },
+      {
+        "lat": 41.88049,
+        "lon": -90.57993
+      },
+      {
+        "lat": 41.89297,
+        "lon": -90.58837
+      }
+    ]
+  },
+  {
+    "name": "Benton County Deer Corridor (IA)",
+    "lat": 42.21333,
+    "lon": -91.84425,
+    "radiusMeters": 254,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 207 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 254 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.18533,
+        "lon": -91.79935
+      },
+      {
+        "lat": 42.1908,
+        "lon": -91.81056
+      },
+      {
+        "lat": 42.19217,
+        "lon": -91.81324
+      },
+      {
+        "lat": 42.19951,
+        "lon": -91.827
+      },
+      {
+        "lat": 42.20317,
+        "lon": -91.83111
+      },
+      {
+        "lat": 42.21028,
+        "lon": -91.83937
+      },
+      {
+        "lat": 42.21586,
+        "lon": -91.84677
+      },
+      {
+        "lat": 42.22078,
+        "lon": -91.85673
+      },
+      {
+        "lat": 42.22581,
+        "lon": -91.86258
+      },
+      {
+        "lat": 42.22869,
+        "lon": -91.87051
+      },
+      {
+        "lat": 42.23918,
+        "lon": -91.88382
+      },
+      {
+        "lat": 42.25197,
+        "lon": -91.89735
+      }
+    ]
+  },
+  {
+    "name": "Henry County Deer Corridor (IA)",
+    "lat": 40.91657,
+    "lon": -91.41034,
+    "radiusMeters": 203,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 196 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 203 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 40.90478,
+        "lon": -91.36725
+      },
+      {
+        "lat": 40.90546,
+        "lon": -91.37294
+      },
+      {
+        "lat": 40.90562,
+        "lon": -91.38195
+      },
+      {
+        "lat": 40.90567,
+        "lon": -91.39014
+      },
+      {
+        "lat": 40.90857,
+        "lon": -91.40921
+      },
+      {
+        "lat": 40.91102,
+        "lon": -91.41666
+      },
+      {
+        "lat": 40.91702,
+        "lon": -91.41742
+      },
+      {
+        "lat": 40.92164,
+        "lon": -91.42305
+      },
+      {
+        "lat": 40.92572,
+        "lon": -91.42727
+      },
+      {
+        "lat": 40.9297,
+        "lon": -91.43305
+      },
+      {
+        "lat": 40.93246,
+        "lon": -91.44164
+      },
+      {
+        "lat": 40.93505,
+        "lon": -91.44929
+      }
+    ]
+  },
+  {
+    "name": "Fayette County Deer Corridor (IA)",
+    "lat": 42.8679,
+    "lon": -91.80994,
+    "radiusMeters": 121,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 185 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 121 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.81136,
+        "lon": -91.80514
+      },
+      {
+        "lat": 42.8231,
+        "lon": -91.80504
+      },
+      {
+        "lat": 42.82721,
+        "lon": -91.80512
+      },
+      {
+        "lat": 42.83848,
+        "lon": -91.80827
+      },
+      {
+        "lat": 42.84973,
+        "lon": -91.81281
+      },
+      {
+        "lat": 42.86154,
+        "lon": -91.81152
+      },
+      {
+        "lat": 42.87372,
+        "lon": -91.81047
+      },
+      {
+        "lat": 42.8862,
+        "lon": -91.81038
+      },
+      {
+        "lat": 42.89652,
+        "lon": -91.81022
+      },
+      {
+        "lat": 42.90529,
+        "lon": -91.8114
+      },
+      {
+        "lat": 42.92091,
+        "lon": -91.81438
+      },
+      {
+        "lat": 42.93348,
+        "lon": -91.81424
+      }
+    ]
+  },
+  {
+    "name": "Marshall County Deer Corridor (IA)",
+    "lat": 41.87442,
+    "lon": -93.21642,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 176 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.90147,
+        "lon": -93.17748
+      },
+      {
+        "lat": 41.89412,
+        "lon": -93.18801
+      },
+      {
+        "lat": 41.88865,
+        "lon": -93.1962
+      },
+      {
+        "lat": 41.88531,
+        "lon": -93.20066
+      },
+      {
+        "lat": 41.88264,
+        "lon": -93.2048
+      },
+      {
+        "lat": 41.87839,
+        "lon": -93.21045
+      },
+      {
+        "lat": 41.87301,
+        "lon": -93.21875
+      },
+      {
+        "lat": 41.86645,
+        "lon": -93.2273
+      },
+      {
+        "lat": 41.8593,
+        "lon": -93.23805
+      },
+      {
+        "lat": 41.85762,
+        "lon": -93.24067
+      },
+      {
+        "lat": 41.85383,
+        "lon": -93.24664
+      },
+      {
+        "lat": 41.8487,
+        "lon": -93.25421
+      }
+    ]
+  },
+  {
+    "name": "Buchanan County Deer Corridor (IA)",
+    "lat": 42.45115,
+    "lon": -91.88275,
+    "radiusMeters": 295,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 170 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 295 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.4546,
+        "lon": -91.83903
+      },
+      {
+        "lat": 42.45347,
+        "lon": -91.84524
+      },
+      {
+        "lat": 42.4518,
+        "lon": -91.85488
+      },
+      {
+        "lat": 42.45027,
+        "lon": -91.86308
+      },
+      {
+        "lat": 42.44939,
+        "lon": -91.87349
+      },
+      {
+        "lat": 42.44914,
+        "lon": -91.87938
+      },
+      {
+        "lat": 42.45664,
+        "lon": -91.89027
+      },
+      {
+        "lat": 42.4487,
+        "lon": -91.89021
+      },
+      {
+        "lat": 42.44844,
+        "lon": -91.90053
+      },
+      {
+        "lat": 42.44839,
+        "lon": -91.91305
+      },
+      {
+        "lat": 42.44795,
+        "lon": -91.91962
+      },
+      {
+        "lat": 42.44742,
+        "lon": -91.92935
+      }
+    ]
+  },
+  {
+    "name": "Dubuque County Deer Corridor (IA)",
+    "lat": 42.46719,
+    "lon": -91.09835,
+    "radiusMeters": 228,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 169 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 228 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.46386,
+        "lon": -91.07032
+      },
+      {
+        "lat": 42.46632,
+        "lon": -91.07786
+      },
+      {
+        "lat": 42.46668,
+        "lon": -91.07907
+      },
+      {
+        "lat": 42.4679,
+        "lon": -91.08123
+      },
+      {
+        "lat": 42.46948,
+        "lon": -91.08952
+      },
+      {
+        "lat": 42.46937,
+        "lon": -91.09731
+      },
+      {
+        "lat": 42.4693,
+        "lon": -91.10259
+      },
+      {
+        "lat": 42.46909,
+        "lon": -91.1069
+      },
+      {
+        "lat": 42.46892,
+        "lon": -91.11281
+      },
+      {
+        "lat": 42.45976,
+        "lon": -91.11702
+      },
+      {
+        "lat": 42.46907,
+        "lon": -91.11892
+      },
+      {
+        "lat": 42.47106,
+        "lon": -91.13075
+      }
+    ]
+  },
+  {
+    "name": "Jefferson County Deer Corridor (IA)",
+    "lat": 41.00962,
+    "lon": -92.07331,
+    "radiusMeters": 196,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 165 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 196 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.0063,
+        "lon": -92.00583
+      },
+      {
+        "lat": 41.00997,
+        "lon": -92.0244
+      },
+      {
+        "lat": 41.01503,
+        "lon": -92.03251
+      },
+      {
+        "lat": 41.01491,
+        "lon": -92.03713
+      },
+      {
+        "lat": 41.01453,
+        "lon": -92.04763
+      },
+      {
+        "lat": 41.01395,
+        "lon": -92.06423
+      },
+      {
+        "lat": 41.01099,
+        "lon": -92.07697
+      },
+      {
+        "lat": 41.00965,
+        "lon": -92.0934
+      },
+      {
+        "lat": 41.00959,
+        "lon": -92.10925
+      },
+      {
+        "lat": 41.0093,
+        "lon": -92.12028
+      },
+      {
+        "lat": 41.00279,
+        "lon": -92.13233
+      },
+      {
+        "lat": 41.003,
+        "lon": -92.15046
+      }
+    ]
+  },
+  {
+    "name": "Iowa County Deer Corridor (IA)",
+    "lat": 41.76332,
+    "lon": -91.87385,
+    "radiusMeters": 154,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 162 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 154 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.75927,
+        "lon": -91.83953
+      },
+      {
+        "lat": 41.75928,
+        "lon": -91.84509
+      },
+      {
+        "lat": 41.75921,
+        "lon": -91.84811
+      },
+      {
+        "lat": 41.75912,
+        "lon": -91.85595
+      },
+      {
+        "lat": 41.76039,
+        "lon": -91.86394
+      },
+      {
+        "lat": 41.76207,
+        "lon": -91.86974
+      },
+      {
+        "lat": 41.76436,
+        "lon": -91.87517
+      },
+      {
+        "lat": 41.76392,
+        "lon": -91.8879
+      },
+      {
+        "lat": 41.76538,
+        "lon": -91.89218
+      },
+      {
+        "lat": 41.76711,
+        "lon": -91.89995
+      },
+      {
+        "lat": 41.76822,
+        "lon": -91.90863
+      },
+      {
+        "lat": 41.76907,
+        "lon": -91.91293
+      }
+    ]
+  },
+  {
+    "name": "Emmet County Deer Corridor (IA)",
+    "lat": 43.37232,
+    "lon": -94.82173,
+    "radiusMeters": 230,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 162 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 230 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 43.33021,
+        "lon": -94.79711
+      },
+      {
+        "lat": 43.34168,
+        "lon": -94.79718
+      },
+      {
+        "lat": 43.34957,
+        "lon": -94.79719
+      },
+      {
+        "lat": 43.35716,
+        "lon": -94.79932
+      },
+      {
+        "lat": 43.36404,
+        "lon": -94.8059
+      },
+      {
+        "lat": 43.36939,
+        "lon": -94.81106
+      },
+      {
+        "lat": 43.37908,
+        "lon": -94.82164
+      },
+      {
+        "lat": 43.38355,
+        "lon": -94.8282
+      },
+      {
+        "lat": 43.39187,
+        "lon": -94.83288
+      },
+      {
+        "lat": 43.40236,
+        "lon": -94.84814
+      },
+      {
+        "lat": 43.40344,
+        "lon": -94.86013
+      },
+      {
+        "lat": 43.40757,
+        "lon": -94.87164
+      }
+    ]
+  },
+  {
+    "name": "Linn County Deer Corridor (IA)",
+    "lat": 42.0503,
+    "lon": -91.4638,
+    "radiusMeters": 107,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 160 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 107 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.05735,
+        "lon": -91.42327
+      },
+      {
+        "lat": 42.05353,
+        "lon": -91.4366
+      },
+      {
+        "lat": 42.04915,
+        "lon": -91.44655
+      },
+      {
+        "lat": 42.04941,
+        "lon": -91.45296
+      },
+      {
+        "lat": 42.04978,
+        "lon": -91.45631
+      },
+      {
+        "lat": 42.05024,
+        "lon": -91.46206
+      },
+      {
+        "lat": 42.05045,
+        "lon": -91.46601
+      },
+      {
+        "lat": 42.0504,
+        "lon": -91.4676
+      },
+      {
+        "lat": 42.05042,
+        "lon": -91.47901
+      },
+      {
+        "lat": 42.04884,
+        "lon": -91.48567
+      },
+      {
+        "lat": 42.04596,
+        "lon": -91.49707
+      },
+      {
+        "lat": 42.04579,
+        "lon": -91.50163
+      }
+    ]
+  },
+  {
+    "name": "Story County Deer Corridor (IA)",
+    "lat": 41.88718,
+    "lon": -93.57134,
+    "radiusMeters": 365,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 157 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 365 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.84233,
+        "lon": -93.57108
+      },
+      {
+        "lat": 41.85186,
+        "lon": -93.57111
+      },
+      {
+        "lat": 41.86431,
+        "lon": -93.57131
+      },
+      {
+        "lat": 41.87202,
+        "lon": -93.57119
+      },
+      {
+        "lat": 41.88093,
+        "lon": -93.57112
+      },
+      {
+        "lat": 41.89261,
+        "lon": -93.57122
+      },
+      {
+        "lat": 41.89813,
+        "lon": -93.57123
+      },
+      {
+        "lat": 41.89961,
+        "lon": -93.57329
+      },
+      {
+        "lat": 41.90136,
+        "lon": -93.57078
+      },
+      {
+        "lat": 41.90841,
+        "lon": -93.57068
+      },
+      {
+        "lat": 41.9119,
+        "lon": -93.5706
+      },
+      {
+        "lat": 41.92389,
+        "lon": -93.5701
+      }
+    ]
+  },
+  {
+    "name": "Louisa County Deer Corridor (IA)",
+    "lat": 41.2277,
+    "lon": -91.19687,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 154 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.19301,
+        "lon": -91.1964
+      },
+      {
+        "lat": 41.2055,
+        "lon": -91.19789
+      },
+      {
+        "lat": 41.21419,
+        "lon": -91.19889
+      },
+      {
+        "lat": 41.22209,
+        "lon": -91.19768
+      },
+      {
+        "lat": 41.22743,
+        "lon": -91.19681
+      },
+      {
+        "lat": 41.22928,
+        "lon": -91.19661
+      },
+      {
+        "lat": 41.23003,
+        "lon": -91.19647
+      },
+      {
+        "lat": 41.23486,
+        "lon": -91.19643
+      },
+      {
+        "lat": 41.23774,
+        "lon": -91.19637
+      },
+      {
+        "lat": 41.24283,
+        "lon": -91.19652
+      },
+      {
+        "lat": 41.24747,
+        "lon": -91.19694
+      },
+      {
+        "lat": 41.24959,
+        "lon": -91.19699
+      }
+    ]
+  },
+  {
+    "name": "Marion County Deer Corridor (IA)",
+    "lat": 41.31965,
+    "lon": -93.15518,
+    "radiusMeters": 184,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 150 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 184 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.30629,
+        "lon": -93.11884
+      },
+      {
+        "lat": 41.30763,
+        "lon": -93.12357
+      },
+      {
+        "lat": 41.3114,
+        "lon": -93.128
+      },
+      {
+        "lat": 41.31345,
+        "lon": -93.13202
+      },
+      {
+        "lat": 41.3199,
+        "lon": -93.13644
+      },
+      {
+        "lat": 41.3219,
+        "lon": -93.14551
+      },
+      {
+        "lat": 41.32299,
+        "lon": -93.15942
+      },
+      {
+        "lat": 41.32359,
+        "lon": -93.16428
+      },
+      {
+        "lat": 41.32461,
+        "lon": -93.17519
+      },
+      {
+        "lat": 41.32524,
+        "lon": -93.18533
+      },
+      {
+        "lat": 41.32637,
+        "lon": -93.199
+      },
+      {
+        "lat": 41.32944,
+        "lon": -93.20886
+      }
+    ]
+  },
+  {
+    "name": "Clayton County Deer Corridor (IA)",
+    "lat": 42.86415,
+    "lon": -91.38643,
+    "radiusMeters": 369,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 150 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 369 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 42.83397,
+        "lon": -91.40827
+      },
+      {
+        "lat": 42.84166,
+        "lon": -91.4038
+      },
+      {
+        "lat": 42.84945,
+        "lon": -91.39529
+      },
+      {
+        "lat": 42.8565,
+        "lon": -91.39406
+      },
+      {
+        "lat": 42.85946,
+        "lon": -91.39466
+      },
+      {
+        "lat": 42.86406,
+        "lon": -91.38938
+      },
+      {
+        "lat": 42.86767,
+        "lon": -91.38417
+      },
+      {
+        "lat": 42.87383,
+        "lon": -91.38287
+      },
+      {
+        "lat": 42.87855,
+        "lon": -91.3816
+      },
+      {
+        "lat": 42.88,
+        "lon": -91.37119
+      },
+      {
+        "lat": 42.88063,
+        "lon": -91.36282
+      },
+      {
+        "lat": 42.89126,
+        "lon": -91.3653
+      }
+    ]
+  },
+  {
+    "name": "Muscatine County Deer Corridor (IA)",
+    "lat": 41.33171,
+    "lon": -91.19317,
+    "radiusMeters": 320,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 149 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 320 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.29923,
+        "lon": -91.19855
+      },
+      {
+        "lat": 41.31201,
+        "lon": -91.20087
+      },
+      {
+        "lat": 41.32001,
+        "lon": -91.20076
+      },
+      {
+        "lat": 41.32391,
+        "lon": -91.20088
+      },
+      {
+        "lat": 41.32825,
+        "lon": -91.2011
+      },
+      {
+        "lat": 41.33477,
+        "lon": -91.20065
+      },
+      {
+        "lat": 41.33789,
+        "lon": -91.20009
+      },
+      {
+        "lat": 41.34222,
+        "lon": -91.19474
+      },
+      {
+        "lat": 41.34495,
+        "lon": -91.19015
+      },
+      {
+        "lat": 41.34723,
+        "lon": -91.18522
+      },
+      {
+        "lat": 41.34805,
+        "lon": -91.17996
+      },
+      {
+        "lat": 41.35017,
+        "lon": -91.16672
+      }
+    ]
+  },
+  {
+    "name": "Dallas County Deer Corridor (IA)",
+    "lat": 41.83349,
+    "lon": -93.9539,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 147 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 41.82394,
+        "lon": -93.91265
+      },
+      {
+        "lat": 41.83008,
+        "lon": -93.91357
+      },
+      {
+        "lat": 41.83264,
+        "lon": -93.91782
+      },
+      {
+        "lat": 41.83513,
+        "lon": -93.93159
+      },
+      {
+        "lat": 41.83501,
+        "lon": -93.94629
+      },
+      {
+        "lat": 41.83493,
+        "lon": -93.95924
+      },
+      {
+        "lat": 41.83488,
+        "lon": -93.96352
+      },
+      {
+        "lat": 41.83487,
+        "lon": -93.96605
+      },
+      {
+        "lat": 41.83483,
+        "lon": -93.96951
+      },
+      {
+        "lat": 41.83483,
+        "lon": -93.98306
+      },
+      {
+        "lat": 41.83492,
+        "lon": -93.99343
+      },
+      {
+        "lat": 41.83498,
+        "lon": -94.003
+      }
+    ]
+  },
+  {
+    "name": "Henry County Deer Corridor (IA)",
+    "lat": 41.00991,
+    "lon": -91.54384,
+    "radiusMeters": 254,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Iowa DOT Crash Data (SOR) \u2014 DBSCAN cluster of 147 real animal-vehicle crash reports (eps 899 m tuned to IA point density); polyline of 12 vertices, buffer half-width 254 m; source has no species field; species assumed Deer",
+    "state": "IA",
+    "pathPoints": [
+      {
+        "lat": 40.98626,
+        "lon": -91.52688
+      },
+      {
+        "lat": 40.98911,
+        "lon": -91.53225
+      },
+      {
+        "lat": 40.9904,
+        "lon": -91.53924
+      },
+      {
+        "lat": 40.99376,
+        "lon": -91.54347
+      },
+      {
+        "lat": 40.99851,
+        "lon": -91.54674
+      },
+      {
+        "lat": 41.0035,
+        "lon": -91.54903
+      },
+      {
+        "lat": 41.00686,
+        "lon": -91.54912
+      },
+      {
+        "lat": 41.01353,
+        "lon": -91.54898
+      },
+      {
+        "lat": 41.02622,
+        "lon": -91.54889
+      },
+      {
+        "lat": 41.03443,
+        "lon": -91.54862
+      },
+      {
+        "lat": 41.04008,
+        "lon": -91.54537
+      },
+      {
+        "lat": 41.04383,
+        "lon": -91.54452
+      }
+    ]
+  },
+  {
+    "name": "Hancock County Deer Corridor (IL)",
+    "lat": 40.41313,
+    "lon": -90.99098,
+    "radiusMeters": 106,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 207 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 106 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.40803,
+        "lon": -90.89895
+      },
+      {
+        "lat": 40.40799,
+        "lon": -90.9269
+      },
+      {
+        "lat": 40.4085,
+        "lon": -90.93768
+      },
+      {
+        "lat": 40.41368,
+        "lon": -90.9512
+      },
+      {
+        "lat": 40.41497,
+        "lon": -90.9737
+      },
+      {
+        "lat": 40.41447,
+        "lon": -90.9841
+      },
+      {
+        "lat": 40.4144,
+        "lon": -90.9964
+      },
+      {
+        "lat": 40.4143,
+        "lon": -91.0179
+      },
+      {
+        "lat": 40.4144,
+        "lon": -91.0226
+      },
+      {
+        "lat": 40.41484,
+        "lon": -91.0442
+      },
+      {
+        "lat": 40.4151,
+        "lon": -91.0701
+      },
+      {
+        "lat": 40.41533,
+        "lon": -91.08224
+      }
+    ]
+  },
+  {
+    "name": "Coles County Deer Corridor (IL)",
+    "lat": 39.4406,
+    "lon": -88.13981,
+    "radiusMeters": 287,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 196 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 287 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 39.39102,
+        "lon": -88.13487
+      },
+      {
+        "lat": 39.40248,
+        "lon": -88.1348
+      },
+      {
+        "lat": 39.41171,
+        "lon": -88.1323
+      },
+      {
+        "lat": 39.42761,
+        "lon": -88.1297
+      },
+      {
+        "lat": 39.43726,
+        "lon": -88.1294
+      },
+      {
+        "lat": 39.44477,
+        "lon": -88.11417
+      },
+      {
+        "lat": 39.4451,
+        "lon": -88.12926
+      },
+      {
+        "lat": 39.4578,
+        "lon": -88.1471
+      },
+      {
+        "lat": 39.45977,
+        "lon": -88.1526
+      },
+      {
+        "lat": 39.46262,
+        "lon": -88.1612
+      },
+      {
+        "lat": 39.46754,
+        "lon": -88.16305
+      },
+      {
+        "lat": 39.48433,
+        "lon": -88.16295
+      }
+    ]
+  },
+  {
+    "name": "Peoria County Deer Corridor (IL)",
+    "lat": 40.56215,
+    "lon": -89.76652,
+    "radiusMeters": 202,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 174 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 202 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.58501,
+        "lon": -89.68435
+      },
+      {
+        "lat": 40.58137,
+        "lon": -89.7
+      },
+      {
+        "lat": 40.5744,
+        "lon": -89.7117
+      },
+      {
+        "lat": 40.56483,
+        "lon": -89.73308
+      },
+      {
+        "lat": 40.56332,
+        "lon": -89.7417
+      },
+      {
+        "lat": 40.56063,
+        "lon": -89.7535
+      },
+      {
+        "lat": 40.55885,
+        "lon": -89.77684
+      },
+      {
+        "lat": 40.55214,
+        "lon": -89.79864
+      },
+      {
+        "lat": 40.55143,
+        "lon": -89.80635
+      },
+      {
+        "lat": 40.5508,
+        "lon": -89.82385
+      },
+      {
+        "lat": 40.5508,
+        "lon": -89.8349
+      },
+      {
+        "lat": 40.54914,
+        "lon": -89.85287
+      }
+    ]
+  },
+  {
+    "name": "Randolph County Deer Corridor (IL)",
+    "lat": 37.94508,
+    "lon": -89.85373,
+    "radiusMeters": 276,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 171 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 276 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 37.92202,
+        "lon": -89.8093
+      },
+      {
+        "lat": 37.91131,
+        "lon": -89.83057
+      },
+      {
+        "lat": 37.91938,
+        "lon": -89.8221
+      },
+      {
+        "lat": 37.91763,
+        "lon": -89.8292
+      },
+      {
+        "lat": 37.92915,
+        "lon": -89.8434
+      },
+      {
+        "lat": 37.93231,
+        "lon": -89.85072
+      },
+      {
+        "lat": 37.93588,
+        "lon": -89.86494
+      },
+      {
+        "lat": 37.9437,
+        "lon": -89.87686
+      },
+      {
+        "lat": 37.9613,
+        "lon": -89.87994
+      },
+      {
+        "lat": 37.97655,
+        "lon": -89.88059
+      },
+      {
+        "lat": 37.98987,
+        "lon": -89.88703
+      },
+      {
+        "lat": 38.00182,
+        "lon": -89.8982
+      }
+    ]
+  },
+  {
+    "name": "Crawford County Deer Corridor (IL)",
+    "lat": 38.91055,
+    "lon": -87.68508,
+    "radiusMeters": 291,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 168 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 291 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 38.8654,
+        "lon": -87.68449
+      },
+      {
+        "lat": 38.87739,
+        "lon": -87.6845
+      },
+      {
+        "lat": 38.88195,
+        "lon": -87.6845
+      },
+      {
+        "lat": 38.88966,
+        "lon": -87.6845
+      },
+      {
+        "lat": 38.8975,
+        "lon": -87.6845
+      },
+      {
+        "lat": 38.90377,
+        "lon": -87.6845
+      },
+      {
+        "lat": 38.9109,
+        "lon": -87.6845
+      },
+      {
+        "lat": 38.91892,
+        "lon": -87.68455
+      },
+      {
+        "lat": 38.92643,
+        "lon": -87.6846
+      },
+      {
+        "lat": 38.94085,
+        "lon": -87.6846
+      },
+      {
+        "lat": 38.9556,
+        "lon": -87.68861
+      },
+      {
+        "lat": 38.96057,
+        "lon": -87.6847
+      }
+    ]
+  },
+  {
+    "name": "Schuyler County Deer Corridor (IL)",
+    "lat": 40.08033,
+    "lon": -90.53667,
+    "radiusMeters": 303,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 162 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 303 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.04829,
+        "lon": -90.48367
+      },
+      {
+        "lat": 40.05693,
+        "lon": -90.5009
+      },
+      {
+        "lat": 40.06382,
+        "lon": -90.51432
+      },
+      {
+        "lat": 40.07397,
+        "lon": -90.5289
+      },
+      {
+        "lat": 40.08114,
+        "lon": -90.53595
+      },
+      {
+        "lat": 40.08551,
+        "lon": -90.54158
+      },
+      {
+        "lat": 40.08925,
+        "lon": -90.54655
+      },
+      {
+        "lat": 40.0913,
+        "lon": -90.54794
+      },
+      {
+        "lat": 40.08355,
+        "lon": -90.5628
+      },
+      {
+        "lat": 40.09492,
+        "lon": -90.5554
+      },
+      {
+        "lat": 40.09587,
+        "lon": -90.56211
+      },
+      {
+        "lat": 40.10557,
+        "lon": -90.56224
+      }
+    ]
+  },
+  {
+    "name": "Lee County Deer Corridor (IL)",
+    "lat": 41.67447,
+    "lon": -89.281,
+    "radiusMeters": 241,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 152 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 241 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 41.65974,
+        "lon": -89.2574
+      },
+      {
+        "lat": 41.6615,
+        "lon": -89.2608
+      },
+      {
+        "lat": 41.6585,
+        "lon": -89.2796
+      },
+      {
+        "lat": 41.66945,
+        "lon": -89.27191
+      },
+      {
+        "lat": 41.6714,
+        "lon": -89.2737
+      },
+      {
+        "lat": 41.6714,
+        "lon": -89.2737
+      },
+      {
+        "lat": 41.6754,
+        "lon": -89.2802
+      },
+      {
+        "lat": 41.67979,
+        "lon": -89.2843
+      },
+      {
+        "lat": 41.682,
+        "lon": -89.2886
+      },
+      {
+        "lat": 41.68595,
+        "lon": -89.29413
+      },
+      {
+        "lat": 41.6923,
+        "lon": -89.303
+      },
+      {
+        "lat": 41.69375,
+        "lon": -89.30537
+      }
+    ]
+  },
+  {
+    "name": "Adams County Deer Corridor (IL)",
+    "lat": 40.15503,
+    "lon": -91.21234,
+    "radiusMeters": 171,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 134 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 171 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.12212,
+        "lon": -91.24577
+      },
+      {
+        "lat": 40.13164,
+        "lon": -91.238
+      },
+      {
+        "lat": 40.13943,
+        "lon": -91.228
+      },
+      {
+        "lat": 40.14237,
+        "lon": -91.22552
+      },
+      {
+        "lat": 40.13947,
+        "lon": -91.21629
+      },
+      {
+        "lat": 40.1534,
+        "lon": -91.2141
+      },
+      {
+        "lat": 40.15726,
+        "lon": -91.21211
+      },
+      {
+        "lat": 40.16071,
+        "lon": -91.20994
+      },
+      {
+        "lat": 40.16364,
+        "lon": -91.2083
+      },
+      {
+        "lat": 40.17426,
+        "lon": -91.19777
+      },
+      {
+        "lat": 40.18524,
+        "lon": -91.1826
+      },
+      {
+        "lat": 40.19085,
+        "lon": -91.17126
+      }
+    ]
+  },
+  {
+    "name": "Moultrie County Deer Corridor (IL)",
+    "lat": 39.62849,
+    "lon": -88.70071,
+    "radiusMeters": 371,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 128 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 371 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 39.61861,
+        "lon": -88.67129
+      },
+      {
+        "lat": 39.62092,
+        "lon": -88.6775
+      },
+      {
+        "lat": 39.62191,
+        "lon": -88.68032
+      },
+      {
+        "lat": 39.62318,
+        "lon": -88.6899
+      },
+      {
+        "lat": 39.62452,
+        "lon": -88.69447
+      },
+      {
+        "lat": 39.62885,
+        "lon": -88.6992
+      },
+      {
+        "lat": 39.63034,
+        "lon": -88.7032
+      },
+      {
+        "lat": 39.63193,
+        "lon": -88.70757
+      },
+      {
+        "lat": 39.63387,
+        "lon": -88.71427
+      },
+      {
+        "lat": 39.63617,
+        "lon": -88.71914
+      },
+      {
+        "lat": 39.63793,
+        "lon": -88.72397
+      },
+      {
+        "lat": 39.64051,
+        "lon": -88.73907
+      }
+    ]
+  },
+  {
+    "name": "Champaign County Deer Corridor (IL)",
+    "lat": 40.19896,
+    "lon": -88.40127,
+    "radiusMeters": 281,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 126 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 281 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.18572,
+        "lon": -88.36042
+      },
+      {
+        "lat": 40.19009,
+        "lon": -88.3734
+      },
+      {
+        "lat": 40.1913,
+        "lon": -88.3775
+      },
+      {
+        "lat": 40.19337,
+        "lon": -88.3859
+      },
+      {
+        "lat": 40.18885,
+        "lon": -88.39124
+      },
+      {
+        "lat": 40.19705,
+        "lon": -88.39489
+      },
+      {
+        "lat": 40.20091,
+        "lon": -88.40109
+      },
+      {
+        "lat": 40.2047,
+        "lon": -88.40985
+      },
+      {
+        "lat": 40.20678,
+        "lon": -88.42054
+      },
+      {
+        "lat": 40.2078,
+        "lon": -88.42915
+      },
+      {
+        "lat": 40.20911,
+        "lon": -88.43762
+      },
+      {
+        "lat": 40.21099,
+        "lon": -88.45061
+      }
+    ]
+  },
+  {
+    "name": "Fulton County Deer Corridor (IL)",
+    "lat": 40.61542,
+    "lon": -90.02345,
+    "radiusMeters": 247,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 125 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 247 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.576,
+        "lon": -90.03615
+      },
+      {
+        "lat": 40.58366,
+        "lon": -90.03583
+      },
+      {
+        "lat": 40.58752,
+        "lon": -90.036
+      },
+      {
+        "lat": 40.58992,
+        "lon": -90.0285
+      },
+      {
+        "lat": 40.6078,
+        "lon": -90.03242
+      },
+      {
+        "lat": 40.61563,
+        "lon": -90.0321
+      },
+      {
+        "lat": 40.62614,
+        "lon": -90.02466
+      },
+      {
+        "lat": 40.63152,
+        "lon": -90.0152
+      },
+      {
+        "lat": 40.63535,
+        "lon": -90.0094
+      },
+      {
+        "lat": 40.63727,
+        "lon": -90.00808
+      },
+      {
+        "lat": 40.65268,
+        "lon": -90.00713
+      },
+      {
+        "lat": 40.66197,
+        "lon": -90.00681
+      }
+    ]
+  },
+  {
+    "name": "Moultrie County Deer Corridor (IL)",
+    "lat": 39.58116,
+    "lon": -88.53283,
+    "radiusMeters": 318,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 120 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 318 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 39.55264,
+        "lon": -88.52595
+      },
+      {
+        "lat": 39.5575,
+        "lon": -88.5281
+      },
+      {
+        "lat": 39.5633,
+        "lon": -88.5282
+      },
+      {
+        "lat": 39.56921,
+        "lon": -88.52895
+      },
+      {
+        "lat": 39.57103,
+        "lon": -88.53027
+      },
+      {
+        "lat": 39.57324,
+        "lon": -88.53333
+      },
+      {
+        "lat": 39.58189,
+        "lon": -88.5376
+      },
+      {
+        "lat": 39.58618,
+        "lon": -88.53768
+      },
+      {
+        "lat": 39.60045,
+        "lon": -88.5371
+      },
+      {
+        "lat": 39.60079,
+        "lon": -88.54875
+      },
+      {
+        "lat": 39.60735,
+        "lon": -88.5285
+      },
+      {
+        "lat": 39.61144,
+        "lon": -88.52831
+      }
+    ]
+  },
+  {
+    "name": "Dewitt County Deer Corridor (IL)",
+    "lat": 40.17929,
+    "lon": -88.84752,
+    "radiusMeters": 215,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 116 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 215 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.18406,
+        "lon": -88.82388
+      },
+      {
+        "lat": 40.18388,
+        "lon": -88.82808
+      },
+      {
+        "lat": 40.18361,
+        "lon": -88.83015
+      },
+      {
+        "lat": 40.18275,
+        "lon": -88.8304
+      },
+      {
+        "lat": 40.17984,
+        "lon": -88.83146
+      },
+      {
+        "lat": 40.18076,
+        "lon": -88.84055
+      },
+      {
+        "lat": 40.17825,
+        "lon": -88.85009
+      },
+      {
+        "lat": 40.17748,
+        "lon": -88.85749
+      },
+      {
+        "lat": 40.17671,
+        "lon": -88.8649
+      },
+      {
+        "lat": 40.17634,
+        "lon": -88.8684
+      },
+      {
+        "lat": 40.17535,
+        "lon": -88.87308
+      },
+      {
+        "lat": 40.17395,
+        "lon": -88.87814
+      }
+    ]
+  },
+  {
+    "name": "White County Deer Corridor (IL)",
+    "lat": 38.06414,
+    "lon": -88.22004,
+    "radiusMeters": 265,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 115 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 265 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 38.02908,
+        "lon": -88.25718
+      },
+      {
+        "lat": 38.03951,
+        "lon": -88.2469
+      },
+      {
+        "lat": 38.05093,
+        "lon": -88.2343
+      },
+      {
+        "lat": 38.0546,
+        "lon": -88.23041
+      },
+      {
+        "lat": 38.05911,
+        "lon": -88.22601
+      },
+      {
+        "lat": 38.06646,
+        "lon": -88.21527
+      },
+      {
+        "lat": 38.0717,
+        "lon": -88.21011
+      },
+      {
+        "lat": 38.07414,
+        "lon": -88.2078
+      },
+      {
+        "lat": 38.0831,
+        "lon": -88.20999
+      },
+      {
+        "lat": 38.08311,
+        "lon": -88.20701
+      },
+      {
+        "lat": 38.07583,
+        "lon": -88.1944
+      },
+      {
+        "lat": 38.08311,
+        "lon": -88.1939
+      }
+    ]
+  },
+  {
+    "name": "Effingham County Deer Corridor (IL)",
+    "lat": 39.18706,
+    "lon": -88.73994,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 108 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 39.18691,
+        "lon": -88.69313
+      },
+      {
+        "lat": 39.1869,
+        "lon": -88.7028
+      },
+      {
+        "lat": 39.18691,
+        "lon": -88.71693
+      },
+      {
+        "lat": 39.18694,
+        "lon": -88.72643
+      },
+      {
+        "lat": 39.18695,
+        "lon": -88.7355
+      },
+      {
+        "lat": 39.18695,
+        "lon": -88.74
+      },
+      {
+        "lat": 39.18695,
+        "lon": -88.74557
+      },
+      {
+        "lat": 39.18696,
+        "lon": -88.7514
+      },
+      {
+        "lat": 39.18697,
+        "lon": -88.75906
+      },
+      {
+        "lat": 39.18698,
+        "lon": -88.76368
+      },
+      {
+        "lat": 39.18698,
+        "lon": -88.76828
+      },
+      {
+        "lat": 39.18702,
+        "lon": -88.7766
+      }
+    ]
+  },
+  {
+    "name": "Coles County Deer Corridor (IL)",
+    "lat": 39.50915,
+    "lon": -88.1102,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 106 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 39.52399,
+        "lon": -88.06296
+      },
+      {
+        "lat": 39.52005,
+        "lon": -88.0791
+      },
+      {
+        "lat": 39.51778,
+        "lon": -88.0883
+      },
+      {
+        "lat": 39.51511,
+        "lon": -88.0992
+      },
+      {
+        "lat": 39.51408,
+        "lon": -88.1034
+      },
+      {
+        "lat": 39.513,
+        "lon": -88.1074
+      },
+      {
+        "lat": 39.50767,
+        "lon": -88.1174
+      },
+      {
+        "lat": 39.50488,
+        "lon": -88.1229
+      },
+      {
+        "lat": 39.50267,
+        "lon": -88.12724
+      },
+      {
+        "lat": 39.50028,
+        "lon": -88.13199
+      },
+      {
+        "lat": 39.49639,
+        "lon": -88.1391
+      },
+      {
+        "lat": 39.49054,
+        "lon": -88.1492
+      }
+    ]
+  },
+  {
+    "name": "Peoria County Deer Corridor (IL)",
+    "lat": 40.0,
+    "lon": -89.0,
+    "radiusMeters": 150,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 106 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); circle radius 150 m (no road-shaped axis found: too short (0 m < 400 m)); source has no species field; species assumed Deer",
+    "state": "IL"
+  },
+  {
+    "name": "Henderson County Deer Corridor (IL)",
+    "lat": 40.92786,
+    "lon": -90.88773,
+    "radiusMeters": 379,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 105 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 379 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.91901,
+        "lon": -90.8449
+      },
+      {
+        "lat": 40.91046,
+        "lon": -90.8643
+      },
+      {
+        "lat": 40.92255,
+        "lon": -90.8642
+      },
+      {
+        "lat": 40.92492,
+        "lon": -90.86418
+      },
+      {
+        "lat": 40.93654,
+        "lon": -90.8641
+      },
+      {
+        "lat": 40.92827,
+        "lon": -90.88356
+      },
+      {
+        "lat": 40.93235,
+        "lon": -90.89486
+      },
+      {
+        "lat": 40.93317,
+        "lon": -90.903
+      },
+      {
+        "lat": 40.93153,
+        "lon": -90.91007
+      },
+      {
+        "lat": 40.93154,
+        "lon": -90.91282
+      },
+      {
+        "lat": 40.93159,
+        "lon": -90.92267
+      },
+      {
+        "lat": 40.93164,
+        "lon": -90.93278
+      }
+    ]
+  },
+  {
+    "name": "Jackson County Deer Corridor (IL)",
+    "lat": 37.67056,
+    "lon": -89.2296,
+    "radiusMeters": 371,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 105 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 371 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 37.63427,
+        "lon": -89.2357
+      },
+      {
+        "lat": 37.64248,
+        "lon": -89.23496
+      },
+      {
+        "lat": 37.64515,
+        "lon": -89.2349
+      },
+      {
+        "lat": 37.65266,
+        "lon": -89.2337
+      },
+      {
+        "lat": 37.66146,
+        "lon": -89.23324
+      },
+      {
+        "lat": 37.66536,
+        "lon": -89.23396
+      },
+      {
+        "lat": 37.6709,
+        "lon": -89.23426
+      },
+      {
+        "lat": 37.68107,
+        "lon": -89.23293
+      },
+      {
+        "lat": 37.6889,
+        "lon": -89.2257
+      },
+      {
+        "lat": 37.69946,
+        "lon": -89.21943
+      },
+      {
+        "lat": 37.70298,
+        "lon": -89.21235
+      },
+      {
+        "lat": 37.71351,
+        "lon": -89.21506
+      }
+    ]
+  },
+  {
+    "name": "Mchenry County Deer Corridor (IL)",
+    "lat": 42.37655,
+    "lon": -88.583,
+    "radiusMeters": 161,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 102 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 161 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 42.3551,
+        "lon": -88.55036
+      },
+      {
+        "lat": 42.35746,
+        "lon": -88.5563
+      },
+      {
+        "lat": 42.35957,
+        "lon": -88.5592
+      },
+      {
+        "lat": 42.36501,
+        "lon": -88.5669
+      },
+      {
+        "lat": 42.37029,
+        "lon": -88.5715
+      },
+      {
+        "lat": 42.37749,
+        "lon": -88.57964
+      },
+      {
+        "lat": 42.38586,
+        "lon": -88.5921
+      },
+      {
+        "lat": 42.38726,
+        "lon": -88.5942
+      },
+      {
+        "lat": 42.39159,
+        "lon": -88.60078
+      },
+      {
+        "lat": 42.39311,
+        "lon": -88.60599
+      },
+      {
+        "lat": 42.38747,
+        "lon": -88.61775
+      },
+      {
+        "lat": 42.39655,
+        "lon": -88.61272
+      }
+    ]
+  },
+  {
+    "name": "Franklin County Deer Corridor (IL)",
+    "lat": 37.97445,
+    "lon": -89.15098,
+    "radiusMeters": 245,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 100 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 245 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 37.9758,
+        "lon": -89.1
+      },
+      {
+        "lat": 37.97573,
+        "lon": -89.11282
+      },
+      {
+        "lat": 37.97572,
+        "lon": -89.1163
+      },
+      {
+        "lat": 37.97577,
+        "lon": -89.12326
+      },
+      {
+        "lat": 37.97583,
+        "lon": -89.13661
+      },
+      {
+        "lat": 37.97585,
+        "lon": -89.1498
+      },
+      {
+        "lat": 37.97586,
+        "lon": -89.15794
+      },
+      {
+        "lat": 37.97583,
+        "lon": -89.17077
+      },
+      {
+        "lat": 37.97471,
+        "lon": -89.1761
+      },
+      {
+        "lat": 37.97079,
+        "lon": -89.19054
+      },
+      {
+        "lat": 37.97355,
+        "lon": -89.19426
+      },
+      {
+        "lat": 37.97233,
+        "lon": -89.20114
+      }
+    ]
+  },
+  {
+    "name": "Dewitt County Deer Corridor (IL)",
+    "lat": 40.13126,
+    "lon": -88.86791,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 100 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.12799,
+        "lon": -88.82619
+      },
+      {
+        "lat": 40.12773,
+        "lon": -88.84284
+      },
+      {
+        "lat": 40.12761,
+        "lon": -88.85011
+      },
+      {
+        "lat": 40.12753,
+        "lon": -88.85545
+      },
+      {
+        "lat": 40.12739,
+        "lon": -88.8643
+      },
+      {
+        "lat": 40.12746,
+        "lon": -88.86789
+      },
+      {
+        "lat": 40.13069,
+        "lon": -88.8763
+      },
+      {
+        "lat": 40.13172,
+        "lon": -88.87885
+      },
+      {
+        "lat": 40.13361,
+        "lon": -88.88291
+      },
+      {
+        "lat": 40.13626,
+        "lon": -88.8889
+      },
+      {
+        "lat": 40.13801,
+        "lon": -88.893
+      },
+      {
+        "lat": 40.141,
+        "lon": -88.90828
+      }
+    ]
+  },
+  {
+    "name": "Jefferson County Deer Corridor (IL)",
+    "lat": 38.33318,
+    "lon": -88.80352,
+    "radiusMeters": 380,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 97 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 12 vertices, buffer half-width 380 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 38.343,
+        "lon": -88.7644
+      },
+      {
+        "lat": 38.33985,
+        "lon": -88.77583
+      },
+      {
+        "lat": 38.33977,
+        "lon": -88.78575
+      },
+      {
+        "lat": 38.34118,
+        "lon": -88.7933
+      },
+      {
+        "lat": 38.33466,
+        "lon": -88.79324
+      },
+      {
+        "lat": 38.3345,
+        "lon": -88.7936
+      },
+      {
+        "lat": 38.33272,
+        "lon": -88.8055
+      },
+      {
+        "lat": 38.33046,
+        "lon": -88.8075
+      },
+      {
+        "lat": 38.32926,
+        "lon": -88.8172
+      },
+      {
+        "lat": 38.32573,
+        "lon": -88.82402
+      },
+      {
+        "lat": 38.32336,
+        "lon": -88.83284
+      },
+      {
+        "lat": 38.31827,
+        "lon": -88.85208
+      }
+    ]
+  },
+  {
+    "name": "Pike County Deer Corridor (IL)",
+    "lat": 39.65964,
+    "lon": -90.78057,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 95 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 11 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 39.63062,
+        "lon": -90.7902
+      },
+      {
+        "lat": 39.6382,
+        "lon": -90.78722
+      },
+      {
+        "lat": 39.64558,
+        "lon": -90.78462
+      },
+      {
+        "lat": 39.65241,
+        "lon": -90.78405
+      },
+      {
+        "lat": 39.66364,
+        "lon": -90.7728
+      },
+      {
+        "lat": 39.66373,
+        "lon": -90.77275
+      },
+      {
+        "lat": 39.67179,
+        "lon": -90.7923
+      },
+      {
+        "lat": 39.67322,
+        "lon": -90.78168
+      },
+      {
+        "lat": 39.67374,
+        "lon": -90.78077
+      },
+      {
+        "lat": 39.67412,
+        "lon": -90.77206
+      },
+      {
+        "lat": 39.67419,
+        "lon": -90.76699
+      }
+    ]
+  },
+  {
+    "name": "Mcdonough County Deer Corridor (IL)",
+    "lat": 40.47986,
+    "lon": -90.67267,
+    "radiusMeters": 312,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "Illinois DOT Crashes - 2023 \u2014 DBSCAN cluster of 90 real animal-vehicle crash reports (eps 1076 m tuned to IL point density); polyline of 10 vertices, buffer half-width 312 m; source has no species field; species assumed Deer",
+    "state": "IL",
+    "pathPoints": [
+      {
+        "lat": 40.46107,
+        "lon": -90.6716
+      },
+      {
+        "lat": 40.46864,
+        "lon": -90.6714
+      },
+      {
+        "lat": 40.4716,
+        "lon": -90.67148
+      },
+      {
+        "lat": 40.47319,
+        "lon": -90.67143
+      },
+      {
+        "lat": 40.47621,
+        "lon": -90.67229
+      },
+      {
+        "lat": 40.47913,
+        "lon": -90.67336
+      },
+      {
+        "lat": 40.48437,
+        "lon": -90.675
+      },
+      {
+        "lat": 40.4873,
+        "lon": -90.675
+      },
+      {
+        "lat": 40.49579,
+        "lon": -90.6746
+      },
+      {
+        "lat": 40.50174,
+        "lon": -90.67449
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.16984,
+    "lon": -80.50084,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 258 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.16341,
+        "lon": -80.44969
+      },
+      {
+        "lat": 37.1689,
+        "lon": -80.46555
+      },
+      {
+        "lat": 37.1707,
+        "lon": -80.47583
+      },
+      {
+        "lat": 37.17145,
+        "lon": -80.48417
+      },
+      {
+        "lat": 37.17179,
+        "lon": -80.49185
+      },
+      {
+        "lat": 37.17064,
+        "lon": -80.49972
+      },
+      {
+        "lat": 37.17095,
+        "lon": -80.5078
+      },
+      {
+        "lat": 37.1714,
+        "lon": -80.51563
+      },
+      {
+        "lat": 37.17139,
+        "lon": -80.5212
+      },
+      {
+        "lat": 37.17106,
+        "lon": -80.52797
+      },
+      {
+        "lat": 37.17038,
+        "lon": -80.53525
+      },
+      {
+        "lat": 37.16606,
+        "lon": -80.54264
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.09932,
+    "lon": -81.6466,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 185 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.12095,
+        "lon": -81.5725
+      },
+      {
+        "lat": 37.11938,
+        "lon": -81.58151
+      },
+      {
+        "lat": 37.11827,
+        "lon": -81.59442
+      },
+      {
+        "lat": 37.11141,
+        "lon": -81.61617
+      },
+      {
+        "lat": 37.10816,
+        "lon": -81.62855
+      },
+      {
+        "lat": 37.10308,
+        "lon": -81.63999
+      },
+      {
+        "lat": 37.09852,
+        "lon": -81.65735
+      },
+      {
+        "lat": 37.09198,
+        "lon": -81.67417
+      },
+      {
+        "lat": 37.08658,
+        "lon": -81.68851
+      },
+      {
+        "lat": 37.08361,
+        "lon": -81.69609
+      },
+      {
+        "lat": 37.07411,
+        "lon": -81.71241
+      },
+      {
+        "lat": 37.07049,
+        "lon": -81.72186
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.4681,
+    "lon": -75.86452,
+    "radiusMeters": 266,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 176 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 266 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.4081,
+        "lon": -75.90096
+      },
+      {
+        "lat": 37.41637,
+        "lon": -75.89682
+      },
+      {
+        "lat": 37.43118,
+        "lon": -75.88761
+      },
+      {
+        "lat": 37.43777,
+        "lon": -75.88209
+      },
+      {
+        "lat": 37.45631,
+        "lon": -75.87081
+      },
+      {
+        "lat": 37.46451,
+        "lon": -75.86554
+      },
+      {
+        "lat": 37.4773,
+        "lon": -75.85706
+      },
+      {
+        "lat": 37.48676,
+        "lon": -75.85253
+      },
+      {
+        "lat": 37.49886,
+        "lon": -75.84663
+      },
+      {
+        "lat": 37.50782,
+        "lon": -75.83797
+      },
+      {
+        "lat": 37.51596,
+        "lon": -75.83279
+      },
+      {
+        "lat": 37.52914,
+        "lon": -75.83128
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 38.71025,
+    "lon": -78.14302,
+    "radiusMeters": 207,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 170 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 207 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 38.72415,
+        "lon": -78.09082
+      },
+      {
+        "lat": 38.73685,
+        "lon": -78.10981
+      },
+      {
+        "lat": 38.72947,
+        "lon": -78.11157
+      },
+      {
+        "lat": 38.71763,
+        "lon": -78.12405
+      },
+      {
+        "lat": 38.71649,
+        "lon": -78.12545
+      },
+      {
+        "lat": 38.71393,
+        "lon": -78.1327
+      },
+      {
+        "lat": 38.71238,
+        "lon": -78.15162
+      },
+      {
+        "lat": 38.70562,
+        "lon": -78.15796
+      },
+      {
+        "lat": 38.69563,
+        "lon": -78.16677
+      },
+      {
+        "lat": 38.69193,
+        "lon": -78.17541
+      },
+      {
+        "lat": 38.68876,
+        "lon": -78.18248
+      },
+      {
+        "lat": 38.68528,
+        "lon": -78.19777
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.16462,
+    "lon": -75.96954,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 141 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.13638,
+        "lon": -75.96681
+      },
+      {
+        "lat": 37.1403,
+        "lon": -75.96766
+      },
+      {
+        "lat": 37.14531,
+        "lon": -75.97041
+      },
+      {
+        "lat": 37.15217,
+        "lon": -75.97162
+      },
+      {
+        "lat": 37.1563,
+        "lon": -75.97114
+      },
+      {
+        "lat": 37.15917,
+        "lon": -75.97086
+      },
+      {
+        "lat": 37.16458,
+        "lon": -75.97035
+      },
+      {
+        "lat": 37.16996,
+        "lon": -75.96987
+      },
+      {
+        "lat": 37.179,
+        "lon": -75.96907
+      },
+      {
+        "lat": 37.18599,
+        "lon": -75.96837
+      },
+      {
+        "lat": 37.19128,
+        "lon": -75.96785
+      },
+      {
+        "lat": 37.20324,
+        "lon": -75.96674
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.27995,
+    "lon": -80.44241,
+    "radiusMeters": 184,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 124 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 184 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.2711,
+        "lon": -80.41857
+      },
+      {
+        "lat": 37.26983,
+        "lon": -80.41937
+      },
+      {
+        "lat": 37.27724,
+        "lon": -80.42142
+      },
+      {
+        "lat": 37.27777,
+        "lon": -80.42334
+      },
+      {
+        "lat": 37.27839,
+        "lon": -80.42985
+      },
+      {
+        "lat": 37.27907,
+        "lon": -80.43623
+      },
+      {
+        "lat": 37.28127,
+        "lon": -80.44287
+      },
+      {
+        "lat": 37.28527,
+        "lon": -80.45709
+      },
+      {
+        "lat": 37.28576,
+        "lon": -80.46073
+      },
+      {
+        "lat": 37.28587,
+        "lon": -80.46289
+      },
+      {
+        "lat": 37.28567,
+        "lon": -80.46883
+      },
+      {
+        "lat": 37.28532,
+        "lon": -80.47909
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.04401,
+    "lon": -80.71981,
+    "radiusMeters": 355,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 120 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 355 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.01961,
+        "lon": -80.7332
+      },
+      {
+        "lat": 37.02454,
+        "lon": -80.73017
+      },
+      {
+        "lat": 37.02885,
+        "lon": -80.72957
+      },
+      {
+        "lat": 37.03181,
+        "lon": -80.73077
+      },
+      {
+        "lat": 37.03416,
+        "lon": -80.72784
+      },
+      {
+        "lat": 37.03858,
+        "lon": -80.72327
+      },
+      {
+        "lat": 37.04447,
+        "lon": -80.71578
+      },
+      {
+        "lat": 37.05031,
+        "lon": -80.71376
+      },
+      {
+        "lat": 37.05636,
+        "lon": -80.71092
+      },
+      {
+        "lat": 37.06074,
+        "lon": -80.70859
+      },
+      {
+        "lat": 37.0665,
+        "lon": -80.70717
+      },
+      {
+        "lat": 37.07405,
+        "lon": -80.70173
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.1303,
+    "lon": -80.47436,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 113 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.1275,
+        "lon": -80.43802
+      },
+      {
+        "lat": 37.12827,
+        "lon": -80.44318
+      },
+      {
+        "lat": 37.13014,
+        "lon": -80.45024
+      },
+      {
+        "lat": 37.13144,
+        "lon": -80.45497
+      },
+      {
+        "lat": 37.13236,
+        "lon": -80.4643
+      },
+      {
+        "lat": 37.13107,
+        "lon": -80.47596
+      },
+      {
+        "lat": 37.13099,
+        "lon": -80.48353
+      },
+      {
+        "lat": 37.13073,
+        "lon": -80.48667
+      },
+      {
+        "lat": 37.12999,
+        "lon": -80.49259
+      },
+      {
+        "lat": 37.12981,
+        "lon": -80.49821
+      },
+      {
+        "lat": 37.12943,
+        "lon": -80.50321
+      },
+      {
+        "lat": 37.13066,
+        "lon": -80.51524
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 38.04063,
+    "lon": -78.7189,
+    "radiusMeters": 399,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 109 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 399 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 38.03159,
+        "lon": -78.67821
+      },
+      {
+        "lat": 38.03389,
+        "lon": -78.68912
+      },
+      {
+        "lat": 38.0362,
+        "lon": -78.69866
+      },
+      {
+        "lat": 38.03719,
+        "lon": -78.7045
+      },
+      {
+        "lat": 38.03974,
+        "lon": -78.71194
+      },
+      {
+        "lat": 38.04108,
+        "lon": -78.71696
+      },
+      {
+        "lat": 38.04301,
+        "lon": -78.7219
+      },
+      {
+        "lat": 38.04416,
+        "lon": -78.72764
+      },
+      {
+        "lat": 38.04713,
+        "lon": -78.73366
+      },
+      {
+        "lat": 38.04704,
+        "lon": -78.73952
+      },
+      {
+        "lat": 38.04384,
+        "lon": -78.75025
+      },
+      {
+        "lat": 38.04534,
+        "lon": -78.76292
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.3039,
+    "lon": -79.33747,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 108 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.30515,
+        "lon": -79.28122
+      },
+      {
+        "lat": 37.30509,
+        "lon": -79.29256
+      },
+      {
+        "lat": 37.30584,
+        "lon": -79.30549
+      },
+      {
+        "lat": 37.30582,
+        "lon": -79.31105
+      },
+      {
+        "lat": 37.30508,
+        "lon": -79.31469
+      },
+      {
+        "lat": 37.30135,
+        "lon": -79.33354
+      },
+      {
+        "lat": 37.30102,
+        "lon": -79.34045
+      },
+      {
+        "lat": 37.30078,
+        "lon": -79.34978
+      },
+      {
+        "lat": 37.30059,
+        "lon": -79.36336
+      },
+      {
+        "lat": 37.30063,
+        "lon": -79.37528
+      },
+      {
+        "lat": 37.3032,
+        "lon": -79.38558
+      },
+      {
+        "lat": 37.30914,
+        "lon": -79.3947
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.08498,
+    "lon": -80.63659,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 106 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.08654,
+        "lon": -80.59522
+      },
+      {
+        "lat": 37.08751,
+        "lon": -80.60378
+      },
+      {
+        "lat": 37.08691,
+        "lon": -80.61564
+      },
+      {
+        "lat": 37.08706,
+        "lon": -80.62266
+      },
+      {
+        "lat": 37.08831,
+        "lon": -80.63188
+      },
+      {
+        "lat": 37.08833,
+        "lon": -80.63518
+      },
+      {
+        "lat": 37.08771,
+        "lon": -80.64066
+      },
+      {
+        "lat": 37.08656,
+        "lon": -80.64684
+      },
+      {
+        "lat": 37.08349,
+        "lon": -80.65399
+      },
+      {
+        "lat": 37.07995,
+        "lon": -80.66235
+      },
+      {
+        "lat": 37.07945,
+        "lon": -80.66591
+      },
+      {
+        "lat": 37.07972,
+        "lon": -80.67184
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 38.38734,
+    "lon": -78.70933,
+    "radiusMeters": 223,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 102 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 223 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 38.40262,
+        "lon": -78.68431
+      },
+      {
+        "lat": 38.39217,
+        "lon": -78.69129
+      },
+      {
+        "lat": 38.39454,
+        "lon": -78.69517
+      },
+      {
+        "lat": 38.39056,
+        "lon": -78.69581
+      },
+      {
+        "lat": 38.391,
+        "lon": -78.70562
+      },
+      {
+        "lat": 38.39731,
+        "lon": -78.7122
+      },
+      {
+        "lat": 38.38718,
+        "lon": -78.7068
+      },
+      {
+        "lat": 38.38453,
+        "lon": -78.70969
+      },
+      {
+        "lat": 38.38212,
+        "lon": -78.71895
+      },
+      {
+        "lat": 38.37838,
+        "lon": -78.72341
+      },
+      {
+        "lat": 38.37373,
+        "lon": -78.73461
+      },
+      {
+        "lat": 38.37217,
+        "lon": -78.7438
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.33728,
+    "lon": -75.94559,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 101 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.30598,
+        "lon": -75.96517
+      },
+      {
+        "lat": 37.3109,
+        "lon": -75.96105
+      },
+      {
+        "lat": 37.31407,
+        "lon": -75.95794
+      },
+      {
+        "lat": 37.32047,
+        "lon": -75.95265
+      },
+      {
+        "lat": 37.32895,
+        "lon": -75.94803
+      },
+      {
+        "lat": 37.33356,
+        "lon": -75.94636
+      },
+      {
+        "lat": 37.33976,
+        "lon": -75.94412
+      },
+      {
+        "lat": 37.34742,
+        "lon": -75.93982
+      },
+      {
+        "lat": 37.35321,
+        "lon": -75.93741
+      },
+      {
+        "lat": 37.3625,
+        "lon": -75.93287
+      },
+      {
+        "lat": 37.3678,
+        "lon": -75.92934
+      },
+      {
+        "lat": 37.37613,
+        "lon": -75.92295
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 38.18943,
+    "lon": -78.3986,
+    "radiusMeters": 108,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 98 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 108 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 38.15761,
+        "lon": -78.41852
+      },
+      {
+        "lat": 38.16468,
+        "lon": -78.41426
+      },
+      {
+        "lat": 38.17029,
+        "lon": -78.41054
+      },
+      {
+        "lat": 38.17297,
+        "lon": -78.40756
+      },
+      {
+        "lat": 38.18126,
+        "lon": -78.40376
+      },
+      {
+        "lat": 38.18697,
+        "lon": -78.40084
+      },
+      {
+        "lat": 38.19369,
+        "lon": -78.39591
+      },
+      {
+        "lat": 38.19988,
+        "lon": -78.39123
+      },
+      {
+        "lat": 38.20531,
+        "lon": -78.3878
+      },
+      {
+        "lat": 38.2096,
+        "lon": -78.3854
+      },
+      {
+        "lat": 38.21406,
+        "lon": -78.38218
+      },
+      {
+        "lat": 38.22099,
+        "lon": -78.37727
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 38.03342,
+    "lon": -78.62516,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 94 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 10 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 38.03352,
+        "lon": -78.60118
+      },
+      {
+        "lat": 38.0349,
+        "lon": -78.60626
+      },
+      {
+        "lat": 38.03532,
+        "lon": -78.61041
+      },
+      {
+        "lat": 38.03566,
+        "lon": -78.61594
+      },
+      {
+        "lat": 38.03509,
+        "lon": -78.61896
+      },
+      {
+        "lat": 38.03378,
+        "lon": -78.62744
+      },
+      {
+        "lat": 38.03284,
+        "lon": -78.63528
+      },
+      {
+        "lat": 38.03231,
+        "lon": -78.64225
+      },
+      {
+        "lat": 38.03184,
+        "lon": -78.64632
+      },
+      {
+        "lat": 38.03085,
+        "lon": -78.65262
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.20389,
+    "lon": -80.4925,
+    "radiusMeters": 325,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 84 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 10 vertices, buffer half-width 325 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.21579,
+        "lon": -80.46572
+      },
+      {
+        "lat": 37.21426,
+        "lon": -80.47218
+      },
+      {
+        "lat": 37.21185,
+        "lon": -80.48367
+      },
+      {
+        "lat": 37.20727,
+        "lon": -80.49117
+      },
+      {
+        "lat": 37.20795,
+        "lon": -80.49885
+      },
+      {
+        "lat": 37.20095,
+        "lon": -80.50122
+      },
+      {
+        "lat": 37.19813,
+        "lon": -80.50115
+      },
+      {
+        "lat": 37.19258,
+        "lon": -80.50068
+      },
+      {
+        "lat": 37.19065,
+        "lon": -80.50198
+      },
+      {
+        "lat": 37.18926,
+        "lon": -80.5051
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 39.13187,
+    "lon": -78.1254,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 81 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 39.09931,
+        "lon": -78.1117
+      },
+      {
+        "lat": 39.10755,
+        "lon": -78.11563
+      },
+      {
+        "lat": 39.11283,
+        "lon": -78.11746
+      },
+      {
+        "lat": 39.11597,
+        "lon": -78.1178
+      },
+      {
+        "lat": 39.12431,
+        "lon": -78.11961
+      },
+      {
+        "lat": 39.13319,
+        "lon": -78.12078
+      },
+      {
+        "lat": 39.14075,
+        "lon": -78.12446
+      },
+      {
+        "lat": 39.14326,
+        "lon": -78.1265
+      },
+      {
+        "lat": 39.14924,
+        "lon": -78.12999
+      },
+      {
+        "lat": 39.15382,
+        "lon": -78.13777
+      },
+      {
+        "lat": 39.1549,
+        "lon": -78.14395
+      },
+      {
+        "lat": 39.15763,
+        "lon": -78.14731
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.33249,
+    "lon": -79.55054,
+    "radiusMeters": 137,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 81 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 137 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.30503,
+        "lon": -79.53619
+      },
+      {
+        "lat": 37.31412,
+        "lon": -79.53823
+      },
+      {
+        "lat": 37.3208,
+        "lon": -79.53539
+      },
+      {
+        "lat": 37.32507,
+        "lon": -79.53685
+      },
+      {
+        "lat": 37.33291,
+        "lon": -79.54207
+      },
+      {
+        "lat": 37.33646,
+        "lon": -79.54586
+      },
+      {
+        "lat": 37.33747,
+        "lon": -79.54983
+      },
+      {
+        "lat": 37.34077,
+        "lon": -79.55873
+      },
+      {
+        "lat": 37.34295,
+        "lon": -79.56372
+      },
+      {
+        "lat": 37.34385,
+        "lon": -79.56642
+      },
+      {
+        "lat": 37.34516,
+        "lon": -79.56916
+      },
+      {
+        "lat": 37.3474,
+        "lon": -79.57473
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 38.30559,
+    "lon": -77.63662,
+    "radiusMeters": 284,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 80 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 284 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 38.29599,
+        "lon": -77.59988
+      },
+      {
+        "lat": 38.29913,
+        "lon": -77.61052
+      },
+      {
+        "lat": 38.30096,
+        "lon": -77.61587
+      },
+      {
+        "lat": 38.29666,
+        "lon": -77.62499
+      },
+      {
+        "lat": 38.30611,
+        "lon": -77.62718
+      },
+      {
+        "lat": 38.30741,
+        "lon": -77.63289
+      },
+      {
+        "lat": 38.30906,
+        "lon": -77.63952
+      },
+      {
+        "lat": 38.31049,
+        "lon": -77.65001
+      },
+      {
+        "lat": 38.31092,
+        "lon": -77.65358
+      },
+      {
+        "lat": 38.31084,
+        "lon": -77.65766
+      },
+      {
+        "lat": 38.31026,
+        "lon": -77.66737
+      },
+      {
+        "lat": 38.31054,
+        "lon": -77.67523
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.75478,
+    "lon": -77.12447,
+    "radiusMeters": 263,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 79 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 263 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.72413,
+        "lon": -77.14277
+      },
+      {
+        "lat": 37.73157,
+        "lon": -77.13974
+      },
+      {
+        "lat": 37.73675,
+        "lon": -77.13763
+      },
+      {
+        "lat": 37.74231,
+        "lon": -77.1283
+      },
+      {
+        "lat": 37.74837,
+        "lon": -77.13114
+      },
+      {
+        "lat": 37.75598,
+        "lon": -77.12585
+      },
+      {
+        "lat": 37.76034,
+        "lon": -77.12073
+      },
+      {
+        "lat": 37.76355,
+        "lon": -77.11686
+      },
+      {
+        "lat": 37.76861,
+        "lon": -77.11427
+      },
+      {
+        "lat": 37.77296,
+        "lon": -77.11197
+      },
+      {
+        "lat": 37.7789,
+        "lon": -77.10802
+      },
+      {
+        "lat": 37.78426,
+        "lon": -77.10643
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 38.37674,
+    "lon": -78.78856,
+    "radiusMeters": 110,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 79 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 11 vertices, buffer half-width 110 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 38.37063,
+        "lon": -78.76252
+      },
+      {
+        "lat": 38.36977,
+        "lon": -78.77139
+      },
+      {
+        "lat": 38.36935,
+        "lon": -78.77715
+      },
+      {
+        "lat": 38.3698,
+        "lon": -78.77987
+      },
+      {
+        "lat": 38.37142,
+        "lon": -78.78543
+      },
+      {
+        "lat": 38.37287,
+        "lon": -78.78858
+      },
+      {
+        "lat": 38.37541,
+        "lon": -78.79255
+      },
+      {
+        "lat": 38.37888,
+        "lon": -78.79776
+      },
+      {
+        "lat": 38.38273,
+        "lon": -78.80129
+      },
+      {
+        "lat": 38.39162,
+        "lon": -78.80934
+      },
+      {
+        "lat": 38.39483,
+        "lon": -78.8122
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.62303,
+    "lon": -79.58142,
+    "radiusMeters": 252,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 75 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 252 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.64171,
+        "lon": -79.56073
+      },
+      {
+        "lat": 37.6301,
+        "lon": -79.5581
+      },
+      {
+        "lat": 37.62993,
+        "lon": -79.56191
+      },
+      {
+        "lat": 37.62978,
+        "lon": -79.56666
+      },
+      {
+        "lat": 37.62728,
+        "lon": -79.57724
+      },
+      {
+        "lat": 37.62601,
+        "lon": -79.58122
+      },
+      {
+        "lat": 37.62179,
+        "lon": -79.58585
+      },
+      {
+        "lat": 37.61501,
+        "lon": -79.59055
+      },
+      {
+        "lat": 37.61247,
+        "lon": -79.5933
+      },
+      {
+        "lat": 37.61182,
+        "lon": -79.5963
+      },
+      {
+        "lat": 37.61099,
+        "lon": -79.60608
+      },
+      {
+        "lat": 37.61027,
+        "lon": -79.61138
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.61377,
+    "lon": -79.82743,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 72 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.59182,
+        "lon": -79.83565
+      },
+      {
+        "lat": 37.5974,
+        "lon": -79.83625
+      },
+      {
+        "lat": 37.60301,
+        "lon": -79.83677
+      },
+      {
+        "lat": 37.60636,
+        "lon": -79.835
+      },
+      {
+        "lat": 37.60911,
+        "lon": -79.83311
+      },
+      {
+        "lat": 37.61245,
+        "lon": -79.83136
+      },
+      {
+        "lat": 37.61443,
+        "lon": -79.82977
+      },
+      {
+        "lat": 37.61768,
+        "lon": -79.82667
+      },
+      {
+        "lat": 37.62176,
+        "lon": -79.82184
+      },
+      {
+        "lat": 37.62713,
+        "lon": -79.8172
+      },
+      {
+        "lat": 37.629,
+        "lon": -79.81532
+      },
+      {
+        "lat": 37.63541,
+        "lon": -79.80705
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.37481,
+    "lon": -79.36452,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 70 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 12 vertices, buffer half-width 100 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.37454,
+        "lon": -79.32757
+      },
+      {
+        "lat": 37.3761,
+        "lon": -79.33705
+      },
+      {
+        "lat": 37.37683,
+        "lon": -79.34154
+      },
+      {
+        "lat": 37.37789,
+        "lon": -79.34798
+      },
+      {
+        "lat": 37.37926,
+        "lon": -79.35639
+      },
+      {
+        "lat": 37.37997,
+        "lon": -79.36564
+      },
+      {
+        "lat": 37.37825,
+        "lon": -79.37054
+      },
+      {
+        "lat": 37.37702,
+        "lon": -79.3746
+      },
+      {
+        "lat": 37.37353,
+        "lon": -79.38101
+      },
+      {
+        "lat": 37.3701,
+        "lon": -79.38774
+      },
+      {
+        "lat": 37.36661,
+        "lon": -79.39418
+      },
+      {
+        "lat": 37.36627,
+        "lon": -79.40021
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (VA)",
+    "lat": 37.6458,
+    "lon": -77.24734,
+    "radiusMeters": 253,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "VDOT CrashData Basic \u2014 DBSCAN cluster of 70 real animal-vehicle crash reports (eps 981 m tuned to VA point density); polyline of 11 vertices, buffer half-width 253 m; source has no species field; species assumed Deer",
+    "state": "VA",
+    "pathPoints": [
+      {
+        "lat": 37.65799,
+        "lon": -77.22136
+      },
+      {
+        "lat": 37.65462,
+        "lon": -77.22804
+      },
+      {
+        "lat": 37.6536,
+        "lon": -77.23043
+      },
+      {
+        "lat": 37.64821,
+        "lon": -77.23992
+      },
+      {
+        "lat": 37.64687,
+        "lon": -77.24535
+      },
+      {
+        "lat": 37.64515,
+        "lon": -77.24938
+      },
+      {
+        "lat": 37.64262,
+        "lon": -77.25489
+      },
+      {
+        "lat": 37.64111,
+        "lon": -77.25776
+      },
+      {
+        "lat": 37.63852,
+        "lon": -77.26404
+      },
+      {
+        "lat": 37.63753,
+        "lon": -77.26599
+      },
+      {
+        "lat": 37.6352,
+        "lon": -77.27579
+      }
+    ]
+  },
+  {
+    "name": "Hampshire County Deer Corridor (MA)",
+    "lat": 42.39675,
+    "lon": -72.62908,
+    "radiusMeters": 148,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 162 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 12 vertices, buffer half-width 148 m; 123 of 162 (76%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.34859,
+        "lon": -72.6409
+      },
+      {
+        "lat": 42.35802,
+        "lon": -72.63785
+      },
+      {
+        "lat": 42.37075,
+        "lon": -72.63344
+      },
+      {
+        "lat": 42.38064,
+        "lon": -72.6316
+      },
+      {
+        "lat": 42.39072,
+        "lon": -72.62999
+      },
+      {
+        "lat": 42.39659,
+        "lon": -72.62842
+      },
+      {
+        "lat": 42.40168,
+        "lon": -72.62787
+      },
+      {
+        "lat": 42.40521,
+        "lon": -72.62684
+      },
+      {
+        "lat": 42.41947,
+        "lon": -72.62422
+      },
+      {
+        "lat": 42.42243,
+        "lon": -72.62367
+      },
+      {
+        "lat": 42.43449,
+        "lon": -72.62209
+      },
+      {
+        "lat": 42.44253,
+        "lon": -72.61997
+      }
+    ]
+  },
+  {
+    "name": "Worcester County Deer Corridor (MA)",
+    "lat": 42.11854,
+    "lon": -71.85763,
+    "radiusMeters": 109,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 144 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 12 vertices, buffer half-width 109 m; 136 of 144 (94%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.06483,
+        "lon": -71.86015
+      },
+      {
+        "lat": 42.07615,
+        "lon": -71.86514
+      },
+      {
+        "lat": 42.08872,
+        "lon": -71.86597
+      },
+      {
+        "lat": 42.09634,
+        "lon": -71.86127
+      },
+      {
+        "lat": 42.11004,
+        "lon": -71.85514
+      },
+      {
+        "lat": 42.11621,
+        "lon": -71.85521
+      },
+      {
+        "lat": 42.11943,
+        "lon": -71.85527
+      },
+      {
+        "lat": 42.13067,
+        "lon": -71.85743
+      },
+      {
+        "lat": 42.13966,
+        "lon": -71.85637
+      },
+      {
+        "lat": 42.15232,
+        "lon": -71.85585
+      },
+      {
+        "lat": 42.15574,
+        "lon": -71.85429
+      },
+      {
+        "lat": 42.16595,
+        "lon": -71.84486
+      }
+    ]
+  },
+  {
+    "name": "Essex County Deer Corridor (MA)",
+    "lat": 42.8109,
+    "lon": -70.94055,
+    "radiusMeters": 224,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 70 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 12 vertices, buffer half-width 224 m; 68 of 70 (97%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.81936,
+        "lon": -70.91568
+      },
+      {
+        "lat": 42.81317,
+        "lon": -70.91479
+      },
+      {
+        "lat": 42.81307,
+        "lon": -70.91478
+      },
+      {
+        "lat": 42.80924,
+        "lon": -70.91481
+      },
+      {
+        "lat": 42.81421,
+        "lon": -70.92572
+      },
+      {
+        "lat": 42.81365,
+        "lon": -70.93738
+      },
+      {
+        "lat": 42.81337,
+        "lon": -70.93869
+      },
+      {
+        "lat": 42.81032,
+        "lon": -70.94969
+      },
+      {
+        "lat": 42.80818,
+        "lon": -70.95564
+      },
+      {
+        "lat": 42.80688,
+        "lon": -70.9683
+      },
+      {
+        "lat": 42.80587,
+        "lon": -70.97757
+      },
+      {
+        "lat": 42.80631,
+        "lon": -70.98901
+      }
+    ]
+  },
+  {
+    "name": "Bristol County Deer Corridor (MA)",
+    "lat": 41.75132,
+    "lon": -71.00723,
+    "radiusMeters": 206,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 63 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 12 vertices, buffer half-width 206 m; 61 of 63 (97%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 41.72599,
+        "lon": -70.99737
+      },
+      {
+        "lat": 41.73564,
+        "lon": -70.99973
+      },
+      {
+        "lat": 41.74094,
+        "lon": -71.00095
+      },
+      {
+        "lat": 41.74537,
+        "lon": -71.00425
+      },
+      {
+        "lat": 41.74907,
+        "lon": -71.00765
+      },
+      {
+        "lat": 41.75266,
+        "lon": -71.01093
+      },
+      {
+        "lat": 41.75636,
+        "lon": -71.01298
+      },
+      {
+        "lat": 41.76338,
+        "lon": -70.99531
+      },
+      {
+        "lat": 41.76092,
+        "lon": -71.01483
+      },
+      {
+        "lat": 41.76325,
+        "lon": -71.01318
+      },
+      {
+        "lat": 41.76461,
+        "lon": -71.0164
+      },
+      {
+        "lat": 41.77074,
+        "lon": -71.02431
+      }
+    ]
+  },
+  {
+    "name": "Hampden County Deer Corridor (MA)",
+    "lat": 42.23555,
+    "lon": -72.62962,
+    "radiusMeters": 375,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 61 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 12 vertices, buffer half-width 375 m; 52 of 61 (85%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.209,
+        "lon": -72.63305
+      },
+      {
+        "lat": 42.22026,
+        "lon": -72.63493
+      },
+      {
+        "lat": 42.22116,
+        "lon": -72.63552
+      },
+      {
+        "lat": 42.22906,
+        "lon": -72.63601
+      },
+      {
+        "lat": 42.23092,
+        "lon": -72.63569
+      },
+      {
+        "lat": 42.23753,
+        "lon": -72.6317
+      },
+      {
+        "lat": 42.23769,
+        "lon": -72.63028
+      },
+      {
+        "lat": 42.24039,
+        "lon": -72.62971
+      },
+      {
+        "lat": 42.24784,
+        "lon": -72.62472
+      },
+      {
+        "lat": 42.24798,
+        "lon": -72.62409
+      },
+      {
+        "lat": 42.25126,
+        "lon": -72.62238
+      },
+      {
+        "lat": 42.25802,
+        "lon": -72.61744
+      }
+    ]
+  },
+  {
+    "name": "Essex County Deer Corridor (MA)",
+    "lat": 42.64625,
+    "lon": -70.78983,
+    "radiusMeters": 1281,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 53 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); circle radius 1281 m (no road-shaped axis found: blob-shaped (elongation 1.96 < 2.5)); 53 of 53 (100%) coded specifically as deer by the source",
+    "state": "MA"
+  },
+  {
+    "name": "Norfolk County Deer Corridor (MA)",
+    "lat": 42.31585,
+    "lon": -71.24783,
+    "radiusMeters": 1493,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 51 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); circle radius 1493 m (no road-shaped axis found: blob-shaped (elongation 1.54 < 2.5)); 48 of 51 (94%) coded specifically as deer by the source",
+    "state": "MA"
+  },
+  {
+    "name": "Worcester County Deer Corridor (MA)",
+    "lat": 42.51787,
+    "lon": -71.68317,
+    "radiusMeters": 208,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 49 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 10 vertices, buffer half-width 208 m; 44 of 49 (90%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.51716,
+        "lon": -71.65881
+      },
+      {
+        "lat": 42.51658,
+        "lon": -71.66337
+      },
+      {
+        "lat": 42.51626,
+        "lon": -71.66464
+      },
+      {
+        "lat": 42.51648,
+        "lon": -71.67039
+      },
+      {
+        "lat": 42.51859,
+        "lon": -71.6858
+      },
+      {
+        "lat": 42.50786,
+        "lon": -71.69256
+      },
+      {
+        "lat": 42.51444,
+        "lon": -71.69265
+      },
+      {
+        "lat": 42.5205,
+        "lon": -71.6935
+      },
+      {
+        "lat": 42.52075,
+        "lon": -71.70119
+      },
+      {
+        "lat": 42.5216,
+        "lon": -71.71328
+      }
+    ]
+  },
+  {
+    "name": "Hampden County Deer Corridor (MA)",
+    "lat": 42.15566,
+    "lon": -72.78614,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 47 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 9 vertices, buffer half-width 100 m; 34 of 47 (72%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.15462,
+        "lon": -72.75974
+      },
+      {
+        "lat": 42.15577,
+        "lon": -72.77512
+      },
+      {
+        "lat": 42.15561,
+        "lon": -72.77912
+      },
+      {
+        "lat": 42.15554,
+        "lon": -72.7833
+      },
+      {
+        "lat": 42.15554,
+        "lon": -72.78681
+      },
+      {
+        "lat": 42.15586,
+        "lon": -72.79074
+      },
+      {
+        "lat": 42.15629,
+        "lon": -72.79839
+      },
+      {
+        "lat": 42.15654,
+        "lon": -72.79853
+      },
+      {
+        "lat": 42.15655,
+        "lon": -72.8062
+      }
+    ]
+  },
+  {
+    "name": "Essex County Deer Corridor (MA)",
+    "lat": 42.74636,
+    "lon": -70.94736,
+    "radiusMeters": 369,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 43 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 8 vertices, buffer half-width 369 m; 38 of 43 (88%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.72726,
+        "lon": -70.95223
+      },
+      {
+        "lat": 42.73615,
+        "lon": -70.95238
+      },
+      {
+        "lat": 42.7401,
+        "lon": -70.95124
+      },
+      {
+        "lat": 42.74682,
+        "lon": -70.95048
+      },
+      {
+        "lat": 42.75302,
+        "lon": -70.94388
+      },
+      {
+        "lat": 42.75393,
+        "lon": -70.94054
+      },
+      {
+        "lat": 42.75811,
+        "lon": -70.94053
+      },
+      {
+        "lat": 42.76006,
+        "lon": -70.9398
+      }
+    ]
+  },
+  {
+    "name": "Essex County Deer Corridor (MA)",
+    "lat": 42.63678,
+    "lon": -70.97834,
+    "radiusMeters": 123,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 43 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 9 vertices, buffer half-width 123 m; 40 of 43 (93%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.6191,
+        "lon": -70.97911
+      },
+      {
+        "lat": 42.62368,
+        "lon": -70.97867
+      },
+      {
+        "lat": 42.62612,
+        "lon": -70.97885
+      },
+      {
+        "lat": 42.62975,
+        "lon": -70.97834
+      },
+      {
+        "lat": 42.63379,
+        "lon": -70.97833
+      },
+      {
+        "lat": 42.6398,
+        "lon": -70.97683
+      },
+      {
+        "lat": 42.65121,
+        "lon": -70.9769
+      },
+      {
+        "lat": 42.65609,
+        "lon": -70.97728
+      },
+      {
+        "lat": 42.65619,
+        "lon": -70.97728
+      }
+    ]
+  },
+  {
+    "name": "Hampden County Deer Corridor (MA)",
+    "lat": 42.20064,
+    "lon": -72.49593,
+    "radiusMeters": 276,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 39 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 9 vertices, buffer half-width 276 m; 36 of 39 (92%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.18162,
+        "lon": -72.50345
+      },
+      {
+        "lat": 42.19264,
+        "lon": -72.49923
+      },
+      {
+        "lat": 42.1959,
+        "lon": -72.49845
+      },
+      {
+        "lat": 42.19817,
+        "lon": -72.49114
+      },
+      {
+        "lat": 42.2007,
+        "lon": -72.49488
+      },
+      {
+        "lat": 42.20421,
+        "lon": -72.49271
+      },
+      {
+        "lat": 42.20552,
+        "lon": -72.49258
+      },
+      {
+        "lat": 42.21477,
+        "lon": -72.49495
+      },
+      {
+        "lat": 42.21868,
+        "lon": -72.49717
+      }
+    ]
+  },
+  {
+    "name": "Worcester County Deer Corridor (MA)",
+    "lat": 42.64805,
+    "lon": -72.07926,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 38 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 9 vertices, buffer half-width 100 m; 34 of 38 (89%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.62962,
+        "lon": -72.07702
+      },
+      {
+        "lat": 42.63808,
+        "lon": -72.08075
+      },
+      {
+        "lat": 42.63962,
+        "lon": -72.08095
+      },
+      {
+        "lat": 42.64655,
+        "lon": -72.08105
+      },
+      {
+        "lat": 42.64817,
+        "lon": -72.08086
+      },
+      {
+        "lat": 42.65325,
+        "lon": -72.07924
+      },
+      {
+        "lat": 42.65596,
+        "lon": -72.07838
+      },
+      {
+        "lat": 42.66221,
+        "lon": -72.0786
+      },
+      {
+        "lat": 42.66753,
+        "lon": -72.07906
+      }
+    ]
+  },
+  {
+    "name": "Norfolk County Deer Corridor (MA)",
+    "lat": 42.23188,
+    "lon": -70.81721,
+    "radiusMeters": 182,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 37 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 6 vertices, buffer half-width 182 m; 32 of 37 (86%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.22302,
+        "lon": -70.80646
+      },
+      {
+        "lat": 42.22742,
+        "lon": -70.81085
+      },
+      {
+        "lat": 42.23061,
+        "lon": -70.81518
+      },
+      {
+        "lat": 42.23258,
+        "lon": -70.81982
+      },
+      {
+        "lat": 42.23788,
+        "lon": -70.82608
+      },
+      {
+        "lat": 42.24029,
+        "lon": -70.82854
+      }
+    ]
+  },
+  {
+    "name": "Franklin County Deer Corridor (MA)",
+    "lat": 42.701,
+    "lon": -72.55547,
+    "radiusMeters": 177,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 37 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 8 vertices, buffer half-width 177 m; 28 of 37 (76%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.68759,
+        "lon": -72.54747
+      },
+      {
+        "lat": 42.69116,
+        "lon": -72.54786
+      },
+      {
+        "lat": 42.69822,
+        "lon": -72.55101
+      },
+      {
+        "lat": 42.70001,
+        "lon": -72.55416
+      },
+      {
+        "lat": 42.7041,
+        "lon": -72.55899
+      },
+      {
+        "lat": 42.7041,
+        "lon": -72.5596
+      },
+      {
+        "lat": 42.70926,
+        "lon": -72.5645
+      },
+      {
+        "lat": 42.71727,
+        "lon": -72.56714
+      }
+    ]
+  },
+  {
+    "name": "Barnstable County Deer Corridor (MA)",
+    "lat": 41.77497,
+    "lon": -70.02468,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 37 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 8 vertices, buffer half-width 100 m; 33 of 37 (89%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 41.77494,
+        "lon": -70.00249
+      },
+      {
+        "lat": 41.77509,
+        "lon": -70.00351
+      },
+      {
+        "lat": 41.77574,
+        "lon": -70.02162
+      },
+      {
+        "lat": 41.77569,
+        "lon": -70.02198
+      },
+      {
+        "lat": 41.77562,
+        "lon": -70.03321
+      },
+      {
+        "lat": 41.775,
+        "lon": -70.03596
+      },
+      {
+        "lat": 41.77436,
+        "lon": -70.03862
+      },
+      {
+        "lat": 41.77165,
+        "lon": -70.0471
+      }
+    ]
+  },
+  {
+    "name": "Worcester County Deer Corridor (MA)",
+    "lat": 42.57006,
+    "lon": -72.11927,
+    "radiusMeters": 174,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 37 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 7 vertices, buffer half-width 174 m; 31 of 37 (84%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.56812,
+        "lon": -72.10073
+      },
+      {
+        "lat": 42.56797,
+        "lon": -72.11041
+      },
+      {
+        "lat": 42.5688,
+        "lon": -72.1177
+      },
+      {
+        "lat": 42.57004,
+        "lon": -72.12192
+      },
+      {
+        "lat": 42.57093,
+        "lon": -72.12337
+      },
+      {
+        "lat": 42.57121,
+        "lon": -72.12918
+      },
+      {
+        "lat": 42.57221,
+        "lon": -72.13361
+      }
+    ]
+  },
+  {
+    "name": "Norfolk County Deer Corridor (MA)",
+    "lat": 42.20362,
+    "lon": -71.07288,
+    "radiusMeters": 223,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 36 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 7 vertices, buffer half-width 223 m; 34 of 36 (94%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.20828,
+        "lon": -71.05075
+      },
+      {
+        "lat": 42.20583,
+        "lon": -71.0668
+      },
+      {
+        "lat": 42.20489,
+        "lon": -71.07262
+      },
+      {
+        "lat": 42.20407,
+        "lon": -71.0768
+      },
+      {
+        "lat": 42.19815,
+        "lon": -71.07771
+      },
+      {
+        "lat": 42.20162,
+        "lon": -71.08185
+      },
+      {
+        "lat": 42.2024,
+        "lon": -71.08666
+      }
+    ]
+  },
+  {
+    "name": "Hampden County Deer Corridor (MA)",
+    "lat": 42.03698,
+    "lon": -72.57812,
+    "radiusMeters": 1200,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 36 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); circle radius 1200 m (no road-shaped axis found: blob-shaped (elongation 1.42 < 2.5)); 31 of 36 (86%) coded specifically as deer by the source",
+    "state": "MA"
+  },
+  {
+    "name": "Essex County Deer Corridor (MA)",
+    "lat": 42.80131,
+    "lon": -71.09297,
+    "radiusMeters": 1327,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 35 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); circle radius 1327 m (no road-shaped axis found: blob-shaped (elongation 1.57 < 2.5)); 33 of 35 (94%) coded specifically as deer by the source",
+    "state": "MA"
+  },
+  {
+    "name": "Hampshire County Deer Corridor (MA)",
+    "lat": 42.24779,
+    "lon": -72.54163,
+    "radiusMeters": 1387,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 34 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); circle radius 1387 m (no road-shaped axis found: blob-shaped (elongation 1.51 < 2.5)); 30 of 34 (88%) coded specifically as deer by the source",
+    "state": "MA"
+  },
+  {
+    "name": "Essex County Deer Corridor (MA)",
+    "lat": 42.80181,
+    "lon": -71.05153,
+    "radiusMeters": 818,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 34 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); circle radius 818 m (no road-shaped axis found: blob-shaped (elongation 1.59 < 2.5)); 31 of 34 (91%) coded specifically as deer by the source",
+    "state": "MA"
+  },
+  {
+    "name": "Worcester County Deer Corridor (MA)",
+    "lat": 42.57295,
+    "lon": -72.20261,
+    "radiusMeters": 321,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 34 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 8 vertices, buffer half-width 321 m; 30 of 34 (88%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.57967,
+        "lon": -72.17923
+      },
+      {
+        "lat": 42.58242,
+        "lon": -72.1907
+      },
+      {
+        "lat": 42.57994,
+        "lon": -72.20211
+      },
+      {
+        "lat": 42.57047,
+        "lon": -72.20193
+      },
+      {
+        "lat": 42.56938,
+        "lon": -72.20499
+      },
+      {
+        "lat": 42.56854,
+        "lon": -72.20638
+      },
+      {
+        "lat": 42.56949,
+        "lon": -72.21752
+      },
+      {
+        "lat": 42.56507,
+        "lon": -72.22348
+      }
+    ]
+  },
+  {
+    "name": "Middlesex County Deer Corridor (MA)",
+    "lat": 42.17665,
+    "lon": -71.46021,
+    "radiusMeters": 101,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 34 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 9 vertices, buffer half-width 101 m; 33 of 34 (97%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.19052,
+        "lon": -71.43736
+      },
+      {
+        "lat": 42.18302,
+        "lon": -71.44459
+      },
+      {
+        "lat": 42.17945,
+        "lon": -71.45254
+      },
+      {
+        "lat": 42.17846,
+        "lon": -71.45811
+      },
+      {
+        "lat": 42.17582,
+        "lon": -71.46381
+      },
+      {
+        "lat": 42.17427,
+        "lon": -71.46841
+      },
+      {
+        "lat": 42.17131,
+        "lon": -71.47177
+      },
+      {
+        "lat": 42.16774,
+        "lon": -71.47286
+      },
+      {
+        "lat": 42.16663,
+        "lon": -71.48177
+      }
+    ]
+  },
+  {
+    "name": "Franklin County Deer Corridor (MA)",
+    "lat": 42.59359,
+    "lon": -72.72233,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "MassDOT IMPACT <YEAR> Crashes (2019-2025) \u2014 DBSCAN cluster of 34 real animal-vehicle crash reports (eps 1133 m tuned to MA point density); polyline of 6 vertices, buffer half-width 100 m; 31 of 34 (91%) coded specifically as deer by the source",
+    "state": "MA",
+    "pathPoints": [
+      {
+        "lat": 42.58369,
+        "lon": -72.70813
+      },
+      {
+        "lat": 42.5858,
+        "lon": -72.7138
+      },
+      {
+        "lat": 42.59257,
+        "lon": -72.72416
+      },
+      {
+        "lat": 42.59718,
+        "lon": -72.72896
+      },
+      {
+        "lat": 42.60055,
+        "lon": -72.73042
+      },
+      {
+        "lat": 42.6024,
+        "lon": -72.73075
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.46007,
+    "lon": -86.82629,
+    "radiusMeters": 243,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 58 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 12 vertices, buffer half-width 243 m; 51 of 58 (88%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.47271,
+        "lon": -86.79962
+      },
+      {
+        "lat": 35.4753,
+        "lon": -86.8024
+      },
+      {
+        "lat": 35.48139,
+        "lon": -86.81361
+      },
+      {
+        "lat": 35.46872,
+        "lon": -86.81012
+      },
+      {
+        "lat": 35.4515,
+        "lon": -86.80867
+      },
+      {
+        "lat": 35.45794,
+        "lon": -86.82122
+      },
+      {
+        "lat": 35.45464,
+        "lon": -86.82726
+      },
+      {
+        "lat": 35.45331,
+        "lon": -86.83439
+      },
+      {
+        "lat": 35.45275,
+        "lon": -86.84076
+      },
+      {
+        "lat": 35.45059,
+        "lon": -86.8514
+      },
+      {
+        "lat": 35.4495,
+        "lon": -86.86047
+      },
+      {
+        "lat": 35.44913,
+        "lon": -86.86664
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.91871,
+    "lon": -86.66396,
+    "radiusMeters": 213,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 57 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 12 vertices, buffer half-width 213 m; 56 of 57 (98%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.8876,
+        "lon": -86.66395
+      },
+      {
+        "lat": 35.89126,
+        "lon": -86.66514
+      },
+      {
+        "lat": 35.89395,
+        "lon": -86.66601
+      },
+      {
+        "lat": 35.9022,
+        "lon": -86.66579
+      },
+      {
+        "lat": 35.90618,
+        "lon": -86.66416
+      },
+      {
+        "lat": 35.91639,
+        "lon": -86.65914
+      },
+      {
+        "lat": 35.92953,
+        "lon": -86.65839
+      },
+      {
+        "lat": 35.93505,
+        "lon": -86.66002
+      },
+      {
+        "lat": 35.93875,
+        "lon": -86.67251
+      },
+      {
+        "lat": 35.94052,
+        "lon": -86.67541
+      },
+      {
+        "lat": 35.94599,
+        "lon": -86.66476
+      },
+      {
+        "lat": 35.95271,
+        "lon": -86.66003
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.99536,
+    "lon": -84.30622,
+    "radiusMeters": 297,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 55 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 12 vertices, buffer half-width 297 m; 48 of 55 (87%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.0083,
+        "lon": -84.26424
+      },
+      {
+        "lat": 36.00922,
+        "lon": -84.27449
+      },
+      {
+        "lat": 36.00608,
+        "lon": -84.28062
+      },
+      {
+        "lat": 36.00082,
+        "lon": -84.29264
+      },
+      {
+        "lat": 35.99969,
+        "lon": -84.3019
+      },
+      {
+        "lat": 35.99758,
+        "lon": -84.31207
+      },
+      {
+        "lat": 35.99179,
+        "lon": -84.32002
+      },
+      {
+        "lat": 35.98802,
+        "lon": -84.32347
+      },
+      {
+        "lat": 35.9851,
+        "lon": -84.32688
+      },
+      {
+        "lat": 35.98309,
+        "lon": -84.32981
+      },
+      {
+        "lat": 35.98046,
+        "lon": -84.33367
+      },
+      {
+        "lat": 35.97635,
+        "lon": -84.33776
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.82957,
+    "lon": -86.31331,
+    "radiusMeters": 140,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 50 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 12 vertices, buffer half-width 140 m; 45 of 50 (90%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.82502,
+        "lon": -86.2762
+      },
+      {
+        "lat": 35.82584,
+        "lon": -86.28246
+      },
+      {
+        "lat": 35.82735,
+        "lon": -86.29344
+      },
+      {
+        "lat": 35.82797,
+        "lon": -86.29799
+      },
+      {
+        "lat": 35.8289,
+        "lon": -86.30481
+      },
+      {
+        "lat": 35.82934,
+        "lon": -86.30806
+      },
+      {
+        "lat": 35.83048,
+        "lon": -86.31704
+      },
+      {
+        "lat": 35.83253,
+        "lon": -86.32526
+      },
+      {
+        "lat": 35.83129,
+        "lon": -86.3344
+      },
+      {
+        "lat": 35.83282,
+        "lon": -86.34328
+      },
+      {
+        "lat": 35.8334,
+        "lon": -86.34559
+      },
+      {
+        "lat": 35.83381,
+        "lon": -86.34857
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.80703,
+    "lon": -85.56134,
+    "radiusMeters": 139,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 50 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 12 vertices, buffer half-width 139 m; 49 of 50 (98%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.82331,
+        "lon": -85.52786
+      },
+      {
+        "lat": 35.81595,
+        "lon": -85.53747
+      },
+      {
+        "lat": 35.81367,
+        "lon": -85.54123
+      },
+      {
+        "lat": 35.81416,
+        "lon": -85.55903
+      },
+      {
+        "lat": 35.80932,
+        "lon": -85.5588
+      },
+      {
+        "lat": 35.80695,
+        "lon": -85.56391
+      },
+      {
+        "lat": 35.80569,
+        "lon": -85.56583
+      },
+      {
+        "lat": 35.80445,
+        "lon": -85.56775
+      },
+      {
+        "lat": 35.8008,
+        "lon": -85.5735
+      },
+      {
+        "lat": 35.80419,
+        "lon": -85.58239
+      },
+      {
+        "lat": 35.79347,
+        "lon": -85.58438
+      },
+      {
+        "lat": 35.78705,
+        "lon": -85.59037
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.18455,
+    "lon": -84.91107,
+    "radiusMeters": 327,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 45 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 12 vertices, buffer half-width 327 m; 39 of 45 (87%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.19972,
+        "lon": -84.8895
+      },
+      {
+        "lat": 35.19404,
+        "lon": -84.88859
+      },
+      {
+        "lat": 35.19863,
+        "lon": -84.90223
+      },
+      {
+        "lat": 35.19671,
+        "lon": -84.90811
+      },
+      {
+        "lat": 35.18766,
+        "lon": -84.90156
+      },
+      {
+        "lat": 35.1834,
+        "lon": -84.90875
+      },
+      {
+        "lat": 35.17978,
+        "lon": -84.91258
+      },
+      {
+        "lat": 35.17682,
+        "lon": -84.91896
+      },
+      {
+        "lat": 35.18346,
+        "lon": -84.93182
+      },
+      {
+        "lat": 35.16899,
+        "lon": -84.9254
+      },
+      {
+        "lat": 35.16827,
+        "lon": -84.92847
+      },
+      {
+        "lat": 35.16017,
+        "lon": -84.93589
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 36.16702,
+    "lon": -82.54022,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 40 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 12 vertices, buffer half-width 100 m; 26 of 40 (65%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.18025,
+        "lon": -82.51129
+      },
+      {
+        "lat": 36.17687,
+        "lon": -82.51685
+      },
+      {
+        "lat": 36.17499,
+        "lon": -82.5248
+      },
+      {
+        "lat": 36.17522,
+        "lon": -82.53006
+      },
+      {
+        "lat": 36.17163,
+        "lon": -82.53426
+      },
+      {
+        "lat": 36.1656,
+        "lon": -82.54503
+      },
+      {
+        "lat": 36.16506,
+        "lon": -82.54622
+      },
+      {
+        "lat": 36.16417,
+        "lon": -82.54796
+      },
+      {
+        "lat": 36.15923,
+        "lon": -82.55683
+      },
+      {
+        "lat": 36.15789,
+        "lon": -82.55847
+      },
+      {
+        "lat": 36.15183,
+        "lon": -82.56584
+      },
+      {
+        "lat": 36.1499,
+        "lon": -82.56839
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 36.43067,
+    "lon": -81.78703,
+    "radiusMeters": 180,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 39 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 10 vertices, buffer half-width 180 m; 34 of 39 (87%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.41511,
+        "lon": -81.76817
+      },
+      {
+        "lat": 36.42119,
+        "lon": -81.77028
+      },
+      {
+        "lat": 36.42617,
+        "lon": -81.77688
+      },
+      {
+        "lat": 36.42737,
+        "lon": -81.77884
+      },
+      {
+        "lat": 36.43177,
+        "lon": -81.78337
+      },
+      {
+        "lat": 36.43464,
+        "lon": -81.7867
+      },
+      {
+        "lat": 36.43764,
+        "lon": -81.79055
+      },
+      {
+        "lat": 36.4376,
+        "lon": -81.80326
+      },
+      {
+        "lat": 36.43333,
+        "lon": -81.80985
+      },
+      {
+        "lat": 36.43172,
+        "lon": -81.81278
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.76865,
+    "lon": -85.62104,
+    "radiusMeters": 334,
+    "species": "Deer",
+    "riskLevel": "Severe",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 36 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 10 vertices, buffer half-width 334 m; 33 of 36 (92%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.75291,
+        "lon": -85.63729
+      },
+      {
+        "lat": 35.75392,
+        "lon": -85.63293
+      },
+      {
+        "lat": 35.75658,
+        "lon": -85.63242
+      },
+      {
+        "lat": 35.7621,
+        "lon": -85.62827
+      },
+      {
+        "lat": 35.77369,
+        "lon": -85.61892
+      },
+      {
+        "lat": 35.77584,
+        "lon": -85.6148
+      },
+      {
+        "lat": 35.77835,
+        "lon": -85.61348
+      },
+      {
+        "lat": 35.77694,
+        "lon": -85.60504
+      },
+      {
+        "lat": 35.77822,
+        "lon": -85.60201
+      },
+      {
+        "lat": 35.78857,
+        "lon": -85.61336
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 36.57099,
+    "lon": -86.36272,
+    "radiusMeters": 330,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 35 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 10 vertices, buffer half-width 330 m; 31 of 35 (89%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.56569,
+        "lon": -86.33552
+      },
+      {
+        "lat": 36.56691,
+        "lon": -86.34165
+      },
+      {
+        "lat": 36.56832,
+        "lon": -86.3547
+      },
+      {
+        "lat": 36.56899,
+        "lon": -86.35939
+      },
+      {
+        "lat": 36.57859,
+        "lon": -86.36281
+      },
+      {
+        "lat": 36.56994,
+        "lon": -86.3701
+      },
+      {
+        "lat": 36.57918,
+        "lon": -86.37057
+      },
+      {
+        "lat": 36.57147,
+        "lon": -86.37777
+      },
+      {
+        "lat": 36.5726,
+        "lon": -86.3817
+      },
+      {
+        "lat": 36.57463,
+        "lon": -86.38754
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 36.52316,
+    "lon": -86.50641,
+    "radiusMeters": 192,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 35 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 11 vertices, buffer half-width 192 m; 32 of 35 (91%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.49992,
+        "lon": -86.50048
+      },
+      {
+        "lat": 36.50906,
+        "lon": -86.50496
+      },
+      {
+        "lat": 36.51329,
+        "lon": -86.5058
+      },
+      {
+        "lat": 36.51749,
+        "lon": -86.50771
+      },
+      {
+        "lat": 36.52024,
+        "lon": -86.50834
+      },
+      {
+        "lat": 36.52103,
+        "lon": -86.50924
+      },
+      {
+        "lat": 36.52828,
+        "lon": -86.51009
+      },
+      {
+        "lat": 36.531,
+        "lon": -86.50951
+      },
+      {
+        "lat": 36.53501,
+        "lon": -86.50767
+      },
+      {
+        "lat": 36.54153,
+        "lon": -86.50608
+      },
+      {
+        "lat": 36.54737,
+        "lon": -86.50587
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 36.53854,
+    "lon": -87.59477,
+    "radiusMeters": 129,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 34 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 11 vertices, buffer half-width 129 m; 30 of 34 (88%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.53553,
+        "lon": -87.56283
+      },
+      {
+        "lat": 36.53644,
+        "lon": -87.56554
+      },
+      {
+        "lat": 36.53784,
+        "lon": -87.57673
+      },
+      {
+        "lat": 36.53408,
+        "lon": -87.58413
+      },
+      {
+        "lat": 36.53781,
+        "lon": -87.5904
+      },
+      {
+        "lat": 36.53812,
+        "lon": -87.59528
+      },
+      {
+        "lat": 36.53951,
+        "lon": -87.60738
+      },
+      {
+        "lat": 36.54054,
+        "lon": -87.6072
+      },
+      {
+        "lat": 36.54088,
+        "lon": -87.6093
+      },
+      {
+        "lat": 36.54224,
+        "lon": -87.61973
+      },
+      {
+        "lat": 36.54343,
+        "lon": -87.63144
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.68341,
+    "lon": -88.49799,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 32 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 10 vertices, buffer half-width 100 m; 30 of 32 (94%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.67581,
+        "lon": -88.4681
+      },
+      {
+        "lat": 35.67905,
+        "lon": -88.48099
+      },
+      {
+        "lat": 35.67966,
+        "lon": -88.48259
+      },
+      {
+        "lat": 35.68164,
+        "lon": -88.4899
+      },
+      {
+        "lat": 35.68489,
+        "lon": -88.50189
+      },
+      {
+        "lat": 35.68523,
+        "lon": -88.50317
+      },
+      {
+        "lat": 35.68742,
+        "lon": -88.51126
+      },
+      {
+        "lat": 35.68849,
+        "lon": -88.5152
+      },
+      {
+        "lat": 35.68946,
+        "lon": -88.51925
+      },
+      {
+        "lat": 35.69068,
+        "lon": -88.524
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.99581,
+    "lon": -84.93155,
+    "radiusMeters": 200,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 32 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 10 vertices, buffer half-width 200 m; 30 of 32 (94%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.00776,
+        "lon": -84.90766
+      },
+      {
+        "lat": 36.00555,
+        "lon": -84.91187
+      },
+      {
+        "lat": 35.99969,
+        "lon": -84.91847
+      },
+      {
+        "lat": 35.99504,
+        "lon": -84.92311
+      },
+      {
+        "lat": 35.99487,
+        "lon": -84.93178
+      },
+      {
+        "lat": 35.99353,
+        "lon": -84.93882
+      },
+      {
+        "lat": 35.99207,
+        "lon": -84.94179
+      },
+      {
+        "lat": 35.99149,
+        "lon": -84.94654
+      },
+      {
+        "lat": 35.98858,
+        "lon": -84.95092
+      },
+      {
+        "lat": 35.98353,
+        "lon": -84.96154
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.91597,
+    "lon": -84.39321,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 32 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 10 vertices, buffer half-width 100 m; 32 of 32 (100%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.89718,
+        "lon": -84.40767
+      },
+      {
+        "lat": 35.9002,
+        "lon": -84.40291
+      },
+      {
+        "lat": 35.90444,
+        "lon": -84.39908
+      },
+      {
+        "lat": 35.91546,
+        "lon": -84.3974
+      },
+      {
+        "lat": 35.91864,
+        "lon": -84.39592
+      },
+      {
+        "lat": 35.92109,
+        "lon": -84.39391
+      },
+      {
+        "lat": 35.92514,
+        "lon": -84.38928
+      },
+      {
+        "lat": 35.92571,
+        "lon": -84.3874
+      },
+      {
+        "lat": 35.92706,
+        "lon": -84.3823
+      },
+      {
+        "lat": 35.93355,
+        "lon": -84.37404
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.89514,
+    "lon": -84.9941,
+    "radiusMeters": 129,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 31 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 9 vertices, buffer half-width 129 m; 31 of 31 (100%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.87821,
+        "lon": -85.00316
+      },
+      {
+        "lat": 35.88225,
+        "lon": -85.00273
+      },
+      {
+        "lat": 35.88763,
+        "lon": -85.00134
+      },
+      {
+        "lat": 35.89228,
+        "lon": -84.99456
+      },
+      {
+        "lat": 35.89826,
+        "lon": -84.99224
+      },
+      {
+        "lat": 35.9028,
+        "lon": -84.98828
+      },
+      {
+        "lat": 35.90856,
+        "lon": -84.98872
+      },
+      {
+        "lat": 35.9055,
+        "lon": -84.97688
+      },
+      {
+        "lat": 35.91673,
+        "lon": -84.99542
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 36.25193,
+    "lon": -82.32424,
+    "radiusMeters": 157,
+    "species": "Deer",
+    "riskLevel": "High",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 31 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 8 vertices, buffer half-width 157 m; 23 of 31 (74%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.23752,
+        "lon": -82.3286
+      },
+      {
+        "lat": 36.24072,
+        "lon": -82.32739
+      },
+      {
+        "lat": 36.24437,
+        "lon": -82.32635
+      },
+      {
+        "lat": 36.24716,
+        "lon": -82.3236
+      },
+      {
+        "lat": 36.25507,
+        "lon": -82.3224
+      },
+      {
+        "lat": 36.26261,
+        "lon": -82.32225
+      },
+      {
+        "lat": 36.2655,
+        "lon": -82.31975
+      },
+      {
+        "lat": 36.26961,
+        "lon": -82.32115
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.93555,
+    "lon": -86.43811,
+    "radiusMeters": 1376,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 30 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); circle radius 1376 m (no road-shaped axis found: blob-shaped (elongation 1.37 < 2.5)); 28 of 30 (93%) coded specifically as deer by the source",
+    "state": "TN"
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 36.43328,
+    "lon": -86.97876,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 29 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 9 vertices, buffer half-width 100 m; 25 of 29 (86%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 36.44957,
+        "lon": -86.96075
+      },
+      {
+        "lat": 36.44079,
+        "lon": -86.96754
+      },
+      {
+        "lat": 36.43618,
+        "lon": -86.97264
+      },
+      {
+        "lat": 36.43505,
+        "lon": -86.97495
+      },
+      {
+        "lat": 36.43042,
+        "lon": -86.982
+      },
+      {
+        "lat": 36.4278,
+        "lon": -86.986
+      },
+      {
+        "lat": 36.42588,
+        "lon": -86.98893
+      },
+      {
+        "lat": 36.42459,
+        "lon": -86.99089
+      },
+      {
+        "lat": 36.42056,
+        "lon": -86.99702
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.29327,
+    "lon": -89.07243,
+    "radiusMeters": 399,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 28 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 7 vertices, buffer half-width 399 m; 23 of 28 (82%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.27801,
+        "lon": -89.0617
+      },
+      {
+        "lat": 35.28934,
+        "lon": -89.06211
+      },
+      {
+        "lat": 35.29083,
+        "lon": -89.06585
+      },
+      {
+        "lat": 35.29425,
+        "lon": -89.07359
+      },
+      {
+        "lat": 35.29574,
+        "lon": -89.07654
+      },
+      {
+        "lat": 35.29907,
+        "lon": -89.08264
+      },
+      {
+        "lat": 35.30048,
+        "lon": -89.08721
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.63498,
+    "lon": -86.95788,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 28 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 9 vertices, buffer half-width 100 m; 27 of 28 (96%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.6348,
+        "lon": -86.93313
+      },
+      {
+        "lat": 35.63272,
+        "lon": -86.94493
+      },
+      {
+        "lat": 35.63371,
+        "lon": -86.95344
+      },
+      {
+        "lat": 35.63445,
+        "lon": -86.95682
+      },
+      {
+        "lat": 35.63511,
+        "lon": -86.95907
+      },
+      {
+        "lat": 35.63563,
+        "lon": -86.9609
+      },
+      {
+        "lat": 35.63621,
+        "lon": -86.96669
+      },
+      {
+        "lat": 35.63623,
+        "lon": -86.97606
+      },
+      {
+        "lat": 35.63607,
+        "lon": -86.98024
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.29445,
+    "lon": -86.14926,
+    "radiusMeters": 229,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 28 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 9 vertices, buffer half-width 229 m; 25 of 28 (89%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.27975,
+        "lon": -86.13578
+      },
+      {
+        "lat": 35.28408,
+        "lon": -86.14028
+      },
+      {
+        "lat": 35.29071,
+        "lon": -86.14487
+      },
+      {
+        "lat": 35.29366,
+        "lon": -86.14816
+      },
+      {
+        "lat": 35.29421,
+        "lon": -86.14866
+      },
+      {
+        "lat": 35.29562,
+        "lon": -86.15294
+      },
+      {
+        "lat": 35.30166,
+        "lon": -86.15535
+      },
+      {
+        "lat": 35.30381,
+        "lon": -86.15728
+      },
+      {
+        "lat": 35.30978,
+        "lon": -86.16264
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.35603,
+    "lon": -85.12273,
+    "radiusMeters": 100,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 28 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); polyline of 8 vertices, buffer half-width 100 m; 25 of 28 (89%) coded specifically as deer by the source",
+    "state": "TN",
+    "pathPoints": [
+      {
+        "lat": 35.34102,
+        "lon": -85.1291
+      },
+      {
+        "lat": 35.3466,
+        "lon": -85.12655
+      },
+      {
+        "lat": 35.34964,
+        "lon": -85.12482
+      },
+      {
+        "lat": 35.35541,
+        "lon": -85.12212
+      },
+      {
+        "lat": 35.36083,
+        "lon": -85.12009
+      },
+      {
+        "lat": 35.36417,
+        "lon": -85.11906
+      },
+      {
+        "lat": 35.36673,
+        "lon": -85.11813
+      },
+      {
+        "lat": 35.37007,
+        "lon": -85.11616
+      }
+    ]
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 36.58815,
+    "lon": -82.22709,
+    "radiusMeters": 1223,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 28 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); circle radius 1223 m (no road-shaped axis found: blob-shaped (elongation 2.24 < 2.5)); 28 of 28 (100%) coded specifically as deer by the source",
+    "state": "TN"
+  },
+  {
+    "name": "Deer Corridor (TN)",
+    "lat": 35.20827,
+    "lon": -87.05439,
+    "radiusMeters": 1471,
+    "species": "Deer",
+    "riskLevel": "Moderate",
+    "source": "TDOT \"Tennessee Crashes JAN 2021_JAN 2025\" (ArcGIS REST Feature Service) \u2014 DBSCAN cluster of 27 real animal-vehicle crash reports (eps 1408 m tuned to TN point density); circle radius 1471 m (no road-shaped axis found: blob-shaped (elongation 1.46 < 2.5)); 25 of 27 (93%) coded specifically as deer by the source",
+    "state": "TN"
+  }
+]

@@ -1,0 +1,31 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+.build/
+
+# xcodegen output (regenerated from project.yml)
+WildlifeAlert.xcodeproj/
+
+# Firebase config — contains a project-tied client key; keep local per-dev
+GoogleService-Info.plist
+
+# Python
+scripts/.venv/
+scripts/__pycache__/
+**/__pycache__/
+*.pyc
+
+# Large local data artifacts (raw downloaded CSVs, npz caches, model
+# binaries) — regenerable by re-running scripts/, not source. The small
+# JSON cluster/candidate/metrics summaries at the top of scratchpad_data/
+# are kept since they're the actual documented results.
+scratchpad_data/raw_cache/
+scratchpad_data/*.joblib
+
+# Tooling metadata, not project source
+.claude-flow/
+
+# OS cruft
+.DS_Store

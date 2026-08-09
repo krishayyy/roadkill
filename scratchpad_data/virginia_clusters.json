@@ -1,0 +1,3922 @@
+[
+  {
+    "cluster_id": 8,
+    "lon": -79.88493613096023,
+    "lat": 37.3848844918888,
+    "severity": 755,
+    "county": "Unknown",
+    "point_count": 755
+  },
+  {
+    "cluster_id": 18,
+    "lon": -79.00742380139997,
+    "lat": 38.106326222488285,
+    "severity": 680,
+    "county": "Unknown",
+    "point_count": 680
+  },
+  {
+    "cluster_id": 26,
+    "lon": -77.53970775068812,
+    "lat": 39.08256294145283,
+    "severity": 667,
+    "county": "Unknown",
+    "point_count": 667
+  },
+  {
+    "cluster_id": 2,
+    "lon": -80.38848938864156,
+    "lat": 37.16374726582527,
+    "severity": 452,
+    "county": "Unknown",
+    "point_count": 452
+  },
+  {
+    "cluster_id": 12,
+    "lon": -77.74439492309288,
+    "lat": 39.134677923787656,
+    "severity": 452,
+    "county": "Unknown",
+    "point_count": 452
+  },
+  {
+    "cluster_id": 94,
+    "lon": -79.43451868061622,
+    "lat": 37.80607824130257,
+    "severity": 357,
+    "county": "Unknown",
+    "point_count": 357
+  },
+  {
+    "cluster_id": 9,
+    "lon": -77.7462453996914,
+    "lat": 38.742332567625766,
+    "severity": 350,
+    "county": "Unknown",
+    "point_count": 350
+  },
+  {
+    "cluster_id": 42,
+    "lon": -80.12534384327438,
+    "lat": 37.27991999551835,
+    "severity": 328,
+    "county": "Unknown",
+    "point_count": 328
+  },
+  {
+    "cluster_id": 126,
+    "lon": -80.88944974500684,
+    "lat": 36.684294888354,
+    "severity": 291,
+    "county": "Unknown",
+    "point_count": 291
+  },
+  {
+    "cluster_id": 44,
+    "lon": -78.02725148482067,
+    "lat": 38.90983401818971,
+    "severity": 290,
+    "county": "Unknown",
+    "point_count": 290
+  },
+  {
+    "cluster_id": 7,
+    "lon": -80.50061165444092,
+    "lat": 37.16956808995674,
+    "severity": 254,
+    "county": "Unknown",
+    "point_count": 254
+  },
+  {
+    "cluster_id": 148,
+    "lon": -80.43665344132185,
+    "lat": 37.09098128557516,
+    "severity": 233,
+    "county": "Unknown",
+    "point_count": 233
+  },
+  {
+    "cluster_id": 23,
+    "lon": -81.3063144777665,
+    "lat": 37.23054301834807,
+    "severity": 227,
+    "county": "Unknown",
+    "point_count": 227
+  },
+  {
+    "cluster_id": 68,
+    "lon": -79.09023145545672,
+    "lat": 37.448419837139475,
+    "severity": 208,
+    "county": "Unknown",
+    "point_count": 208
+  },
+  {
+    "cluster_id": 36,
+    "lon": -78.86047627218875,
+    "lat": 38.40452533602046,
+    "severity": 196,
+    "county": "Unknown",
+    "point_count": 196
+  },
+  {
+    "cluster_id": 46,
+    "lon": -77.83519401815101,
+    "lat": 38.85717148770318,
+    "severity": 192,
+    "county": "Unknown",
+    "point_count": 192
+  },
+  {
+    "cluster_id": 13,
+    "lon": -79.47287775618781,
+    "lat": 37.698053502596736,
+    "severity": 181,
+    "county": "Unknown",
+    "point_count": 181
+  },
+  {
+    "cluster_id": 115,
+    "lon": -79.06079980347774,
+    "lat": 37.559593313088946,
+    "severity": 180,
+    "county": "Unknown",
+    "point_count": 180
+  },
+  {
+    "cluster_id": 156,
+    "lon": -80.51352338885116,
+    "lat": 37.101502934952435,
+    "severity": 168,
+    "county": "Unknown",
+    "point_count": 168
+  },
+  {
+    "cluster_id": 91,
+    "lon": -80.0064287702857,
+    "lat": 37.3326260592485,
+    "severity": 161,
+    "county": "Unknown",
+    "point_count": 161
+  },
+  {
+    "cluster_id": 40,
+    "lon": -80.79808379088155,
+    "lat": 36.76251765913821,
+    "severity": 152,
+    "county": "Unknown",
+    "point_count": 152
+  },
+  {
+    "cluster_id": 6,
+    "lon": -79.11664142403308,
+    "lat": 38.050419055695414,
+    "severity": 151,
+    "county": "Unknown",
+    "point_count": 151
+  },
+  {
+    "cluster_id": 20,
+    "lon": -75.96952051227005,
+    "lat": 37.164680854219036,
+    "severity": 137,
+    "county": "Unknown",
+    "point_count": 137
+  },
+  {
+    "cluster_id": 3,
+    "lon": -79.08449883797579,
+    "lat": 38.18340237300006,
+    "severity": 124,
+    "county": "Unknown",
+    "point_count": 124
+  },
+  {
+    "cluster_id": 78,
+    "lon": -77.7262980789677,
+    "lat": 38.83243048395166,
+    "severity": 124,
+    "county": "Unknown",
+    "point_count": 124
+  },
+  {
+    "cluster_id": 77,
+    "lon": -77.97684525980483,
+    "lat": 38.675764615918744,
+    "severity": 123,
+    "county": "Unknown",
+    "point_count": 123
+  },
+  {
+    "cluster_id": 76,
+    "lon": -78.15633482047002,
+    "lat": 38.70330218694878,
+    "severity": 117,
+    "county": "Unknown",
+    "point_count": 117
+  },
+  {
+    "cluster_id": 99,
+    "lon": -77.38467294909647,
+    "lat": 37.46390050773689,
+    "severity": 114,
+    "county": "Unknown",
+    "point_count": 114
+  },
+  {
+    "cluster_id": 87,
+    "lon": -80.71999968438735,
+    "lat": 37.04319856556762,
+    "severity": 111,
+    "county": "Unknown",
+    "point_count": 111
+  },
+  {
+    "cluster_id": 38,
+    "lon": -81.51465776717271,
+    "lat": 37.13473224420006,
+    "severity": 110,
+    "county": "Unknown",
+    "point_count": 110
+  },
+  {
+    "cluster_id": 216,
+    "lon": -77.79991315791426,
+    "lat": 38.60949063367625,
+    "severity": 105,
+    "county": "Unknown",
+    "point_count": 105
+  },
+  {
+    "cluster_id": 113,
+    "lon": -78.03632064219228,
+    "lat": 38.45042005770198,
+    "severity": 104,
+    "county": "Unknown",
+    "point_count": 104
+  },
+  {
+    "cluster_id": 41,
+    "lon": -77.8861642597,
+    "lat": 38.69627354885005,
+    "severity": 100,
+    "county": "Unknown",
+    "point_count": 100
+  },
+  {
+    "cluster_id": 162,
+    "lon": -78.71985044632997,
+    "lat": 38.04082676470004,
+    "severity": 100,
+    "county": "Unknown",
+    "point_count": 100
+  },
+  {
+    "cluster_id": 131,
+    "lon": -78.93370282069694,
+    "lat": 38.30351891380813,
+    "severity": 99,
+    "county": "Unknown",
+    "point_count": 99
+  },
+  {
+    "cluster_id": 15,
+    "lon": -80.63644755718364,
+    "lat": 37.08522658587761,
+    "severity": 98,
+    "county": "Unknown",
+    "point_count": 98
+  },
+  {
+    "cluster_id": 106,
+    "lon": -79.36953450978568,
+    "lat": 37.838682267489844,
+    "severity": 98,
+    "county": "Unknown",
+    "point_count": 98
+  },
+  {
+    "cluster_id": 179,
+    "lon": -77.54277444237496,
+    "lat": 39.14544233852089,
+    "severity": 96,
+    "county": "Unknown",
+    "point_count": 96
+  },
+  {
+    "cluster_id": 39,
+    "lon": -81.76475434991576,
+    "lat": 37.060262879168484,
+    "severity": 95,
+    "county": "Unknown",
+    "point_count": 95
+  },
+  {
+    "cluster_id": 253,
+    "lon": -78.62473238403224,
+    "lat": 38.033457014118326,
+    "severity": 93,
+    "county": "Unknown",
+    "point_count": 93
+  },
+  {
+    "cluster_id": 1,
+    "lon": -78.21079705501118,
+    "lat": 39.15315859028094,
+    "severity": 89,
+    "county": "Unknown",
+    "point_count": 89
+  },
+  {
+    "cluster_id": 228,
+    "lon": -78.41925196956319,
+    "lat": 38.01895567664373,
+    "severity": 87,
+    "county": "Unknown",
+    "point_count": 87
+  },
+  {
+    "cluster_id": 114,
+    "lon": -79.8669976626395,
+    "lat": 37.43341809326749,
+    "severity": 86,
+    "county": "Unknown",
+    "point_count": 86
+  },
+  {
+    "cluster_id": 88,
+    "lon": -77.9371891397294,
+    "lat": 38.99933153225888,
+    "severity": 85,
+    "county": "Unknown",
+    "point_count": 85
+  },
+  {
+    "cluster_id": 151,
+    "lon": -78.70457618809635,
+    "lat": 38.38910893421691,
+    "severity": 83,
+    "county": "Unknown",
+    "point_count": 83
+  },
+  {
+    "cluster_id": 117,
+    "lon": -77.6588583649268,
+    "lat": 39.17449155584151,
+    "severity": 82,
+    "county": "Unknown",
+    "point_count": 82
+  },
+  {
+    "cluster_id": 16,
+    "lon": -81.41848396549997,
+    "lat": 37.18726448456256,
+    "severity": 80,
+    "county": "Unknown",
+    "point_count": 80
+  },
+  {
+    "cluster_id": 95,
+    "lon": -80.42743896725969,
+    "lat": 37.27567102661044,
+    "severity": 77,
+    "county": "Unknown",
+    "point_count": 77
+  },
+  {
+    "cluster_id": 265,
+    "lon": -81.52205650311686,
+    "lat": 36.82419180168837,
+    "severity": 77,
+    "county": "Unknown",
+    "point_count": 77
+  },
+  {
+    "cluster_id": 189,
+    "lon": -77.4230103397105,
+    "lat": 39.03871159584216,
+    "severity": 76,
+    "county": "Unknown",
+    "point_count": 76
+  },
+  {
+    "cluster_id": 227,
+    "lon": -80.43679860079997,
+    "lat": 37.236404552933394,
+    "severity": 75,
+    "county": "Unknown",
+    "point_count": 75
+  },
+  {
+    "cluster_id": 75,
+    "lon": -75.9514119491351,
+    "lat": 37.32628764943249,
+    "severity": 74,
+    "county": "Unknown",
+    "point_count": 74
+  },
+  {
+    "cluster_id": 204,
+    "lon": -78.49343501163511,
+    "lat": 38.009377716716266,
+    "severity": 74,
+    "county": "Unknown",
+    "point_count": 74
+  },
+  {
+    "cluster_id": 35,
+    "lon": -75.86047618409586,
+    "lat": 37.47197534276717,
+    "severity": 73,
+    "county": "Unknown",
+    "point_count": 73
+  },
+  {
+    "cluster_id": 65,
+    "lon": -77.57884644291777,
+    "lat": 37.409236096972656,
+    "severity": 73,
+    "county": "Unknown",
+    "point_count": 73
+  },
+  {
+    "cluster_id": 120,
+    "lon": -76.57361279840273,
+    "lat": 36.93906534326394,
+    "severity": 72,
+    "county": "Unknown",
+    "point_count": 72
+  },
+  {
+    "cluster_id": 60,
+    "lon": -76.68364300738027,
+    "lat": 37.24894848656344,
+    "severity": 71,
+    "county": "Unknown",
+    "point_count": 71
+  },
+  {
+    "cluster_id": 144,
+    "lon": -77.56472099899999,
+    "lat": 38.94670967405639,
+    "severity": 71,
+    "county": "Unknown",
+    "point_count": 71
+  },
+  {
+    "cluster_id": 37,
+    "lon": -79.55226505824285,
+    "lat": 37.335293949785765,
+    "severity": 70,
+    "county": "Unknown",
+    "point_count": 70
+  },
+  {
+    "cluster_id": 285,
+    "lon": -77.33333158989852,
+    "lat": 37.435791869420335,
+    "severity": 69,
+    "county": "Unknown",
+    "point_count": 69
+  },
+  {
+    "cluster_id": 28,
+    "lon": -78.35587255092534,
+    "lat": 38.002649519671714,
+    "severity": 67,
+    "county": "Unknown",
+    "point_count": 67
+  },
+  {
+    "cluster_id": 49,
+    "lon": -80.49093273991043,
+    "lat": 37.13023108980604,
+    "severity": 67,
+    "county": "Unknown",
+    "point_count": 67
+  },
+  {
+    "cluster_id": 195,
+    "lon": -78.53700802371638,
+    "lat": 38.85598289589559,
+    "severity": 67,
+    "county": "Unknown",
+    "point_count": 67
+  },
+  {
+    "cluster_id": 121,
+    "lon": -77.65286245443936,
+    "lat": 38.82054779266672,
+    "severity": 66,
+    "county": "Unknown",
+    "point_count": 66
+  },
+  {
+    "cluster_id": 225,
+    "lon": -77.24708084416665,
+    "lat": 37.64548259536368,
+    "severity": 66,
+    "county": "Unknown",
+    "point_count": 66
+  },
+  {
+    "cluster_id": 4,
+    "lon": -81.95870354723075,
+    "lat": 36.70396074772312,
+    "severity": 65,
+    "county": "Unknown",
+    "point_count": 65
+  },
+  {
+    "cluster_id": 143,
+    "lon": -81.63857151092307,
+    "lat": 37.10411615833852,
+    "severity": 65,
+    "county": "Unknown",
+    "point_count": 65
+  },
+  {
+    "cluster_id": 56,
+    "lon": -79.8276537297031,
+    "lat": 37.6143924356563,
+    "severity": 64,
+    "county": "Unknown",
+    "point_count": 64
+  },
+  {
+    "cluster_id": 200,
+    "lon": -77.79421046399997,
+    "lat": 38.66885522392192,
+    "severity": 64,
+    "county": "Unknown",
+    "point_count": 64
+  },
+  {
+    "cluster_id": 103,
+    "lon": -80.4996022961904,
+    "lat": 37.198920422079425,
+    "severity": 63,
+    "county": "Unknown",
+    "point_count": 63
+  },
+  {
+    "cluster_id": 309,
+    "lon": -78.78464997447537,
+    "lat": 38.37333753798366,
+    "severity": 61,
+    "county": "Unknown",
+    "point_count": 61
+  },
+  {
+    "cluster_id": 74,
+    "lon": -77.45027662033333,
+    "lat": 38.38338392251672,
+    "severity": 60,
+    "county": "Unknown",
+    "point_count": 60
+  },
+  {
+    "cluster_id": 152,
+    "lon": -78.97611131825,
+    "lat": 38.232142589750055,
+    "severity": 60,
+    "county": "Unknown",
+    "point_count": 60
+  },
+  {
+    "cluster_id": 207,
+    "lon": -79.96802304524995,
+    "lat": 37.24359478796671,
+    "severity": 60,
+    "county": "Unknown",
+    "point_count": 60
+  },
+  {
+    "cluster_id": 90,
+    "lon": -77.35077127694913,
+    "lat": 37.531337980576325,
+    "severity": 59,
+    "county": "Unknown",
+    "point_count": 59
+  },
+  {
+    "cluster_id": 249,
+    "lon": -82.20046245533898,
+    "lat": 36.614134463372935,
+    "severity": 59,
+    "county": "Unknown",
+    "point_count": 59
+  },
+  {
+    "cluster_id": 32,
+    "lon": -77.52035918975858,
+    "lat": 37.39559488948281,
+    "severity": 58,
+    "county": "Unknown",
+    "point_count": 58
+  },
+  {
+    "cluster_id": 294,
+    "lon": -77.27614966786204,
+    "lat": 37.51894859174143,
+    "severity": 58,
+    "county": "Unknown",
+    "point_count": 58
+  },
+  {
+    "cluster_id": 0,
+    "lon": -77.66894602331575,
+    "lat": 37.59460698431584,
+    "severity": 57,
+    "county": "Unknown",
+    "point_count": 57
+  },
+  {
+    "cluster_id": 17,
+    "lon": -79.24433749056136,
+    "lat": 37.312426601754446,
+    "severity": 57,
+    "county": "Unknown",
+    "point_count": 57
+  },
+  {
+    "cluster_id": 102,
+    "lon": -76.74302876824558,
+    "lat": 37.266439614894765,
+    "severity": 57,
+    "county": "Unknown",
+    "point_count": 57
+  },
+  {
+    "cluster_id": 146,
+    "lon": -77.58444859149118,
+    "lat": 37.45349128324567,
+    "severity": 57,
+    "county": "Unknown",
+    "point_count": 57
+  },
+  {
+    "cluster_id": 187,
+    "lon": -76.52662130578946,
+    "lat": 36.93232173696497,
+    "severity": 57,
+    "county": "Unknown",
+    "point_count": 57
+  },
+  {
+    "cluster_id": 154,
+    "lon": -75.97791559992855,
+    "lat": 37.27854133192862,
+    "severity": 56,
+    "county": "Unknown",
+    "point_count": 56
+  },
+  {
+    "cluster_id": 168,
+    "lon": -79.00451159191068,
+    "lat": 38.16018635425006,
+    "severity": 56,
+    "county": "Unknown",
+    "point_count": 56
+  },
+  {
+    "cluster_id": 19,
+    "lon": -77.63846811476361,
+    "lat": 38.307410815163706,
+    "severity": 55,
+    "county": "Unknown",
+    "point_count": 55
+  },
+  {
+    "cluster_id": 52,
+    "lon": -81.06931506187269,
+    "lat": 36.972047065490955,
+    "severity": 55,
+    "county": "Unknown",
+    "point_count": 55
+  },
+  {
+    "cluster_id": 24,
+    "lon": -78.40839185566664,
+    "lat": 38.17363708424079,
+    "severity": 54,
+    "county": "Unknown",
+    "point_count": 54
+  },
+  {
+    "cluster_id": 29,
+    "lon": -78.19803080101849,
+    "lat": 39.11215951081487,
+    "severity": 54,
+    "county": "Unknown",
+    "point_count": 54
+  },
+  {
+    "cluster_id": 79,
+    "lon": -75.67643092028298,
+    "lat": 37.72347589128307,
+    "severity": 53,
+    "county": "Unknown",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 217,
+    "lon": -77.82748748867922,
+    "lat": 38.71406222669817,
+    "severity": 53,
+    "county": "Unknown",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 336,
+    "lon": -78.17849435928298,
+    "lat": 39.20832104333967,
+    "severity": 53,
+    "county": "Unknown",
+    "point_count": 53
+  },
+  {
+    "cluster_id": 43,
+    "lon": -81.57991865294115,
+    "lat": 37.119386486431424,
+    "severity": 51,
+    "county": "Unknown",
+    "point_count": 51
+  },
+  {
+    "cluster_id": 89,
+    "lon": -79.01398095494113,
+    "lat": 37.61835152303928,
+    "severity": 51,
+    "county": "Unknown",
+    "point_count": 51
+  },
+  {
+    "cluster_id": 196,
+    "lon": -77.29740098894115,
+    "lat": 37.54616577172555,
+    "severity": 51,
+    "county": "Unknown",
+    "point_count": 51
+  },
+  {
+    "cluster_id": 214,
+    "lon": -79.121406868098,
+    "lat": 37.42390576998044,
+    "severity": 51,
+    "county": "Unknown",
+    "point_count": 51
+  },
+  {
+    "cluster_id": 178,
+    "lon": -81.60552446559997,
+    "lat": 36.81085366326006,
+    "severity": 50,
+    "county": "Unknown",
+    "point_count": 50
+  },
+  {
+    "cluster_id": 240,
+    "lon": -76.76760070245997,
+    "lat": 37.38809052134007,
+    "severity": 50,
+    "county": "Unknown",
+    "point_count": 50
+  },
+  {
+    "cluster_id": 194,
+    "lon": -78.7808274497959,
+    "lat": 38.29451203173475,
+    "severity": 49,
+    "county": "Unknown",
+    "point_count": 49
+  },
+  {
+    "cluster_id": 273,
+    "lon": -79.98481511314283,
+    "lat": 37.77528775120413,
+    "severity": 49,
+    "county": "Unknown",
+    "point_count": 49
+  },
+  {
+    "cluster_id": 14,
+    "lon": -81.47695158581247,
+    "lat": 36.85146419160421,
+    "severity": 48,
+    "county": "Unknown",
+    "point_count": 48
+  },
+  {
+    "cluster_id": 128,
+    "lon": -79.96874293606247,
+    "lat": 37.303760794979205,
+    "severity": 48,
+    "county": "Unknown",
+    "point_count": 48
+  },
+  {
+    "cluster_id": 108,
+    "lon": -77.60195141044679,
+    "lat": 38.801494873574505,
+    "severity": 47,
+    "county": "Unknown",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 142,
+    "lon": -77.23806610048932,
+    "lat": 37.51191211121282,
+    "severity": 47,
+    "county": "Unknown",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 407,
+    "lon": -79.84640169768082,
+    "lat": 37.56133425138303,
+    "severity": 47,
+    "county": "Unknown",
+    "point_count": 47
+  },
+  {
+    "cluster_id": 63,
+    "lon": -76.86744665326083,
+    "lat": 37.89059949400005,
+    "severity": 46,
+    "county": "Unknown",
+    "point_count": 46
+  },
+  {
+    "cluster_id": 182,
+    "lon": -77.81321039806521,
+    "lat": 38.75754848704354,
+    "severity": 46,
+    "county": "Unknown",
+    "point_count": 46
+  },
+  {
+    "cluster_id": 93,
+    "lon": -78.99507328186664,
+    "lat": 38.18754420344449,
+    "severity": 45,
+    "county": "Unknown",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 98,
+    "lon": -82.72824688404442,
+    "lat": 36.88354333022229,
+    "severity": 45,
+    "county": "Unknown",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 221,
+    "lon": -78.54115746793327,
+    "lat": 38.019686314933395,
+    "severity": 45,
+    "county": "Unknown",
+    "point_count": 45
+  },
+  {
+    "cluster_id": 21,
+    "lon": -78.09775037954543,
+    "lat": 38.374533904840966,
+    "severity": 44,
+    "county": "Unknown",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 153,
+    "lon": -80.03691674338633,
+    "lat": 37.272474589613694,
+    "severity": 44,
+    "county": "Unknown",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 171,
+    "lon": -78.51839973252271,
+    "lat": 38.052423213568225,
+    "severity": 44,
+    "county": "Unknown",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 186,
+    "lon": -77.67228218102271,
+    "lat": 37.489383980250054,
+    "severity": 44,
+    "county": "Unknown",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 208,
+    "lon": -82.16690170620453,
+    "lat": 36.62053224088642,
+    "severity": 44,
+    "county": "Unknown",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 222,
+    "lon": -80.46457936804542,
+    "lat": 37.28574427343187,
+    "severity": 44,
+    "county": "Unknown",
+    "point_count": 44
+  },
+  {
+    "cluster_id": 11,
+    "lon": -79.59096630953485,
+    "lat": 37.61719291962796,
+    "severity": 43,
+    "county": "Unknown",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 185,
+    "lon": -80.44742777504646,
+    "lat": 37.12968325276749,
+    "severity": 43,
+    "county": "Unknown",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 239,
+    "lon": -80.2035085126046,
+    "lat": 37.229816900488416,
+    "severity": 43,
+    "county": "Unknown",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 331,
+    "lon": -79.87769871220928,
+    "lat": 37.51562062676749,
+    "severity": 43,
+    "county": "Unknown",
+    "point_count": 43
+  },
+  {
+    "cluster_id": 10,
+    "lon": -78.83214338249998,
+    "lat": 38.45250924533338,
+    "severity": 42,
+    "county": "Unknown",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 86,
+    "lon": -81.38121191069047,
+    "lat": 36.88241737150006,
+    "severity": 42,
+    "county": "Unknown",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 140,
+    "lon": -80.73812007085711,
+    "lat": 37.336197436880994,
+    "severity": 42,
+    "county": "Unknown",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 276,
+    "lon": -81.491134628119,
+    "lat": 37.12658179680958,
+    "severity": 42,
+    "county": "Unknown",
+    "point_count": 42
+  },
+  {
+    "cluster_id": 82,
+    "lon": -77.92656670036581,
+    "lat": 38.65364396768299,
+    "severity": 41,
+    "county": "Unknown",
+    "point_count": 41
+  },
+  {
+    "cluster_id": 47,
+    "lon": -79.95839144182497,
+    "lat": 37.21227882850005,
+    "severity": 40,
+    "county": "Unknown",
+    "point_count": 40
+  },
+  {
+    "cluster_id": 57,
+    "lon": -76.82876247034997,
+    "lat": 37.425779112700056,
+    "severity": 40,
+    "county": "Unknown",
+    "point_count": 40
+  },
+  {
+    "cluster_id": 122,
+    "lon": -79.06686982462496,
+    "lat": 37.50145552732505,
+    "severity": 40,
+    "county": "Unknown",
+    "point_count": 40
+  },
+  {
+    "cluster_id": 173,
+    "lon": -82.61197720577498,
+    "lat": 36.94447299125005,
+    "severity": 40,
+    "county": "Unknown",
+    "point_count": 40
+  },
+  {
+    "cluster_id": 262,
+    "lon": -80.23103708292497,
+    "lat": 37.236514261150056,
+    "severity": 40,
+    "county": "Unknown",
+    "point_count": 40
+  },
+  {
+    "cluster_id": 58,
+    "lon": -77.48448462648714,
+    "lat": 38.28934964051288,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 135,
+    "lon": -78.9213367854359,
+    "lat": 38.36976910700006,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 191,
+    "lon": -81.99934700738456,
+    "lat": 36.711298123307735,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 201,
+    "lon": -77.36017817943588,
+    "lat": 37.60584655182057,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 233,
+    "lon": -78.68840873148714,
+    "lat": 38.353837005564166,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 261,
+    "lon": -77.80026271597434,
+    "lat": 38.565696017666724,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 279,
+    "lon": -77.37799919725639,
+    "lat": 37.630671041897486,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 348,
+    "lon": -78.38596745541021,
+    "lat": 38.20858641920519,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 425,
+    "lon": -81.13358800328203,
+    "lat": 36.9459597319744,
+    "severity": 39,
+    "county": "Unknown",
+    "point_count": 39
+  },
+  {
+    "cluster_id": 105,
+    "lon": -78.30151666402628,
+    "lat": 39.010360005342164,
+    "severity": 38,
+    "county": "Unknown",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 150,
+    "lon": -76.751244692921,
+    "lat": 37.33539700076321,
+    "severity": 38,
+    "county": "Unknown",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 190,
+    "lon": -80.23606641239472,
+    "lat": 37.19783001168426,
+    "severity": 38,
+    "county": "Unknown",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 280,
+    "lon": -77.62150740847365,
+    "lat": 39.04377068997374,
+    "severity": 38,
+    "county": "Unknown",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 303,
+    "lon": -79.78631075792102,
+    "lat": 37.48074642773689,
+    "severity": 38,
+    "county": "Unknown",
+    "point_count": 38
+  },
+  {
+    "cluster_id": 34,
+    "lon": -78.12707548945941,
+    "lat": 39.143100225810855,
+    "severity": 37,
+    "county": "Unknown",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 118,
+    "lon": -77.62360437648645,
+    "lat": 37.418499122351406,
+    "severity": 37,
+    "county": "Unknown",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 130,
+    "lon": -79.43246307732429,
+    "lat": 37.642119520432495,
+    "severity": 37,
+    "county": "Unknown",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 231,
+    "lon": -79.37696748467565,
+    "lat": 37.37498535181087,
+    "severity": 37,
+    "county": "Unknown",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 290,
+    "lon": -79.42773868240538,
+    "lat": 37.31878740140545,
+    "severity": 37,
+    "county": "Unknown",
+    "point_count": 37
+  },
+  {
+    "cluster_id": 72,
+    "lon": -81.80623987691664,
+    "lat": 37.005032976277825,
+    "severity": 36,
+    "county": "Unknown",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 254,
+    "lon": -79.48870783522221,
+    "lat": 37.320062103722286,
+    "severity": 36,
+    "county": "Unknown",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 268,
+    "lon": -79.3041322202222,
+    "lat": 37.129062855055594,
+    "severity": 36,
+    "county": "Unknown",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 295,
+    "lon": -82.07011676419441,
+    "lat": 36.659951470777834,
+    "severity": 36,
+    "county": "Unknown",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 372,
+    "lon": -77.64704159211107,
+    "lat": 39.25489813541673,
+    "severity": 36,
+    "county": "Unknown",
+    "point_count": 36
+  },
+  {
+    "cluster_id": 66,
+    "lon": -79.11508447685712,
+    "lat": 38.15392741717147,
+    "severity": 35,
+    "county": "Unknown",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 213,
+    "lon": -77.78798781291424,
+    "lat": 38.97191343468576,
+    "severity": 35,
+    "county": "Unknown",
+    "point_count": 35
+  },
+  {
+    "cluster_id": 48,
+    "lon": -76.74785499517645,
+    "lat": 37.30895710523535,
+    "severity": 34,
+    "county": "Unknown",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 83,
+    "lon": -81.67904057967644,
+    "lat": 36.78764874520593,
+    "severity": 34,
+    "county": "Unknown",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 97,
+    "lon": -77.40956036573526,
+    "lat": 38.44139737020592,
+    "severity": 34,
+    "county": "Unknown",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 147,
+    "lon": -81.71435649082348,
+    "lat": 37.07368946661771,
+    "severity": 34,
+    "county": "Unknown",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 210,
+    "lon": -81.68621676335292,
+    "lat": 37.08738257079416,
+    "severity": 34,
+    "county": "Unknown",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 238,
+    "lon": -77.56167982647057,
+    "lat": 38.99115425552946,
+    "severity": 34,
+    "county": "Unknown",
+    "point_count": 34
+  },
+  {
+    "cluster_id": 59,
+    "lon": -79.26391516333331,
+    "lat": 37.137343531242465,
+    "severity": 33,
+    "county": "Unknown",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 119,
+    "lon": -77.23848466303029,
+    "lat": 38.93463053724247,
+    "severity": 33,
+    "county": "Unknown",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 164,
+    "lon": -82.00381358809088,
+    "lat": 36.92061488827278,
+    "severity": 33,
+    "county": "Unknown",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 277,
+    "lon": -77.47705848421211,
+    "lat": 39.00237014663642,
+    "severity": 33,
+    "county": "Unknown",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 313,
+    "lon": -77.59112043272725,
+    "lat": 37.06282732578794,
+    "severity": 33,
+    "county": "Unknown",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 345,
+    "lon": -76.43320476445453,
+    "lat": 36.866330979303086,
+    "severity": 33,
+    "county": "Unknown",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 378,
+    "lon": -77.94399025403028,
+    "lat": 38.620120510818225,
+    "severity": 33,
+    "county": "Unknown",
+    "point_count": 33
+  },
+  {
+    "cluster_id": 5,
+    "lon": -79.67661380731248,
+    "lat": 37.24365039575004,
+    "severity": 32,
+    "county": "Unknown",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 107,
+    "lon": -82.13553383849998,
+    "lat": 36.62865116015631,
+    "severity": 32,
+    "county": "Unknown",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 116,
+    "lon": -77.44966100349997,
+    "lat": 39.02479562981255,
+    "severity": 32,
+    "county": "Unknown",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 137,
+    "lon": -76.97136700353123,
+    "lat": 37.82897512656255,
+    "severity": 32,
+    "county": "Unknown",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 212,
+    "lon": -78.46382432849995,
+    "lat": 38.09773638762506,
+    "severity": 32,
+    "county": "Unknown",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 243,
+    "lon": -80.01444911265621,
+    "lat": 37.23233429950006,
+    "severity": 32,
+    "county": "Unknown",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 278,
+    "lon": -79.27121390684371,
+    "lat": 37.364991245906296,
+    "severity": 32,
+    "county": "Unknown",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 344,
+    "lon": -80.58635986093746,
+    "lat": 37.31527622075005,
+    "severity": 32,
+    "county": "Unknown",
+    "point_count": 32
+  },
+  {
+    "cluster_id": 96,
+    "lon": -80.02957261519349,
+    "lat": 37.204643123258116,
+    "severity": 31,
+    "county": "Unknown",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 155,
+    "lon": -79.88217698332255,
+    "lat": 37.0551608675807,
+    "severity": 31,
+    "county": "Unknown",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 274,
+    "lon": -82.09899919806449,
+    "lat": 36.8875548560323,
+    "severity": 31,
+    "county": "Unknown",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 296,
+    "lon": -77.45362606041934,
+    "lat": 38.98594409525811,
+    "severity": 31,
+    "county": "Unknown",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 343,
+    "lon": -79.82894395719353,
+    "lat": 37.45744117570972,
+    "severity": 31,
+    "county": "Unknown",
+    "point_count": 31
+  },
+  {
+    "cluster_id": 129,
+    "lon": -77.11777555599997,
+    "lat": 37.764043884300044,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 138,
+    "lon": -78.15437764706665,
+    "lat": 39.09043623933339,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 163,
+    "lon": -76.57718084686664,
+    "lat": 36.9090805193334,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 169,
+    "lon": -77.63917463886663,
+    "lat": 37.460170932633375,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 175,
+    "lon": -77.44952124769996,
+    "lat": 37.65938876030005,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 188,
+    "lon": -75.81451806073329,
+    "lat": 37.544249838733414,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 192,
+    "lon": -79.3086201876333,
+    "lat": 37.306380421066706,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 259,
+    "lon": -77.03033188509998,
+    "lat": 37.81022939226673,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 267,
+    "lon": -82.5912295892333,
+    "lat": 36.99028246660005,
+    "severity": 30,
+    "county": "Unknown",
+    "point_count": 30
+  },
+  {
+    "cluster_id": 50,
+    "lon": -78.11135211024136,
+    "lat": 38.733743980724185,
+    "severity": 29,
+    "county": "Unknown",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 92,
+    "lon": -77.66083009537928,
+    "lat": 39.21931025127592,
+    "severity": 29,
+    "county": "Unknown",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 223,
+    "lon": -78.82436246668962,
+    "lat": 38.34468472275867,
+    "severity": 29,
+    "county": "Unknown",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 283,
+    "lon": -79.91517117841377,
+    "lat": 37.07770813079317,
+    "severity": 29,
+    "county": "Unknown",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 340,
+    "lon": -77.77631331020687,
+    "lat": 37.708097206448336,
+    "severity": 29,
+    "county": "Unknown",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 354,
+    "lon": -78.40953325382755,
+    "lat": 38.26862762996557,
+    "severity": 29,
+    "county": "Unknown",
+    "point_count": 29
+  },
+  {
+    "cluster_id": 104,
+    "lon": -75.89790208453567,
+    "lat": 37.41393995764291,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 123,
+    "lon": -77.55325684017853,
+    "lat": 37.54671374907148,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 132,
+    "lon": -79.15265845696425,
+    "lat": 37.476550744892904,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 180,
+    "lon": -82.05237875910709,
+    "lat": 36.902283352035774,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 183,
+    "lon": -77.38103232517851,
+    "lat": 37.678920502571486,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 247,
+    "lon": -79.34066639885712,
+    "lat": 37.30104090946435,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 256,
+    "lon": -78.21797235010713,
+    "lat": 38.66431044325005,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 269,
+    "lon": -79.92647737528569,
+    "lat": 37.33016466039292,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 293,
+    "lon": -77.19021718607141,
+    "lat": 38.90012262121433,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 300,
+    "lon": -79.28522077832137,
+    "lat": 37.88585540675003,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 304,
+    "lon": -78.21602619953568,
+    "lat": 37.977578605500064,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 327,
+    "lon": -78.51924901371429,
+    "lat": 38.88577812989291,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 368,
+    "lon": -78.09234690335713,
+    "lat": 38.45069821053577,
+    "severity": 28,
+    "county": "Unknown",
+    "point_count": 28
+  },
+  {
+    "cluster_id": 109,
+    "lon": -79.8660991613333,
+    "lat": 37.27644514840747,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 127,
+    "lon": -80.7450160277407,
+    "lat": 37.08603537674079,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 181,
+    "lon": -77.53067741311106,
+    "lat": 37.519060470592656,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 193,
+    "lon": -78.85427649466664,
+    "lat": 38.034692539963025,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 197,
+    "lon": -80.49944190085182,
+    "lat": 37.292833952666726,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 230,
+    "lon": -75.83616530140738,
+    "lat": 37.51038743707412,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 235,
+    "lon": -79.9612283813333,
+    "lat": 37.342535176666715,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 260,
+    "lon": -80.72401328088888,
+    "lat": 37.097600678963026,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 297,
+    "lon": -80.74265111448148,
+    "lat": 36.581079385703774,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 312,
+    "lon": -82.54236121088887,
+    "lat": 36.93609156807414,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 350,
+    "lon": -79.60432237211108,
+    "lat": 37.350689179444494,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 353,
+    "lon": -77.44231461111109,
+    "lat": 38.73414084607412,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 359,
+    "lon": -77.04831471825925,
+    "lat": 37.49852430470375,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 375,
+    "lon": -83.17924978192589,
+    "lat": 36.67292003851857,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 385,
+    "lon": -78.11741211111111,
+    "lat": 39.113667883963025,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 412,
+    "lon": -77.68496485588885,
+    "lat": 37.508515299444504,
+    "severity": 27,
+    "county": "Unknown",
+    "point_count": 27
+  },
+  {
+    "cluster_id": 25,
+    "lon": -80.61002311930768,
+    "lat": 37.13886593796159,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 30,
+    "lon": -77.50553794099997,
+    "lat": 39.01332628650004,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 54,
+    "lon": -79.34022482449997,
+    "lat": 37.37657945219236,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 64,
+    "lon": -77.32423558542307,
+    "lat": 38.57994457311543,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 70,
+    "lon": -80.66789866069227,
+    "lat": 37.115439078038506,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 111,
+    "lon": -77.41347715611538,
+    "lat": 37.64356140042314,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 124,
+    "lon": -82.99946810146152,
+    "lat": 36.76485204507699,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 136,
+    "lon": -75.92911667711536,
+    "lat": 37.3677268525385,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 139,
+    "lon": -77.40310003273073,
+    "lat": 38.46936465750006,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 255,
+    "lon": -77.40508188930767,
+    "lat": 37.3476517202308,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 289,
+    "lon": -78.04663461907691,
+    "lat": 38.70395796238467,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 325,
+    "lon": -77.98701443049997,
+    "lat": 38.500045883538526,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 381,
+    "lon": -77.32663858880765,
+    "lat": 37.580870237307735,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 395,
+    "lon": -78.08709817788461,
+    "lat": 39.18362246953853,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 415,
+    "lon": -77.40343059507691,
+    "lat": 37.317867963269286,
+    "severity": 26,
+    "county": "Unknown",
+    "point_count": 26
+  },
+  {
+    "cluster_id": 62,
+    "lon": -80.07269177175995,
+    "lat": 37.813833972920044,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 67,
+    "lon": -77.71354326651998,
+    "lat": 37.50686687412006,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 160,
+    "lon": -79.19330043919997,
+    "lat": 37.33899374368008,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 161,
+    "lon": -78.95795228995998,
+    "lat": 37.65924849788004,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 241,
+    "lon": -77.22195455307998,
+    "lat": 38.27923483592005,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 244,
+    "lon": -78.03555937035998,
+    "lat": 37.88763473584006,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 248,
+    "lon": -82.00868205375997,
+    "lat": 36.69292491168005,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 306,
+    "lon": -79.76095046355996,
+    "lat": 37.39650933680005,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 398,
+    "lon": -81.64510706459996,
+    "lat": 36.809544205880044,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 399,
+    "lon": -77.43537023171999,
+    "lat": 39.00614095332005,
+    "severity": 25,
+    "county": "Unknown",
+    "point_count": 25
+  },
+  {
+    "cluster_id": 22,
+    "lon": -80.05330850779164,
+    "lat": 37.366667072166734,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 53,
+    "lon": -76.5861661463333,
+    "lat": 36.788124229541715,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 141,
+    "lon": -77.45897622916662,
+    "lat": 37.39166071945837,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 159,
+    "lon": -80.74778375599998,
+    "lat": 36.719655792625055,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 165,
+    "lon": -81.80599724074999,
+    "lat": 37.09704854975004,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 177,
+    "lon": -77.49314775254165,
+    "lat": 38.31469946333339,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 209,
+    "lon": -80.85295037529164,
+    "lat": 36.81061514729171,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 251,
+    "lon": -76.65789137091663,
+    "lat": 37.02715306383338,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 287,
+    "lon": -82.48788004091662,
+    "lat": 36.93932098354171,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 330,
+    "lon": -77.34162177254164,
+    "lat": 38.551159361541714,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 334,
+    "lon": -77.44410734266664,
+    "lat": 37.62109946175005,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 356,
+    "lon": -78.82534062312497,
+    "lat": 38.04020119720837,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 363,
+    "lon": -78.1128019392083,
+    "lat": 36.71546607158339,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 373,
+    "lon": -77.70773398066665,
+    "lat": 36.97791950545838,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 377,
+    "lon": -80.70449433166664,
+    "lat": 36.677198957666725,
+    "severity": 24,
+    "county": "Unknown",
+    "point_count": 24
+  },
+  {
+    "cluster_id": 51,
+    "lon": -80.57261634434781,
+    "lat": 37.09414982208702,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 81,
+    "lon": -77.65846554682605,
+    "lat": 38.45203059282615,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 133,
+    "lon": -79.3161883127826,
+    "lat": 37.86377528734788,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 205,
+    "lon": -79.73881431413042,
+    "lat": 37.50487269447833,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 237,
+    "lon": -79.94516228826087,
+    "lat": 37.10750352034788,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 257,
+    "lon": -77.83157645173911,
+    "lat": 38.52161397656527,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 258,
+    "lon": -80.90404056947823,
+    "lat": 36.92409564756524,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 264,
+    "lon": -77.48767266826084,
+    "lat": 37.67009051400004,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 281,
+    "lon": -77.6906955309565,
+    "lat": 37.55598258895657,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 286,
+    "lon": -79.8071299685217,
+    "lat": 37.271897201347876,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 299,
+    "lon": -76.76496782852172,
+    "lat": 37.5372842437392,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 305,
+    "lon": -78.05217141956521,
+    "lat": 38.41396358221744,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 308,
+    "lon": -79.89573062026084,
+    "lat": 37.29803487060874,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 314,
+    "lon": -77.70551574769561,
+    "lat": 39.19399530986961,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 400,
+    "lon": -80.79531556391302,
+    "lat": 36.991766411869605,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 438,
+    "lon": -78.07245289160868,
+    "lat": 38.515557647478325,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 453,
+    "lon": -77.80558934047822,
+    "lat": 37.71491604456527,
+    "severity": 23,
+    "county": "Unknown",
+    "point_count": 23
+  },
+  {
+    "cluster_id": 71,
+    "lon": -78.27401581031816,
+    "lat": 39.2194733170455,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 149,
+    "lon": -81.7986589434545,
+    "lat": 36.766867165545506,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 232,
+    "lon": -75.88586568390905,
+    "lat": 37.43372397631821,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 245,
+    "lon": -77.46674273090906,
+    "lat": 37.35065895777279,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 317,
+    "lon": -78.81487721627269,
+    "lat": 38.58795460468187,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 335,
+    "lon": -78.16452783727271,
+    "lat": 37.95863636318186,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 351,
+    "lon": -77.63839503481815,
+    "lat": 37.53665459740915,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 362,
+    "lon": -77.53535493463635,
+    "lat": 38.76946768386369,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 366,
+    "lon": -77.5321204855909,
+    "lat": 39.23692182959096,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 402,
+    "lon": -77.36018380345452,
+    "lat": 37.74969968577279,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 413,
+    "lon": -78.0213939513636,
+    "lat": 37.1103888724546,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 416,
+    "lon": -75.56023216122725,
+    "lat": 37.85753251245461,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 421,
+    "lon": -77.96514137513633,
+    "lat": 39.17988672150006,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 429,
+    "lon": -76.70726608918179,
+    "lat": 36.79873435890915,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 440,
+    "lon": -82.55438804181816,
+    "lat": 36.967620042090964,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 447,
+    "lon": -81.10603790636361,
+    "lat": 36.94659773422734,
+    "severity": 22,
+    "county": "Unknown",
+    "point_count": 22
+  },
+  {
+    "cluster_id": 61,
+    "lon": -78.2202473820476,
+    "lat": 38.97672440376196,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 84,
+    "lon": -77.53695929438092,
+    "lat": 39.20839807866675,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 85,
+    "lon": -77.52076918247619,
+    "lat": 38.92861030366672,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 125,
+    "lon": -80.51778807161904,
+    "lat": 37.3052679033334,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 145,
+    "lon": -77.85973232061899,
+    "lat": 38.51187396880958,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 176,
+    "lon": -77.38827941966663,
+    "lat": 37.5426685028572,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 206,
+    "lon": -77.137690553,
+    "lat": 37.50972987361911,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 220,
+    "lon": -80.46900804004758,
+    "lat": 37.21491099195244,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 224,
+    "lon": -79.56276099280952,
+    "lat": 37.63181835071433,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 226,
+    "lon": -78.01138460180951,
+    "lat": 39.111043670666724,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 328,
+    "lon": -79.05165827071426,
+    "lat": 38.039821282428626,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 361,
+    "lon": -77.31239657538093,
+    "lat": 38.947550059857186,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 371,
+    "lon": -79.69087663619045,
+    "lat": 37.53134630638101,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 410,
+    "lon": -75.62411678590472,
+    "lat": 37.75974038542862,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 422,
+    "lon": -77.98129598695236,
+    "lat": 38.44918275371434,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 487,
+    "lon": -77.93646729980951,
+    "lat": 38.94303337642863,
+    "severity": 21,
+    "county": "Unknown",
+    "point_count": 21
+  },
+  {
+    "cluster_id": 69,
+    "lon": -78.61726849714998,
+    "lat": 38.45124732600006,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 101,
+    "lon": -75.57489593239997,
+    "lat": 37.83573299690006,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 112,
+    "lon": -78.13231756649996,
+    "lat": 39.187761540850055,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 184,
+    "lon": -79.37329422949998,
+    "lat": 37.30102739115007,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 199,
+    "lon": -82.08447204409995,
+    "lat": 36.78148955780004,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 202,
+    "lon": -77.33739495514996,
+    "lat": 37.34285670780006,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 203,
+    "lon": -79.76034864975,
+    "lat": 37.494684076200045,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 229,
+    "lon": -77.68600609744996,
+    "lat": 38.70937868280006,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 291,
+    "lon": -77.42711749929995,
+    "lat": 38.96354314940005,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 292,
+    "lon": -77.24002330944994,
+    "lat": 38.674442126900075,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 307,
+    "lon": -80.8723985592,
+    "lat": 36.871098657100056,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 329,
+    "lon": -75.60489586094995,
+    "lat": 37.78907559070005,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 379,
+    "lon": -79.73610864869995,
+    "lat": 37.259778196750055,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 384,
+    "lon": -75.7266933772,
+    "lat": 37.70706860195007,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 386,
+    "lon": -78.22870985804997,
+    "lat": 36.671109410150045,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 418,
+    "lon": -78.72231246159997,
+    "lat": 38.59654130095006,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 431,
+    "lon": -77.83935779739997,
+    "lat": 37.74379494635005,
+    "severity": 20,
+    "county": "Unknown",
+    "point_count": 20
+  },
+  {
+    "cluster_id": 27,
+    "lon": -80.76760373052632,
+    "lat": 37.34924055563163,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 31,
+    "lon": -77.90073099326312,
+    "lat": 38.50111295431585,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 33,
+    "lon": -80.97649615942105,
+    "lat": 36.888994000631634,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 55,
+    "lon": -77.81381720310526,
+    "lat": 38.81374982526319,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 100,
+    "lon": -78.09373089215786,
+    "lat": 38.724206474052664,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 110,
+    "lon": -80.9183856750526,
+    "lat": 36.64680520226322,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 158,
+    "lon": -80.86039355857892,
+    "lat": 36.84748583947374,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 242,
+    "lon": -80.03446909284207,
+    "lat": 37.249613747157966,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 246,
+    "lon": -77.20725407852626,
+    "lat": 38.93029254826322,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 272,
+    "lon": -77.68550798115785,
+    "lat": 38.625644093947415,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 288,
+    "lon": -77.98633214568417,
+    "lat": 39.03218497431585,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 318,
+    "lon": -78.17244858963156,
+    "lat": 38.951065538000044,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 321,
+    "lon": -76.77925376436839,
+    "lat": 37.80353275026321,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 322,
+    "lon": -75.97125752299996,
+    "lat": 37.23974504478953,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 326,
+    "lon": -76.60256005884207,
+    "lat": 36.76579662747372,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 338,
+    "lon": -77.53483981294734,
+    "lat": 37.68129620115796,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 347,
+    "lon": -77.7152170665789,
+    "lat": 37.694985081894785,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 364,
+    "lon": -77.6332399875263,
+    "lat": 38.866774581052674,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 365,
+    "lon": -77.37876863442105,
+    "lat": 37.568471504842165,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 409,
+    "lon": -79.89346525015787,
+    "lat": 36.847094659263206,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 446,
+    "lon": -77.86172420457892,
+    "lat": 37.75894348231583,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 460,
+    "lon": -77.51555723226313,
+    "lat": 36.74075655594741,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 463,
+    "lon": -79.94285410721048,
+    "lat": 37.28457373400005,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 469,
+    "lon": -77.50920672199997,
+    "lat": 38.98926751942111,
+    "severity": 19,
+    "county": "Unknown",
+    "point_count": 19
+  },
+  {
+    "cluster_id": 45,
+    "lon": -77.87170431372219,
+    "lat": 39.118951584888954,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 73,
+    "lon": -77.38933772166664,
+    "lat": 38.15156581005563,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 157,
+    "lon": -76.49703006566664,
+    "lat": 36.903036055944504,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 167,
+    "lon": -78.12145520027772,
+    "lat": 38.45423138988893,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 174,
+    "lon": -77.6336538417222,
+    "lat": 37.50264105555561,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 218,
+    "lon": -76.53353835399997,
+    "lat": 36.78721603450005,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 234,
+    "lon": -78.0502288759444,
+    "lat": 37.11889446488894,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 250,
+    "lon": -80.7154431657222,
+    "lat": 36.78924799622227,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 275,
+    "lon": -80.73967940611107,
+    "lat": 37.21765910116673,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 301,
+    "lon": -81.77439720194445,
+    "lat": 37.09165124411119,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 319,
+    "lon": -78.95205067027774,
+    "lat": 38.26540161350005,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 323,
+    "lon": -78.24676335755554,
+    "lat": 39.19786919233341,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 337,
+    "lon": -77.1270661492222,
+    "lat": 37.533375550555604,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 342,
+    "lon": -76.73526978333331,
+    "lat": 37.54796723961119,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 349,
+    "lon": -82.51759216699996,
+    "lat": 36.936625478500076,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 369,
+    "lon": -77.66503545816664,
+    "lat": 37.631819474888935,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 397,
+    "lon": -81.96997532727775,
+    "lat": 36.93582429266675,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 401,
+    "lon": -77.34771537338887,
+    "lat": 37.3592148739445,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 414,
+    "lon": -77.42420112766665,
+    "lat": 37.37817232894451,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 426,
+    "lon": -77.01540892249997,
+    "lat": 37.43667742761115,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 443,
+    "lon": -76.73325636661109,
+    "lat": 37.352891813888945,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 445,
+    "lon": -81.09883957405556,
+    "lat": 36.91645750311115,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 456,
+    "lon": -78.06747478594443,
+    "lat": 38.71827931677783,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 461,
+    "lon": -79.2485079856111,
+    "lat": 37.918257014277835,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 468,
+    "lon": -77.49917124316666,
+    "lat": 37.16988683661116,
+    "severity": 18,
+    "county": "Unknown",
+    "point_count": 18
+  },
+  {
+    "cluster_id": 172,
+    "lon": -77.52843154364706,
+    "lat": 36.724811484529475,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 219,
+    "lon": -79.44017501623524,
+    "lat": 37.36433639111769,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 252,
+    "lon": -76.64450108617642,
+    "lat": 37.2552282608824,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 263,
+    "lon": -77.32055121541171,
+    "lat": 38.255993431411824,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 302,
+    "lon": -77.74506649464705,
+    "lat": 38.59704091617653,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 311,
+    "lon": -80.51149504194115,
+    "lat": 37.07678666141181,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 320,
+    "lon": -82.64887389070587,
+    "lat": 36.92805862594122,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 332,
+    "lon": -76.52296057188231,
+    "lat": 36.958903116235334,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 333,
+    "lon": -76.555865057647,
+    "lat": 36.96801693688241,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 352,
+    "lon": -77.35239849964701,
+    "lat": 37.55052600841183,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 355,
+    "lon": -81.53632175441172,
+    "lat": 37.11038952005888,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 360,
+    "lon": -77.33549839017644,
+    "lat": 37.47570822305886,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 382,
+    "lon": -77.16434852029408,
+    "lat": 37.495435884941216,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 388,
+    "lon": -77.39247868876467,
+    "lat": 39.04459210282357,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 390,
+    "lon": -79.11689680205878,
+    "lat": 37.52005264223534,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 394,
+    "lon": -77.06054021158822,
+    "lat": 37.801557353882394,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 405,
+    "lon": -77.56500533341173,
+    "lat": 37.195386199529466,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 419,
+    "lon": -79.73557522447055,
+    "lat": 37.386257977764764,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 430,
+    "lon": -79.8707835748823,
+    "lat": 36.875558265588275,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 437,
+    "lon": -77.60022877682351,
+    "lat": 37.49246699252945,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 455,
+    "lon": -78.86295326158819,
+    "lat": 38.42243660582359,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 464,
+    "lon": -78.64668481494112,
+    "lat": 38.71851980947065,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 467,
+    "lon": -81.93471526188235,
+    "lat": 36.96198846347064,
+    "severity": 17,
+    "county": "Unknown",
+    "point_count": 17
+  },
+  {
+    "cluster_id": 80,
+    "lon": -81.10735237224998,
+    "lat": 36.617193695562584,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 134,
+    "lon": -78.15112495299996,
+    "lat": 38.946279471375064,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 211,
+    "lon": -77.56561716062495,
+    "lat": 38.797877743562545,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 266,
+    "lon": -76.86234796356246,
+    "lat": 37.44824371706254,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 282,
+    "lon": -80.40340295481246,
+    "lat": 37.219423434312546,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 316,
+    "lon": -76.69112945162496,
+    "lat": 36.92209177900004,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 339,
+    "lon": -76.58855405337496,
+    "lat": 36.592990771437556,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 341,
+    "lon": -79.88220756162495,
+    "lat": 37.020443612562545,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 357,
+    "lon": -78.81051592618748,
+    "lat": 38.39284264862505,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 380,
+    "lon": -80.32385086937497,
+    "lat": 37.15937397968755,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 393,
+    "lon": -77.69264913931246,
+    "lat": 37.40287071093755,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 396,
+    "lon": -77.31034125549996,
+    "lat": 37.47499026681256,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 420,
+    "lon": -77.90732216712495,
+    "lat": 36.84809535875006,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 424,
+    "lon": -78.64609363856246,
+    "lat": 38.061278605250074,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 432,
+    "lon": -75.70800542299997,
+    "lat": 37.70346563368756,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 458,
+    "lon": -81.46930578849995,
+    "lat": 37.15886829306254,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 462,
+    "lon": -77.74014445162496,
+    "lat": 39.20722313600005,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 473,
+    "lon": -80.91741290431249,
+    "lat": 36.94727353543756,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 475,
+    "lon": -79.51289107393747,
+    "lat": 37.32525936350005,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 476,
+    "lon": -77.40920592987499,
+    "lat": 38.016680237125065,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 479,
+    "lon": -82.13012361324996,
+    "lat": 37.310150124937564,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 480,
+    "lon": -78.24929681293746,
+    "lat": 37.992476566687564,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 483,
+    "lon": -77.90201120106246,
+    "lat": 39.128046185312556,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 486,
+    "lon": -78.73373542143747,
+    "lat": 38.577277070000065,
+    "severity": 16,
+    "county": "Unknown",
+    "point_count": 16
+  },
+  {
+    "cluster_id": 166,
+    "lon": -80.92172303259999,
+    "lat": 36.61588206053338,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 198,
+    "lon": -80.42409896659998,
+    "lat": 37.02391218893339,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 215,
+    "lon": -75.54653779666663,
+    "lat": 37.89439877326675,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 271,
+    "lon": -77.19726961386662,
+    "lat": 38.95117899380006,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 284,
+    "lon": -80.51634758753329,
+    "lat": 36.718140513800066,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 298,
+    "lon": -77.13925905306662,
+    "lat": 37.732310610200074,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 315,
+    "lon": -77.6551295011333,
+    "lat": 37.80190496833338,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 324,
+    "lon": -75.49430095166665,
+    "lat": 37.91426160166669,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 346,
+    "lon": -77.60482907826665,
+    "lat": 39.07960740520003,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 358,
+    "lon": -77.35128473239999,
+    "lat": 37.160968032533376,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 367,
+    "lon": -78.69125586006662,
+    "lat": 37.907103377266715,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 370,
+    "lon": -78.2834552891333,
+    "lat": 39.304473723200054,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 374,
+    "lon": -78.56116237406664,
+    "lat": 38.052048224200036,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 383,
+    "lon": -78.85080107113328,
+    "lat": 38.437442684533394,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 387,
+    "lon": -80.23957830473333,
+    "lat": 37.17549772373338,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 389,
+    "lon": -77.64939083553328,
+    "lat": 38.786847797266724,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 391,
+    "lon": -79.21294288379997,
+    "lat": 37.327948958000064,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 392,
+    "lon": -77.52729631526663,
+    "lat": 37.11870268060002,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 406,
+    "lon": -80.71790228659997,
+    "lat": 37.23972299006673,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 408,
+    "lon": -77.93947992559998,
+    "lat": 39.14044621853339,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 411,
+    "lon": -78.22445687893331,
+    "lat": 37.276816885666726,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 417,
+    "lon": -78.43620547839996,
+    "lat": 38.70828864006673,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 423,
+    "lon": -77.14787496333331,
+    "lat": 38.23830808933341,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 433,
+    "lon": -78.79848671653329,
+    "lat": 38.49861281160005,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 434,
+    "lon": -78.14838379513331,
+    "lat": 39.04122905546672,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 435,
+    "lon": -78.65305131253332,
+    "lat": 38.69206931646672,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 439,
+    "lon": -78.72703477859999,
+    "lat": 38.31615535546671,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 441,
+    "lon": -79.04023679333332,
+    "lat": 37.37587454206672,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 442,
+    "lon": -77.49221046706663,
+    "lat": 37.35421474613342,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 444,
+    "lon": -76.55071661453331,
+    "lat": 36.766697321200056,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 448,
+    "lon": -77.15604436659994,
+    "lat": 37.70749141133339,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 449,
+    "lon": -82.24956629606663,
+    "lat": 36.83552420386669,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 451,
+    "lon": -76.94369233646664,
+    "lat": 37.50319250166672,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 457,
+    "lon": -78.21943850146664,
+    "lat": 39.193103215466735,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 466,
+    "lon": -77.98467307486666,
+    "lat": 37.84296304633337,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 471,
+    "lon": -76.36776151619993,
+    "lat": 37.03151992633338,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 472,
+    "lon": -79.12305575259997,
+    "lat": 37.50269128886672,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 477,
+    "lon": -82.00289449066663,
+    "lat": 37.21046825860005,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 482,
+    "lon": -78.25597660166663,
+    "lat": 39.27853746486672,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 484,
+    "lon": -78.38926721466663,
+    "lat": 38.23944757353339,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 485,
+    "lon": -79.09886918066664,
+    "lat": 38.04301305066672,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 489,
+    "lon": -77.26366499886663,
+    "lat": 37.40480287340004,
+    "severity": 15,
+    "county": "Unknown",
+    "point_count": 15
+  },
+  {
+    "cluster_id": 310,
+    "lon": -79.49887494164282,
+    "lat": 37.33751717192861,
+    "severity": 14,
+    "county": "Unknown",
+    "point_count": 14
+  },
+  {
+    "cluster_id": 376,
+    "lon": -79.3921279940714,
+    "lat": 37.30731685935717,
+    "severity": 14,
+    "county": "Unknown",
+    "point_count": 14
+  },
+  {
+    "cluster_id": 404,
+    "lon": -77.68999823757142,
+    "lat": 39.16472861357147,
+    "severity": 14,
+    "county": "Unknown",
+    "point_count": 14
+  },
+  {
+    "cluster_id": 452,
+    "lon": -77.53116345484612,
+    "lat": 38.75424974023083,
+    "severity": 13,
+    "county": "Unknown",
+    "point_count": 13
+  },
+  {
+    "cluster_id": 170,
+    "lon": -77.90077946918178,
+    "lat": 38.87555863663642,
+    "severity": 11,
+    "county": "Unknown",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 270,
+    "lon": -79.28532556318179,
+    "lat": 37.3051451783637,
+    "severity": 11,
+    "county": "Unknown",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 427,
+    "lon": -78.1580618500909,
+    "lat": 39.21290722518187,
+    "severity": 11,
+    "county": "Unknown",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 450,
+    "lon": -82.60247489636357,
+    "lat": 36.96327784281824,
+    "severity": 11,
+    "county": "Unknown",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 459,
+    "lon": -78.97455540354544,
+    "lat": 38.18326792345462,
+    "severity": 11,
+    "county": "Unknown",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 465,
+    "lon": -77.42118113581817,
+    "lat": 38.730343756818236,
+    "severity": 11,
+    "county": "Unknown",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 488,
+    "lon": -77.76117468372726,
+    "lat": 38.96641778681825,
+    "severity": 11,
+    "county": "Unknown",
+    "point_count": 11
+  },
+  {
+    "cluster_id": 236,
+    "lon": -79.84964404579996,
+    "lat": 37.28493661130009,
+    "severity": 10,
+    "county": "Unknown",
+    "point_count": 10
+  },
+  {
+    "cluster_id": 454,
+    "lon": -77.67143521189998,
+    "lat": 39.20284960680006,
+    "severity": 10,
+    "county": "Unknown",
+    "point_count": 10
+  },
+  {
+    "cluster_id": 436,
+    "lon": -78.07789887311107,
+    "lat": 38.393605403777826,
+    "severity": 9,
+    "county": "Unknown",
+    "point_count": 9
+  },
+  {
+    "cluster_id": 470,
+    "lon": -81.57692028924998,
+    "lat": 36.81120563875005,
+    "severity": 8,
+    "county": "Unknown",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 474,
+    "lon": -78.68300374387498,
+    "lat": 37.919274432250035,
+    "severity": 8,
+    "county": "Unknown",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 481,
+    "lon": -77.21127361262499,
+    "lat": 37.51432997637504,
+    "severity": 8,
+    "county": "Unknown",
+    "point_count": 8
+  },
+  {
+    "cluster_id": 428,
+    "lon": -77.66251556185709,
+    "lat": 38.78323246971432,
+    "severity": 7,
+    "county": "Unknown",
+    "point_count": 7
+  },
+  {
+    "cluster_id": 403,
+    "lon": -80.4374561578333,
+    "lat": 37.02680232050007,
+    "severity": 6,
+    "county": "Unknown",
+    "point_count": 6
+  },
+  {
+    "cluster_id": 478,
+    "lon": -77.90607183716658,
+    "lat": 38.88393103416677,
+    "severity": 6,
+    "county": "Unknown",
+    "point_count": 6
+  }
+]

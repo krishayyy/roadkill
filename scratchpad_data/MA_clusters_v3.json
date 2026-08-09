@@ -1,0 +1,5569 @@
+[
+  {
+    "cluster_id": 7,
+    "lon": -71.24905390797682,
+    "lat": 41.79322311707474,
+    "severity": 776,
+    "point_count": 776,
+    "deer_coded_count": 721,
+    "county": "BRISTOL",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.0648638160228043,
+    "extent_m": 22297.27853440378,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.06 < 2.5)"
+  },
+  {
+    "cluster_id": 2,
+    "lon": -71.00829540135659,
+    "lat": 42.040835734354005,
+    "severity": 774,
+    "point_count": 774,
+    "deer_coded_count": 712,
+    "county": "PLYMOUTH",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.0576081419395367,
+    "extent_m": 20906.227227031,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.06 < 2.5)"
+  },
+  {
+    "cluster_id": 8,
+    "lon": -71.53302135975,
+    "lat": 42.27618971665001,
+    "severity": 400,
+    "point_count": 400,
+    "deer_coded_count": 368,
+    "county": "MIDDLESEX",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.2903460026530518,
+    "extent_m": 15585.029987369233,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.29 < 2.5)"
+  },
+  {
+    "cluster_id": 62,
+    "lon": -71.08375651806283,
+    "lat": 41.62470550589005,
+    "severity": 382,
+    "point_count": 382,
+    "deer_coded_count": 370,
+    "county": "BRISTOL",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.1992302772179,
+    "extent_m": 15125.543725994437,
+    "path": null,
+    "path_rejected_reason": "points spread 1497 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 15,
+    "lon": -70.76152511188525,
+    "lat": 41.7423032089071,
+    "severity": 366,
+    "point_count": 366,
+    "deer_coded_count": 339,
+    "county": "PLYMOUTH",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.6582599550955353,
+    "extent_m": 13391.355358769877,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.66 < 2.5)"
+  },
+  {
+    "cluster_id": 4,
+    "lon": -70.91604847065743,
+    "lat": 41.72611652871972,
+    "severity": 289,
+    "point_count": 289,
+    "deer_coded_count": 271,
+    "county": "BRISTOL",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.713074019650869,
+    "extent_m": 12673.365291918635,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.71 < 2.5)"
+  },
+  {
+    "cluster_id": 24,
+    "lon": -70.93311747235293,
+    "lat": 41.90018615672793,
+    "severity": 272,
+    "point_count": 272,
+    "deer_coded_count": 255,
+    "county": "PLYMOUTH",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.8973787638432882,
+    "extent_m": 10252.549079665994,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.90 < 2.5)"
+  },
+  {
+    "cluster_id": 35,
+    "lon": -70.72895256533864,
+    "lat": 42.048220809840636,
+    "severity": 251,
+    "point_count": 251,
+    "deer_coded_count": 233,
+    "county": "PLYMOUTH",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.3524055034531286,
+    "extent_m": 15488.1514754211,
+    "path": null,
+    "path_rejected_reason": "points spread 1426 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 1,
+    "lon": -73.24427773276784,
+    "lat": 42.29294878267857,
+    "severity": 224,
+    "point_count": 224,
+    "deer_coded_count": 146,
+    "county": "BERKSHIRE",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 5.5626886232414465,
+    "extent_m": 19463.829537715454,
+    "path": null,
+    "path_rejected_reason": "points spread 801 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 25,
+    "lon": -70.87561345791667,
+    "lat": 42.16240084592592,
+    "severity": 216,
+    "point_count": 216,
+    "deer_coded_count": 209,
+    "county": "PLYMOUTH",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 7.531541170847215,
+    "extent_m": 16673.788442218844,
+    "path": null,
+    "path_rejected_reason": "points spread 1044 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 9,
+    "lon": -71.39275884886791,
+    "lat": 42.220246874245284,
+    "severity": 212,
+    "point_count": 212,
+    "deer_coded_count": 209,
+    "county": "MIDDLESEX",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.962081682976301,
+    "extent_m": 10174.509713638265,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.96 < 2.5)"
+  },
+  {
+    "cluster_id": 26,
+    "lon": -71.32259968507316,
+    "lat": 42.33502282580487,
+    "severity": 205,
+    "point_count": 205,
+    "deer_coded_count": 193,
+    "county": "MIDDLESEX",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.544894716626773,
+    "extent_m": 12960.371453120668,
+    "path": null,
+    "path_rejected_reason": "points spread 1104 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 29,
+    "lon": -72.46538804955,
+    "lat": 42.06611352215,
+    "severity": 200,
+    "point_count": 200,
+    "deer_coded_count": 188,
+    "county": "HAMPDEN",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.7541778015146645,
+    "extent_m": 10635.595804712746,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.75 < 2.5)"
+  },
+  {
+    "cluster_id": 64,
+    "lon": -71.05556202780613,
+    "lat": 41.95680078071428,
+    "severity": 196,
+    "point_count": 196,
+    "deer_coded_count": 193,
+    "county": "BRISTOL",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.3243331495409807,
+    "extent_m": 11862.366911274992,
+    "path": null,
+    "path_rejected_reason": "points spread 1098 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 13,
+    "lon": -71.45368875356384,
+    "lat": 42.5644265725,
+    "severity": 188,
+    "point_count": 188,
+    "deer_coded_count": 177,
+    "county": "MIDDLESEX",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.5380248689572142,
+    "extent_m": 7368.190092920263,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.54 < 2.5)"
+  },
+  {
+    "cluster_id": 49,
+    "lon": -71.05904170579545,
+    "lat": 41.88108329755682,
+    "severity": 176,
+    "point_count": 176,
+    "deer_coded_count": 165,
+    "county": "BRISTOL",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.163946677298511,
+    "extent_m": 8890.289349931629,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.16 < 2.5)"
+  },
+  {
+    "cluster_id": 17,
+    "lon": -71.20655412045977,
+    "lat": 42.65431875568966,
+    "severity": 174,
+    "point_count": 174,
+    "deer_coded_count": 162,
+    "county": "ESSEX",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.2067764711148252,
+    "extent_m": 9357.61995429052,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.21 < 2.5)"
+  },
+  {
+    "cluster_id": 3,
+    "lon": -72.62908311765432,
+    "lat": 42.39675106080247,
+    "severity": 162,
+    "point_count": 162,
+    "deer_coded_count": 123,
+    "county": "HAMPSHIRE",
+    "radius_m": 148.04254228447624,
+    "circle_radius_m": 3000.0,
+    "elongation": 17.247463794439636,
+    "extent_m": 11430.498612609512,
+    "path": [
+      {
+        "lat": 42.34859,
+        "lon": -72.6409
+      },
+      {
+        "lat": 42.35802,
+        "lon": -72.63785
+      },
+      {
+        "lat": 42.37075,
+        "lon": -72.63344
+      },
+      {
+        "lat": 42.38064,
+        "lon": -72.6316
+      },
+      {
+        "lat": 42.39072,
+        "lon": -72.62999
+      },
+      {
+        "lat": 42.39659,
+        "lon": -72.62842
+      },
+      {
+        "lat": 42.40168,
+        "lon": -72.62787
+      },
+      {
+        "lat": 42.40521,
+        "lon": -72.62684
+      },
+      {
+        "lat": 42.41947,
+        "lon": -72.62422
+      },
+      {
+        "lat": 42.42243,
+        "lon": -72.62367
+      },
+      {
+        "lat": 42.43449,
+        "lon": -72.62209
+      },
+      {
+        "lat": 42.44253,
+        "lon": -72.61997
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 34,
+    "lon": -71.06565710348102,
+    "lat": 42.11303671835444,
+    "severity": 158,
+    "point_count": 158,
+    "deer_coded_count": 148,
+    "county": "NORFOLK",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.581748908768804,
+    "extent_m": 12572.250016291917,
+    "path": null,
+    "path_rejected_reason": "points spread 1030 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 38,
+    "lon": -72.58105220222222,
+    "lat": 42.63008774958334,
+    "severity": 144,
+    "point_count": 144,
+    "deer_coded_count": 124,
+    "county": "FRANKLIN",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 7.367446773460938,
+    "extent_m": 11669.788981274069,
+    "path": null,
+    "path_rejected_reason": "points spread 481 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 96,
+    "lon": -71.85763137965279,
+    "lat": 42.11853663590278,
+    "severity": 144,
+    "point_count": 144,
+    "deer_coded_count": 136,
+    "county": "WORCESTER",
+    "radius_m": 108.5162718889495,
+    "circle_radius_m": 3000.0,
+    "elongation": 9.883306385661221,
+    "extent_m": 12587.410803360159,
+    "path": [
+      {
+        "lat": 42.06483,
+        "lon": -71.86015
+      },
+      {
+        "lat": 42.07615,
+        "lon": -71.86514
+      },
+      {
+        "lat": 42.08872,
+        "lon": -71.86597
+      },
+      {
+        "lat": 42.09634,
+        "lon": -71.86127
+      },
+      {
+        "lat": 42.11004,
+        "lon": -71.85514
+      },
+      {
+        "lat": 42.11621,
+        "lon": -71.85521
+      },
+      {
+        "lat": 42.11943,
+        "lon": -71.85527
+      },
+      {
+        "lat": 42.13067,
+        "lon": -71.85743
+      },
+      {
+        "lat": 42.13966,
+        "lon": -71.85637
+      },
+      {
+        "lat": 42.15232,
+        "lon": -71.85585
+      },
+      {
+        "lat": 42.15574,
+        "lon": -71.85429
+      },
+      {
+        "lat": 42.16595,
+        "lon": -71.84486
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 69,
+    "lon": -71.59015508465116,
+    "lat": 42.43541350248063,
+    "severity": 129,
+    "point_count": 129,
+    "deer_coded_count": 124,
+    "county": "WORCESTER",
+    "radius_m": 2992.3794914232817,
+    "circle_radius_m": 2992.3794914232817,
+    "elongation": 2.4010218764662086,
+    "extent_m": 6950.083482884309,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.40 < 2.5)"
+  },
+  {
+    "cluster_id": 67,
+    "lon": -72.62011193690475,
+    "lat": 42.516986896111106,
+    "severity": 126,
+    "point_count": 126,
+    "deer_coded_count": 100,
+    "county": "FRANKLIN",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 8.803141196366258,
+    "extent_m": 13086.194067057535,
+    "path": null,
+    "path_rejected_reason": "points spread 564 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 51,
+    "lon": -72.4257115447541,
+    "lat": 42.159212983196724,
+    "severity": 122,
+    "point_count": 122,
+    "deer_coded_count": 109,
+    "county": "HAMPDEN",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.1788268950481022,
+    "extent_m": 9086.726257389186,
+    "path": null,
+    "path_rejected_reason": "points spread 943 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 117,
+    "lon": -70.83149943008401,
+    "lat": 41.67399406,
+    "severity": 119,
+    "point_count": 119,
+    "deer_coded_count": 115,
+    "county": "PLYMOUTH",
+    "radius_m": 2742.236811524606,
+    "circle_radius_m": 2742.236811524606,
+    "elongation": 2.3834158667127308,
+    "extent_m": 6627.507267459123,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.38 < 2.5)"
+  },
+  {
+    "cluster_id": 57,
+    "lon": -70.96482029322034,
+    "lat": 42.83629988381357,
+    "severity": 118,
+    "point_count": 118,
+    "deer_coded_count": 112,
+    "county": "ESSEX",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 6.118299118655318,
+    "extent_m": 9533.66924631675,
+    "path": null,
+    "path_rejected_reason": "points spread 402 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 75,
+    "lon": -73.18877648675439,
+    "lat": 42.70879957500001,
+    "severity": 114,
+    "point_count": 114,
+    "deer_coded_count": 104,
+    "county": "BERKSHIRE",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.0205149306917516,
+    "extent_m": 8383.53685201726,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.02 < 2.5)"
+  },
+  {
+    "cluster_id": 80,
+    "lon": -71.19859961580357,
+    "lat": 42.24772081714286,
+    "severity": 112,
+    "point_count": 112,
+    "deer_coded_count": 108,
+    "county": "NORFOLK",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 2.140187954127076,
+    "extent_m": 7732.913597973825,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.14 < 2.5)"
+  },
+  {
+    "cluster_id": 16,
+    "lon": -72.43278098869159,
+    "lat": 42.111061998411216,
+    "severity": 107,
+    "point_count": 107,
+    "deer_coded_count": 103,
+    "county": "HAMPDEN",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 1.2326650776800523,
+    "extent_m": 5623.815038086193,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.23 < 2.5)"
+  },
+  {
+    "cluster_id": 22,
+    "lon": -71.62940311403847,
+    "lat": 42.6584173175,
+    "severity": 104,
+    "point_count": 104,
+    "deer_coded_count": 93,
+    "county": "MIDDLESEX",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 4.00112134133651,
+    "extent_m": 10671.745240205295,
+    "path": null,
+    "path_rejected_reason": "points spread 813 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 93,
+    "lon": -70.54293675970588,
+    "lat": 41.78880618235294,
+    "severity": 102,
+    "point_count": 102,
+    "deer_coded_count": 91,
+    "county": "BARNSTABLE",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.3784469971298168,
+    "extent_m": 7440.882092297957,
+    "path": null,
+    "path_rejected_reason": "points spread 471 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 23,
+    "lon": -71.0740657581,
+    "lat": 41.7958782735,
+    "severity": 100,
+    "point_count": 100,
+    "deer_coded_count": 96,
+    "county": "BRISTOL",
+    "radius_m": 2463.4177327916263,
+    "circle_radius_m": 2463.4177327916263,
+    "elongation": 1.7245083721745995,
+    "extent_m": 5828.8353713130455,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.72 < 2.5)"
+  },
+  {
+    "cluster_id": 32,
+    "lon": -71.2179008416,
+    "lat": 42.132960244799996,
+    "severity": 100,
+    "point_count": 100,
+    "deer_coded_count": 93,
+    "county": "NORFOLK",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.1073357768037426,
+    "extent_m": 7241.950980602097,
+    "path": null,
+    "path_rejected_reason": "points spread 708 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 10,
+    "lon": -72.53826032806123,
+    "lat": 42.1617939922449,
+    "severity": 98,
+    "point_count": 98,
+    "deer_coded_count": 86,
+    "county": "HAMPDEN",
+    "radius_m": 2477.695704043027,
+    "circle_radius_m": 2477.695704043027,
+    "elongation": 2.591447448034011,
+    "extent_m": 6532.258782486886,
+    "path": null,
+    "path_rejected_reason": "points spread 659 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 120,
+    "lon": -72.04794756757893,
+    "lat": 42.12845571463158,
+    "severity": 95,
+    "point_count": 95,
+    "deer_coded_count": 86,
+    "county": "WORCESTER",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 4.80197367773593,
+    "extent_m": 8638.749781604532,
+    "path": null,
+    "path_rejected_reason": "points spread 568 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 110,
+    "lon": -71.92789570617019,
+    "lat": 42.55434811734043,
+    "severity": 94,
+    "point_count": 94,
+    "deer_coded_count": 85,
+    "county": "WORCESTER",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 5.630759025217598,
+    "extent_m": 8003.127252304659,
+    "path": null,
+    "path_rejected_reason": "points spread 548 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 72,
+    "lon": -70.81690433086021,
+    "lat": 41.95125000053764,
+    "severity": 93,
+    "point_count": 93,
+    "deer_coded_count": 92,
+    "county": "PLYMOUTH",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.4703739289379385,
+    "extent_m": 8895.416937615311,
+    "path": null,
+    "path_rejected_reason": "points spread 801 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 19,
+    "lon": -70.89072762777778,
+    "lat": 41.663838852555564,
+    "severity": 90,
+    "point_count": 90,
+    "deer_coded_count": 74,
+    "county": "BRISTOL",
+    "radius_m": 2537.8240564452794,
+    "circle_radius_m": 2537.8240564452794,
+    "elongation": 1.617333459867867,
+    "extent_m": 6121.877488633051,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.62 < 2.5)"
+  },
+  {
+    "cluster_id": 73,
+    "lon": -72.0358531562222,
+    "lat": 42.563482396333335,
+    "severity": 90,
+    "point_count": 90,
+    "deer_coded_count": 78,
+    "county": "WORCESTER",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.2878644912943233,
+    "extent_m": 8315.911385275398,
+    "path": null,
+    "path_rejected_reason": "points spread 620 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 21,
+    "lon": -72.64498460761904,
+    "lat": 42.14724976761904,
+    "severity": 84,
+    "point_count": 84,
+    "deer_coded_count": 73,
+    "county": "HAMPDEN",
+    "radius_m": 2021.5031653563133,
+    "circle_radius_m": 2021.5031653563133,
+    "elongation": 1.7142849918333118,
+    "extent_m": 4260.230639034024,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.71 < 2.5)"
+  },
+  {
+    "cluster_id": 137,
+    "lon": -71.64030382518519,
+    "lat": 42.053675982962964,
+    "severity": 81,
+    "point_count": 81,
+    "deer_coded_count": 79,
+    "county": "WORCESTER",
+    "radius_m": 3000.0,
+    "circle_radius_m": 3000.0,
+    "elongation": 3.04239067497522,
+    "extent_m": 6938.401818319204,
+    "path": null,
+    "path_rejected_reason": "points spread 801 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 30,
+    "lon": -72.56452614474999,
+    "lat": 42.066957729,
+    "severity": 80,
+    "point_count": 80,
+    "deer_coded_count": 71,
+    "county": "HAMPDEN",
+    "radius_m": 2095.0252900318924,
+    "circle_radius_m": 2095.0252900318924,
+    "elongation": 1.895518523715457,
+    "extent_m": 4720.037382167746,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.90 < 2.5)"
+  },
+  {
+    "cluster_id": 52,
+    "lon": -70.9703576764935,
+    "lat": 41.650749561558435,
+    "severity": 77,
+    "point_count": 77,
+    "deer_coded_count": 71,
+    "county": "BRISTOL",
+    "radius_m": 2025.984011066702,
+    "circle_radius_m": 2025.984011066702,
+    "elongation": 1.8406728119877485,
+    "extent_m": 4564.56323471657,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.84 < 2.5)"
+  },
+  {
+    "cluster_id": 56,
+    "lon": -70.76851820118422,
+    "lat": 42.196536477368426,
+    "severity": 76,
+    "point_count": 76,
+    "deer_coded_count": 75,
+    "county": "PLYMOUTH",
+    "radius_m": 2977.3000644269205,
+    "circle_radius_m": 2977.3000644269205,
+    "elongation": 3.563456914539706,
+    "extent_m": 6210.01892067018,
+    "path": null,
+    "path_rejected_reason": "points spread 900 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 60,
+    "lon": -70.94055191757143,
+    "lat": 42.810895888714285,
+    "severity": 70,
+    "point_count": 70,
+    "deer_coded_count": 68,
+    "county": "ESSEX",
+    "radius_m": 224.00310237767857,
+    "circle_radius_m": 2560.307260360469,
+    "elongation": 4.236473543454274,
+    "extent_m": 6242.8709824298185,
+    "path": [
+      {
+        "lat": 42.81936,
+        "lon": -70.91568
+      },
+      {
+        "lat": 42.81317,
+        "lon": -70.91479
+      },
+      {
+        "lat": 42.81307,
+        "lon": -70.91478
+      },
+      {
+        "lat": 42.80924,
+        "lon": -70.91481
+      },
+      {
+        "lat": 42.81421,
+        "lon": -70.92572
+      },
+      {
+        "lat": 42.81365,
+        "lon": -70.93738
+      },
+      {
+        "lat": 42.81337,
+        "lon": -70.93869
+      },
+      {
+        "lat": 42.81032,
+        "lon": -70.94969
+      },
+      {
+        "lat": 42.80818,
+        "lon": -70.95564
+      },
+      {
+        "lat": 42.80688,
+        "lon": -70.9683
+      },
+      {
+        "lat": 42.80587,
+        "lon": -70.97757
+      },
+      {
+        "lat": 42.80631,
+        "lon": -70.98901
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 197,
+    "lon": -70.59009598043477,
+    "lat": 41.85976883811595,
+    "severity": 69,
+    "point_count": 69,
+    "deer_coded_count": 61,
+    "county": "PLYMOUTH",
+    "radius_m": 2569.633403624765,
+    "circle_radius_m": 2569.633403624765,
+    "elongation": 4.799738495409799,
+    "extent_m": 6560.435083657583,
+    "path": null,
+    "path_rejected_reason": "points spread 440 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 33,
+    "lon": -71.4360260357353,
+    "lat": 42.6190698332353,
+    "severity": 68,
+    "point_count": 68,
+    "deer_coded_count": 62,
+    "county": "MIDDLESEX",
+    "radius_m": 2458.8497074134775,
+    "circle_radius_m": 2458.8497074134775,
+    "elongation": 1.6448821391208295,
+    "extent_m": 4823.729273916753,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.64 < 2.5)"
+  },
+  {
+    "cluster_id": 112,
+    "lon": -70.09548174876923,
+    "lat": 41.74766824769231,
+    "severity": 65,
+    "point_count": 65,
+    "deer_coded_count": 64,
+    "county": "BARNSTABLE",
+    "radius_m": 2022.8242245538233,
+    "circle_radius_m": 2022.8242245538233,
+    "elongation": 1.422842023484203,
+    "extent_m": 3830.750231573671,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.42 < 2.5)"
+  },
+  {
+    "cluster_id": 14,
+    "lon": -71.00723498095239,
+    "lat": 41.7513241363492,
+    "severity": 63,
+    "point_count": 63,
+    "deer_coded_count": 61,
+    "county": "BRISTOL",
+    "radius_m": 206.18160433045094,
+    "circle_radius_m": 2339.7732467731985,
+    "elongation": 3.0457116364896666,
+    "extent_m": 5789.366086724238,
+    "path": [
+      {
+        "lat": 41.72599,
+        "lon": -70.99737
+      },
+      {
+        "lat": 41.73564,
+        "lon": -70.99973
+      },
+      {
+        "lat": 41.74094,
+        "lon": -71.00095
+      },
+      {
+        "lat": 41.74537,
+        "lon": -71.00425
+      },
+      {
+        "lat": 41.74907,
+        "lon": -71.00765
+      },
+      {
+        "lat": 41.75266,
+        "lon": -71.01093
+      },
+      {
+        "lat": 41.75636,
+        "lon": -71.01298
+      },
+      {
+        "lat": 41.76338,
+        "lon": -70.99531
+      },
+      {
+        "lat": 41.76092,
+        "lon": -71.01483
+      },
+      {
+        "lat": 41.76325,
+        "lon": -71.01318
+      },
+      {
+        "lat": 41.76461,
+        "lon": -71.0164
+      },
+      {
+        "lat": 41.77074,
+        "lon": -71.02431
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 12,
+    "lon": -71.41430171387098,
+    "lat": 42.66322171467741,
+    "severity": 62,
+    "point_count": 62,
+    "deer_coded_count": 57,
+    "county": "MIDDLESEX",
+    "radius_m": 1992.4720759446475,
+    "circle_radius_m": 1992.4720759446475,
+    "elongation": 1.6296395632126432,
+    "extent_m": 4470.075042747374,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.63 < 2.5)"
+  },
+  {
+    "cluster_id": 158,
+    "lon": -70.63911715403228,
+    "lat": 41.93059105096774,
+    "severity": 62,
+    "point_count": 62,
+    "deer_coded_count": 52,
+    "county": "PLYMOUTH",
+    "radius_m": 2362.1104711054854,
+    "circle_radius_m": 2362.1104711054854,
+    "elongation": 2.2925614967776147,
+    "extent_m": 4932.470832107526,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.29 < 2.5)"
+  },
+  {
+    "cluster_id": 45,
+    "lon": -72.62962399918034,
+    "lat": 42.23554572377048,
+    "severity": 61,
+    "point_count": 61,
+    "deer_coded_count": 52,
+    "county": "HAMPDEN",
+    "radius_m": 375.1003329276889,
+    "circle_radius_m": 2376.8222830500745,
+    "elongation": 5.948256629990447,
+    "extent_m": 6652.737180053087,
+    "path": [
+      {
+        "lat": 42.209,
+        "lon": -72.63305
+      },
+      {
+        "lat": 42.22026,
+        "lon": -72.63493
+      },
+      {
+        "lat": 42.22116,
+        "lon": -72.63552
+      },
+      {
+        "lat": 42.22906,
+        "lon": -72.63601
+      },
+      {
+        "lat": 42.23092,
+        "lon": -72.63569
+      },
+      {
+        "lat": 42.23753,
+        "lon": -72.6317
+      },
+      {
+        "lat": 42.23769,
+        "lon": -72.63028
+      },
+      {
+        "lat": 42.24039,
+        "lon": -72.62971
+      },
+      {
+        "lat": 42.24784,
+        "lon": -72.62472
+      },
+      {
+        "lat": 42.24798,
+        "lon": -72.62409
+      },
+      {
+        "lat": 42.25126,
+        "lon": -72.62238
+      },
+      {
+        "lat": 42.25802,
+        "lon": -72.61744
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 151,
+    "lon": -70.86332459688523,
+    "lat": 42.08237119622951,
+    "severity": 61,
+    "point_count": 61,
+    "deer_coded_count": 60,
+    "county": "PLYMOUTH",
+    "radius_m": 2168.354391801445,
+    "circle_radius_m": 2168.354391801445,
+    "elongation": 1.2280675598012245,
+    "extent_m": 4427.327155712432,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.23 < 2.5)"
+  },
+  {
+    "cluster_id": 61,
+    "lon": -71.47060546133334,
+    "lat": 42.123597582,
+    "severity": 60,
+    "point_count": 60,
+    "deer_coded_count": 54,
+    "county": "NORFOLK",
+    "radius_m": 2392.33324915424,
+    "circle_radius_m": 2392.33324915424,
+    "elongation": 2.610275408477241,
+    "extent_m": 5879.749870978629,
+    "path": null,
+    "path_rejected_reason": "points spread 587 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 70,
+    "lon": -71.55616525779662,
+    "lat": 42.59349427288135,
+    "severity": 59,
+    "point_count": 59,
+    "deer_coded_count": 58,
+    "county": "MIDDLESEX",
+    "radius_m": 2264.5714020538026,
+    "circle_radius_m": 2264.5714020538026,
+    "elongation": 1.4036218859040324,
+    "extent_m": 4152.431837431779,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.40 < 2.5)"
+  },
+  {
+    "cluster_id": 40,
+    "lon": -71.23207658293103,
+    "lat": 42.213634506206894,
+    "severity": 58,
+    "point_count": 58,
+    "deer_coded_count": 53,
+    "county": "NORFOLK",
+    "radius_m": 2564.9351972520026,
+    "circle_radius_m": 2564.9351972520026,
+    "elongation": 2.672570083764357,
+    "extent_m": 5571.87767243242,
+    "path": null,
+    "path_rejected_reason": "points spread 642 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 139,
+    "lon": -71.83922083862068,
+    "lat": 42.20045023724138,
+    "severity": 58,
+    "point_count": 58,
+    "deer_coded_count": 53,
+    "county": "WORCESTER",
+    "radius_m": 2158.6515780261184,
+    "circle_radius_m": 2158.6515780261184,
+    "elongation": 2.2546793618268417,
+    "extent_m": 4723.813317454316,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.25 < 2.5)"
+  },
+  {
+    "cluster_id": 140,
+    "lon": -72.32170196107143,
+    "lat": 42.17217917125,
+    "severity": 56,
+    "point_count": 56,
+    "deer_coded_count": 48,
+    "county": "HAMPDEN",
+    "radius_m": 2439.823247321165,
+    "circle_radius_m": 2439.823247321165,
+    "elongation": 2.4387918075949013,
+    "extent_m": 5148.425018094352,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.44 < 2.5)"
+  },
+  {
+    "cluster_id": 20,
+    "lon": -72.66749004963637,
+    "lat": 42.29554007218181,
+    "severity": 55,
+    "point_count": 55,
+    "deer_coded_count": 51,
+    "county": "HAMPSHIRE",
+    "radius_m": 1963.941324326868,
+    "circle_radius_m": 1963.941324326868,
+    "elongation": 1.665124450327346,
+    "extent_m": 3945.7468369997896,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.67 < 2.5)"
+  },
+  {
+    "cluster_id": 82,
+    "lon": -71.51449599907407,
+    "lat": 42.168353118148154,
+    "severity": 54,
+    "point_count": 54,
+    "deer_coded_count": 51,
+    "county": "WORCESTER",
+    "radius_m": 2249.1862726948343,
+    "circle_radius_m": 2249.1862726948343,
+    "elongation": 2.057359068686262,
+    "extent_m": 4692.9026947901275,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.06 < 2.5)"
+  },
+  {
+    "cluster_id": 155,
+    "lon": -71.11779826518519,
+    "lat": 41.74702997796297,
+    "severity": 54,
+    "point_count": 54,
+    "deer_coded_count": 52,
+    "county": "BRISTOL",
+    "radius_m": 1686.6869774448255,
+    "circle_radius_m": 1686.6869774448255,
+    "elongation": 1.9913724798087886,
+    "extent_m": 4047.8971054928597,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.99 < 2.5)"
+  },
+  {
+    "cluster_id": 54,
+    "lon": -70.78982970018868,
+    "lat": 42.64625295886792,
+    "severity": 53,
+    "point_count": 53,
+    "deer_coded_count": 53,
+    "county": "ESSEX",
+    "radius_m": 1280.5684159936027,
+    "circle_radius_m": 1280.5684159936027,
+    "elongation": 1.9570659150616152,
+    "extent_m": 3217.7873394967983,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.96 < 2.5)"
+  },
+  {
+    "cluster_id": 42,
+    "lon": -70.95903434615386,
+    "lat": 41.76839711230769,
+    "severity": 52,
+    "point_count": 52,
+    "deer_coded_count": 51,
+    "county": "BRISTOL",
+    "radius_m": 1927.045010120174,
+    "circle_radius_m": 1927.045010120174,
+    "elongation": 1.7126225534327666,
+    "extent_m": 3911.87651294716,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.71 < 2.5)"
+  },
+  {
+    "cluster_id": 88,
+    "lon": -71.5178382026923,
+    "lat": 42.52240456692307,
+    "severity": 52,
+    "point_count": 52,
+    "deer_coded_count": 50,
+    "county": "MIDDLESEX",
+    "radius_m": 1936.8231787512998,
+    "circle_radius_m": 1936.8231787512998,
+    "elongation": 1.6416443910297707,
+    "extent_m": 4303.901178384454,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.64 < 2.5)"
+  },
+  {
+    "cluster_id": 97,
+    "lon": -71.28717534,
+    "lat": 42.54995889653847,
+    "severity": 52,
+    "point_count": 52,
+    "deer_coded_count": 48,
+    "county": "MIDDLESEX",
+    "radius_m": 2147.9133349620633,
+    "circle_radius_m": 2147.9133349620633,
+    "elongation": 3.233586214157987,
+    "extent_m": 5375.705306447871,
+    "path": null,
+    "path_rejected_reason": "points spread 493 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 134,
+    "lon": -71.29969359192309,
+    "lat": 41.96523557269231,
+    "severity": 52,
+    "point_count": 52,
+    "deer_coded_count": 52,
+    "county": "BRISTOL",
+    "radius_m": 1786.5315851469072,
+    "circle_radius_m": 1786.5315851469072,
+    "elongation": 2.2267714821183233,
+    "extent_m": 4320.436020135894,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.23 < 2.5)"
+  },
+  {
+    "cluster_id": 99,
+    "lon": -71.24783190392156,
+    "lat": 42.315850746274506,
+    "severity": 51,
+    "point_count": 51,
+    "deer_coded_count": 48,
+    "county": "NORFOLK",
+    "radius_m": 1493.4512929617908,
+    "circle_radius_m": 1493.4512929617908,
+    "elongation": 1.5409163306997262,
+    "extent_m": 3660.027064639189,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.54 < 2.5)"
+  },
+  {
+    "cluster_id": 116,
+    "lon": -71.1864253564706,
+    "lat": 41.95624570941177,
+    "severity": 51,
+    "point_count": 51,
+    "deer_coded_count": 46,
+    "county": "BRISTOL",
+    "radius_m": 2243.4164326022587,
+    "circle_radius_m": 2243.4164326022587,
+    "elongation": 2.0667685828140954,
+    "extent_m": 4919.928648941488,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.07 < 2.5)"
+  },
+  {
+    "cluster_id": 105,
+    "lon": -71.5779952432,
+    "lat": 42.523200508399995,
+    "severity": 50,
+    "point_count": 50,
+    "deer_coded_count": 49,
+    "county": "WORCESTER",
+    "radius_m": 1573.9383752994063,
+    "circle_radius_m": 1573.9383752994063,
+    "elongation": 1.2886331346734239,
+    "extent_m": 3323.0245278116554,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.29 < 2.5)"
+  },
+  {
+    "cluster_id": 193,
+    "lon": -70.0774808534,
+    "lat": 41.2696597078,
+    "severity": 50,
+    "point_count": 50,
+    "deer_coded_count": 47,
+    "county": "NANTUCKET",
+    "radius_m": 1971.0834899312847,
+    "circle_radius_m": 1971.0834899312847,
+    "elongation": 1.6397313347331999,
+    "extent_m": 3675.0418157992576,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.64 < 2.5)"
+  },
+  {
+    "cluster_id": 68,
+    "lon": -71.01336995530612,
+    "lat": 41.834642161224494,
+    "severity": 49,
+    "point_count": 49,
+    "deer_coded_count": 48,
+    "county": "BRISTOL",
+    "radius_m": 1743.2778235282944,
+    "circle_radius_m": 1743.2778235282944,
+    "elongation": 1.6341693678213898,
+    "extent_m": 4031.2814300267537,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.63 < 2.5)"
+  },
+  {
+    "cluster_id": 90,
+    "lon": -71.68317489693877,
+    "lat": 42.51786971551021,
+    "severity": 49,
+    "point_count": 49,
+    "deer_coded_count": 44,
+    "county": "WORCESTER",
+    "radius_m": 208.35866943979394,
+    "circle_radius_m": 1964.9008722479773,
+    "elongation": 3.0405716753578997,
+    "extent_m": 4767.645571743996,
+    "path": [
+      {
+        "lat": 42.51716,
+        "lon": -71.65881
+      },
+      {
+        "lat": 42.51658,
+        "lon": -71.66337
+      },
+      {
+        "lat": 42.51626,
+        "lon": -71.66464
+      },
+      {
+        "lat": 42.51648,
+        "lon": -71.67039
+      },
+      {
+        "lat": 42.51859,
+        "lon": -71.6858
+      },
+      {
+        "lat": 42.50786,
+        "lon": -71.69256
+      },
+      {
+        "lat": 42.51444,
+        "lon": -71.69265
+      },
+      {
+        "lat": 42.5205,
+        "lon": -71.6935
+      },
+      {
+        "lat": 42.52075,
+        "lon": -71.70119
+      },
+      {
+        "lat": 42.5216,
+        "lon": -71.71328
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 91,
+    "lon": -71.74652885520834,
+    "lat": 42.604322329791664,
+    "severity": 48,
+    "point_count": 48,
+    "deer_coded_count": 47,
+    "county": "WORCESTER",
+    "radius_m": 2105.3269958096453,
+    "circle_radius_m": 2105.3269958096453,
+    "elongation": 2.3008625697763865,
+    "extent_m": 4787.318199060876,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.30 < 2.5)"
+  },
+  {
+    "cluster_id": 74,
+    "lon": -70.86037457212767,
+    "lat": 42.250191953404254,
+    "severity": 47,
+    "point_count": 47,
+    "deer_coded_count": 44,
+    "county": "PLYMOUTH",
+    "radius_m": 1577.6539964064916,
+    "circle_radius_m": 1577.6539964064916,
+    "elongation": 1.3414716718167286,
+    "extent_m": 2872.631668581703,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.34 < 2.5)"
+  },
+  {
+    "cluster_id": 101,
+    "lon": -72.78614494340425,
+    "lat": 42.15565584680851,
+    "severity": 47,
+    "point_count": 47,
+    "deer_coded_count": 34,
+    "county": "HAMPDEN",
+    "radius_m": 100.0,
+    "circle_radius_m": 1892.7186555703245,
+    "elongation": 12.147883189882656,
+    "extent_m": 4492.027669706118,
+    "path": [
+      {
+        "lat": 42.15462,
+        "lon": -72.75974
+      },
+      {
+        "lat": 42.15577,
+        "lon": -72.77512
+      },
+      {
+        "lat": 42.15561,
+        "lon": -72.77912
+      },
+      {
+        "lat": 42.15554,
+        "lon": -72.7833
+      },
+      {
+        "lat": 42.15554,
+        "lon": -72.78681
+      },
+      {
+        "lat": 42.15586,
+        "lon": -72.79074
+      },
+      {
+        "lat": 42.15629,
+        "lon": -72.79839
+      },
+      {
+        "lat": 42.15654,
+        "lon": -72.79853
+      },
+      {
+        "lat": 42.15655,
+        "lon": -72.8062
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 159,
+    "lon": -70.9696182206383,
+    "lat": 41.81096847829787,
+    "severity": 47,
+    "point_count": 47,
+    "deer_coded_count": 44,
+    "county": "PLYMOUTH",
+    "radius_m": 1717.6139617678878,
+    "circle_radius_m": 1717.6139617678878,
+    "elongation": 2.2430242398872,
+    "extent_m": 3751.2606515820253,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.24 < 2.5)"
+  },
+  {
+    "cluster_id": 164,
+    "lon": -70.85844541869565,
+    "lat": 41.85153657369565,
+    "severity": 46,
+    "point_count": 46,
+    "deer_coded_count": 43,
+    "county": "PLYMOUTH",
+    "radius_m": 2026.6068133861895,
+    "circle_radius_m": 2026.6068133861895,
+    "elongation": 2.630733824488659,
+    "extent_m": 4649.547511156211,
+    "path": null,
+    "path_rejected_reason": "points spread 617 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 201,
+    "lon": -71.78936676543478,
+    "lat": 42.55829630434783,
+    "severity": 46,
+    "point_count": 46,
+    "deer_coded_count": 36,
+    "county": "WORCESTER",
+    "radius_m": 2245.9151149356994,
+    "circle_radius_m": 2245.9151149356994,
+    "elongation": 2.2289718685062883,
+    "extent_m": 4938.4820905433935,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.23 < 2.5)"
+  },
+  {
+    "cluster_id": 44,
+    "lon": -71.43174364386363,
+    "lat": 42.48368822454546,
+    "severity": 44,
+    "point_count": 44,
+    "deer_coded_count": 43,
+    "county": "MIDDLESEX",
+    "radius_m": 1684.7572047712235,
+    "circle_radius_m": 1684.7572047712235,
+    "elongation": 1.495211788286202,
+    "extent_m": 3562.5419531086295,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.50 < 2.5)"
+  },
+  {
+    "cluster_id": 173,
+    "lon": -72.53477096,
+    "lat": 42.424619291590915,
+    "severity": 44,
+    "point_count": 44,
+    "deer_coded_count": 36,
+    "county": "HAMPSHIRE",
+    "radius_m": 1694.247379530529,
+    "circle_radius_m": 1694.247379530529,
+    "elongation": 2.378256875709045,
+    "extent_m": 3617.472652020524,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.38 < 2.5)"
+  },
+  {
+    "cluster_id": 27,
+    "lon": -70.94735710930232,
+    "lat": 42.746355259069766,
+    "severity": 43,
+    "point_count": 43,
+    "deer_coded_count": 38,
+    "county": "ESSEX",
+    "radius_m": 368.6405762909554,
+    "circle_radius_m": 1747.1266061738688,
+    "elongation": 3.349431312297018,
+    "extent_m": 3988.5092810359242,
+    "path": [
+      {
+        "lat": 42.72726,
+        "lon": -70.95223
+      },
+      {
+        "lat": 42.73615,
+        "lon": -70.95238
+      },
+      {
+        "lat": 42.7401,
+        "lon": -70.95124
+      },
+      {
+        "lat": 42.74682,
+        "lon": -70.95048
+      },
+      {
+        "lat": 42.75302,
+        "lon": -70.94388
+      },
+      {
+        "lat": 42.75393,
+        "lon": -70.94054
+      },
+      {
+        "lat": 42.75811,
+        "lon": -70.94053
+      },
+      {
+        "lat": 42.76006,
+        "lon": -70.9398
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 78,
+    "lon": -70.23871948627908,
+    "lat": 41.68967621093023,
+    "severity": 43,
+    "point_count": 43,
+    "deer_coded_count": 37,
+    "county": "BARNSTABLE",
+    "radius_m": 2287.4256235983116,
+    "circle_radius_m": 2287.4256235983116,
+    "elongation": 2.4344762384666248,
+    "extent_m": 5008.9792151091815,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.43 < 2.5)"
+  },
+  {
+    "cluster_id": 95,
+    "lon": -70.90085648930234,
+    "lat": 42.720509646976744,
+    "severity": 43,
+    "point_count": 43,
+    "deer_coded_count": 42,
+    "county": "ESSEX",
+    "radius_m": 1802.634351017266,
+    "circle_radius_m": 1802.634351017266,
+    "elongation": 1.8288949518953532,
+    "extent_m": 3461.413154923565,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.83 < 2.5)"
+  },
+  {
+    "cluster_id": 106,
+    "lon": -70.97834350511627,
+    "lat": 42.63678439232558,
+    "severity": 43,
+    "point_count": 43,
+    "deer_coded_count": 40,
+    "county": "ESSEX",
+    "radius_m": 122.98782020229702,
+    "circle_radius_m": 2156.2497199351637,
+    "elongation": 8.245631772079376,
+    "extent_m": 4694.496237707212,
+    "path": [
+      {
+        "lat": 42.6191,
+        "lon": -70.97911
+      },
+      {
+        "lat": 42.62368,
+        "lon": -70.97867
+      },
+      {
+        "lat": 42.62612,
+        "lon": -70.97885
+      },
+      {
+        "lat": 42.62975,
+        "lon": -70.97834
+      },
+      {
+        "lat": 42.63379,
+        "lon": -70.97833
+      },
+      {
+        "lat": 42.6398,
+        "lon": -70.97683
+      },
+      {
+        "lat": 42.65121,
+        "lon": -70.9769
+      },
+      {
+        "lat": 42.65609,
+        "lon": -70.97728
+      },
+      {
+        "lat": 42.65619,
+        "lon": -70.97728
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 84,
+    "lon": -71.25807781585367,
+    "lat": 42.425461213170735,
+    "severity": 41,
+    "point_count": 41,
+    "deer_coded_count": 40,
+    "county": "MIDDLESEX",
+    "radius_m": 1689.8496017154268,
+    "circle_radius_m": 1689.8496017154268,
+    "elongation": 2.0179654433590004,
+    "extent_m": 3706.451781736797,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.02 < 2.5)"
+  },
+  {
+    "cluster_id": 119,
+    "lon": -70.59320613560975,
+    "lat": 41.75546421219512,
+    "severity": 41,
+    "point_count": 41,
+    "deer_coded_count": 34,
+    "county": "BARNSTABLE",
+    "radius_m": 1873.6894111480588,
+    "circle_radius_m": 1873.6894111480588,
+    "elongation": 2.597910491070038,
+    "extent_m": 4221.312336025896,
+    "path": null,
+    "path_rejected_reason": "points spread 435 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 43,
+    "lon": -71.3258272245,
+    "lat": 41.92615753425,
+    "severity": 40,
+    "point_count": 40,
+    "deer_coded_count": 38,
+    "county": "BRISTOL",
+    "radius_m": 1537.290803059516,
+    "circle_radius_m": 1537.290803059516,
+    "elongation": 1.648368855359435,
+    "extent_m": 3592.922411238619,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.65 < 2.5)"
+  },
+  {
+    "cluster_id": 178,
+    "lon": -71.4800837545,
+    "lat": 42.035577478250005,
+    "severity": 40,
+    "point_count": 40,
+    "deer_coded_count": 36,
+    "county": "NORFOLK",
+    "radius_m": 1856.1059037147606,
+    "circle_radius_m": 1856.1059037147606,
+    "elongation": 1.6728951182817082,
+    "extent_m": 3841.1319624208527,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.67 < 2.5)"
+  },
+  {
+    "cluster_id": 6,
+    "lon": -71.2608468276923,
+    "lat": 42.263399245641025,
+    "severity": 39,
+    "point_count": 39,
+    "deer_coded_count": 37,
+    "county": "NORFOLK",
+    "radius_m": 1641.0028957700476,
+    "circle_radius_m": 1641.0028957700476,
+    "elongation": 1.337511428618319,
+    "extent_m": 2705.3237491684217,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.34 < 2.5)"
+  },
+  {
+    "cluster_id": 48,
+    "lon": -72.49592903358973,
+    "lat": 42.200638594615384,
+    "severity": 39,
+    "point_count": 39,
+    "deer_coded_count": 36,
+    "county": "HAMPDEN",
+    "radius_m": 276.448524712706,
+    "circle_radius_m": 1968.8805667342185,
+    "elongation": 3.3382300740787048,
+    "extent_m": 4368.535965230308,
+    "path": [
+      {
+        "lat": 42.18162,
+        "lon": -72.50345
+      },
+      {
+        "lat": 42.19264,
+        "lon": -72.49923
+      },
+      {
+        "lat": 42.1959,
+        "lon": -72.49845
+      },
+      {
+        "lat": 42.19817,
+        "lon": -72.49114
+      },
+      {
+        "lat": 42.2007,
+        "lon": -72.49488
+      },
+      {
+        "lat": 42.20421,
+        "lon": -72.49271
+      },
+      {
+        "lat": 42.20552,
+        "lon": -72.49258
+      },
+      {
+        "lat": 42.21477,
+        "lon": -72.49495
+      },
+      {
+        "lat": 42.21868,
+        "lon": -72.49717
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 156,
+    "lon": -71.69776633358973,
+    "lat": 42.08715039205128,
+    "severity": 39,
+    "point_count": 39,
+    "deer_coded_count": 38,
+    "county": "WORCESTER",
+    "radius_m": 1644.3379413097364,
+    "circle_radius_m": 1644.3379413097364,
+    "elongation": 1.9108395933806903,
+    "extent_m": 3417.8346428630566,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.91 < 2.5)"
+  },
+  {
+    "cluster_id": 183,
+    "lon": -70.65685442333333,
+    "lat": 41.41640280846155,
+    "severity": 39,
+    "point_count": 39,
+    "deer_coded_count": 38,
+    "county": "DUKES",
+    "radius_m": 1581.1014360324089,
+    "circle_radius_m": 1581.1014360324089,
+    "elongation": 1.7644348389915299,
+    "extent_m": 3522.6392530204757,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.76 < 2.5)"
+  },
+  {
+    "cluster_id": 58,
+    "lon": -72.0792594131579,
+    "lat": 42.648053946842104,
+    "severity": 38,
+    "point_count": 38,
+    "deer_coded_count": 34,
+    "county": "WORCESTER",
+    "radius_m": 100.0,
+    "circle_radius_m": 1961.6985378766292,
+    "elongation": 8.752483458155075,
+    "extent_m": 4685.3964970485595,
+    "path": [
+      {
+        "lat": 42.62962,
+        "lon": -72.07702
+      },
+      {
+        "lat": 42.63808,
+        "lon": -72.08075
+      },
+      {
+        "lat": 42.63962,
+        "lon": -72.08095
+      },
+      {
+        "lat": 42.64655,
+        "lon": -72.08105
+      },
+      {
+        "lat": 42.64817,
+        "lon": -72.08086
+      },
+      {
+        "lat": 42.65325,
+        "lon": -72.07924
+      },
+      {
+        "lat": 42.65596,
+        "lon": -72.07838
+      },
+      {
+        "lat": 42.66221,
+        "lon": -72.0786
+      },
+      {
+        "lat": 42.66753,
+        "lon": -72.07906
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 111,
+    "lon": -71.16344218473687,
+    "lat": 41.982114673421044,
+    "severity": 38,
+    "point_count": 38,
+    "deer_coded_count": 36,
+    "county": "BRISTOL",
+    "radius_m": 1525.9951374309749,
+    "circle_radius_m": 1525.9951374309749,
+    "elongation": 1.0175161458046285,
+    "extent_m": 2716.853421902482,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.02 < 2.5)"
+  },
+  {
+    "cluster_id": 128,
+    "lon": -71.7434590823684,
+    "lat": 42.4600335913158,
+    "severity": 38,
+    "point_count": 38,
+    "deer_coded_count": 31,
+    "county": "WORCESTER",
+    "radius_m": 1625.7549447021975,
+    "circle_radius_m": 1625.7549447021975,
+    "elongation": 1.4174846232844611,
+    "extent_m": 3039.945449588474,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.42 < 2.5)"
+  },
+  {
+    "cluster_id": 55,
+    "lon": -71.35966092189187,
+    "lat": 41.91070593540541,
+    "severity": 37,
+    "point_count": 37,
+    "deer_coded_count": 34,
+    "county": "BRISTOL",
+    "radius_m": 1576.5952180327993,
+    "circle_radius_m": 1576.5952180327993,
+    "elongation": 2.099608764428371,
+    "extent_m": 3635.711602606519,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.10 < 2.5)"
+  },
+  {
+    "cluster_id": 66,
+    "lon": -71.74323175351351,
+    "lat": 42.539342469999994,
+    "severity": 37,
+    "point_count": 37,
+    "deer_coded_count": 31,
+    "county": "WORCESTER",
+    "radius_m": 1664.9428302267222,
+    "circle_radius_m": 1664.9428302267222,
+    "elongation": 1.9029893491256993,
+    "extent_m": 3632.9098943040008,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.90 < 2.5)"
+  },
+  {
+    "cluster_id": 89,
+    "lon": -70.81721276891894,
+    "lat": 42.23188204972973,
+    "severity": 37,
+    "point_count": 37,
+    "deer_coded_count": 32,
+    "county": "NORFOLK",
+    "radius_m": 182.24789662048897,
+    "circle_radius_m": 1389.9086854600218,
+    "elongation": 3.9996745468168897,
+    "extent_m": 2965.7072069731057,
+    "path": [
+      {
+        "lat": 42.22302,
+        "lon": -70.80646
+      },
+      {
+        "lat": 42.22742,
+        "lon": -70.81085
+      },
+      {
+        "lat": 42.23061,
+        "lon": -70.81518
+      },
+      {
+        "lat": 42.23258,
+        "lon": -70.81982
+      },
+      {
+        "lat": 42.23788,
+        "lon": -70.82608
+      },
+      {
+        "lat": 42.24029,
+        "lon": -70.82854
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 125,
+    "lon": -72.55547255837838,
+    "lat": 42.70099756918919,
+    "severity": 37,
+    "point_count": 37,
+    "deer_coded_count": 28,
+    "county": "FRANKLIN",
+    "radius_m": 177.08582769216963,
+    "circle_radius_m": 1735.8975637386595,
+    "elongation": 7.2394737831617375,
+    "extent_m": 3891.690334616587,
+    "path": [
+      {
+        "lat": 42.68759,
+        "lon": -72.54747
+      },
+      {
+        "lat": 42.69116,
+        "lon": -72.54786
+      },
+      {
+        "lat": 42.69822,
+        "lon": -72.55101
+      },
+      {
+        "lat": 42.70001,
+        "lon": -72.55416
+      },
+      {
+        "lat": 42.7041,
+        "lon": -72.55899
+      },
+      {
+        "lat": 42.7041,
+        "lon": -72.5596
+      },
+      {
+        "lat": 42.70926,
+        "lon": -72.5645
+      },
+      {
+        "lat": 42.71727,
+        "lon": -72.56714
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 135,
+    "lon": -70.02468450540542,
+    "lat": 41.77497164459459,
+    "severity": 37,
+    "point_count": 37,
+    "deer_coded_count": 33,
+    "county": "BARNSTABLE",
+    "radius_m": 100.0,
+    "circle_radius_m": 1839.956904273913,
+    "elongation": 9.15278818812771,
+    "extent_m": 4045.973391523369,
+    "path": [
+      {
+        "lat": 41.77494,
+        "lon": -70.00249
+      },
+      {
+        "lat": 41.77509,
+        "lon": -70.00351
+      },
+      {
+        "lat": 41.77574,
+        "lon": -70.02162
+      },
+      {
+        "lat": 41.77569,
+        "lon": -70.02198
+      },
+      {
+        "lat": 41.77562,
+        "lon": -70.03321
+      },
+      {
+        "lat": 41.775,
+        "lon": -70.03596
+      },
+      {
+        "lat": 41.77436,
+        "lon": -70.03862
+      },
+      {
+        "lat": 41.77165,
+        "lon": -70.0471
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 185,
+    "lon": -72.11927495189188,
+    "lat": 42.570059777027026,
+    "severity": 37,
+    "point_count": 37,
+    "deer_coded_count": 31,
+    "county": "WORCESTER",
+    "radius_m": 174.219288723835,
+    "circle_radius_m": 1319.48815161032,
+    "elongation": 6.8641951252018085,
+    "extent_m": 3576.139187683932,
+    "path": [
+      {
+        "lat": 42.56812,
+        "lon": -72.10073
+      },
+      {
+        "lat": 42.56797,
+        "lon": -72.11041
+      },
+      {
+        "lat": 42.5688,
+        "lon": -72.1177
+      },
+      {
+        "lat": 42.57004,
+        "lon": -72.12192
+      },
+      {
+        "lat": 42.57093,
+        "lon": -72.12337
+      },
+      {
+        "lat": 42.57121,
+        "lon": -72.12918
+      },
+      {
+        "lat": 42.57221,
+        "lon": -72.13361
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 100,
+    "lon": -71.07288239111111,
+    "lat": 42.203617682777775,
+    "severity": 36,
+    "point_count": 36,
+    "deer_coded_count": 34,
+    "county": "NORFOLK",
+    "radius_m": 223.3536630718435,
+    "circle_radius_m": 1532.0501349951776,
+    "elongation": 3.0270994148795385,
+    "extent_m": 3345.1448096322015,
+    "path": [
+      {
+        "lat": 42.20828,
+        "lon": -71.05075
+      },
+      {
+        "lat": 42.20583,
+        "lon": -71.0668
+      },
+      {
+        "lat": 42.20489,
+        "lon": -71.07262
+      },
+      {
+        "lat": 42.20407,
+        "lon": -71.0768
+      },
+      {
+        "lat": 42.19815,
+        "lon": -71.07771
+      },
+      {
+        "lat": 42.20162,
+        "lon": -71.08185
+      },
+      {
+        "lat": 42.2024,
+        "lon": -71.08666
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 166,
+    "lon": -72.57812266972222,
+    "lat": 42.03697927611111,
+    "severity": 36,
+    "point_count": 36,
+    "deer_coded_count": 31,
+    "county": "HAMPDEN",
+    "radius_m": 1200.4728891104894,
+    "circle_radius_m": 1200.4728891104894,
+    "elongation": 1.4171979605284923,
+    "extent_m": 2788.233572899483,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.42 < 2.5)"
+  },
+  {
+    "cluster_id": 211,
+    "lon": -71.14516375305556,
+    "lat": 42.67533471861111,
+    "severity": 36,
+    "point_count": 36,
+    "deer_coded_count": 32,
+    "county": "ESSEX",
+    "radius_m": 1824.1663213414124,
+    "circle_radius_m": 1824.1663213414124,
+    "elongation": 1.7437347843570041,
+    "extent_m": 3781.8947744062743,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.74 < 2.5)"
+  },
+  {
+    "cluster_id": 124,
+    "lon": -71.09296988285713,
+    "lat": 42.801308451428575,
+    "severity": 35,
+    "point_count": 35,
+    "deer_coded_count": 33,
+    "county": "ESSEX",
+    "radius_m": 1327.3942757693114,
+    "circle_radius_m": 1327.3942757693114,
+    "elongation": 1.5742158820516845,
+    "extent_m": 2733.431191224848,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.57 < 2.5)"
+  },
+  {
+    "cluster_id": 37,
+    "lon": -72.54163128470589,
+    "lat": 42.24779443205882,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 30,
+    "county": "HAMPSHIRE",
+    "radius_m": 1386.5347678800224,
+    "circle_radius_m": 1386.5347678800224,
+    "elongation": 1.5126197537637651,
+    "extent_m": 2966.7209358296222,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.51 < 2.5)"
+  },
+  {
+    "cluster_id": 50,
+    "lon": -71.05153409676471,
+    "lat": 42.80180625117647,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 31,
+    "county": "ESSEX",
+    "radius_m": 818.433929292925,
+    "circle_radius_m": 818.433929292925,
+    "elongation": 1.5922920040845225,
+    "extent_m": 2308.4414636173797,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.59 < 2.5)"
+  },
+  {
+    "cluster_id": 126,
+    "lon": -72.20260824147057,
+    "lat": 42.572953361764704,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 30,
+    "county": "WORCESTER",
+    "radius_m": 320.9881586213054,
+    "circle_radius_m": 1926.247465845637,
+    "elongation": 2.7160330900146863,
+    "extent_m": 4036.1786466767944,
+    "path": [
+      {
+        "lat": 42.57967,
+        "lon": -72.17923
+      },
+      {
+        "lat": 42.58242,
+        "lon": -72.1907
+      },
+      {
+        "lat": 42.57994,
+        "lon": -72.20211
+      },
+      {
+        "lat": 42.57047,
+        "lon": -72.20193
+      },
+      {
+        "lat": 42.56938,
+        "lon": -72.20499
+      },
+      {
+        "lat": 42.56854,
+        "lon": -72.20638
+      },
+      {
+        "lat": 42.56949,
+        "lon": -72.21752
+      },
+      {
+        "lat": 42.56507,
+        "lon": -72.22348
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 175,
+    "lon": -71.46021374470588,
+    "lat": 42.176651079705884,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 33,
+    "county": "MIDDLESEX",
+    "radius_m": 101.14802110846114,
+    "circle_radius_m": 1931.1582545541546,
+    "elongation": 5.461254667040103,
+    "extent_m": 4532.336087814281,
+    "path": [
+      {
+        "lat": 42.19052,
+        "lon": -71.43736
+      },
+      {
+        "lat": 42.18302,
+        "lon": -71.44459
+      },
+      {
+        "lat": 42.17945,
+        "lon": -71.45254
+      },
+      {
+        "lat": 42.17846,
+        "lon": -71.45811
+      },
+      {
+        "lat": 42.17582,
+        "lon": -71.46381
+      },
+      {
+        "lat": 42.17427,
+        "lon": -71.46841
+      },
+      {
+        "lat": 42.17131,
+        "lon": -71.47177
+      },
+      {
+        "lat": 42.16774,
+        "lon": -71.47286
+      },
+      {
+        "lat": 42.16663,
+        "lon": -71.48177
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 177,
+    "lon": -72.72233313764707,
+    "lat": 42.59358573529411,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 31,
+    "county": "FRANKLIN",
+    "radius_m": 100.0,
+    "circle_radius_m": 1601.3699793458493,
+    "elongation": 5.327819330471876,
+    "extent_m": 3211.248311233655,
+    "path": [
+      {
+        "lat": 42.58369,
+        "lon": -72.70813
+      },
+      {
+        "lat": 42.5858,
+        "lon": -72.7138
+      },
+      {
+        "lat": 42.59257,
+        "lon": -72.72416
+      },
+      {
+        "lat": 42.59718,
+        "lon": -72.72896
+      },
+      {
+        "lat": 42.60055,
+        "lon": -72.73042
+      },
+      {
+        "lat": 42.6024,
+        "lon": -72.73075
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 189,
+    "lon": -70.95724310411765,
+    "lat": 42.131750529117646,
+    "severity": 34,
+    "point_count": 34,
+    "deer_coded_count": 30,
+    "county": "PLYMOUTH",
+    "radius_m": 1325.9641131823205,
+    "circle_radius_m": 1325.9641131823205,
+    "elongation": 1.307812240358428,
+    "extent_m": 2800.5230888840724,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.31 < 2.5)"
+  },
+  {
+    "cluster_id": 0,
+    "lon": -71.34665324818182,
+    "lat": 42.669761731515145,
+    "severity": 33,
+    "point_count": 33,
+    "deer_coded_count": 28,
+    "county": "MIDDLESEX",
+    "radius_m": 1630.3337569512137,
+    "circle_radius_m": 1630.3337569512137,
+    "elongation": 1.8403294423952823,
+    "extent_m": 3483.503744370049,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.84 < 2.5)"
+  },
+  {
+    "cluster_id": 102,
+    "lon": -71.21452477272729,
+    "lat": 42.415748304848485,
+    "severity": 33,
+    "point_count": 33,
+    "deer_coded_count": 30,
+    "county": "MIDDLESEX",
+    "radius_m": 1603.9022457064007,
+    "circle_radius_m": 1603.9022457064007,
+    "elongation": 2.0454476066154412,
+    "extent_m": 3511.303424110521,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.05 < 2.5)"
+  },
+  {
+    "cluster_id": 131,
+    "lon": -71.84606445363636,
+    "lat": 42.55108283151515,
+    "severity": 33,
+    "point_count": 33,
+    "deer_coded_count": 28,
+    "county": "WORCESTER",
+    "radius_m": 1674.2138154743277,
+    "circle_radius_m": 1674.2138154743277,
+    "elongation": 2.1702738518318303,
+    "extent_m": 3344.1503026755017,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.17 < 2.5)"
+  },
+  {
+    "cluster_id": 141,
+    "lon": -71.73397715030302,
+    "lat": 42.157132348181804,
+    "severity": 33,
+    "point_count": 33,
+    "deer_coded_count": 31,
+    "county": "WORCESTER",
+    "radius_m": 1613.483200473347,
+    "circle_radius_m": 1613.483200473347,
+    "elongation": 1.6160389557060981,
+    "extent_m": 2984.4751866126353,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.62 < 2.5)"
+  },
+  {
+    "cluster_id": 18,
+    "lon": -70.4607034615625,
+    "lat": 41.742459624375,
+    "severity": 32,
+    "point_count": 32,
+    "deer_coded_count": 26,
+    "county": "BARNSTABLE",
+    "radius_m": 182.15822618709265,
+    "circle_radius_m": 1847.3972014438957,
+    "elongation": 2.979180089633209,
+    "extent_m": 3589.1822401425907,
+    "path": [
+      {
+        "lat": 41.73818,
+        "lon": -70.43919
+      },
+      {
+        "lat": 41.73015,
+        "lon": -70.45472
+      },
+      {
+        "lat": 41.74224,
+        "lon": -70.45517
+      },
+      {
+        "lat": 41.74479,
+        "lon": -70.46238
+      },
+      {
+        "lat": 41.74756,
+        "lon": -70.47036
+      },
+      {
+        "lat": 41.74892,
+        "lon": -70.47641
+      },
+      {
+        "lat": 41.74898,
+        "lon": -70.47788
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 118,
+    "lon": -73.1027949534375,
+    "lat": 42.6776471165625,
+    "severity": 32,
+    "point_count": 32,
+    "deer_coded_count": 30,
+    "county": "BERKSHIRE",
+    "radius_m": 1456.2930919831758,
+    "circle_radius_m": 1456.2930919831758,
+    "elongation": 1.9448178023410965,
+    "extent_m": 3290.2185987351386,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.94 < 2.5)"
+  },
+  {
+    "cluster_id": 146,
+    "lon": -71.14636647218751,
+    "lat": 41.675947209374996,
+    "severity": 32,
+    "point_count": 32,
+    "deer_coded_count": 24,
+    "county": "BRISTOL",
+    "radius_m": 1519.7921659827018,
+    "circle_radius_m": 1519.7921659827018,
+    "elongation": 2.425901812256167,
+    "extent_m": 3507.7295915030727,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.43 < 2.5)"
+  },
+  {
+    "cluster_id": 47,
+    "lon": -70.6463702332258,
+    "lat": 41.541861767419356,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 28,
+    "county": "BARNSTABLE",
+    "radius_m": 136.52636926394806,
+    "circle_radius_m": 1327.1309125236776,
+    "elongation": 3.6759268099631415,
+    "extent_m": 3298.6002841480695,
+    "path": [
+      {
+        "lat": 41.53323,
+        "lon": -70.65451
+      },
+      {
+        "lat": 41.53521,
+        "lon": -70.65247
+      },
+      {
+        "lat": 41.53902,
+        "lon": -70.64929
+      },
+      {
+        "lat": 41.54576,
+        "lon": -70.64721
+      },
+      {
+        "lat": 41.5484,
+        "lon": -70.64328
+      },
+      {
+        "lat": 41.54911,
+        "lon": -70.64185
+      },
+      {
+        "lat": 41.55115,
+        "lon": -70.63217
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 145,
+    "lon": -71.62548663354839,
+    "lat": 42.34957766225807,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 27,
+    "county": "WORCESTER",
+    "radius_m": 1554.1626076067355,
+    "circle_radius_m": 1554.1626076067355,
+    "elongation": 2.2574509901377415,
+    "extent_m": 3513.5793424679464,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.26 < 2.5)"
+  },
+  {
+    "cluster_id": 152,
+    "lon": -72.6640229196774,
+    "lat": 42.61048664290322,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 24,
+    "county": "FRANKLIN",
+    "radius_m": 1576.8342514606043,
+    "circle_radius_m": 1576.8342514606043,
+    "elongation": 1.0239408457480632,
+    "extent_m": 2666.540577304091,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.02 < 2.5)"
+  },
+  {
+    "cluster_id": 163,
+    "lon": -71.15088458451612,
+    "lat": 42.57921651838709,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 27,
+    "county": "MIDDLESEX",
+    "radius_m": 1376.1851003764014,
+    "circle_radius_m": 1376.1851003764014,
+    "elongation": 1.6022240736804902,
+    "extent_m": 2842.6004171068003,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.60 < 2.5)"
+  },
+  {
+    "cluster_id": 176,
+    "lon": -71.89633496290324,
+    "lat": 42.180107904193555,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 28,
+    "county": "WORCESTER",
+    "radius_m": 1609.781198592671,
+    "circle_radius_m": 1609.781198592671,
+    "elongation": 1.6624755459657417,
+    "extent_m": 3774.3694745308867,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.66 < 2.5)"
+  },
+  {
+    "cluster_id": 195,
+    "lon": -71.35299149516129,
+    "lat": 42.04379029741934,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 27,
+    "county": "NORFOLK",
+    "radius_m": 1571.9598761607544,
+    "circle_radius_m": 1571.9598761607544,
+    "elongation": 1.9342065052863233,
+    "extent_m": 3084.0316842461716,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.93 < 2.5)"
+  },
+  {
+    "cluster_id": 199,
+    "lon": -71.32873409161293,
+    "lat": 42.45126766516129,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 28,
+    "county": "MIDDLESEX",
+    "radius_m": 1293.3655729749098,
+    "circle_radius_m": 1293.3655729749098,
+    "elongation": 1.751634383175693,
+    "extent_m": 2832.550565037275,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.75 < 2.5)"
+  },
+  {
+    "cluster_id": 218,
+    "lon": -72.52359168129031,
+    "lat": 42.3207208348387,
+    "severity": 31,
+    "point_count": 31,
+    "deer_coded_count": 31,
+    "county": "HAMPSHIRE",
+    "radius_m": 257.9578342775618,
+    "circle_radius_m": 1477.8804948632187,
+    "elongation": 3.117479904373808,
+    "extent_m": 3094.200253664792,
+    "path": [
+      {
+        "lat": 42.31947,
+        "lon": -72.50734
+      },
+      {
+        "lat": 42.32006,
+        "lon": -72.51126
+      },
+      {
+        "lat": 42.32625,
+        "lon": -72.5244
+      },
+      {
+        "lat": 42.32338,
+        "lon": -72.52475
+      },
+      {
+        "lat": 42.31959,
+        "lon": -72.53077
+      },
+      {
+        "lat": 42.31951,
+        "lon": -72.54184
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 122,
+    "lon": -71.442341684,
+    "lat": 42.684478765,
+    "severity": 30,
+    "point_count": 30,
+    "deer_coded_count": 26,
+    "county": "MIDDLESEX",
+    "radius_m": 1203.622237892182,
+    "circle_radius_m": 1203.622237892182,
+    "elongation": 1.1492962054648643,
+    "extent_m": 2523.498755615559,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.15 < 2.5)"
+  },
+  {
+    "cluster_id": 129,
+    "lon": -72.70403516833335,
+    "lat": 42.14044717699999,
+    "severity": 30,
+    "point_count": 30,
+    "deer_coded_count": 28,
+    "county": "HAMPDEN",
+    "radius_m": 100.0,
+    "circle_radius_m": 1621.2289781769207,
+    "elongation": 9.366872605553151,
+    "extent_m": 3411.0901497970617,
+    "path": [
+      {
+        "lat": 42.14028,
+        "lon": -72.68639
+      },
+      {
+        "lat": 42.13928,
+        "lon": -72.6905
+      },
+      {
+        "lat": 42.13938,
+        "lon": -72.70201
+      },
+      {
+        "lat": 42.13969,
+        "lon": -72.70594
+      },
+      {
+        "lat": 42.13989,
+        "lon": -72.70981
+      },
+      {
+        "lat": 42.14142,
+        "lon": -72.7172
+      },
+      {
+        "lat": 42.1431,
+        "lon": -72.72465
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 132,
+    "lon": -70.34460439633332,
+    "lat": 41.69112754466667,
+    "severity": 30,
+    "point_count": 30,
+    "deer_coded_count": 27,
+    "county": "BARNSTABLE",
+    "radius_m": 1339.1911483883202,
+    "circle_radius_m": 1339.1911483883202,
+    "elongation": 1.3829641268803503,
+    "extent_m": 2681.8996632741528,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.38 < 2.5)"
+  },
+  {
+    "cluster_id": 133,
+    "lon": -70.96519787833334,
+    "lat": 42.710819805,
+    "severity": 30,
+    "point_count": 30,
+    "deer_coded_count": 26,
+    "county": "ESSEX",
+    "radius_m": 1034.391582236296,
+    "circle_radius_m": 1034.391582236296,
+    "elongation": 1.7267375202304143,
+    "extent_m": 2637.1664627329474,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.73 < 2.5)"
+  },
+  {
+    "cluster_id": 144,
+    "lon": -71.22219123433334,
+    "lat": 42.090927691000005,
+    "severity": 30,
+    "point_count": 30,
+    "deer_coded_count": 28,
+    "county": "NORFOLK",
+    "radius_m": 1281.5295081697695,
+    "circle_radius_m": 1281.5295081697695,
+    "elongation": 1.2661827588364079,
+    "extent_m": 2660.77487708654,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.27 < 2.5)"
+  },
+  {
+    "cluster_id": 184,
+    "lon": -72.45394674500001,
+    "lat": 42.26686023466667,
+    "severity": 30,
+    "point_count": 30,
+    "deer_coded_count": 26,
+    "county": "HAMPSHIRE",
+    "radius_m": 399.9162959029055,
+    "circle_radius_m": 1888.141441378381,
+    "elongation": 3.1055363863024414,
+    "extent_m": 3937.5144541832587,
+    "path": [
+      {
+        "lat": 42.27379,
+        "lon": -72.43428
+      },
+      {
+        "lat": 42.26639,
+        "lon": -72.44072
+      },
+      {
+        "lat": 42.26537,
+        "lon": -72.44488
+      },
+      {
+        "lat": 42.26502,
+        "lon": -72.45138
+      },
+      {
+        "lat": 42.2648,
+        "lon": -72.45531
+      },
+      {
+        "lat": 42.26454,
+        "lon": -72.46286
+      },
+      {
+        "lat": 42.26825,
+        "lon": -72.47238
+      },
+      {
+        "lat": 42.26437,
+        "lon": -72.47999
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 36,
+    "lon": -71.12330843827586,
+    "lat": 42.776491267931036,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 29,
+    "county": "ESSEX",
+    "radius_m": 1630.39151983917,
+    "circle_radius_m": 1630.39151983917,
+    "elongation": 1.9696798956684047,
+    "extent_m": 3266.136925223772,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.97 < 2.5)"
+  },
+  {
+    "cluster_id": 71,
+    "lon": -70.80468530344828,
+    "lat": 41.985074561379314,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 28,
+    "county": "PLYMOUTH",
+    "radius_m": 1465.87683152996,
+    "circle_radius_m": 1465.87683152996,
+    "elongation": 1.3078798405094547,
+    "extent_m": 2965.032906483867,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.31 < 2.5)"
+  },
+  {
+    "cluster_id": 83,
+    "lon": -71.64075234413792,
+    "lat": 42.28545185586207,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 25,
+    "county": "WORCESTER",
+    "radius_m": 1260.2849700914817,
+    "circle_radius_m": 1260.2849700914817,
+    "elongation": 1.3964551047632103,
+    "extent_m": 2740.169329602559,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.40 < 2.5)"
+  },
+  {
+    "cluster_id": 109,
+    "lon": -70.69200687137932,
+    "lat": 41.95883554620689,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 26,
+    "county": "PLYMOUTH",
+    "radius_m": 1303.019654217451,
+    "circle_radius_m": 1303.019654217451,
+    "elongation": 1.9005884064770941,
+    "extent_m": 2830.772586530935,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.90 < 2.5)"
+  },
+  {
+    "cluster_id": 121,
+    "lon": -71.54483179413793,
+    "lat": 42.48428028379311,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 27,
+    "county": "MIDDLESEX",
+    "radius_m": 1325.323748494141,
+    "circle_radius_m": 1325.323748494141,
+    "elongation": 1.6813874392374257,
+    "extent_m": 2665.0610811240413,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.68 < 2.5)"
+  },
+  {
+    "cluster_id": 150,
+    "lon": -70.8656406148276,
+    "lat": 41.99214894896552,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 27,
+    "county": "PLYMOUTH",
+    "radius_m": 243.12501258573644,
+    "circle_radius_m": 1461.6119121738434,
+    "elongation": 2.8828613706524324,
+    "extent_m": 3858.63805796801,
+    "path": [
+      {
+        "lat": 41.99359,
+        "lon": -70.84681
+      },
+      {
+        "lat": 41.9915,
+        "lon": -70.854
+      },
+      {
+        "lat": 41.99164,
+        "lon": -70.85654
+      },
+      {
+        "lat": 41.98974,
+        "lon": -70.86517
+      },
+      {
+        "lat": 41.99331,
+        "lon": -70.87251
+      },
+      {
+        "lat": 41.98857,
+        "lon": -70.87876
+      },
+      {
+        "lat": 41.99513,
+        "lon": -70.88113
+      },
+      {
+        "lat": 41.99588,
+        "lon": -70.88753
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 198,
+    "lon": -71.58911741827586,
+    "lat": 42.36724059862068,
+    "severity": 29,
+    "point_count": 29,
+    "deer_coded_count": 28,
+    "county": "MIDDLESEX",
+    "radius_m": 1205.4171683189456,
+    "circle_radius_m": 1205.4171683189456,
+    "elongation": 1.1889788976926547,
+    "extent_m": 2616.242104350864,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.19 < 2.5)"
+  },
+  {
+    "cluster_id": 11,
+    "lon": -71.13564937142858,
+    "lat": 41.777767693928574,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 25,
+    "county": "BRISTOL",
+    "radius_m": 120.91869609962993,
+    "circle_radius_m": 1333.1309782721853,
+    "elongation": 3.3198357345730507,
+    "extent_m": 2724.35016548899,
+    "path": [
+      {
+        "lat": 41.77125,
+        "lon": -71.13814
+      },
+      {
+        "lat": 41.77195,
+        "lon": -71.13785
+      },
+      {
+        "lat": 41.77485,
+        "lon": -71.13639
+      },
+      {
+        "lat": 41.78596,
+        "lon": -71.13231
+      },
+      {
+        "lat": 41.79052,
+        "lon": -71.13332
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 31,
+    "lon": -71.68365308535716,
+    "lat": 42.69358902285713,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 26,
+    "county": "MIDDLESEX",
+    "radius_m": 281.1085005003463,
+    "circle_radius_m": 1343.2365855765738,
+    "elongation": 3.1359495793172036,
+    "extent_m": 2872.7139695376045,
+    "path": [
+      {
+        "lat": 42.68456,
+        "lon": -71.69459
+      },
+      {
+        "lat": 42.68891,
+        "lon": -71.6903
+      },
+      {
+        "lat": 42.69469,
+        "lon": -71.68411
+      },
+      {
+        "lat": 42.6953,
+        "lon": -71.68323
+      },
+      {
+        "lat": 42.69753,
+        "lon": -71.67378
+      },
+      {
+        "lat": 42.70248,
+        "lon": -71.67578
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 46,
+    "lon": -71.22085980321428,
+    "lat": 42.006723896785715,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 27,
+    "county": "BRISTOL",
+    "radius_m": 394.3817485038767,
+    "circle_radius_m": 1689.4948068077263,
+    "elongation": 2.909334160338528,
+    "extent_m": 3583.0538823780466,
+    "path": [
+      {
+        "lat": 41.99805,
+        "lon": -71.2013
+      },
+      {
+        "lat": 42.00234,
+        "lon": -71.21081
+      },
+      {
+        "lat": 42.00509,
+        "lon": -71.21293
+      },
+      {
+        "lat": 42.00656,
+        "lon": -71.2234
+      },
+      {
+        "lat": 42.01003,
+        "lon": -71.22658
+      },
+      {
+        "lat": 42.01219,
+        "lon": -71.22856
+      },
+      {
+        "lat": 42.01064,
+        "lon": -71.24021
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 86,
+    "lon": -71.13342656714285,
+    "lat": 42.5343361025,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 25,
+    "county": "MIDDLESEX",
+    "radius_m": 1023.8925841890048,
+    "circle_radius_m": 1023.8925841890048,
+    "elongation": 1.175656422635397,
+    "extent_m": 1973.6035915174457,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.18 < 2.5)"
+  },
+  {
+    "cluster_id": 149,
+    "lon": -71.12454710285714,
+    "lat": 42.606583162857135,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 27,
+    "county": "ESSEX",
+    "radius_m": 1447.517674550015,
+    "circle_radius_m": 1447.517674550015,
+    "elongation": 1.9705446706245449,
+    "extent_m": 3176.1829334812737,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.97 < 2.5)"
+  },
+  {
+    "cluster_id": 187,
+    "lon": -71.10250095357144,
+    "lat": 42.65645933035715,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 27,
+    "county": "ESSEX",
+    "radius_m": 207.76478413620288,
+    "circle_radius_m": 1616.7118140774105,
+    "elongation": 4.1706604036123665,
+    "extent_m": 3423.8112872632755,
+    "path": [
+      {
+        "lat": 42.64587,
+        "lon": -71.08882
+      },
+      {
+        "lat": 42.65016,
+        "lon": -71.09401
+      },
+      {
+        "lat": 42.65316,
+        "lon": -71.09776
+      },
+      {
+        "lat": 42.65742,
+        "lon": -71.10266
+      },
+      {
+        "lat": 42.66083,
+        "lon": -71.10818
+      },
+      {
+        "lat": 42.66232,
+        "lon": -71.11234
+      },
+      {
+        "lat": 42.66663,
+        "lon": -71.11738
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 196,
+    "lon": -71.48049601749999,
+    "lat": 42.43380970321427,
+    "severity": 28,
+    "point_count": 28,
+    "deer_coded_count": 27,
+    "county": "MIDDLESEX",
+    "radius_m": 1770.2810105191336,
+    "circle_radius_m": 1770.2810105191336,
+    "elongation": 3.0380798528277326,
+    "extent_m": 3893.107208406288,
+    "path": null,
+    "path_rejected_reason": "points spread 485 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 77,
+    "lon": -71.25079351925926,
+    "lat": 42.50876159740741,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 27,
+    "county": "MIDDLESEX",
+    "radius_m": 1461.8559186900977,
+    "circle_radius_m": 1461.8559186900977,
+    "elongation": 2.053667066311373,
+    "extent_m": 2932.7177573919553,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.05 < 2.5)"
+  },
+  {
+    "cluster_id": 85,
+    "lon": -72.93639847666665,
+    "lat": 42.19625483000001,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 15,
+    "county": "HAMPDEN",
+    "radius_m": 336.2929918187341,
+    "circle_radius_m": 1707.2895077792955,
+    "elongation": 3.9003364458216976,
+    "extent_m": 3668.73621756316,
+    "path": [
+      {
+        "lat": 42.18433,
+        "lon": -72.92314
+      },
+      {
+        "lat": 42.18981,
+        "lon": -72.93035
+      },
+      {
+        "lat": 42.19332,
+        "lon": -72.9342
+      },
+      {
+        "lat": 42.1959,
+        "lon": -72.93453
+      },
+      {
+        "lat": 42.20061,
+        "lon": -72.94133
+      },
+      {
+        "lat": 42.2065,
+        "lon": -72.94525
+      },
+      {
+        "lat": 42.20882,
+        "lon": -72.95038
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 103,
+    "lon": -72.90168831777777,
+    "lat": 42.17311955407408,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 17,
+    "county": "HAMPDEN",
+    "radius_m": 100.0,
+    "circle_radius_m": 1555.9894775811003,
+    "elongation": 5.268566737589577,
+    "extent_m": 3333.0684333942354,
+    "path": [
+      {
+        "lat": 42.17088,
+        "lon": -72.8797
+      },
+      {
+        "lat": 42.17088,
+        "lon": -72.89327
+      },
+      {
+        "lat": 42.17152,
+        "lon": -72.89894
+      },
+      {
+        "lat": 42.17153,
+        "lon": -72.90175
+      },
+      {
+        "lat": 42.17388,
+        "lon": -72.9101
+      },
+      {
+        "lat": 42.17461,
+        "lon": -72.91174
+      },
+      {
+        "lat": 42.1798,
+        "lon": -72.91824
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 104,
+    "lon": -71.25806840000001,
+    "lat": 42.02789943370371,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 26,
+    "county": "BRISTOL",
+    "radius_m": 1555.5771676953927,
+    "circle_radius_m": 1555.5771676953927,
+    "elongation": 1.3130309211733973,
+    "extent_m": 2781.2642113859765,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.31 < 2.5)"
+  },
+  {
+    "cluster_id": 168,
+    "lon": -71.29384784259258,
+    "lat": 42.49323027185184,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 23,
+    "county": "MIDDLESEX",
+    "radius_m": 1426.8697316107507,
+    "circle_radius_m": 1426.8697316107507,
+    "elongation": 1.5283440346839785,
+    "extent_m": 2789.836165228662,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.53 < 2.5)"
+  },
+  {
+    "cluster_id": 204,
+    "lon": -72.5428882137037,
+    "lat": 42.5676389374074,
+    "severity": 27,
+    "point_count": 27,
+    "deer_coded_count": 23,
+    "county": "FRANKLIN",
+    "radius_m": 183.93379004727834,
+    "circle_radius_m": 1550.82535139146,
+    "elongation": 9.551605253278648,
+    "extent_m": 3024.00660634594,
+    "path": [
+      {
+        "lat": 42.55706,
+        "lon": -72.53856
+      },
+      {
+        "lat": 42.55953,
+        "lon": -72.54042
+      },
+      {
+        "lat": 42.56524,
+        "lon": -72.54277
+      },
+      {
+        "lat": 42.56835,
+        "lon": -72.5432
+      },
+      {
+        "lat": 42.57888,
+        "lon": -72.54556
+      },
+      {
+        "lat": 42.58117,
+        "lon": -72.54895
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 79,
+    "lon": -71.0075774526923,
+    "lat": 42.135326170384616,
+    "severity": 26,
+    "point_count": 26,
+    "deer_coded_count": 20,
+    "county": "NORFOLK",
+    "radius_m": 1444.6866991476684,
+    "circle_radius_m": 1444.6866991476684,
+    "elongation": 1.5695486789418027,
+    "extent_m": 2821.0056231808694,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.57 < 2.5)"
+  },
+  {
+    "cluster_id": 127,
+    "lon": -71.60141630307693,
+    "lat": 42.63556828384616,
+    "severity": 26,
+    "point_count": 26,
+    "deer_coded_count": 25,
+    "county": "MIDDLESEX",
+    "radius_m": 966.3163321300951,
+    "circle_radius_m": 966.3163321300951,
+    "elongation": 1.5453971895263579,
+    "extent_m": 2159.7055165485845,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.55 < 2.5)"
+  },
+  {
+    "cluster_id": 172,
+    "lon": -71.11732867884615,
+    "lat": 42.63386446230769,
+    "severity": 26,
+    "point_count": 26,
+    "deer_coded_count": 26,
+    "county": "ESSEX",
+    "radius_m": 1032.1880273869435,
+    "circle_radius_m": 1032.1880273869435,
+    "elongation": 1.7140496882642988,
+    "extent_m": 2175.197607768927,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.71 < 2.5)"
+  },
+  {
+    "cluster_id": 28,
+    "lon": -71.28175865760001,
+    "lat": 42.5176282244,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 25,
+    "county": "MIDDLESEX",
+    "radius_m": 1422.3232014917837,
+    "circle_radius_m": 1422.3232014917837,
+    "elongation": 1.8426763078796942,
+    "extent_m": 2510.743613269617,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.84 < 2.5)"
+  },
+  {
+    "cluster_id": 63,
+    "lon": -71.0730353516,
+    "lat": 41.52790408640001,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 25,
+    "county": "BRISTOL",
+    "radius_m": 676.8777141704065,
+    "circle_radius_m": 676.8777141704065,
+    "elongation": 1.9648533143722873,
+    "extent_m": 1458.3946949446295,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.96 < 2.5)"
+  },
+  {
+    "cluster_id": 206,
+    "lon": -72.09421534440001,
+    "lat": 42.082852669199994,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 24,
+    "county": "WORCESTER",
+    "radius_m": 238.67762285972444,
+    "circle_radius_m": 1598.2441571012941,
+    "elongation": 5.658802314124702,
+    "extent_m": 3414.423387231207,
+    "path": [
+      {
+        "lat": 42.07065,
+        "lon": -72.10343
+      },
+      {
+        "lat": 42.07268,
+        "lon": -72.099
+      },
+      {
+        "lat": 42.08044,
+        "lon": -72.09806
+      },
+      {
+        "lat": 42.0851,
+        "lon": -72.09239
+      },
+      {
+        "lat": 42.09059,
+        "lon": -72.08943
+      },
+      {
+        "lat": 42.09202,
+        "lon": -72.0881
+      },
+      {
+        "lat": 42.09735,
+        "lon": -72.08665
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 220,
+    "lon": -71.0302387412,
+    "lat": 42.22337061,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 22,
+    "county": "NORFOLK",
+    "radius_m": 1600.1792593377631,
+    "circle_radius_m": 1600.1792593377631,
+    "elongation": 2.552240691235578,
+    "extent_m": 3190.407141610245,
+    "path": null,
+    "path_rejected_reason": "points spread 420 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 230,
+    "lon": -72.5785436904,
+    "lat": 42.247138589200006,
+    "severity": 25,
+    "point_count": 25,
+    "deer_coded_count": 20,
+    "county": "HAMPSHIRE",
+    "radius_m": 1297.8269171858474,
+    "circle_radius_m": 1297.8269171858474,
+    "elongation": 1.9239654136507576,
+    "extent_m": 2655.041992541008,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.92 < 2.5)"
+  },
+  {
+    "cluster_id": 94,
+    "lon": -71.74593875749999,
+    "lat": 42.29668492416667,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 23,
+    "county": "WORCESTER",
+    "radius_m": 1382.135211547394,
+    "circle_radius_m": 1382.135211547394,
+    "elongation": 2.094364928938803,
+    "extent_m": 2804.6757709231606,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.09 < 2.5)"
+  },
+  {
+    "cluster_id": 165,
+    "lon": -71.86031052999999,
+    "lat": 42.03670824708333,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 20,
+    "county": "WORCESTER",
+    "radius_m": 940.0500083284372,
+    "circle_radius_m": 940.0500083284372,
+    "elongation": 2.4634845159938212,
+    "extent_m": 2519.0466648575366,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.46 < 2.5)"
+  },
+  {
+    "cluster_id": 186,
+    "lon": -70.5926154,
+    "lat": 41.68184802208334,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 23,
+    "county": "BARNSTABLE",
+    "radius_m": 1376.117478067975,
+    "circle_radius_m": 1376.117478067975,
+    "elongation": 2.0159211665765184,
+    "extent_m": 2829.576025845854,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.02 < 2.5)"
+  },
+  {
+    "cluster_id": 194,
+    "lon": -70.79404779583332,
+    "lat": 42.094475270000004,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 24,
+    "county": "PLYMOUTH",
+    "radius_m": 1193.9063174246658,
+    "circle_radius_m": 1193.9063174246658,
+    "elongation": 2.2510217457877246,
+    "extent_m": 2298.385192574609,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.25 < 2.5)"
+  },
+  {
+    "cluster_id": 200,
+    "lon": -71.37208821374999,
+    "lat": 42.36773182375,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 23,
+    "county": "MIDDLESEX",
+    "radius_m": 1157.8573232095334,
+    "circle_radius_m": 1157.8573232095334,
+    "elongation": 1.3791356262057282,
+    "extent_m": 2452.246962574741,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.38 < 2.5)"
+  },
+  {
+    "cluster_id": 205,
+    "lon": -73.23677609833334,
+    "lat": 42.669786995,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 23,
+    "county": "BERKSHIRE",
+    "radius_m": 197.25463570121804,
+    "circle_radius_m": 1313.6162616391455,
+    "elongation": 4.088135712420132,
+    "extent_m": 3157.9525835929708,
+    "path": [
+      {
+        "lat": 42.6564,
+        "lon": -73.23869
+      },
+      {
+        "lat": 42.66615,
+        "lon": -73.23931
+      },
+      {
+        "lat": 42.66912,
+        "lon": -73.23823
+      },
+      {
+        "lat": 42.67088,
+        "lon": -73.23757
+      },
+      {
+        "lat": 42.67584,
+        "lon": -73.23533
+      },
+      {
+        "lat": 42.68003,
+        "lon": -73.23319
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 216,
+    "lon": -71.78237305625,
+    "lat": 42.2074439425,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 23,
+    "county": "WORCESTER",
+    "radius_m": 1196.9011788382388,
+    "circle_radius_m": 1196.9011788382388,
+    "elongation": 1.2870692443536242,
+    "extent_m": 2361.1331845904597,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.29 < 2.5)"
+  },
+  {
+    "cluster_id": 225,
+    "lon": -71.01067514291667,
+    "lat": 42.71728390249999,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 24,
+    "county": "ESSEX",
+    "radius_m": 177.47394915534687,
+    "circle_radius_m": 1552.5950052122207,
+    "elongation": 3.155572867384709,
+    "extent_m": 3084.326566881413,
+    "path": [
+      {
+        "lat": 42.72101,
+        "lon": -70.99428
+      },
+      {
+        "lat": 42.72117,
+        "lon": -71.00179
+      },
+      {
+        "lat": 42.71991,
+        "lon": -71.00846
+      },
+      {
+        "lat": 42.71698,
+        "lon": -71.01464
+      },
+      {
+        "lat": 42.71386,
+        "lon": -71.01822
+      },
+      {
+        "lat": 42.71173,
+        "lon": -71.02738
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 235,
+    "lon": -70.83136807958333,
+    "lat": 42.11165670291667,
+    "severity": 24,
+    "point_count": 24,
+    "deer_coded_count": 23,
+    "county": "PLYMOUTH",
+    "radius_m": 1335.4066779012726,
+    "circle_radius_m": 1335.4066779012726,
+    "elongation": 1.3301434459292543,
+    "extent_m": 2564.4729730149193,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.33 < 2.5)"
+  },
+  {
+    "cluster_id": 115,
+    "lon": -70.97368190478261,
+    "lat": 42.67879223695652,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 23,
+    "county": "ESSEX",
+    "radius_m": 254.18286277047946,
+    "circle_radius_m": 1126.569694211181,
+    "elongation": 3.1753777753022034,
+    "extent_m": 2188.576798825217,
+    "path": [
+      {
+        "lat": 42.67092,
+        "lon": -70.965
+      },
+      {
+        "lat": 42.67764,
+        "lon": -70.97588
+      },
+      {
+        "lat": 42.68168,
+        "lon": -70.97534
+      },
+      {
+        "lat": 42.685,
+        "lon": -70.97532
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 167,
+    "lon": -71.34448934,
+    "lat": 41.95018272826087,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 22,
+    "county": "BRISTOL",
+    "radius_m": 378.5788220336546,
+    "circle_radius_m": 847.6212338015345,
+    "elongation": 3.90606750941007,
+    "extent_m": 2372.944086295417,
+    "path": [
+      {
+        "lat": 41.9505,
+        "lon": -71.33545
+      },
+      {
+        "lat": 41.94992,
+        "lon": -71.33907
+      },
+      {
+        "lat": 41.94906,
+        "lon": -71.34585
+      },
+      {
+        "lat": 41.9493,
+        "lon": -71.35228
+      },
+      {
+        "lat": 41.94962,
+        "lon": -71.3547
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 219,
+    "lon": -71.80096135043478,
+    "lat": 42.607812097826084,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 18,
+    "county": "WORCESTER",
+    "radius_m": 342.1743272598625,
+    "circle_radius_m": 1467.2795157289015,
+    "elongation": 5.851303724800396,
+    "extent_m": 3103.996166703308,
+    "path": [
+      {
+        "lat": 42.59598,
+        "lon": -71.79944
+      },
+      {
+        "lat": 42.60003,
+        "lon": -71.80064
+      },
+      {
+        "lat": 42.60482,
+        "lon": -71.80111
+      },
+      {
+        "lat": 42.61061,
+        "lon": -71.80057
+      },
+      {
+        "lat": 42.6195,
+        "lon": -71.80209
+      },
+      {
+        "lat": 42.62152,
+        "lon": -71.80133
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 237,
+    "lon": -71.14656544130436,
+    "lat": 41.932093322608694,
+    "severity": 23,
+    "point_count": 23,
+    "deer_coded_count": 20,
+    "county": "BRISTOL",
+    "radius_m": 1163.830311705438,
+    "circle_radius_m": 1163.830311705438,
+    "elongation": 1.4289500452948618,
+    "extent_m": 2355.506423253647,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.43 < 2.5)"
+  },
+  {
+    "cluster_id": 65,
+    "lon": -71.31144293181819,
+    "lat": 42.037063620909095,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 21,
+    "county": "NORFOLK",
+    "radius_m": 1000.3155507074446,
+    "circle_radius_m": 1000.3155507074446,
+    "elongation": 1.3311706395807998,
+    "extent_m": 2226.105084174254,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.33 < 2.5)"
+  },
+  {
+    "cluster_id": 87,
+    "lon": -71.40311789681819,
+    "lat": 42.41510793954546,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 22,
+    "county": "MIDDLESEX",
+    "radius_m": 747.6112929142166,
+    "circle_radius_m": 747.6112929142166,
+    "elongation": 1.30726629943792,
+    "extent_m": 1659.6596598053075,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.31 < 2.5)"
+  },
+  {
+    "cluster_id": 92,
+    "lon": -71.6728581990909,
+    "lat": 42.331872627727265,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 18,
+    "county": "WORCESTER",
+    "radius_m": 1470.3463103842303,
+    "circle_radius_m": 1470.3463103842303,
+    "elongation": 2.0418701888194426,
+    "extent_m": 3093.611289901049,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.04 < 2.5)"
+  },
+  {
+    "cluster_id": 98,
+    "lon": -70.3842739259091,
+    "lat": 41.69657593181819,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 22,
+    "county": "BARNSTABLE",
+    "radius_m": 187.7891724485799,
+    "circle_radius_m": 1382.6688353410098,
+    "elongation": 2.831020922282447,
+    "extent_m": 3048.3616612413794,
+    "path": [
+      {
+        "lat": 41.68848,
+        "lon": -70.3704
+      },
+      {
+        "lat": 41.69446,
+        "lon": -70.38263
+      },
+      {
+        "lat": 41.69619,
+        "lon": -70.38429
+      },
+      {
+        "lat": 41.6976,
+        "lon": -70.38677
+      },
+      {
+        "lat": 41.70003,
+        "lon": -70.39106
+      },
+      {
+        "lat": 41.70353,
+        "lon": -70.39835
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 190,
+    "lon": -71.41058575727271,
+    "lat": 42.38077433909091,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 22,
+    "county": "MIDDLESEX",
+    "radius_m": 1250.1696822813974,
+    "circle_radius_m": 1250.1696822813974,
+    "elongation": 1.1150389320745557,
+    "extent_m": 2287.2777531062047,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.12 < 2.5)"
+  },
+  {
+    "cluster_id": 217,
+    "lon": -71.11083998363638,
+    "lat": 41.908496659545456,
+    "severity": 22,
+    "point_count": 22,
+    "deer_coded_count": 14,
+    "county": "BRISTOL",
+    "radius_m": 1494.3396231716272,
+    "circle_radius_m": 1494.3396231716272,
+    "elongation": 2.2030607784927048,
+    "extent_m": 3005.6423132547775,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.20 < 2.5)"
+  },
+  {
+    "cluster_id": 39,
+    "lon": -71.17045235952381,
+    "lat": 42.170613363809515,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 21,
+    "county": "NORFOLK",
+    "radius_m": 561.3663900550916,
+    "circle_radius_m": 561.3663900550916,
+    "elongation": 1.2414204863865312,
+    "extent_m": 1305.2106935356603,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.24 < 2.5)"
+  },
+  {
+    "cluster_id": 114,
+    "lon": -72.80550635619048,
+    "lat": 42.449597881428566,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 20,
+    "county": "HAMPSHIRE",
+    "radius_m": 1241.2495272474089,
+    "circle_radius_m": 1241.2495272474089,
+    "elongation": 2.081033757839612,
+    "extent_m": 2575.0520904479145,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.08 < 2.5)"
+  },
+  {
+    "cluster_id": 130,
+    "lon": -70.14991860190476,
+    "lat": 41.678256433333324,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 14,
+    "county": "BARNSTABLE",
+    "radius_m": 1312.9711856941374,
+    "circle_radius_m": 1312.9711856941374,
+    "elongation": 2.1867651686543987,
+    "extent_m": 2681.2597490895223,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.19 < 2.5)"
+  },
+  {
+    "cluster_id": 169,
+    "lon": -72.60910703809523,
+    "lat": 42.278552958571424,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 17,
+    "county": "HAMPDEN",
+    "radius_m": 1143.2489282072108,
+    "circle_radius_m": 1143.2489282072108,
+    "elongation": 1.7678632182318237,
+    "extent_m": 1907.4445295824044,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.77 < 2.5)"
+  },
+  {
+    "cluster_id": 170,
+    "lon": -72.51705939000001,
+    "lat": 42.040559848095235,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 21,
+    "county": "HAMPDEN",
+    "radius_m": 967.1346986256387,
+    "circle_radius_m": 967.1346986256387,
+    "elongation": 1.2524160022989879,
+    "extent_m": 2251.38131443856,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.25 < 2.5)"
+  },
+  {
+    "cluster_id": 171,
+    "lon": -71.9428768157143,
+    "lat": 42.1664438595238,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 15,
+    "county": "WORCESTER",
+    "radius_m": 310.1248743103835,
+    "circle_radius_m": 1245.2786593325243,
+    "elongation": 2.8137289062678827,
+    "extent_m": 2952.9689909994136,
+    "path": [
+      {
+        "lat": 42.17199,
+        "lon": -71.92876
+      },
+      {
+        "lat": 42.16798,
+        "lon": -71.93681
+      },
+      {
+        "lat": 42.16467,
+        "lon": -71.94227
+      },
+      {
+        "lat": 42.16606,
+        "lon": -71.9471
+      },
+      {
+        "lat": 42.16461,
+        "lon": -71.94992
+      },
+      {
+        "lat": 42.16461,
+        "lon": -71.95782
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 191,
+    "lon": -70.4935701657143,
+    "lat": 41.74121130666666,
+    "severity": 21,
+    "point_count": 21,
+    "deer_coded_count": 21,
+    "county": "BARNSTABLE",
+    "radius_m": 1041.984945274571,
+    "circle_radius_m": 1041.984945274571,
+    "elongation": 2.79380472865166,
+    "extent_m": 2678.0353081848007,
+    "path": null,
+    "path_rejected_reason": "points spread 520 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 41,
+    "lon": -72.42137596250001,
+    "lat": 42.20217884650001,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 17,
+    "county": "HAMPDEN",
+    "radius_m": 100.0,
+    "circle_radius_m": 1007.4183486792544,
+    "elongation": 5.909790204027033,
+    "extent_m": 2102.9887822661076,
+    "path": [
+      {
+        "lat": 42.20571,
+        "lon": -72.40947
+      },
+      {
+        "lat": 42.20232,
+        "lon": -72.4209
+      },
+      {
+        "lat": 42.20083,
+        "lon": -72.426
+      },
+      {
+        "lat": 42.1996,
+        "lon": -72.43076
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 59,
+    "lon": -69.992583927,
+    "lat": 41.260158749000006,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 20,
+    "county": "NANTUCKET",
+    "radius_m": 1199.280063999428,
+    "circle_radius_m": 1199.280063999428,
+    "elongation": 2.39449966865153,
+    "extent_m": 2507.6114762457605,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.39 < 2.5)"
+  },
+  {
+    "cluster_id": 136,
+    "lon": -71.2631417095,
+    "lat": 42.397237997000005,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 18,
+    "county": "MIDDLESEX",
+    "radius_m": 1054.026509835949,
+    "circle_radius_m": 1054.026509835949,
+    "elongation": 1.7592926261389905,
+    "extent_m": 2194.037041879434,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.76 < 2.5)"
+  },
+  {
+    "cluster_id": 138,
+    "lon": -71.7226725395,
+    "lat": 42.31750494799999,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 18,
+    "county": "WORCESTER",
+    "radius_m": 1006.4513212206882,
+    "circle_radius_m": 1006.4513212206882,
+    "elongation": 1.9474004316903706,
+    "extent_m": 1943.6668173369706,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.95 < 2.5)"
+  },
+  {
+    "cluster_id": 142,
+    "lon": -70.60472713700001,
+    "lat": 41.6461715745,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 18,
+    "county": "BARNSTABLE",
+    "radius_m": 166.20603007141432,
+    "circle_radius_m": 1271.643790881241,
+    "elongation": 2.7118199464792587,
+    "extent_m": 2756.733410266276,
+    "path": [
+      {
+        "lat": 41.63668,
+        "lon": -70.60851
+      },
+      {
+        "lat": 41.64358,
+        "lon": -70.60349
+      },
+      {
+        "lat": 41.64466,
+        "lon": -70.6048
+      },
+      {
+        "lat": 41.64544,
+        "lon": -70.6068
+      },
+      {
+        "lat": 41.65202,
+        "lon": -70.60313
+      },
+      {
+        "lat": 41.65865,
+        "lon": -70.60096
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 161,
+    "lon": -71.20800492999999,
+    "lat": 42.294748092,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 20,
+    "county": "NORFOLK",
+    "radius_m": 955.6654197162753,
+    "circle_radius_m": 955.6654197162753,
+    "elongation": 1.3614992951041764,
+    "extent_m": 1755.6344619489523,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.36 < 2.5)"
+  },
+  {
+    "cluster_id": 221,
+    "lon": -71.286870246,
+    "lat": 42.16525643000001,
+    "severity": 20,
+    "point_count": 20,
+    "deer_coded_count": 19,
+    "county": "NORFOLK",
+    "radius_m": 100.0,
+    "circle_radius_m": 1257.0298268365918,
+    "elongation": 10.692248317966474,
+    "extent_m": 2584.2884216083366,
+    "path": [
+      {
+        "lat": 42.15796,
+        "lon": -71.27437
+      },
+      {
+        "lat": 42.16198,
+        "lon": -71.27965
+      },
+      {
+        "lat": 42.1649,
+        "lon": -71.28642
+      },
+      {
+        "lat": 42.1685,
+        "lon": -71.29515
+      },
+      {
+        "lat": 42.17272,
+        "lon": -71.29824
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 5,
+    "lon": -70.94822308052632,
+    "lat": 41.853111485263156,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 18,
+    "county": "PLYMOUTH",
+    "radius_m": 1317.4586623542377,
+    "circle_radius_m": 1317.4586623542377,
+    "elongation": 1.9860417318993862,
+    "extent_m": 2764.046247401322,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.99 < 2.5)"
+  },
+  {
+    "cluster_id": 113,
+    "lon": -70.0159456805263,
+    "lat": 41.26276872368421,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 19,
+    "county": "NANTUCKET",
+    "radius_m": 374.68381544260006,
+    "circle_radius_m": 374.68381544260006,
+    "elongation": 4.2449265791256225,
+    "extent_m": 627.0226302909048,
+    "path": null,
+    "path_rejected_reason": "polyline buffer 382 m not tighter than circle 375 m"
+  },
+  {
+    "cluster_id": 123,
+    "lon": -70.83694772947368,
+    "lat": 41.91700992526316,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 17,
+    "county": "PLYMOUTH",
+    "radius_m": 1266.068279530507,
+    "circle_radius_m": 1266.068279530507,
+    "elongation": 2.303035948039871,
+    "extent_m": 2435.013261728892,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.30 < 2.5)"
+  },
+  {
+    "cluster_id": 174,
+    "lon": -70.53799812684211,
+    "lat": 41.86019849052632,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 17,
+    "county": "PLYMOUTH",
+    "radius_m": 100.0,
+    "circle_radius_m": 1100.0774495841554,
+    "elongation": 7.758231147162408,
+    "extent_m": 2665.478355327322,
+    "path": [
+      {
+        "lat": 41.84983,
+        "lon": -70.53717
+      },
+      {
+        "lat": 41.85743,
+        "lon": -70.53841
+      },
+      {
+        "lat": 41.86223,
+        "lon": -70.53893
+      },
+      {
+        "lat": 41.86432,
+        "lon": -70.53849
+      },
+      {
+        "lat": 41.8694,
+        "lon": -70.53621
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 182,
+    "lon": -71.13942638,
+    "lat": 42.119261168947375,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 19,
+    "county": "NORFOLK",
+    "radius_m": 1056.642545271995,
+    "circle_radius_m": 1056.642545271995,
+    "elongation": 1.757851201261517,
+    "extent_m": 2103.2982086307957,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.76 < 2.5)"
+  },
+  {
+    "cluster_id": 203,
+    "lon": -71.77580894631579,
+    "lat": 42.43093577736842,
+    "severity": 19,
+    "point_count": 19,
+    "deer_coded_count": 19,
+    "county": "WORCESTER",
+    "radius_m": 1194.1392459838548,
+    "circle_radius_m": 1194.1392459838548,
+    "elongation": 1.7277951613706817,
+    "extent_m": 2157.4276887536744,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.73 < 2.5)"
+  },
+  {
+    "cluster_id": 107,
+    "lon": -71.18773666888889,
+    "lat": 42.03100343888889,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 17,
+    "county": "BRISTOL",
+    "radius_m": 206.52167715954084,
+    "circle_radius_m": 1239.575921043715,
+    "elongation": 5.028011010516466,
+    "extent_m": 2440.395154129931,
+    "path": [
+      {
+        "lat": 42.02835,
+        "lon": -71.17806
+      },
+      {
+        "lat": 42.02902,
+        "lon": -71.18223
+      },
+      {
+        "lat": 42.0309,
+        "lon": -71.18605
+      },
+      {
+        "lat": 42.03248,
+        "lon": -71.19226
+      },
+      {
+        "lat": 42.03364,
+        "lon": -71.20232
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 143,
+    "lon": -70.19621754944444,
+    "lat": 41.734838374444436,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 17,
+    "county": "BARNSTABLE",
+    "radius_m": 1047.5682466271503,
+    "circle_radius_m": 1047.5682466271503,
+    "elongation": 1.5303546871913247,
+    "extent_m": 2085.651136911178,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.53 < 2.5)"
+  },
+  {
+    "cluster_id": 157,
+    "lon": -71.11880284611111,
+    "lat": 41.71920189388888,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 15,
+    "county": "BRISTOL",
+    "radius_m": 807.1635598316336,
+    "circle_radius_m": 807.1635598316336,
+    "elongation": 1.313322860830697,
+    "extent_m": 1909.4817366700386,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.31 < 2.5)"
+  },
+  {
+    "cluster_id": 209,
+    "lon": -71.96956197222224,
+    "lat": 42.14571366444444,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 15,
+    "county": "WORCESTER",
+    "radius_m": 1028.5768681633022,
+    "circle_radius_m": 1028.5768681633022,
+    "elongation": 1.5419007097600281,
+    "extent_m": 2016.4841418541714,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.54 < 2.5)"
+  },
+  {
+    "cluster_id": 222,
+    "lon": -71.50165239,
+    "lat": 42.67073014555555,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 16,
+    "county": "MIDDLESEX",
+    "radius_m": 1247.6131530957518,
+    "circle_radius_m": 1247.6131530957518,
+    "elongation": 1.6640011747767367,
+    "extent_m": 2506.9967594340687,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.66 < 2.5)"
+  },
+  {
+    "cluster_id": 229,
+    "lon": -72.41793259444445,
+    "lat": 42.30405252833333,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 13,
+    "county": "HAMPSHIRE",
+    "radius_m": 1070.8218604230447,
+    "circle_radius_m": 1070.8218604230447,
+    "elongation": 2.362452855902266,
+    "extent_m": 2203.2253473293945,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.36 < 2.5)"
+  },
+  {
+    "cluster_id": 252,
+    "lon": -71.8078277438889,
+    "lat": 42.35528534722222,
+    "severity": 18,
+    "point_count": 18,
+    "deer_coded_count": 17,
+    "county": "WORCESTER",
+    "radius_m": 1181.9867957585436,
+    "circle_radius_m": 1181.9867957585436,
+    "elongation": 1.2378794509105044,
+    "extent_m": 2506.4237670266666,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.24 < 2.5)"
+  },
+  {
+    "cluster_id": 153,
+    "lon": -70.82064471529411,
+    "lat": 41.82438023,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 14,
+    "county": "PLYMOUTH",
+    "radius_m": 1030.9941903657023,
+    "circle_radius_m": 1030.9941903657023,
+    "elongation": 1.7421905351019842,
+    "extent_m": 1879.7320492315644,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.74 < 2.5)"
+  },
+  {
+    "cluster_id": 160,
+    "lon": -71.05399236647058,
+    "lat": 41.56908779529412,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 16,
+    "county": "BRISTOL",
+    "radius_m": 1197.01945083477,
+    "circle_radius_m": 1197.01945083477,
+    "elongation": 2.3635122773862403,
+    "extent_m": 2462.1062194152746,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.36 < 2.5)"
+  },
+  {
+    "cluster_id": 180,
+    "lon": -71.03250611764706,
+    "lat": 41.535074787058825,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 16,
+    "county": "BRISTOL",
+    "radius_m": 1008.0257215954556,
+    "circle_radius_m": 1008.0257215954556,
+    "elongation": 1.7898101121317855,
+    "extent_m": 2072.971489591548,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.79 < 2.5)"
+  },
+  {
+    "cluster_id": 208,
+    "lon": -72.86171204882353,
+    "lat": 42.16776010705882,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 7,
+    "county": "HAMPDEN",
+    "radius_m": 100.0,
+    "circle_radius_m": 883.9859351110177,
+    "elongation": 10.569812086133988,
+    "extent_m": 1882.4829315408783,
+    "path": [
+      {
+        "lat": 42.16562,
+        "lon": -72.85319
+      },
+      {
+        "lat": 42.16794,
+        "lon": -72.85863
+      },
+      {
+        "lat": 42.16872,
+        "lon": -72.86638
+      },
+      {
+        "lat": 42.16947,
+        "lon": -72.87217
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 210,
+    "lon": -71.1054284964706,
+    "lat": 42.556356512352934,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 15,
+    "county": "MIDDLESEX",
+    "radius_m": 978.3318972547547,
+    "circle_radius_m": 978.3318972547547,
+    "elongation": 1.9044970453861452,
+    "extent_m": 2128.9893684330273,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.90 < 2.5)"
+  },
+  {
+    "cluster_id": 233,
+    "lon": -70.74378555,
+    "lat": 42.15256976588235,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 15,
+    "county": "PLYMOUTH",
+    "radius_m": 259.925185971398,
+    "circle_radius_m": 1066.3084388172986,
+    "elongation": 2.619822379241066,
+    "extent_m": 2292.8067746943316,
+    "path": [
+      {
+        "lat": 42.14259,
+        "lon": -70.74226
+      },
+      {
+        "lat": 42.15145,
+        "lon": -70.74269
+      },
+      {
+        "lat": 42.15471,
+        "lon": -70.74306
+      },
+      {
+        "lat": 42.15703,
+        "lon": -70.75002
+      },
+      {
+        "lat": 42.16202,
+        "lon": -70.74248
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 246,
+    "lon": -71.32267058,
+    "lat": 42.23356890176471,
+    "severity": 17,
+    "point_count": 17,
+    "deer_coded_count": 17,
+    "county": "NORFOLK",
+    "radius_m": 221.4375844658815,
+    "circle_radius_m": 876.2108691298879,
+    "elongation": 4.143106280595389,
+    "extent_m": 1941.8124665414891,
+    "path": [
+      {
+        "lat": 42.22657,
+        "lon": -71.32589
+      },
+      {
+        "lat": 42.23099,
+        "lon": -71.32543
+      },
+      {
+        "lat": 42.23718,
+        "lon": -71.31955
+      },
+      {
+        "lat": 42.24029,
+        "lon": -71.31952
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 53,
+    "lon": -70.80004643062499,
+    "lat": 41.661894956875,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 16,
+    "county": "PLYMOUTH",
+    "radius_m": 140.6811356062232,
+    "circle_radius_m": 294.3030775551654,
+    "elongation": 3.4188506626517974,
+    "extent_m": 944.7067980323748,
+    "path": [
+      {
+        "lat": 41.66115,
+        "lon": -70.79874
+      },
+      {
+        "lat": 41.66226,
+        "lon": -70.80186
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 108,
+    "lon": -71.676652949375,
+    "lat": 42.226103736875,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 15,
+    "county": "WORCESTER",
+    "radius_m": 832.6645601226396,
+    "circle_radius_m": 832.6645601226396,
+    "elongation": 2.1500834186324758,
+    "extent_m": 2092.062688958774,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.15 < 2.5)"
+  },
+  {
+    "cluster_id": 147,
+    "lon": -71.43287944625,
+    "lat": 42.09378003250001,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 15,
+    "county": "NORFOLK",
+    "radius_m": 1042.6698951213077,
+    "circle_radius_m": 1042.6698951213077,
+    "elongation": 1.4359696010893073,
+    "extent_m": 2116.0551938541616,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.44 < 2.5)"
+  },
+  {
+    "cluster_id": 148,
+    "lon": -70.733352433125,
+    "lat": 42.11319571,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 14,
+    "county": "PLYMOUTH",
+    "radius_m": 197.53001029773677,
+    "circle_radius_m": 964.5558620508119,
+    "elongation": 3.380521795181021,
+    "extent_m": 1957.9324437524472,
+    "path": [
+      {
+        "lat": 42.10697,
+        "lon": -70.72435
+      },
+      {
+        "lat": 42.11115,
+        "lon": -70.73268
+      },
+      {
+        "lat": 42.11691,
+        "lon": -70.73797
+      },
+      {
+        "lat": 42.11838,
+        "lon": -70.73906
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 188,
+    "lon": -70.822778323125,
+    "lat": 41.778398275,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 15,
+    "county": "PLYMOUTH",
+    "radius_m": 1168.193175023407,
+    "circle_radius_m": 1168.193175023407,
+    "elongation": 1.2211008689564917,
+    "extent_m": 1679.8261242536776,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.22 < 2.5)"
+  },
+  {
+    "cluster_id": 214,
+    "lon": -71.396285965625,
+    "lat": 42.063427225625,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 16,
+    "county": "NORFOLK",
+    "radius_m": 175.72178939227746,
+    "circle_radius_m": 1019.352438739623,
+    "elongation": 4.116395668094316,
+    "extent_m": 1933.0008315486757,
+    "path": [
+      {
+        "lat": 42.06124,
+        "lon": -71.38402
+      },
+      {
+        "lat": 42.06178,
+        "lon": -71.39437
+      },
+      {
+        "lat": 42.06426,
+        "lon": -71.40203
+      },
+      {
+        "lat": 42.06736,
+        "lon": -71.40529
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 238,
+    "lon": -71.22098828937499,
+    "lat": 42.383414874375,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 13,
+    "county": "MIDDLESEX",
+    "radius_m": 956.5177873262434,
+    "circle_radius_m": 956.5177873262434,
+    "elongation": 2.4604938607942737,
+    "extent_m": 1711.5343246609018,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.46 < 2.5)"
+  },
+  {
+    "cluster_id": 241,
+    "lon": -71.685371054375,
+    "lat": 42.278329426250004,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 16,
+    "county": "WORCESTER",
+    "radius_m": 1060.585279132513,
+    "circle_radius_m": 1060.585279132513,
+    "elongation": 1.7156015098067505,
+    "extent_m": 2010.3287246512302,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.72 < 2.5)"
+  },
+  {
+    "cluster_id": 244,
+    "lon": -72.504475258125,
+    "lat": 42.10002608625,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 16,
+    "county": "HAMPDEN",
+    "radius_m": 880.1803073377976,
+    "circle_radius_m": 880.1803073377976,
+    "elongation": 1.1374490772695853,
+    "extent_m": 1611.574227119374,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.14 < 2.5)"
+  },
+  {
+    "cluster_id": 250,
+    "lon": -71.35600237625,
+    "lat": 42.142881505625,
+    "severity": 16,
+    "point_count": 16,
+    "deer_coded_count": 13,
+    "county": "NORFOLK",
+    "radius_m": 1057.4285762370002,
+    "circle_radius_m": 1057.4285762370002,
+    "elongation": 1.1513825196566925,
+    "extent_m": 2060.9593821398016,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.15 < 2.5)"
+  },
+  {
+    "cluster_id": 76,
+    "lon": -71.41141396866668,
+    "lat": 42.36298534,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "MIDDLESEX",
+    "radius_m": 1049.2416042125603,
+    "circle_radius_m": 1049.2416042125603,
+    "elongation": 2.039549174395442,
+    "extent_m": 1903.571771367182,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.04 < 2.5)"
+  },
+  {
+    "cluster_id": 81,
+    "lon": -72.387810256,
+    "lat": 42.28406225599999,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "HAMPSHIRE",
+    "radius_m": 251.32478415278578,
+    "circle_radius_m": 871.4510632180233,
+    "elongation": 3.8729646466964396,
+    "extent_m": 2005.096505180315,
+    "path": [
+      {
+        "lat": 42.28113,
+        "lon": -72.37935
+      },
+      {
+        "lat": 42.28412,
+        "lon": -72.38791
+      },
+      {
+        "lat": 42.28479,
+        "lon": -72.39125
+      },
+      {
+        "lat": 42.28634,
+        "lon": -72.3956
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 179,
+    "lon": -71.47977627399999,
+    "lat": 42.06297545333334,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 13,
+    "county": "NORFOLK",
+    "radius_m": 662.3954608486754,
+    "circle_radius_m": 662.3954608486754,
+    "elongation": 2.737360555420739,
+    "extent_m": 1726.1133375086017,
+    "path": null,
+    "path_rejected_reason": "points spread 547 m from the fitted path, wider than a road corridor (400 m) \u2014 not a single road"
+  },
+  {
+    "cluster_id": 181,
+    "lon": -73.23182241933334,
+    "lat": 42.51008812799999,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 9,
+    "county": "BERKSHIRE",
+    "radius_m": 100.0,
+    "circle_radius_m": 523.3963153592628,
+    "elongation": 5.1913197597794545,
+    "extent_m": 1647.0172169201046,
+    "path": [
+      {
+        "lat": 42.5065,
+        "lon": -73.23462
+      },
+      {
+        "lat": 42.50877,
+        "lon": -73.23243
+      },
+      {
+        "lat": 42.5126,
+        "lon": -73.22912
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 192,
+    "lon": -71.500532898,
+    "lat": 42.207580101333335,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "MIDDLESEX",
+    "radius_m": 1056.998627183523,
+    "circle_radius_m": 1056.998627183523,
+    "elongation": 1.7765414408485574,
+    "extent_m": 1650.1728853474833,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.78 < 2.5)"
+  },
+  {
+    "cluster_id": 202,
+    "lon": -72.97674269933333,
+    "lat": 42.228316301333344,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 9,
+    "county": "HAMPDEN",
+    "radius_m": 100.0,
+    "circle_radius_m": 1050.2943685520002,
+    "elongation": 29.669536735915276,
+    "extent_m": 2191.582131847652,
+    "path": [
+      {
+        "lat": 42.22394,
+        "lon": -72.96821
+      },
+      {
+        "lat": 42.226,
+        "lon": -72.9712
+      },
+      {
+        "lat": 42.23036,
+        "lon": -72.98107
+      },
+      {
+        "lat": 42.23428,
+        "lon": -72.98922
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 207,
+    "lon": -71.39671963866667,
+    "lat": 42.46728567066666,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "MIDDLESEX",
+    "radius_m": 100.0,
+    "circle_radius_m": 981.4223114458458,
+    "elongation": 6.125480038994513,
+    "extent_m": 1904.8904103606424,
+    "path": [
+      {
+        "lat": 42.46417,
+        "lon": -71.3854
+      },
+      {
+        "lat": 42.46565,
+        "lon": -71.39233
+      },
+      {
+        "lat": 42.46907,
+        "lon": -71.40624
+      },
+      {
+        "lat": 42.47256,
+        "lon": -71.40523
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 213,
+    "lon": -71.367256252,
+    "lat": 42.443020477333334,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "MIDDLESEX",
+    "radius_m": 886.2827217364252,
+    "circle_radius_m": 886.2827217364252,
+    "elongation": 2.0536997216868724,
+    "extent_m": 1578.5761020278555,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.05 < 2.5)"
+  },
+  {
+    "cluster_id": 226,
+    "lon": -70.99283405799999,
+    "lat": 42.59634323866667,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 13,
+    "county": "ESSEX",
+    "radius_m": 1009.9708040880787,
+    "circle_radius_m": 1009.9708040880787,
+    "elongation": 1.4502685471471979,
+    "extent_m": 1805.445651632516,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.45 < 2.5)"
+  },
+  {
+    "cluster_id": 231,
+    "lon": -71.24701552200001,
+    "lat": 41.95114285933334,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "BRISTOL",
+    "radius_m": 930.036819426531,
+    "circle_radius_m": 930.036819426531,
+    "elongation": 1.391237924418223,
+    "extent_m": 1708.441994504812,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.39 < 2.5)"
+  },
+  {
+    "cluster_id": 236,
+    "lon": -71.71984415266667,
+    "lat": 42.22420916266666,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 11,
+    "county": "WORCESTER",
+    "radius_m": 268.7908641397544,
+    "circle_radius_m": 1100.0574076982616,
+    "elongation": 3.5570371039390185,
+    "extent_m": 2211.9731740634497,
+    "path": [
+      {
+        "lat": 42.22484,
+        "lon": -71.70744
+      },
+      {
+        "lat": 42.2234,
+        "lon": -71.71718
+      },
+      {
+        "lat": 42.22402,
+        "lon": -71.72692
+      },
+      {
+        "lat": 42.2227,
+        "lon": -71.73204
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 239,
+    "lon": -73.10685326,
+    "lat": 42.63769402000001,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "BERKSHIRE",
+    "radius_m": 973.97766446486,
+    "circle_radius_m": 973.97766446486,
+    "elongation": 1.5236553401169965,
+    "extent_m": 1901.0956090239874,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.52 < 2.5)"
+  },
+  {
+    "cluster_id": 240,
+    "lon": -71.76005143799999,
+    "lat": 42.51092177333333,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 12,
+    "county": "WORCESTER",
+    "radius_m": 989.1346655103004,
+    "circle_radius_m": 989.1346655103004,
+    "elongation": 1.9467023717182743,
+    "extent_m": 1731.2348197799824,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.95 < 2.5)"
+  },
+  {
+    "cluster_id": 242,
+    "lon": -70.97930101799999,
+    "lat": 41.606770234,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "BRISTOL",
+    "radius_m": 181.40042294099038,
+    "circle_radius_m": 1032.5438573430479,
+    "elongation": 4.829606896735381,
+    "extent_m": 2169.0554868175923,
+    "path": [
+      {
+        "lat": 41.59841,
+        "lon": -70.97884
+      },
+      {
+        "lat": 41.60242,
+        "lon": -70.98089
+      },
+      {
+        "lat": 41.61278,
+        "lon": -70.97938
+      },
+      {
+        "lat": 41.61603,
+        "lon": -70.98043
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 245,
+    "lon": -72.134015754,
+    "lat": 42.141868679999995,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 13,
+    "county": "WORCESTER",
+    "radius_m": 252.91003269458605,
+    "circle_radius_m": 1069.4441354135377,
+    "elongation": 2.661627334675361,
+    "extent_m": 2181.8875807402237,
+    "path": [
+      {
+        "lat": 42.13652,
+        "lon": -72.12703
+      },
+      {
+        "lat": 42.14099,
+        "lon": -72.13129
+      },
+      {
+        "lat": 42.1429,
+        "lon": -72.13628
+      },
+      {
+        "lat": 42.14688,
+        "lon": -72.1436
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 248,
+    "lon": -70.58197109333334,
+    "lat": 41.939942033333324,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 14,
+    "county": "PLYMOUTH",
+    "radius_m": 782.5552831850679,
+    "circle_radius_m": 782.5552831850679,
+    "elongation": 1.30887389342838,
+    "extent_m": 1790.2930791903798,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.31 < 2.5)"
+  },
+  {
+    "cluster_id": 255,
+    "lon": -71.25462894533332,
+    "lat": 42.473212925999995,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 13,
+    "county": "MIDDLESEX",
+    "radius_m": 1038.6109873885873,
+    "circle_radius_m": 1038.6109873885873,
+    "elongation": 1.1575566119242726,
+    "extent_m": 1763.3419095799522,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.16 < 2.5)"
+  },
+  {
+    "cluster_id": 256,
+    "lon": -71.30336555933333,
+    "lat": 42.085487482000005,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 15,
+    "county": "NORFOLK",
+    "radius_m": 1118.690920233384,
+    "circle_radius_m": 1118.690920233384,
+    "elongation": 1.4942359374481455,
+    "extent_m": 2010.506372930798,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.49 < 2.5)"
+  },
+  {
+    "cluster_id": 258,
+    "lon": -72.30489366066666,
+    "lat": 42.562379322,
+    "severity": 15,
+    "point_count": 15,
+    "deer_coded_count": 12,
+    "county": "FRANKLIN",
+    "radius_m": 792.9377247196943,
+    "circle_radius_m": 792.9377247196943,
+    "elongation": 1.9521663506022837,
+    "extent_m": 1783.0045499347627,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.95 < 2.5)"
+  },
+  {
+    "cluster_id": 154,
+    "lon": -71.52844699500001,
+    "lat": 42.31914711642856,
+    "severity": 14,
+    "point_count": 14,
+    "deer_coded_count": 14,
+    "county": "WORCESTER",
+    "radius_m": 829.7957743813511,
+    "circle_radius_m": 829.7957743813511,
+    "elongation": 1.5297981193246606,
+    "extent_m": 1596.7177912075813,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.53 < 2.5)"
+  },
+  {
+    "cluster_id": 212,
+    "lon": -72.73990361,
+    "lat": 42.14639904615384,
+    "severity": 13,
+    "point_count": 13,
+    "deer_coded_count": 10,
+    "county": "HAMPDEN",
+    "radius_m": 628.0137031098482,
+    "circle_radius_m": 628.0137031098482,
+    "elongation": 10.730578402891867,
+    "extent_m": 1241.2208074725665,
+    "path": null,
+    "path_rejected_reason": "polyline buffer 380 m not tighter than circle 628 m"
+  },
+  {
+    "cluster_id": 243,
+    "lon": -70.16452424846156,
+    "lat": 41.695764823846154,
+    "severity": 13,
+    "point_count": 13,
+    "deer_coded_count": 12,
+    "county": "BARNSTABLE",
+    "radius_m": 136.10300138060288,
+    "circle_radius_m": 988.8986850826077,
+    "elongation": 4.619534879860926,
+    "extent_m": 2012.1856820556297,
+    "path": [
+      {
+        "lat": 41.69898,
+        "lon": -70.15474
+      },
+      {
+        "lat": 41.69502,
+        "lon": -70.1625
+      },
+      {
+        "lat": 41.69426,
+        "lon": -70.16814
+      },
+      {
+        "lat": 41.69298,
+        "lon": -70.17568
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 223,
+    "lon": -71.47613318083332,
+    "lat": 42.605928492500006,
+    "severity": 12,
+    "point_count": 12,
+    "deer_coded_count": 11,
+    "county": "MIDDLESEX",
+    "radius_m": 190.45511045136027,
+    "circle_radius_m": 819.4870029196913,
+    "elongation": 3.523696066076023,
+    "extent_m": 1617.5833318643672,
+    "path": [
+      {
+        "lat": 42.6039,
+        "lon": -71.46771
+      },
+      {
+        "lat": 42.60777,
+        "lon": -71.47693
+      },
+      {
+        "lat": 42.60614,
+        "lon": -71.4842
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 251,
+    "lon": -71.01494614666666,
+    "lat": 42.592163324999994,
+    "severity": 12,
+    "point_count": 12,
+    "deer_coded_count": 12,
+    "county": "ESSEX",
+    "radius_m": 908.0094657278947,
+    "circle_radius_m": 908.0094657278947,
+    "elongation": 1.30174191888624,
+    "extent_m": 1699.9777041429934,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.30 < 2.5)"
+  },
+  {
+    "cluster_id": 253,
+    "lon": -70.6820333825,
+    "lat": 42.06479862416667,
+    "severity": 12,
+    "point_count": 12,
+    "deer_coded_count": 11,
+    "county": "PLYMOUTH",
+    "radius_m": 123.3338001600268,
+    "circle_radius_m": 829.6159302624604,
+    "elongation": 6.424119502534869,
+    "extent_m": 1794.0511466311568,
+    "path": [
+      {
+        "lat": 42.06694,
+        "lon": -70.67597
+      },
+      {
+        "lat": 42.06529,
+        "lon": -70.67982
+      },
+      {
+        "lat": 42.06418,
+        "lon": -70.68159
+      },
+      {
+        "lat": 42.06099,
+        "lon": -70.69044
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 247,
+    "lon": -71.71005798727273,
+    "lat": 42.274779747272724,
+    "severity": 11,
+    "point_count": 11,
+    "deer_coded_count": 11,
+    "county": "WORCESTER",
+    "radius_m": 791.4407865975716,
+    "circle_radius_m": 791.4407865975716,
+    "elongation": 1.885465413724029,
+    "extent_m": 1853.0610897952304,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.89 < 2.5)"
+  },
+  {
+    "cluster_id": 257,
+    "lon": -71.12742078181817,
+    "lat": 41.803673068181816,
+    "severity": 11,
+    "point_count": 11,
+    "deer_coded_count": 10,
+    "county": "BRISTOL",
+    "radius_m": 219.15154681679263,
+    "circle_radius_m": 529.987565635383,
+    "elongation": 6.091929093627723,
+    "extent_m": 1771.8998510346805,
+    "path": [
+      {
+        "lat": 41.80579,
+        "lon": -71.12428
+      },
+      {
+        "lat": 41.80503,
+        "lon": -71.12504
+      },
+      {
+        "lat": 41.79931,
+        "lon": -71.13228
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 227,
+    "lon": -69.997676025,
+    "lat": 41.761285564000005,
+    "severity": 10,
+    "point_count": 10,
+    "deer_coded_count": 9,
+    "county": "BARNSTABLE",
+    "radius_m": 788.8117191086213,
+    "circle_radius_m": 788.8117191086213,
+    "elongation": 1.1021047475683308,
+    "extent_m": 1258.8634352729155,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.10 < 2.5)"
+  },
+  {
+    "cluster_id": 228,
+    "lon": -71.29241445599999,
+    "lat": 41.998297654,
+    "severity": 10,
+    "point_count": 10,
+    "deer_coded_count": 9,
+    "county": "BRISTOL",
+    "radius_m": 718.3836648932897,
+    "circle_radius_m": 718.3836648932897,
+    "elongation": 2.0385890028893563,
+    "extent_m": 1324.972236394642,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 2.04 < 2.5)"
+  },
+  {
+    "cluster_id": 254,
+    "lon": -70.98801187,
+    "lat": 42.206502768,
+    "severity": 10,
+    "point_count": 10,
+    "deer_coded_count": 8,
+    "county": "NORFOLK",
+    "radius_m": 606.217508514458,
+    "circle_radius_m": 606.217508514458,
+    "elongation": 1.6849652278871947,
+    "extent_m": 1354.1527269816086,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.68 < 2.5)"
+  },
+  {
+    "cluster_id": 224,
+    "lon": -71.37575878625,
+    "lat": 42.45570116625,
+    "severity": 8,
+    "point_count": 8,
+    "deer_coded_count": 8,
+    "county": "MIDDLESEX",
+    "radius_m": 362.3168138373303,
+    "circle_radius_m": 695.9785165891152,
+    "elongation": 2.6922924596273896,
+    "extent_m": 1351.2799782184434,
+    "path": [
+      {
+        "lat": 42.45109,
+        "lon": -71.37805
+      },
+      {
+        "lat": 42.46088,
+        "lon": -71.37315
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 232,
+    "lon": -70.873624235,
+    "lat": 41.68872853,
+    "severity": 8,
+    "point_count": 8,
+    "deer_coded_count": 8,
+    "county": "BRISTOL",
+    "radius_m": 292.2841409630191,
+    "circle_radius_m": 619.3264469387223,
+    "elongation": 2.6474343205904196,
+    "extent_m": 1294.815086946655,
+    "path": [
+      {
+        "lat": 41.68784,
+        "lon": -70.86845
+      },
+      {
+        "lat": 41.68912,
+        "lon": -70.87899
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 162,
+    "lon": -71.32720776571429,
+    "lat": 42.675256385714285,
+    "severity": 7,
+    "point_count": 7,
+    "deer_coded_count": 6,
+    "county": "MIDDLESEX",
+    "radius_m": 637.9712543944082,
+    "circle_radius_m": 637.9712543944082,
+    "elongation": 1.3453771737322824,
+    "extent_m": 1028.3244920838533,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.35 < 2.5)"
+  },
+  {
+    "cluster_id": 215,
+    "lon": -72.55456867857143,
+    "lat": 42.44617634142857,
+    "severity": 7,
+    "point_count": 7,
+    "deer_coded_count": 6,
+    "county": "FRANKLIN",
+    "radius_m": 292.50641093560245,
+    "circle_radius_m": 536.9794232317619,
+    "elongation": 4.078365401327782,
+    "extent_m": 1049.5446078585665,
+    "path": [
+      {
+        "lat": 42.44467,
+        "lon": -72.5526
+      },
+      {
+        "lat": 42.44906,
+        "lon": -72.55885
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 234,
+    "lon": -73.108276455,
+    "lat": 42.24633431499999,
+    "severity": 6,
+    "point_count": 6,
+    "deer_coded_count": 4,
+    "county": "BERKSHIRE",
+    "radius_m": 293.9211369664752,
+    "circle_radius_m": 667.9090657203654,
+    "elongation": 2.875760556083691,
+    "extent_m": 1491.6699332440135,
+    "path": [
+      {
+        "lat": 42.2462,
+        "lon": -73.10182
+      },
+      {
+        "lat": 42.24778,
+        "lon": -73.11289
+      }
+    ],
+    "path_rejected_reason": null
+  },
+  {
+    "cluster_id": 249,
+    "lon": -71.76407336,
+    "lat": 42.443725314999995,
+    "severity": 6,
+    "point_count": 6,
+    "deer_coded_count": 6,
+    "county": "WORCESTER",
+    "radius_m": 485.0441960752579,
+    "circle_radius_m": 485.0441960752579,
+    "elongation": 1.8106239606731553,
+    "extent_m": 1043.2732300595073,
+    "path": null,
+    "path_rejected_reason": "blob-shaped (elongation 1.81 < 2.5)"
+  }
+]
