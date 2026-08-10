@@ -70,18 +70,33 @@ function setScope(scope) {
   renderSweepChart();
 }
 
+const SEVERITY_FROM = [200, 148, 78];   // gold, low severity
+const SEVERITY_TO = [192, 57, 43];      // red, high severity
+
+function severityColor(t) {
+  t = Math.max(0, Math.min(1, t));
+  const rgb = SEVERITY_FROM.map((c, i) => Math.round(c + (SEVERITY_TO[i] - c) * t));
+  return `rgb(${rgb[0]},${rgb[1]},${rgb[2]})`;
+}
+
 function drawHotspots() {
   hotspotLayer.clearLayers();
-  scopedFeatures(currentScope).forEach((f) => {
+  const feats = scopedFeatures(currentScope);
+  const sevs = feats.map((f) => Math.sqrt(f.properties.severity));
+  const minS = Math.min(...sevs);
+  const maxS = Math.max(...sevs);
+  feats.forEach((f) => {
     const [lon, lat] = f.geometry.coordinates;
     const p = f.properties;
     const r = Math.max(3, Math.min(14, Math.sqrt(p.severity) * 0.5));
+    const t = maxS > minS ? (Math.sqrt(p.severity) - minS) / (maxS - minS) : 0.5;
+    const color = severityColor(t);
     L.circleMarker([lat, lon], {
       radius: r,
-      color: "#c8944e",
+      color,
       weight: 1,
-      fillColor: "#c8944e",
-      fillOpacity: 0.35,
+      fillColor: color,
+      fillOpacity: 0.55,
     })
       .bindPopup(
         `<strong>${p.county || "Unknown county"} (${p.state})</strong><br>${p.severity.toLocaleString()} real historical crashes clustered here<br>~${(p.share_of_state * 100).toFixed(1)}% of ${p.state}'s clustered total`
