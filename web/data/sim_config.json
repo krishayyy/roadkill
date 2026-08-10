@@ -1,11 +1,11 @@
 {
   "alert_effectiveness": 0.5,
-  "cost_per_collision_usd": 7308,
-  "injury_rate_per_collision": 0.02,
-  "death_rate_per_collision": 0.000154,
+  "cost_per_collision_usd": 6000,
+  "injury_rate_per_collision": 0.01733,
+  "death_rate_per_collision": 0.000133,
   "sources": {
     "effectiveness": "Published animal-detection/warning-system field studies typically cite 30-50% collision reduction; 50% used here.",
-    "cost_injury": "National estimate: ~1,300,000 wildlife-vehicle collisions/yr, ~$9.5B/yr in costs, ~26,000 injuries/yr, ~200 deaths/yr (commonly cited insurance/DOT figures)."
+    "cost_injury": "National estimate: ~1,500,000 wildlife-vehicle collisions/yr, ~$9.0B/yr in costs, ~26,000 injuries/yr, ~200 deaths/yr (commonly cited insurance/DOT figures)."
   },
   "states": {
     "IA": {

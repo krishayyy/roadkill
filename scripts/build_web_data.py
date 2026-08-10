@@ -45,9 +45,10 @@ ALERT_EFFECTIVENESS = 0.50
 # Cost/injury/death multipliers, derived from commonly-cited national
 # wildlife-vehicle collision figures (~1-2M collisions/yr, ~$8-10B/yr cost,
 # ~26,000 injuries/yr, ~200 deaths/yr — e.g. IIHS/State Farm claims data).
-# We anchor on the favorable-but-still-cited end of each range.
-NATIONAL_ANNUAL_COLLISIONS = 1_300_000
-NATIONAL_ANNUAL_COST_USD = 9_500_000_000
+# We anchor on the midpoint of each published range, not the combination
+# that maximizes cost per collision.
+NATIONAL_ANNUAL_COLLISIONS = 1_500_000
+NATIONAL_ANNUAL_COST_USD = 9_000_000_000
 NATIONAL_ANNUAL_INJURIES = 26_000
 NATIONAL_ANNUAL_DEATHS = 200
 
