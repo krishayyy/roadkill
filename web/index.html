@@ -49,11 +49,13 @@
       </div>
     </div>
 
-    <div class="container stat-ribbon" id="stat-ribbon">
-      <div class="stat-card"><div class="stat-value" id="stat-hotspots">—</div><div class="stat-label">real hotspots, 5 states</div></div>
-      <div class="stat-card"><div class="stat-value" id="stat-records">—</div><div class="stat-label">real collision records</div></div>
-      <div class="stat-card"><div class="stat-value text-positive" id="stat-auc">—</div><div class="stat-label">model accuracy, honestly measured</div></div>
-      <div class="stat-card"><div class="stat-value">5</div><div class="stat-label">states of public crash data</div></div>
+    <div class="container">
+      <div class="stat-ribbon" id="stat-ribbon" style="max-width:960px; margin:56px auto;">
+        <div class="stat-card"><div class="stat-value stat-value-lead" id="stat-hotspots">—</div><div class="stat-label">real hotspots, 5 states</div></div>
+        <div class="stat-card"><div class="stat-value" id="stat-records">—</div><div class="stat-label">real collision records</div></div>
+        <div class="stat-card"><div class="stat-value stat-value-lead text-positive" id="stat-auc">—</div><div class="stat-label">model accuracy, honestly measured</div></div>
+        <div class="stat-card"><div class="stat-value">5</div><div class="stat-label">states of public crash data</div></div>
+      </div>
     </div>
   </section>
 
@@ -72,7 +74,7 @@
         <div class="card">
           <div class="step-num">2</div>
           <h3>Calibrated baseline</h3>
-          <p>Each state's simulated annual rate matches its real reported total, annualized from that source's date range.</p>
+          <p>Each state's simulated annual rate matches its real reported total, averaged per year across that source's date range.</p>
         </div>
         <div class="card">
           <div class="step-num">3</div>

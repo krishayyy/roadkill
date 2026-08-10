@@ -184,6 +184,7 @@ a { color: var(--green-600); }
   font-weight: 700;
   line-height: 1;
 }
+.stat-value-lead { font-size: 2.6rem; }
 .stat-label {
   margin-top: 8px;
   font-size: 0.88rem;

@@ -128,7 +128,7 @@
     <div class="container">
       <div class="section-head">
         <h2>Clustering tuned against its own failure mode</h2>
-        <p>The textbook DBSCAN eps (the "k-distance knee") was implemented, measured, and rejected. On Iowa's 85,366-point dataset it picks <strong>eps ≈ 2,593 m</strong>. At that radius DBSCAN <em>percolates</em>: crash points chain along the road network into one county-spanning mega-cluster, not actionable corridors.</p>
+        <p>The textbook DBSCAN eps (the "k-distance knee") was implemented, measured, and rejected. On Iowa's 85,366-point dataset it picks <strong>eps ≈ 2,593 m</strong>. At that radius DBSCAN <em>percolates</em>: crash points chain along the road network into one county-spanning mega-cluster, not usable corridors.</p>
       </div>
 
       <div class="grid-2">
@@ -203,7 +203,7 @@
     <div class="container">
       <div class="section-head">
         <h2>Weather, applied last</h2>
-        <p>The model predicts <em>lower</em> collision probability for fog, rain, and snow than for clear weather, not because bad weather is safer but because most driving happens in clear conditions, so frequency swamps per-mile risk in training. Feeding it live weather made the score go <em>down</em> in fog.</p>
+        <p>The model predicts <em>lower</em> collision probability for fog, rain, and snow than for clear weather. Not because bad weather is safer, but because most driving happens in clear conditions, so training data holds far more clear-weather crashes than bad-weather ones. Feeding it live weather made the score go <em>down</em> in fog.</p>
       </div>
 
       <div class="card">

@@ -1,7 +1,8 @@
 const POSITIVE = "#3f8a5c";
 const NEGATIVE = "#c0392b";
-const BASELINE = "#8a8171";
 const MUTED_GRID = "#e3d9c0";
+const PALETTE = ["#3f6b4f", "#c8944e", "#b1553d", "#4c7a5e", "#7a9e6b"];
+const palette = (n) => Array.from({ length: n }, (_, i) => PALETTE[i % PALETTE.length]);
 
 Chart.defaults.font.family = "Inter, sans-serif";
 Chart.defaults.color = "#6b6555";
@@ -34,7 +35,7 @@ function renderCollisionsByState(sim) {
       datasets: [{
         label: "Real collision records",
         data: states.map(([, s]) => s.total_animal_collisions),
-        backgroundColor: BASELINE,
+        backgroundColor: palette(states.length),
         borderRadius: 6,
       }],
     },
@@ -51,7 +52,7 @@ function renderAnnualRate(sim) {
       datasets: [{
         label: "Baseline collisions / year",
         data: states.map(([, s]) => s.baseline_annual_collisions),
-        backgroundColor: BASELINE,
+        backgroundColor: palette(states.length),
         borderRadius: 6,
       }],
     },
@@ -102,7 +103,7 @@ function renderFeatureImportance(model) {
       labels: entries.map(([k]) => k.replace(/_/g, " ")),
       datasets: [{
         data: entries.map(([, v]) => v),
-        backgroundColor: BASELINE,
+        backgroundColor: palette(entries.length),
         borderRadius: 6,
       }],
     },
